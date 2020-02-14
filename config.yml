@@ -1,10 +1,10 @@
 ---
 # GitHub username or organization and repo name
-repo: weecology/livedat
+repo: ibartomeus/OBServData
 
 # Email address and user name that you want to associate with the automated deploys
 # Generally you want these to be different from your user account so it is clear
 # which commits are automated.
-deploy_email: "weecologydeploy@weecology.org"
-deploy_username: "Weecology Deploy Bot"
+deploy_email: "nacho.bartomeus@gmail.com"
+deploy_username: "bartomeuslab"
 ---
