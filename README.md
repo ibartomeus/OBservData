@@ -1,6 +1,27 @@
 [![Build Status](https://travis-ci.org/weecology/livedat.svg?branch=master)](https://travis-ci.org/weecology/livedat)
 [![License](http://i.creativecommons.org/p/zero/1.0/88x31.png)](https://raw.githubusercontent.com/weecology/livedat/master/LICENSE)
 
+
+#process:
+[See https://github.com/dfalster/baad for examples]
+0- Use secret folder to preprocess not publichable data.
+1- Crear tesauro especies 2 archivos de R. ALFONSO COMPLETAR
+1.1- tesaure crops.
+2- Para cada estudio, lees, limpias y popular -> MASTER. 
+3- Revision por autores. Datos - R - SPECIFIC QUESTIONS - decisions. NOTE ALL CHANGES.
+4- Redo 1 and 2.
+5- Create a MASTER insect sampling with all insect crop interactions.
+
+#To Do:
+Now:
+[] Add process to this repo.
+[] Add tests: e.g. lat long in country. Outlyers.
+Next:
+[] Analysis preliminar... analysis. 
+[] Add Rader, Garibaldi, Kleijn... :hasta verano.
+Future:
+[] Data corrections by Authors: In Original.
+
 # livedat
 
 This is a **Template Repo** designed to assist in setting up a repository for regularly-updated data 
