@@ -7,4 +7,4 @@ if ("pacman" %in% rownames(installed.packages()) == FALSE) install.packages("pac
 # Do not remove the packages already listed here
 # they are important for running the livedat repository
 
-pacman::p_load(git2r, httr, semver, testthat, yaml)
+pacman::p_load(git2r, httr, semver, testthat, yaml, iNEXT, openxlsx, rgdal)
