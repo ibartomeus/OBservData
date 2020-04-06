@@ -1,0 +1,497 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+Taki02,1,Apis cerana,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Apis mellifera,honeybees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Eristalis tenax,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Lasioglossum sibiriacum,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Lucilia papuensis,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Phytomia zonata,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Sphaerophoria sp.,syrphids,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,1,Tachinidae sp.,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Apis cerana,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Apis mellifera,honeybees,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Byasa alcinous,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Chalicodoma sculpturalis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Eupeodes,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Formica japonica,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Hylaeus nippon,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Musca hervei,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Phytomia zonata,syrphids,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Sphaerophoria sp.,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Stomorhina obsoleta,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Tachinidae sp.,other_flies,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Thoressa varia,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,2,Vespula flaviceps,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Anterhynchium flavomarginatum,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Apis cerana,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Apis mellifera,honeybees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Atylotus hasegawai,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Aulacophora nigripennis,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Colletes vogti,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Formica japonica,non_bee_hymenoptera,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Gametis jucunda,beetles,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Lucilia papuensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,3,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Apis cerana,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Apis mellifera,honeybees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Coccinella septempunctata,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Colletes vogti,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Eumenes sp,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Formica japonica,non_bee_hymenoptera,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Lucilia papuensis,other_flies,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Megachile tsurugensis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Neomyia timorensis,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Parnara guttata,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Phytomia zonata,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Sarcophaga septentrionalis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Sphaerophoria sp.,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Sphecodes nambui,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Stomorhina obsoleta,other_flies,netting form flower,8,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Tachinidae sp.,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Vespa analis,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,4,Vespa ducalis,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Apis mellifera,honeybees,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Athalia rosae ruficornis,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Aulacophora nigripennis,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Chalicodoma sculpturalis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Epistorophe aino,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Eristalinus (Lathyrophthalmus) tarsalis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Eristalis tenax,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Formica japonica,non_bee_hymenoptera,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Parnara guttata,lepidoptera,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Penthetria japonica,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Phytomia zonata,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,5,Tachinidae sp.,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Apis cerana,other_wild_bees,netting form flower,13,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Apis mellifera,honeybees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Epistorophe aino,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Eumenes sp,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Formica japonica,non_bee_hymenoptera,netting form flower,9,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Gametis jucunda,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Lucilia papuensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Megachile tsurugensis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Neomyia timorensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Phytomia zonata,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Pipiza sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,6,Tachinidae sp.,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Apis cerana,other_wild_bees,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Apis mellifera,honeybees,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Camponotus japonicus,non_bee_hymenoptera,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Cerceris sp.,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Episrphus balteatus,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Formica japonica,non_bee_hymenoptera,netting form flower,9,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Gametis jucunda,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Lucilia papuensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Melanostoma sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Phytomia zonata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Pipiza sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,7,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Allograpta iavana,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Apis cerana,other_wild_bees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Camponotus japonicus,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Eristalis tenax,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Formica japonica,non_bee_hymenoptera,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Halictus aerarius,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Hylaeus floralis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Lasioglossum occidens,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Lucilia papuensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Mallota tricolor?,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Megachile tsurugensis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Melinda okazakii,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Onesia pusilla,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Paragus quadrifasciata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Tachinidae sp.,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Vespa simillima,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,8,Xylocopa appendiculata circumvolans,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Apis cerana,other_wild_bees,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Epistorophe shibakawae,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Eristalinus (Lathyrophthalmus) tarsalis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Eristalis tenax,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Eumenes sp,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Formica japonica,non_bee_hymenoptera,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Hylaeus floralis,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Hylaeus nippon,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Lucilia ampullacea,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Lycaena phlaeas,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Onesia pusilla,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Paragus jazanus,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Sarcophaga albiceps,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Sarcophaga horii,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Stomorhina obsoleta,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Tachinidae sp.,other_flies,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Vespa simillima,non_bee_hymenoptera,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,9,Vespula flaviceps,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Apis mellifera,honeybees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Betasyrphus seriarius,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Camponotus japonicus,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Camponotus obscuripes,non_bee_hymenoptera,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Eristalis tenax,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Formica japonica,non_bee_hymenoptera,netting form flower,12,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Gametis jucunda,beetles,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Lasioglossum occidens,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Lucilia caesar,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Megacampsomeris grossa,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Musca domestica,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Tachinidae sp.,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Vespa simillima,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,10,Vespula flaviceps,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Apis cerana,other_wild_bees,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Apis mellifera,honeybees,netting form flower,8,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Betasyrphus seriarius,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Camponotus japonicus,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Eristalis tenax,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Formica japonica,non_bee_hymenoptera,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Megacampsomeris grossa,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Parnara guttata,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Stomorhina obsoleta,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Tachinidae sp.,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,11,Vespula flaviceps,non_bee_hymenoptera,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Apis cerana,other_wild_bees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Apis mellifera,honeybees,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Eristalinus (Lathyrophthalmus) quinquestriata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Eristalinus (Lathyrophthalmus) tarsalis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Formica japonica,non_bee_hymenoptera,netting form flower,17,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Hylaeus nippon,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Lasioglossum occidens,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Limnophora septentrionalis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Tachinidae sp.,other_flies,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,12,Vespula flaviceps,non_bee_hymenoptera,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Apis cerana,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Apis mellifera,honeybees,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Chrysomya pinguis,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Colletes vogti,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Formica japonica,non_bee_hymenoptera,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Gametis jucunda,beetles,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Hylaeus floralis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Hylaeus nippon,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Lucilia papuensis,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Lycaena phlaeas,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Parnara guttata,lepidoptera,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Phytomia zonata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Sarcophaga septentrionalis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,13,Tachinidae sp.,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Apis cerana,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Apis mellifera,honeybees,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Eumenes sp,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Formica japonica,non_bee_hymenoptera,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Gametis jucunda,beetles,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Hylaeus nippon,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Myorhina ugamskii,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,14,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Apis cerana,other_wild_bees,netting form flower,15,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Eristalinus (Lathyrophthalmus) quinquestriata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Eristalis tenax,syrphids,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Eumenes sp,non_bee_hymenoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Formica japonica,non_bee_hymenoptera,netting form flower,12,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Gametis jucunda,beetles,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Lucilia papuensis,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Phytomia zonata,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Sphaerophoria sp.,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,15,Stomorhina obsoleta,other_flies,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Amobia oculata,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Apis cerana,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Formica japonica,non_bee_hymenoptera,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Gametis jucunda,beetles,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Parnara guttata,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Sarcophaga albiceps,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Sarcophaga melanur,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Sarcophaga peregrina,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Sepedon aenescens,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Sphaerophoria sp.,syrphids,netting form flower,5,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Stomorhina obsoleta,other_flies,netting form flower,6,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Tachinidae sp.,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,16,Zizeeria maha,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Apis mellifera,honeybees,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Chrysomya pinguis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Eristalis (Eoeristaris) cerealis,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Eristalis tenax,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Formica japonica,non_bee_hymenoptera,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Gametis jucunda,beetles,netting form flower,4,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Hylaeus floralis,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Lucilia papuensis,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Parnara guttata,lepidoptera,netting form flower,3,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Sphaerophoria sp.,syrphids,netting form flower,2,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Stomorhina obsoleta,other_flies,netting form flower,7,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Tachinidae sp.,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"
+Taki02,17,Thoressa varia,lepidoptera,netting form flower,1,NA,NA,NA,"Measures per site: 20 plants, 3 sampling rounds in each year
+"

@@ -1,0 +1,26 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+chac03,citrus salta,Apis mellifera,honeybees,10 censuses of 15 minutes observation to a flowering branch,0.14008941877794337,NA,150,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta,Diptera,other_flies,10 censuses of 15 minutes observation to a flowering branch,0.0014903129657228018,NA,150,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta,Meliponini,other_wild_bees,10 censuses of 15 minutes observation to a flowering branch,0.005961251862891207,NA,150,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta500,Apis mellifera,honeybees,9 censuses of 15 minutes observation to a flowering branch,0.16370106761565836,NA,135,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta500,Coleoptera,beetles,9 censuses of 15 minutes observation to a flowering branch,0.0017793594306049821,NA,135,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta1000,Apis mellifera,honeybees,9 censuses of 15 minutes observation to a flowering branch,0.04395604395604396,NA,135,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,citrus salta1000,Bombini,other_wild_bees,9 censuses of 15 minutes observation to a flowering branch,0.016483516483516484,NA,135,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,manero,Apis mellifera,honeybees,13 censuses of 15 minutes observation to a flowering branch,0.1171875,NA,195,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,manero,Hemiptera,other,13 censuses of 15 minutes observation to a flowering branch,0.001953125,NA,195,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,manero,Meliponini,other_wild_bees,13 censuses of 15 minutes observation to a flowering branch,0.01953125,NA,195,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,manero500,Apis mellifera,honeybees,19 censuses of 15 minutes observation to a flowering branch,0.15608465608465608,NA,285,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,manero1000,Apis mellifera,honeybees,15 censuses of 15 minutes observation to a flowering branch,0.16441441441441443,NA,225,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia colorada,Apis mellifera,honeybees,12 censuses of 15 minutes observation to a flowering branch,0.14285714285714285,NA,180,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia colorada,Lepidotera,lepidoptera,12 censuses of 15 minutes observation to a flowering branch,0.004645760743321719,NA,180,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia colorada,Meliponini,other_wild_bees,12 censuses of 15 minutes observation to a flowering branch,0.0011614401858304297,NA,180,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia500,Apis mellifera,honeybees,14 censuses of 15 minutes observation to a flowering branch,0.1087866108786611,NA,210,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia500,Meliponini,other_wild_bees,14 censuses of 15 minutes observation to a flowering branch,0.0041841004184100415,NA,210,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,penia1000,Apis mellifera,honeybees,15 censuses of 15 minutes observation to a flowering branch,0.06557377049180328,NA,225,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma,Apis mellifera,honeybees,6 censuses of 15 minutes observation to a flowering branch,0.16069057104913678,NA,90,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma,Vespid,non_bee_hymenoptera,6 censuses of 15 minutes observation to a flowering branch,0.0013280212483399733,NA,90,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma,Coleoptera,beetles,6 censuses of 15 minutes observation to a flowering branch,0.0013280212483399733,NA,90,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma,Meliponini,other_wild_bees,6 censuses of 15 minutes observation to a flowering branch,0.02390438247011952,NA,90,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma500,Apis mellifera,honeybees,11 censuses of 15 minutes observation to a flowering branch,0.178125,NA,165,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma500,Meliponini,other_wild_bees,11 censuses of 15 minutes observation to a flowering branch,0.01875,NA,165,NA,Abundance here reflects: no. visits per 15 min and flower
+chac03,la toma1000,Apis mellifera,honeybees,8 censuses of 15 minutes observation to a flowering branch,0.09701492537313433,NA,120,NA,Abundance here reflects: no. visits per 15 min and flower

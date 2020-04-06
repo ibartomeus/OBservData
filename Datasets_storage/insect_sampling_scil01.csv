@@ -1,0 +1,915 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+scil01,AR,Agapostemon texanus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Agapostemon texanus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Agapostemon texanus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Agapostemon texanus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Andrena nigrocaerulea,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Andrena nigrocaerulea,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Bombus californicus,bumblebees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Bombus melanopygus,bumblebees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Bombus rufocinctus,bumblebees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Bombus vosnesenskii,bumblebees,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Bombus vosnesenskii,bumblebees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Bombus vosnesenskii,bumblebees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Bombus vosnesenskii,bumblebees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Bombus vosnesenskii,bumblebees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Bombus vosnesenskii,bumblebees,net_timed_transect,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Ceratina acantha,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Halictus rubicundus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Halictus tripartitus,other_wild_bees,net_timed_transect,19,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Halictus tripartitus,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Halictus tripartitus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Halictus tripartitus,other_wild_bees,net_timed_transect,31,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Halictus tripartitus,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Halictus tripartitus,other_wild_bees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Halictus tripartitus,other_wild_bees,net_timed_transect,109,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Halictus tripartitus,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Halictus tripartitus,other_wild_bees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Halictus tripartitus,other_wild_bees,net_timed_transect,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Halictus tripartitus,other_wild_bees,net_timed_transect,16,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Hylaeus rudbeckiae,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Hylaeus rudbeckiae,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Hylaeus rudbeckiae,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum (Dialictus) sp. D,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum (Dialictus) sp. D,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum (Dialictus) sp. D,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Dialictus) sp. D,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,28,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum (Dialictus) spp.,other_wild_bees,net_timed_transect,28,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Evylaeus) sp. B,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum (Evylaeus) sp. E,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum (Evylaeus) sp. E,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Evylaeus) sp. E,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum (Evylaeus) sp. E,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum (Evylaeus) sp. I,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Lasioglossum (Evylaeus) spp.,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum incompletum,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum incompletum,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum incompletum,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum incompletum,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum incompletum,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum incompletum,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum incompletum,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum incompletum,other_wild_bees,net_timed_transect,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum incompletum,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,Lasioglossum incompletum,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum incompletum,other_wild_bees,net_timed_transect,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum kincaidii,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum knereri,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum knereri,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum knereri,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum knereri,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum knereri,other_wild_bees,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,Lasioglossum knereri,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum knereri,other_wild_bees,net_timed_transect,15,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum knereri,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum nevadense,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum nevadense,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum olympiae,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum olympiae,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum punctatoventre,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum punctatoventre,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum punctatoventre,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum sedi,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum sisymbrii,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum spp.,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum spp.,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum spp.,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,15,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,27,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,23,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum tegulariforme,other_wild_bees,net_timed_transect,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Megachile onobrychidis,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Melissodes robustior,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Sphecodes sp. CK-SC-1,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Xeromelecta californica,other_wild_bees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,(Dialictus) sp. D,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Agapostemon texanus,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Agapostemon texanus,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Agapostemon texanus,other_wild_bees,pan_trap,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Agapostemon texanus,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Agapostemon texanus,other_wild_bees,pan_trap,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Agapostemon texanus,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Andrena barbilabris,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Andrena chlorosoma,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Bombus californicus,bumblebees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Bombus californicus,bumblebees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Bombus vosnesenskii,bumblebees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Bombus vosnesenskii,bumblebees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Bombus vosnesenskii,bumblebees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Bombus vosnesenskii,bumblebees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Bombus vosnesenskii,bumblebees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,Diadasia bituberculata,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Halictus ligatus,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Halictus tripartitus,other_wild_bees,pan_trap,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Halictus tripartitus,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Halictus tripartitus,other_wild_bees,pan_trap,39,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Halictus tripartitus,other_wild_bees,pan_trap,19,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Halictus tripartitus,other_wild_bees,pan_trap,83,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Halictus tripartitus,other_wild_bees,pan_trap,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Halictus tripartitus,other_wild_bees,pan_trap,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Halictus tripartitus,other_wild_bees,pan_trap,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Halictus tripartitus,other_wild_bees,pan_trap,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Halictus tripartitus,other_wild_bees,pan_trap,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Hylaeus episcopallis,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Hylaeus rudbeckiae,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum (Dialictus) sp. Ba,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum (Dialictus) sp. Ba,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Dialictus) sp. Ba,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum (Dialictus) sp. C,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum (Dialictus) sp. D,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Lasioglossum (Dialictus) sp. D,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum (Dialictus) sp. D,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum (Dialictus) sp. D,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,Lasioglossum (Dialictus) sp. E,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum (Dialictus) spp.,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum (Dialictus) spp.,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum (Dialictus) spp.,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum (Dialictus) spp.,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Lasioglossum (Evylaeus) sp. AS-E1,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum (Evylaeus) sp. B,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Evylaeus) sp. B,other_wild_bees,pan_trap,23,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum (Evylaeus) sp. E,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum (Evylaeus) sp. E,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Evylaeus) sp. E,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum (Evylaeus) sp. E,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,Lasioglossum (Evylaeus) sp. I,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum (Evylaeus) sp. I,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum (Evylaeus) sp. R,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum (Evylaeus) sp. R,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum incompletum,other_wild_bees,pan_trap,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum incompletum,other_wild_bees,pan_trap,42,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum incompletum,other_wild_bees,pan_trap,25,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum incompletum,other_wild_bees,pan_trap,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum incompletum,other_wild_bees,pan_trap,44,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum incompletum,other_wild_bees,pan_trap,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum incompletum,other_wild_bees,pan_trap,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum incompletum,other_wild_bees,pan_trap,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum incompletum,other_wild_bees,pan_trap,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,Lasioglossum incompletum,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum incompletum,other_wild_bees,pan_trap,24,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum kincaidii,other_wild_bees,pan_trap,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum kincaidii,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum kincaidii,other_wild_bees,pan_trap,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum kincaidii,other_wild_bees,pan_trap,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum kincaidii,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,Lasioglossum knereri,other_wild_bees,pan_trap,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum knereri,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum knereri,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum knereri,other_wild_bees,pan_trap,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum knereri,other_wild_bees,pan_trap,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum knereri,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum nevadense,other_wild_bees,pan_trap,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,Lasioglossum punctatoventre,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum punctatoventre,other_wild_bees,pan_trap,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum sedi,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum sedi,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum sedi,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Lasioglossum sisymbrii,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum sisymbrii,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum spp.,other_wild_bees,pan_trap,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum spp.,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Lasioglossum tegulariforme,other_wild_bees,pan_trap,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,Lasioglossum tegulariforme,other_wild_bees,pan_trap,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,Lasioglossum tegulariforme,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Lasioglossum tegulariforme,other_wild_bees,pan_trap,31,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,Lasioglossum tegulariforme,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Lasioglossum tegulariforme,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,Lasioglossum tegulariforme,other_wild_bees,pan_trap,44,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,Lasioglossum tegulariforme,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Lasioglossum tegulariforme,other_wild_bees,pan_trap,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TA,Lasioglossum tegulariforme,other_wild_bees,pan_trap,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,Lasioglossum tegulariforme,other_wild_bees,pan_trap,25,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,Melissodes lupina,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,Osmia atrocyanea,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,Osmia cyanella,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,Panurginus sp.,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,Sphecodes sp. B,other_wild_bees,pan_trap,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,ant,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,ant,non_bee_hymenoptera,net_timed_transect,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,ant,non_bee_hymenoptera,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,beetle,beetles,net_timed_transect,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,beetle,beetles,net_timed_transect,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,beetle,beetles,net_timed_transect,14,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,beetle,beetles,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,beetle,beetles,net_timed_transect,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,beetle,beetles,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,beetle,beetles,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,beetle,beetles,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,beetle,beetles,net_timed_transect,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,native_bumble_bee,bumblebees,net_timed_transect,14,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,native_bumble_bee,bumblebees,net_timed_transect,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,native_bumble_bee,bumblebees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,native_bumble_bee,bumblebees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,native_bumble_bee,bumblebees,net_timed_transect,20,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,native_bumble_bee,bumblebees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,native_bumble_bee,bumblebees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,native_bumble_bee,bumblebees,net_timed_transect,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,native_bumble_bee,bumblebees,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,butterfly,other_flies,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,butterfly,other_flies,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,butterfly,other_flies,net_timed_transect,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,butterfly,other_flies,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,flower_fly,syrphids,net_timed_transect,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,flower_fly,syrphids,net_timed_transect,28,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,flower_fly,syrphids,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,flower_fly,syrphids,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,flower_fly,syrphids,net_timed_transect,27,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,flower_fly,syrphids,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,flower_fly,syrphids,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,flower_fly,syrphids,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,flower_fly,syrphids,net_timed_transect,28,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,flower_fly,syrphids,net_timed_transect,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,flower_fly,syrphids,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,flower_fly,syrphids,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,flower_fly,syrphids,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,flower_fly,syrphids,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,flower_fly,syrphids,net_timed_transect,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,flower_fly,syrphids,net_timed_transect,16,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,green_leaf_beetle_pest_insect,beetles,net_timed_transect,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,green_leaf_beetle_pest_insect,beetles,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,green_leaf_beetle_pest_insect,beetles,net_timed_transect,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,green_leaf_beetle_pest_insect,beetles,net_timed_transect,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,green_leaf_beetle_pest_insect,beetles,net_timed_transect,29,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,green_leaf_beetle_pest_insect,beetles,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,green_leaf_beetle_pest_insect,beetles,net_timed_transect,15,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,green_leaf_beetle_pest_insect,beetles,net_timed_transect,66,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,green_leaf_beetle_pest_insect,beetles,net_timed_transect,24,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,green_leaf_beetle_pest_insect,beetles,net_timed_transect,15,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,green_leaf_beetle_pest_insect,beetles,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,green_leaf_beetle_pest_insect,beetles,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,green_leaf_beetle_pest_insect,beetles,net_timed_transect,25,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,green_leaf_beetle_pest_insect,beetles,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,green_leaf_beetle_pest_insect,beetles,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,green_leaf_beetle_pest_insect,beetles,net_timed_transect,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,honey_bee,honeybees,net_timed_transect,89,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,honey_bee,honeybees,net_timed_transect,52,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,honey_bee,honeybees,net_timed_transect,99,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,honey_bee,honeybees,net_timed_transect,413,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,honey_bee,honeybees,net_timed_transect,233,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,honey_bee,honeybees,net_timed_transect,144,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,honey_bee,honeybees,net_timed_transect,237,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,honey_bee,honeybees,net_timed_transect,84,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,honey_bee,honeybees,net_timed_transect,21,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,honey_bee,honeybees,net_timed_transect,40,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,honey_bee,honeybees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,honey_bee,honeybees,net_timed_transect,128,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,honey_bee,honeybees,net_timed_transect,157,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,honey_bee,honeybees,net_timed_transect,79,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,honey_bee,honeybees,net_timed_transect,72,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,honey_bee,honeybees,net_timed_transect,255,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,native_bee,other_wild_bees,net_timed_transect,81,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,native_bee,other_wild_bees,net_timed_transect,22,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,native_bee,other_wild_bees,net_timed_transect,48,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,native_bee,other_wild_bees,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,native_bee,other_wild_bees,net_timed_transect,236,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,native_bee,other_wild_bees,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,native_bee,other_wild_bees,net_timed_transect,46,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,native_bee,other_wild_bees,net_timed_transect,249,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,native_bee,other_wild_bees,net_timed_transect,69,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,native_bee,other_wild_bees,net_timed_transect,50,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,native_bee,other_wild_bees,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,native_bee,other_wild_bees,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,native_bee,other_wild_bees,net_timed_transect,73,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,native_bee,other_wild_bees,net_timed_transect,34,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,native_bee,other_wild_bees,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,native_bee,other_wild_bees,net_timed_transect,112,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,other,other,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,other,other,net_timed_transect,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,other,other,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,other,other,net_timed_transect,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,other,other,net_timed_transect,73,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,other,other,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,other,other,net_timed_transect,30,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,other,other,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,other,other,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,other,other,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,other,other,net_timed_transect,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,other,other,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,other,other,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,other,other,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,other,other,net_timed_transect,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,other,other,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,other_fly,other_flies,net_timed_transect,72,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,other_fly,other_flies,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,other_fly,other_flies,net_timed_transect,26,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,other_fly,other_flies,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,other_fly,other_flies,net_timed_transect,49,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,other_fly,other_flies,net_timed_transect,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,other_fly,other_flies,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,other_fly,other_flies,net_timed_transect,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,other_fly,other_flies,net_timed_transect,25,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,other_fly,other_flies,net_timed_transect,45,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,other_fly,other_flies,net_timed_transect,77,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,other_fly,other_flies,net_timed_transect,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,other_fly,other_flies,net_timed_transect,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,other_fly,other_flies,net_timed_transect,41,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,other_fly,other_flies,net_timed_transect,29,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,vespids,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,vespids,non_bee_hymenoptera,net_timed_transect,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,vespids,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,parasitoid_wasp,non_bee_hymenoptera,net_timed_transect,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,ant,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,beetle,beetles,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,beetle,beetles,NA,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,beetle,beetles,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,beetle,beetles,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,beetle,beetles,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,beetle,beetles,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,beetle,beetles,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,beetle,beetles,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,beetle,beetles,NA,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,native_bumble_bee,bumblebees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,native_bumble_bee,bumblebees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,native_bumble_bee,bumblebees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,native_bumble_bee,bumblebees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,native_bumble_bee,bumblebees,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,native_bumble_bee,bumblebees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,butterfly,other_flies,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,butterfly,other_flies,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,butterfly,other_flies,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,butterfly,other_flies,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,butterfly,other_flies,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,butterfly,other_flies,NA,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,flower_fly,syrphids,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,flower_fly,syrphids,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,flower_fly,syrphids,NA,11,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,flower_fly,syrphids,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,flower_fly,syrphids,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,flower_fly,syrphids,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,flower_fly,syrphids,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,flower_fly,syrphids,NA,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,flower_fly,syrphids,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,flower_fly,syrphids,NA,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,flower_fly,syrphids,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,green_leaf_beetle_pest_insect,beetles,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,green_leaf_beetle_pest_insect,beetles,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,green_leaf_beetle_pest_insect,beetles,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,honey_bee,honeybees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,honey_bee,honeybees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,honey_bee,honeybees,NA,31,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,honey_bee,honeybees,NA,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,honey_bee,honeybees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,honey_bee,honeybees,NA,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,honey_bee,honeybees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,honey_bee,honeybees,NA,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,honey_bee,honeybees,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,honey_bee,honeybees,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,honey_bee,honeybees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,honey_bee,honeybees,NA,6,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,honey_bee,honeybees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,honey_bee,honeybees,NA,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,native_bee,other_wild_bees,NA,43,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,native_bee,other_wild_bees,NA,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,native_bee,other_wild_bees,NA,18,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,native_bee,other_wild_bees,NA,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,native_bee,other_wild_bees,NA,120,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,native_bee,other_wild_bees,NA,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,native_bee,other_wild_bees,NA,49,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,native_bee,other_wild_bees,NA,101,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,native_bee,other_wild_bees,NA,121,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,native_bee,other_wild_bees,NA,41,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,native_bee,other_wild_bees,NA,12,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,native_bee,other_wild_bees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,native_bee,other_wild_bees,NA,32,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,native_bee,other_wild_bees,NA,102,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,native_bee,other_wild_bees,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,native_bee,other_wild_bees,NA,77,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,other,other,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,other,other,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,other,other,NA,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,other,other,NA,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,other,other,NA,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,other,other,NA,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,other,other,NA,14,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,other,other,NA,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,other,other,NA,10,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,other,other,NA,13,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,other,other,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,other,other,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,other,other,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,other,other,NA,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,other,other,NA,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,other,other,NA,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,other_fly,other_flies,NA,120,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,other_fly,other_flies,NA,115,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,other_fly,other_flies,NA,40,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,DS,other_fly,other_flies,NA,53,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,other_fly,other_flies,NA,96,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,FE,other_fly,other_flies,NA,52,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,other_fly,other_flies,NA,33,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,M,other_fly,other_flies,NA,38,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,other_fly,other_flies,NA,66,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,other_fly,other_flies,NA,94,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,other_fly,other_flies,NA,59,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RK,other_fly,other_flies,NA,54,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,other_fly,other_flies,NA,38,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,other_fly,other_flies,NA,23,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,TB,other_fly,other_flies,NA,67,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,other_fly,other_flies,NA,48,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,vespids,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,vespids,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,vespids,non_bee_hymenoptera,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,vespids,non_bee_hymenoptera,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,vespids,non_bee_hymenoptera,NA,3,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,AR,parasitoid_wasp,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,C,parasitoid_wasp,non_bee_hymenoptera,NA,5,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,CB,parasitoid_wasp,non_bee_hymenoptera,NA,7,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,F,parasitoid_wasp,non_bee_hymenoptera,NA,8,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,LE,parasitoid_wasp,non_bee_hymenoptera,NA,4,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RB,parasitoid_wasp,non_bee_hymenoptera,NA,17,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RF,parasitoid_wasp,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,RH,parasitoid_wasp,non_bee_hymenoptera,NA,2,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,S,parasitoid_wasp,non_bee_hymenoptera,NA,1,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,SH,parasitoid_wasp,non_bee_hymenoptera,NA,9,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"
+scil01,UC,parasitoid_wasp,non_bee_hymenoptera,NA,54,NA,NA,NA,"6 10 minute transects; 21 pan traps for 5 hrs	2 sampling rounds: Spring and Summer
+"

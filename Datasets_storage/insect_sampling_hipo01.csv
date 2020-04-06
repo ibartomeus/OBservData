@@ -1,0 +1,98 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+hipo01,C01,Apis mellifera,honeybees,sweepnet,10,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C01,Lycidae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C02,Augochloropsis sp.1,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C03,Cerambycidae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C04,Chrysomelidae,beetles,sweepnet,3,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C04,Crabronidae sp1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C04,Ripiphoridae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C05,Apis mellifera,honeybees,sweepnet,22,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C05,Asilidae,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C05,Crabronidae sp2,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C05,Dermestidae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Bibionidae sp.,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Bibionidae sp.1,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Chrysops varians,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Eichoichemus sp.,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Fanniidae? Sp.2,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Ocyptamus gastrostactus,syrphids,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Ornidia obesa,syrphids,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C07,Pseudodorus clavatus,syrphids,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Apis mellifera,honeybees,sweepnet,7,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Centris (Centris) aenea,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Centris (Centris) decolorata,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Efferia sp.1,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Lepidoptera,lepidoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Neuroptera sp.2,other,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C08,Orthoptera sp.1,other,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Apis mellifera,honeybees,sweepnet,9,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Bombus brevivillus,bumblebees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Ceratitis capitata,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Chrysomelidae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Ichneumonidae sp.2,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Lepidoptera,lepidoptera,sweepnet,3,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Odonata sp.1,other,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Polybia sp.1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Stenotabanus sp?,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Trigona spinipes,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C09,Xylocopa N. grisescens,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C10,Apis mellifera,honeybees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C10,Polybia sp.2,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C10,Villa sp. ,humbleflies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C11,Apis mellifera,honeybees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C11,Brachygastra lecheguana,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C11,Symphyta sp1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C12,Apis mellifera,honeybees,sweepnet,8,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C12,Brachygastra lecheguana,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C12,Diptera sp.3,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C12,Symphyta sp1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C13,Apis mellifera,honeybees,sweepnet,3,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C13,Brachygastra lecheguana,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C14,Apis mellifera,honeybees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C14,Geotrigona subterranea,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C14,Polybia ignobilis,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C14,Trigona spinipes,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C15,Ripiphoridae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Apis mellifera,honeybees,sweepnet,11,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Bombus brevivillus,bumblebees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Centris (Centris) flavifrons,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Hemipenthes sp. ,humbleflies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Polybia ignobilis,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Synoeca cyanea,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C17,Xylocopa schonherria,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Apis mellifera,honeybees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Bracronidae sp1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Calliphoridae sp.1,other_flies,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Chalcididae sp.1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Omicron sp.1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C18,Paratrigona lineata,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C19,Apis mellifera,honeybees,sweepnet,29,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C19,Ceratitis capitata,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C19,Chalcididae sp2,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C19,Scoliidae sp.1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C19,Trigona spinipes,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C20,Lepidoptera,lepidoptera,sweepnet,4,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,C21,Symphyta sp1,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O01,Centris (Hemisiela)tarsata,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O03,Centris (Hemisiela)tarsata,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O03,Lepidoptera sp 5,lepidoptera,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O03,Trigona spinipes,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O04,Bombus morio,bumblebees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O06,Augochloropsis sp.1,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O06,Ceratitis capitata,other_flies,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O06,Exomalopsis cfr. iridipennis ,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O08,Geotrigona subterranea,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O09,Centris (Centris) aenea,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O09,Dialictus sp.1,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O09,Toxomerus floralis,syrphids,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O11,Curculionidae,beetles,sweepnet,4,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O12,Bombus brevivillus,bumblebees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O12,Ripiphoridae,beetles,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O14,Exomalopsis cf. lugens,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O16,Brachygastra lecheguana,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O17,Lepidoptera,lepidoptera,sweepnet,4,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O18,Apis mellifera,honeybees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O18,Synoeca cyanea,non_bee_hymenoptera,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O18,Sphecidae sp1,non_bee_hymenoptera,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O18,Trigona sp2,other_wild_bees,sweepnet,1,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
+hipo01,O18,Trigona spinipes,other_wild_bees,sweepnet,2,200,40,120,4 transects (25 m long) for 5 minutes each per plot. 2 sampling rounds in one season
