@@ -47,11 +47,12 @@ for (i in seq(length(list_files_field_level))) {
   
   field_level_i <- as_tibble(field_level_i)
   
-  test_name_i <- paste("Right country:", list_files_field_level[i], sep = " ")
-  
   #We ONLY test the sites with coordinates 
   NA_values <- is.na(field_level_i$latitude)
+  
   if(all(NA_values) == FALSE){
+    
+    test_name_i <- paste("Right country:", list_files_field_level[i], sep = " ")
   
     test_that(test_name_i,{
       
@@ -64,6 +65,7 @@ for (i in seq(length(list_files_field_level))) {
       
       expect_equal(expected_country_i, country_i)
     })
+    
   }
 
 }
