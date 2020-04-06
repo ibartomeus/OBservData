@@ -56,14 +56,14 @@ for (i in seq(length(list_files_field_level))) {
   
     test_that(test_name_i,{
       
-      geo_data <- field_level_i %>% filter(!is.na(longitude),!is.na(latitude),) %>%
+      geo_data <- field_level_i %>% filter(!is.na(longitude),!is.na(latitude)) %>%
         select(x=longitude,y=latitude,country)
       
       expected_country_i=latlong2country(geo_data[,1:2])
       
-      country_i <- geo_data$country
+      country_reported_i <- geo_data$country
       
-      expect_equal(expected_country_i, country_i)
+      expect_equal(expected_country_i, country_reported_i)
     })
     
   }
