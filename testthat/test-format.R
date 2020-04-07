@@ -15,7 +15,7 @@ context("checks that the values of field_level template meet our requirements")
 # Sampling start month format (integer number between 1 and 12)
 # Sampling end month format (integer number between 1 and 12)
 # REMOVED: Year format (integer greater that 1900)
-# Yield (non-negative number or NA)
+# REMOVED: Yield (non-negative number or NA)
 # Mean fruits per plant format (non-negative number or NA)
 # Fruit weight format (non-negative number or NA)
 # Plant density format (non-negative number or NA)
@@ -199,94 +199,94 @@ for (i in seq(length(list_files_field_level))) {
   #  }
   #})
   
-  test_name_i <- paste("0 <= Yield :", list_files_field_level[i], sep = " ")
+  #test_name_i <- paste("0 <= Yield :", list_files_field_level[i], sep = " ")
   
-  test_that(test_name_i,{
+  #test_that(test_name_i,{
     
-    NA_values <- is.na(field_level_i$yield)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
+  #  NA_values <- is.na(field_level_i$yield)
+  #  if(all(NA_values) == FALSE){
+  #    values_pos_i <- field_level_i$yield[!NA_values]
+  #    expect_equal(all(0 <= values_pos_i), TRUE)
       
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
+  #  }else{
+  #    expect_equal(TRUE, TRUE)
+  #  }
+  #})
   
-  test_name_i <- paste("0 <= Yield2 :", list_files_field_level[i], sep = " ")
+  #test_name_i <- paste("0 <= Yield2 :", list_files_field_level[i], sep = " ")
   
-  test_that(test_name_i,{
+  #test_that(test_name_i,{
     
-    NA_values <- is.na(field_level_i$yield2)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield2[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
+  #  NA_values <- is.na(field_level_i$yield2)
+  #  if(all(NA_values) == FALSE){
+  #    values_pos_i <- field_level_i$yield2[!NA_values]
+  #    expect_equal(all(0 <= values_pos_i), TRUE)
       
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
+  #  }else{
+  #    expect_equal(TRUE, TRUE)
+  #  }
+  #})
   
   
-  test_name_i <- paste("0 <= yield_treatments_no_pollinators :", list_files_field_level[i], sep = " ")
-  
-  test_that(test_name_i,{
-    
-    NA_values <- is.na(field_level_i$yield_treatments_no_pollinators)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield_treatments_no_pollinators[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
-      
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
-  
-  
-  test_name_i <- paste("0 <= yield_treatments_pollen_supplement :", list_files_field_level[i], sep = " ")
-  
-  test_that(test_name_i,{
-    
-    NA_values <- is.na(field_level_i$yield_treatments_pollen_supplement)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield_treatments_pollen_supplement[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
-      
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
+  # test_name_i <- paste("0 <= yield_treatments_no_pollinators :", list_files_field_level[i], sep = " ")
+  # 
+  # test_that(test_name_i,{
+  #   
+  #   NA_values <- is.na(field_level_i$yield_treatments_no_pollinators)
+  #   if(all(NA_values) == FALSE){
+  #     values_pos_i <- field_level_i$yield_treatments_no_pollinators[!NA_values]
+  #     expect_equal(all(0 <= values_pos_i), TRUE)
+  #     
+  #   }else{
+  #     expect_equal(TRUE, TRUE)
+  #   }
+  # })
   
   
-  test_name_i <- paste("0 <= yield_treatments_no_pollinators2 :", list_files_field_level[i], sep = " ")
-  
-  test_that(test_name_i,{
-    
-    NA_values <- is.na(field_level_i$yield_treatments_no_pollinators2)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield_treatments_no_pollinators2[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
-      
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
-  
-  
-  
-  test_name_i <- paste("0 <= yield_treatments_pollen_supplement2 :", list_files_field_level[i], sep = " ")
-  
-  test_that(test_name_i,{
-    
-    NA_values <- is.na(field_level_i$yield_treatments_pollen_supplement2)
-    if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$yield_treatments_pollen_supplement2[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
-      
-    }else{
-      expect_equal(TRUE, TRUE)
-    }
-  })
+  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement :", list_files_field_level[i], sep = " ")
+  # 
+  # test_that(test_name_i,{
+  #   
+  #   NA_values <- is.na(field_level_i$yield_treatments_pollen_supplement)
+  #   if(all(NA_values) == FALSE){
+  #     values_pos_i <- field_level_i$yield_treatments_pollen_supplement[!NA_values]
+  #     expect_equal(all(0 <= values_pos_i), TRUE)
+  #     
+  #   }else{
+  #     expect_equal(TRUE, TRUE)
+  #   }
+  # })
+  # 
+  # 
+  # test_name_i <- paste("0 <= yield_treatments_no_pollinators2 :", list_files_field_level[i], sep = " ")
+  # 
+  # test_that(test_name_i,{
+  #   
+  #   NA_values <- is.na(field_level_i$yield_treatments_no_pollinators2)
+  #   if(all(NA_values) == FALSE){
+  #     values_pos_i <- field_level_i$yield_treatments_no_pollinators2[!NA_values]
+  #     expect_equal(all(0 <= values_pos_i), TRUE)
+  #     
+  #   }else{
+  #     expect_equal(TRUE, TRUE)
+  #   }
+  # })
+  # 
+  # 
+  # 
+  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement2 :", list_files_field_level[i], sep = " ")
+  # 
+  # test_that(test_name_i,{
+  #   
+  #   NA_values <- is.na(field_level_i$yield_treatments_pollen_supplement2)
+  #   if(all(NA_values) == FALSE){
+  #     values_pos_i <- field_level_i$yield_treatments_pollen_supplement2[!NA_values]
+  #     expect_equal(all(0 <= values_pos_i), TRUE)
+  #     
+  #   }else{
+  #     expect_equal(TRUE, TRUE)
+  #   }
+  # })
   
   
   test_name_i <- paste("Mean fruits per plant format:", list_files_field_level[i], sep = " ")

@@ -272,7 +272,7 @@ field_level_data <- tibble(
   fruits_per_plant=NA,
   fruit_weight=NA,
   plant_density=NA,
-  seeds_per_fruit="See yield2",
+  seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
   pollinator_richness=data.site$pollinator_richness,

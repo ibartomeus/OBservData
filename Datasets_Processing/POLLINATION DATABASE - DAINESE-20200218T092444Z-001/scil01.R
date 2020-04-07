@@ -240,7 +240,7 @@ field_level_data <- tibble(
   yield_treatments_no_pollinators2=data.site$yield_treatments_no_pollinators2,
   yield_treatments_pollen_supplement2=NA,
   fruits_per_plant=NA,
-  fruit_weight="See yield",
+  fruit_weight=NA,
   plant_density=NA,
   seeds_per_fruit=NA,
   seeds_per_plant=NA,

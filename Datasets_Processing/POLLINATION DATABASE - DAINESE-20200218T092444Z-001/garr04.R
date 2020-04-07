@@ -271,7 +271,7 @@ field_level_data <- tibble(
   fruits_per_plant=NA,
   fruit_weight=NA,
   plant_density=NA,
-  seeds_per_fruit="See yield2",
+  seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
   pollinator_richness=data.site$pollinator_richness,
@@ -308,3 +308,4 @@ field_level_data <- tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_garr04.csv")
 setwd(dir_ini)
+
