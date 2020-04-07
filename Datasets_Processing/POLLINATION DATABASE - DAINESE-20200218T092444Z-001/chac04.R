@@ -121,7 +121,7 @@ data.species <- data.species %>% rename(site_id=Distance.ID,sampling_year=Year.o
 data.species_01 <- data.species
 data.species_01 %>% group_by(sampling_method) %>% count()
 
-gild_list <- read_csv("Table_organism_guild_META.csv")
+gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
   
 data.species_01 <- data.species_01 %>% select(-Identified.to,-X7)
 
@@ -160,7 +160,7 @@ insect_sampling <- tibble(
   Description = data.species_01$Description
 )
 
-setwd("C:/Users/USUARIO/Desktop/Projects/Observ/Datasets_storage")
+setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_chac04.csv")
 
 setwd(dir_ini)
@@ -291,6 +291,6 @@ field_level_data <- tibble(
   Credit=data.site$Credit,
   Email_contact=data.site$email
 )
-setwd("C:/Users/USUARIO/Desktop/Projects/Observ/Datasets_storage")
+setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_chac04.csv")
 setwd(dir_ini)

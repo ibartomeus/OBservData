@@ -129,7 +129,7 @@ data.species <- data.species %>% rename(study_id=StudyID,site_id=SiteID,sampling
 data.species_03 <- data.species %>% filter(study_id=="garr03")
 data.species_03 %>% group_by(sampling_method) %>% count()
 
-gild_list <- read_csv("Table_organism_guild_META.csv")
+gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
   
 data.species_03 <- data.species_03 %>% select(-Identified.to,-X11)
 
@@ -165,7 +165,7 @@ insect_sampling <- tibble(
   Description = data.species_03$Description
 )
 
-setwd("C:/Users/USUARIO/Desktop/Projects/Observ/Datasets_storage")
+setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_garr03.csv")
 
 setwd(dir_ini)
@@ -289,6 +289,6 @@ field_level_data <- tibble(
   Credit=data.site$Credit,
   Email_contact=data.site$email
 )
-setwd("C:/Users/USUARIO/Desktop/Projects/Observ/Datasets_storage")
+setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_garr03.csv")
 setwd(dir_ini)
