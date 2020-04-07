@@ -77,7 +77,7 @@ data.Final <- data.Final %>%
 
 data.site <- data.site %>% left_join(data.Final,by="site_id")
 
-
+x <- data.site %>% group_by(site_id) %>% count()
 ###########################
 # Adding  Field_size
 
@@ -280,6 +280,6 @@ setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_carv03.csv")
 setwd(dir_ini)
 
-#NOTE: carv03_Bavaria_L_FA1 is repeated
+# NOTE: carv03_Bavaria_L_FA1 is repeated
+# Two values of crop yield (denoted here as yield2) has been assigned to such site
 
-x <- field_level_data %>% group_by(site_id) %>% count()

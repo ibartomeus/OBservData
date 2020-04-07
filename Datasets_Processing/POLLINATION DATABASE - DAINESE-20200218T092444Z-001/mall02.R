@@ -74,7 +74,7 @@ data.LandscapeData <- as_tibble(data.LandscapeData)
 data.LandscapeData <- data.LandscapeData %>% select(SiteID,Field.size)%>%
   rename(site_id=SiteID,field_size=Field.size)
 
-data.site <- data.site %>% left_join(data.LandscapeData, by = "site_id")
+data.site <- data.site %>% left_join(unique(data.LandscapeData), by = "site_id")
 data.site <- data.site %>% mutate(country="USA",Publication="10.1111/1365-2664.12377",
                                   Credit="Rachel Mallinger, USDA-ARS",
                                   email="rachel.mallinger@ars.usda.gov")
