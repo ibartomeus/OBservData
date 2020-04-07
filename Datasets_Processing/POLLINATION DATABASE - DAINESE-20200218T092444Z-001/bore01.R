@@ -101,7 +101,7 @@ data.species <- data.species %>% mutate(total_time=10*15*Number.of.censuses)
 data.species_04 <- data.species
 data.species_04 %>% group_by(sampling_method) %>% count()
 
-gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
+gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
   
 data.species_04 <- data.species_04 %>% select(-Identified.to,-X6)
 

@@ -93,7 +93,7 @@ data.species <- data.species %>% rename(site_id=SiteID,sampling_year=Year.of.sam
 data.species_01 <- data.species %>% filter(grepl("carv02",data.species$site_id,ignore.case = TRUE))
 data.species_01 %>% group_by(sampling_method) %>% count()
 
-gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
+gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
   
 data.species_01 <- data.species_01 %>% select(-Identified.to)
 

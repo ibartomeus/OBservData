@@ -115,7 +115,7 @@ data.species <- data.species %>% rename(study_id=StudyID,site_id=SiteID,sampling
 data.species_01 <- data.species %>% filter(study_id=="conn02",sampling_year==2014)
 data.species_01 %>% group_by(sampling_method) %>% count()
 
-gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
+gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
   
 data.species_01 <- data.species_01 %>% select(-Identified.to,-X7)
 

@@ -95,7 +95,7 @@ data.species_01 <- data.species
 data.species_01 %>% group_by(sampling_method) %>% count()
 data.species_01$sampling_method <- "Census of 5 minutes"
 
-gild_list <- read_csv("../Tesauro_Pollinators/Table_organism_guild_META.csv")
+gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
   
 data.species_01 <- data.species_01 %>% select(-Identified.to)
 
