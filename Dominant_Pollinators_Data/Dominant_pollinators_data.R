@@ -26,7 +26,8 @@ for (i in 1:length(list_insect_sampling_files)){
   insect_sampling_i <- paste(folder_base, list_insect_sampling_files[i], sep = "/")
   data.site <- read_csv(insect_sampling_i)
   
-  data.site.filt <- data.site %>% filter(!sampling_method %in% excluded_methods, !is.na(sampling_method))
+  data.site.filt <- data.site %>% filter(!sampling_method %in% excluded_methods,
+                                         !is.na(sampling_method),!is.na(pollinator))
   
   data.site.poll <- data.site.filt %>% group_by(study_id,pollinator,guild,sampling_method) %>% count()
   data.site.guild <- data.site.filt %>% group_by(study_id,guild,sampling_method) %>% count()
