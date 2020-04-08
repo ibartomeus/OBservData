@@ -30,10 +30,15 @@ for (i in 1:length(list_insect_sampling_files)){
                                          !is.na(sampling_method),!is.na(pollinator))
   
   data.site.poll <- data.site.filt %>% group_by(study_id,pollinator,guild,sampling_method) %>% count()
-  data.site.guild <- data.site.filt %>% group_by(study_id,guild,sampling_method) %>% count()
+  #data.site.guild <- data.site.filt %>% group_by(study_id,guild,sampling_method) %>% count()
+  data.site.guild <- data.site.filt %>% group_by(study_id,sampling_method) %>% count()
+  
+  # data.site.poll <- data.site.poll %>%
+  #   left_join(data.site.guild, by=c("study_id","guild","sampling_method")) %>%
+  #   mutate(percentage = 100 * n.x / n.y)
   
   data.site.poll <- data.site.poll %>%
-    left_join(data.site.guild, by=c("study_id","guild","sampling_method")) %>%
+    left_join(data.site.guild, by=c("study_id","sampling_method")) %>%
     mutate(percentage = 100 * n.x / n.y)
   
   data.site.poll <- data.site.poll %>% filter(percentage >= 5) %>%
