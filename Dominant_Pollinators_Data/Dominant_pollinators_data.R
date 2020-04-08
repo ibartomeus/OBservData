@@ -69,7 +69,8 @@ for (i in 1:length(list_field_level_files)){
 }
 
 
-brief_list <- list_main_pollinators_complete %>% group_by(country,crop,pollinator,guild) %>% count()
+brief_list <- list_main_pollinators_complete %>% group_by(country,crop,pollinator,guild) %>%
+  count() %>% select(-n)
 
 # Test sampling methods' sanity
 unique(list_main_pollinators_complete$sampling_method[grepl("pan",

@@ -1,896 +1,896 @@
-country,crop,pollinator,guild,n
-Argentina,Citrus limon,Abeja abdomen naranja,other_wild_bees,24
-Argentina,Citrus limon,Abeja brillante sin pelos rayas en abdomen,other_wild_bees,12
-Argentina,Citrus limon,Abeja marron cola negra,other_wild_bees,12
-Argentina,Citrus limon,Abeja negra,other_wild_bees,24
-Argentina,Citrus limon,Aphididae,other,12
-Argentina,Citrus limon,Apis melifera,honeybees,120
-Argentina,Citrus limon,Avispa marron,non_bee_hymenoptera,36
-Argentina,Citrus limon,Avispa negra,non_bee_hymenoptera,12
-Argentina,Citrus limon,Avispa negra copada,non_bee_hymenoptera,12
-Argentina,Citrus limon,Avispa pequeña,non_bee_hymenoptera,12
-Argentina,Citrus limon,Avispa rayada,non_bee_hymenoptera,12
-Argentina,Citrus limon,Bombus atratus,bumblebees,72
-Argentina,Citrus limon,Bombus negro,bumblebees,48
-Argentina,Citrus limon,Coleoptera 1,beetles,24
-Argentina,Citrus limon,Coleoptera 2,beetles,48
-Argentina,Citrus limon,Coleoptera 3,beetles,12
-Argentina,Citrus limon,Diptero 1,other_flies,48
-Argentina,Citrus limon,Diptero 2,other_flies,36
-Argentina,Citrus limon,Diptero 3,other_flies,36
-Argentina,Citrus limon,Diptero 4,other_flies,24
-Argentina,Citrus limon,Diptero 5,other_flies,12
-Argentina,Citrus limon,Diptero 6,other_flies,12
-Argentina,Citrus limon,Halictidae 1,other_wild_bees,36
-Argentina,Citrus limon,Halictidae 2,other_wild_bees,24
-Argentina,Citrus limon,Halictidae 3,other_wild_bees,12
-Argentina,Citrus limon,Hormiga,non_bee_hymenoptera,12
-Argentina,Citrus limon,Ligaidae,other,48
-Argentina,Citrus limon,Mariposa alas transparentes,lepidoptera,36
-Argentina,Citrus limon,Mariposa gris chiquita,lepidoptera,24
-Argentina,Citrus limon,Mariposa marron grande,lepidoptera,24
-Argentina,Citrus limon,Mariposa marron pequeña,lepidoptera,12
-Argentina,Citrus limon,Mariposa monarca,lepidoptera,24
-Argentina,Citrus limon,Mosca brillante,other_flies,36
-Argentina,Citrus limon,Mosca domestica,other_flies,48
-Argentina,Citrus limon,Mosca gris lomo rayado,other_flies,36
-Argentina,Citrus limon,Papilio thoas,lepidoptera,60
-Argentina,Citrus limon,Pirpinto amarillo,lepidoptera,24
-Argentina,Citrus limon,Plebeia sp,other_wild_bees,84
-Argentina,Citrus limon,Syrphido,syrphids,36
-Argentina,Citrus limon,Xylocopa eximia,other_wild_bees,60
-Argentina,Citrus limon,Xylocopa negro,other_wild_bees,12
-Argentina,Citrus paradisi,Andrenidae,other_wild_bees,4
-Argentina,Citrus paradisi,Apis mellifera,honeybees,108
-Argentina,Citrus paradisi,Bombini,other_wild_bees,12
-Argentina,Citrus paradisi,Coleoptera,beetles,24
-Argentina,Citrus paradisi,Diptera,other_flies,20
-Argentina,Citrus paradisi,Halictini,other_wild_bees,12
-Argentina,Citrus paradisi,Hemiptera,other,4
-Argentina,Citrus paradisi,Lepidotera,lepidoptera,20
-Argentina,Citrus paradisi,Megachilidae,other_wild_bees,4
-Argentina,Citrus paradisi,Meliponini,other_wild_bees,56
-Argentina,Citrus paradisi,Vespid,non_bee_hymenoptera,28
-Argentina,Rubus idaeus,Apis mellifera,honeybees,16
-Argentina,Rubus idaeus,Bombus dahlbomii,bumblebees,16
-Argentina,Rubus idaeus,Bombus terrestris,bumblebees,16
-Argentina,Rubus idaeus,Manuelia gayatina,other_wild_bees,16
-Argentina,Rubus idaeus,Ruizantheda proxima,other_wild_bees,16
-Argentina,Rubus idaeus,Ruizanthedella mutabilis,other_wild_bees,16
-Argentina,Vaccinium corymbosum,Allograpta sp1,syrphids,13
-Argentina,Vaccinium corymbosum,Allograpta sp2,syrphids,13
-Argentina,Vaccinium corymbosum,Allograpta sp3,syrphids,13
-Argentina,Vaccinium corymbosum,Apis mellifera,honeybees,13
-Argentina,Vaccinium corymbosum,Bombus atratus,bumblebees,13
-Argentina,Vaccinium corymbosum,Bombus belicoso,bumblebees,13
-Argentina,Vaccinium corymbosum,Calliphora sp.,other_flies,13
-Argentina,Vaccinium corymbosum,Coccinellidae sp,beetles,13
-Argentina,Vaccinium corymbosum,Danaus plexippus,lepidoptera,13
-Argentina,Vaccinium corymbosum,Diptera (ep14),other_flies,13
-Argentina,Vaccinium corymbosum,Doclichopodidae,other_flies,13
-Argentina,Vaccinium corymbosum,Eristalis sp2,syrphids,13
-Argentina,Vaccinium corymbosum,Ichneumonidea,non_bee_hymenoptera,13
-Argentina,Vaccinium corymbosum,Muscidae,other_flies,13
-Argentina,Vaccinium corymbosum,Ornidia obessa,syrphids,13
-Argentina,Vaccinium corymbosum,Phoebis neocypris,lepidoptera,13
-Argentina,Vaccinium corymbosum,Sarcophagidae,other_flies,13
-Argentina,Vaccinium corymbosum,Sciaridae sp,other_flies,13
-Argentina,Vaccinium corymbosum,Syrphus ribessi,syrphids,13
-Argentina,Vaccinium corymbosum,Tipulidae,other_flies,13
-Argentina,Vaccinium corymbosum,Toxomerus sp1,syrphids,13
-Argentina,Vaccinium corymbosum,Toxomerus sp2,syrphids,13
-Argentina,Vaccinium corymbosum,Typhedanus undulatus,lepidoptera,13
-Argentina,Vaccinium corymbosum,Vanessa braziliensis,lepidoptera,13
-Argentina,Vaccinium corymbosum,Vanessa carye,lepidoptera,13
-Argentina,Vaccinium corymbosum,Vespidae sp1,non_bee_hymenoptera,13
-Argentina,Vaccinium corymbosum,Vespidae sp2,non_bee_hymenoptera,13
-Argentina,Vaccinium corymbosum,Vespidae sp3,non_bee_hymenoptera,13
-Argentina,Vaccinium corymbosum,Xylocopa augusti,other_wild_bees,13
-Argentina,Vaccinium corymbosum,Xylocopa ciliata,other_wild_bees,13
-Argentina,Vaccinium corymbosum,Xylocopa macrops,other_wild_bees,13
-Argentina,Vaccinium corymbosum,Xylocopa splendidula,other_wild_bees,13
-Australia,Mangifera indica,Allobacha sp.,syrphids,19
-Australia,Mangifera indica,Allograpta sp.,syrphids,19
-Australia,Mangifera indica,Apis cerana,other_wild_bees,9
-Australia,Mangifera indica,Apis mellifera,honeybees,19
-Australia,Mangifera indica,Apoidea sp 1,other_wild_bees,10
-Australia,Mangifera indica,Arctiidae sp 1,lepidoptera,9
-Australia,Mangifera indica,Bombylidae sp,humbleflies,10
-Australia,Mangifera indica,Chrysididae sp 1,non_bee_hymenoptera,9
-Australia,Mangifera indica,Chrysomya sp,other_flies,19
-Australia,Mangifera indica,Coccinella sp 1,beetles,9
-Australia,Mangifera indica,Coccinella sp 2,beetles,9
-Australia,Mangifera indica,Coleoptera sp 1,beetles,9
-Australia,Mangifera indica,Curculionidae sp 1,beetles,9
-Australia,Mangifera indica,Curculionidae sp 2,beetles,9
-Australia,Mangifera indica,Diptera sp 1,other_flies,9
-Australia,Mangifera indica,Diptera sp 4,other_flies,9
-Australia,Mangifera indica,Diptera sp 5,other_flies,9
-Australia,Mangifera indica,Diptera sp 9,other_flies,9
-Australia,Mangifera indica,Eristalinus sp,syrphids,10
-Australia,Mangifera indica,Eumerus sp,syrphids,10
-Australia,Mangifera indica,Formicidae sp 1,non_bee_hymenoptera,10
-Australia,Mangifera indica,Formicidae sp 2,non_bee_hymenoptera,9
-Australia,Mangifera indica,Homalictus damperia,other_wild_bees,19
-Australia,Mangifera indica,Hymenoptera sp 1,non_bee_hymenoptera,10
-Australia,Mangifera indica,Hymenoptera sp 2,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 3,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 4,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 5,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 6,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 7,non_bee_hymenoptera,9
-Australia,Mangifera indica,Hymenoptera sp 8,non_bee_hymenoptera,9
-Australia,Mangifera indica,Ichneumonoidae sp 1,non_bee_hymenoptera,10
-Australia,Mangifera indica,Lepidoptera sp 1,lepidoptera,9
-Australia,Mangifera indica,Lucilia sp,other_flies,10
-Australia,Mangifera indica,Lucillia sp,other_flies,9
-Australia,Mangifera indica,Melanostoma sp.,syrphids,9
-Australia,Mangifera indica,Mesembrius sp,syrphids,19
-Australia,Mangifera indica,Monolepta australis,beetles,9
-Australia,Mangifera indica,Musca domestica,other_flies,9
-Australia,Mangifera indica,Muscidae sp 1,other_flies,10
-Australia,Mangifera indica,Nezara viridula,other,9
-Australia,Mangifera indica,Plecia sp,other_flies,10
-Australia,Mangifera indica,Pompillidae sp 1,non_bee_hymenoptera,9
-Australia,Mangifera indica,Sarcophagidae sp 1,other_flies,10
-Australia,Mangifera indica,Stomorhina discolour,other_flies,19
-Australia,Mangifera indica,Stomorhina xanthogaster,non_bee_hymenoptera,19
-Australia,Mangifera indica,Syritta sp,syrphids,19
-Australia,Mangifera indica,Tachinidae sp 1,other_flies,10
-Australia,Mangifera indica,Tenebrionidae sp,beetles,19
-Australia,Mangifera indica,Tetragonula carbonaria,other_wild_bees,19
-Australia,Mangifera indica,Tiphiidae sp 1,non_bee_hymenoptera,9
-Australia,Mangifera indica,Vespidae sp 1,non_bee_hymenoptera,10
-Australia,Mangifera indica,Xylocopa sp 1,other_wild_bees,9
-Brazil,Anacardium occidentale,Apis mellifera,honeybees,20
-Brazil,Anacardium occidentale,Brachygastra lecheguana,non_bee_hymenoptera,20
-Brazil,Anacardium occidentale,Centris  byrsonimae,other_wild_bees,10
-Brazil,Anacardium occidentale,Centris byrsonimae,other_wild_bees,20
-Brazil,Anacardium occidentale,Centris flavifrons,other_wild_bees,10
-Brazil,Anacardium occidentale,Diptera spp.,other_flies,20
-Brazil,Anacardium occidentale,Lepidoptera spp.,lepidoptera,20
-Brazil,Anacardium occidentale,Melitoma aff. segmentaria,other_wild_bees,10
-Brazil,Anacardium occidentale,Odonata sp.1,other,10
-Brazil,Anacardium occidentale,Odonata sp.2,other,10
-Brazil,Anacardium occidentale,Scaptotrigona sp.1,other_wild_bees,10
-Brazil,Anacardium occidentale,Stratiomyidae sp.2,syrphids,10
-Brazil,Anacardium occidentale,Tiphiidae sp.4,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Trigona spinipes,other_wild_bees,20
-Brazil,Anacardium occidentale,vespidae sp.1,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Vespidae sp.1,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Vespidae sp.2,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Vespidae sp.5,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Vespidae sp.6,non_bee_hymenoptera,10
-Brazil,Anacardium occidentale,Xylocopa cearensis,other_wild_bees,10
-Brazil,Anacardium occidentale,Xylocopa cearensis ,other_wild_bees,10
-Brazil,Annona squamosa,Apis mellifera,honeybees,1
-Brazil,Bixa orellana,Augochloropsis sp.,other_wild_bees,6
-Brazil,Bixa orellana,Euglossa sp.,other_wild_bees,6
-Brazil,Bixa orellana,Eulaema nigrita,other_wild_bees,6
-Brazil,Bixa orellana,Exomalopsis analis,other_wild_bees,6
-Brazil,Bixa orellana,Megalopta sp.,other_wild_bees,6
-Brazil,Bixa orellana,Melipona subnitida,other_wild_bees,6
-Brazil,Bixa orellana,Trigona spinipes,other_wild_bees,6
-Brazil,Bixa orellana,Xylocopa frontalis,other_wild_bees,6
-Brazil,Bixa orellana,Xylocopa griscescens,other_wild_bees,6
-Brazil,Bixa orellana,Xylocopa muscaria,other_wild_bees,6
-Brazil,Coffea arabica,Apis mellifera,honeybees,53
-Brazil,Coffea arabica,Asilidae,other_flies,31
-Brazil,Coffea arabica,Augochloropsis sp.1,other_wild_bees,31
-Brazil,Coffea arabica,Bibionidae sp.,other_flies,31
-Brazil,Coffea arabica,Bibionidae sp.1,other_flies,31
-Brazil,Coffea arabica,Bombus brevivillus,bumblebees,53
-Brazil,Coffea arabica,Bombus morio,bumblebees,31
-Brazil,Coffea arabica,Brachygastra lecheguana,non_bee_hymenoptera,53
-Brazil,Coffea arabica,Bracronidae sp1,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Calliphoridae sp.1,other_flies,31
-Brazil,Coffea arabica,Centris (Centris) aenea,other_wild_bees,31
-Brazil,Coffea arabica,Centris (Hemisiela)tarsata,other_wild_bees,53
-Brazil,Coffea arabica,Centris sp,other_wild_bees,22
-Brazil,Coffea arabica,Cerambycidae,beetles,31
-Brazil,Coffea arabica,Ceratina (Calloceratina) chloris,other_wild_bees,22
-Brazil,Coffea arabica,Ceratitis capitata,other_flies,53
-Brazil,Coffea arabica,Ceratitis sp.1,other_flies,22
-Brazil,Coffea arabica,Chrysomelidae,beetles,53
-Brazil,Coffea arabica,Chrysops varians,other_flies,31
-Brazil,Coffea arabica,Coleoptera sp1,beetles,22
-Brazil,Coffea arabica,Crabronidae sp1,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Crabronidae sp2,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Curculionidae,beetles,31
-Brazil,Coffea arabica,Dermestidae,beetles,31
-Brazil,Coffea arabica,Dialictus sp.1,other_wild_bees,22
-Brazil,Coffea arabica,Diptera sp.3,other_flies,31
-Brazil,Coffea arabica,Diptera sp.4,other_flies,22
-Brazil,Coffea arabica,Efferia sp.1,other_flies,31
-Brazil,Coffea arabica,Eichoichemus sp.,other_flies,31
-Brazil,Coffea arabica,Fanniidae? Sp.2,other_flies,53
-Brazil,Coffea arabica,Geotrigona subterranea,other_wild_bees,53
-Brazil,Coffea arabica,Hemipenthes sp.,humbleflies,31
-Brazil,Coffea arabica,Hemiptera sp.6,other,22
-Brazil,Coffea arabica,Hymenoptera,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Hymenoptera sp,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Lepidoptera,lepidoptera,53
-Brazil,Coffea arabica,Lepidoptera sp 1,lepidoptera,22
-Brazil,Coffea arabica,Lepidoptera sp 2,lepidoptera,22
-Brazil,Coffea arabica,Lepidoptera sp 3,lepidoptera,22
-Brazil,Coffea arabica,Lepidoptera sp 5,lepidoptera,31
-Brazil,Coffea arabica,Lepidoptera sp3,lepidoptera,22
-Brazil,Coffea arabica,Lepidoptera sp4,lepidoptera,22
-Brazil,Coffea arabica,Lycidae,beetles,31
-Brazil,Coffea arabica,Melolonthidae,beetles,22
-Brazil,Coffea arabica,Mischicyttatus rotundicollis,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Nannotrigona testaceicornes,other_wild_bees,22
-Brazil,Coffea arabica,Neuroptera sp.2,other,31
-Brazil,Coffea arabica,Ocyptamus gastrostactus,syrphids,31
-Brazil,Coffea arabica,Odonata sp.1,other,31
-Brazil,Coffea arabica,Ornidia obesa,syrphids,31
-Brazil,Coffea arabica,Orthoptera sp.1,other,31
-Brazil,Coffea arabica,Palpada furcata,syrphids,22
-Brazil,Coffea arabica,Palpada pygolampus,syrphids,22
-Brazil,Coffea arabica,Partamona sp.1,other_wild_bees,22
-Brazil,Coffea arabica,Plebeia sp.1,other_wild_bees,22
-Brazil,Coffea arabica,Polybia ignobilis,non_bee_hymenoptera,53
-Brazil,Coffea arabica,Polybia sericea,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Pseudodorus clavatus,syrphids,31
-Brazil,Coffea arabica,Ripiphoridae,beetles,31
-Brazil,Coffea arabica,Scoliidae sp.1,non_bee_hymenoptera,22
-Brazil,Coffea arabica,Stenotabanus sp?,other_flies,31
-Brazil,Coffea arabica,Symphyta sp1,non_bee_hymenoptera,53
-Brazil,Coffea arabica,Synoeca cyanea,non_bee_hymenoptera,53
-Brazil,Coffea arabica,Tachinidae sp.1,other_flies,22
-Brazil,Coffea arabica,Toxomerus floralis,syrphids,31
-Brazil,Coffea arabica,Trigona spinipes,other_wild_bees,53
-Brazil,Coffea arabica,Villa sp.,humbleflies,31
-Brazil,Malpighia emarginata,Centris aenea,other_wild_bees,8
-Brazil,Malpighia emarginata,Centris analis,other_wild_bees,8
-Brazil,Malpighia emarginata,Centris flavifrons,other_wild_bees,8
-Brazil,Malpighia emarginata,Centris fuscata,other_wild_bees,8
-Brazil,Malpighia emarginata,Centris tarsata,other_wild_bees,8
-Brazil,Malpighia emarginata,Trigona spinipes,other_wild_bees,8
-Brazil,Phaseolus vulgaris L.,Allograpta exotica cf.,syrphids,27
-Brazil,Phaseolus vulgaris L.,"Apis mellifera Linnaeus, 1758",honeybees,27
-Brazil,Phaseolus vulgaris L.,Apoidea sp.1,other_wild_bees,27
-Brazil,Phaseolus vulgaris L.,Bombus  cf. brevivillus,bumblebees,27
-Brazil,Phaseolus vulgaris L.,"Bombus (Fervidobombus) morio Swederus, 1787",bumblebees,27
-Brazil,Phaseolus vulgaris L.,Bombus sp.,bumblebees,27
-Brazil,Phaseolus vulgaris L.,Brachygastra lecheguana,non_bee_hymenoptera,27
-Brazil,Phaseolus vulgaris L.,Non identified bee,other_wild_bees,27
-Brazil,Phaseolus vulgaris L.,"Paratrigona lineata Lepeletier, 1836",other_wild_bees,27
-Brazil,Phaseolus vulgaris L.,Pepsis sp.,non_bee_hymenoptera,27
-Brazil,Phaseolus vulgaris L.,Polybia dimidiata,non_bee_hymenoptera,27
-Brazil,Phaseolus vulgaris L.,Polybia ignobilis,non_bee_hymenoptera,27
-Brazil,Phaseolus vulgaris L.,"Trigona spinipes Fabricius, 1793",other_wild_bees,27
-France,Allium porrum,Andrena bimaculata,other_wild_bees,18
-France,Allium porrum,Andrena dorsata,other_wild_bees,18
-France,Allium porrum,Andrena flavipes,other_wild_bees,36
-France,Allium porrum,Andrena labialis,other_wild_bees,36
-France,Allium porrum,Andrena nigroaenea,other_wild_bees,36
-France,Allium porrum,Andrena thoracica,other_wild_bees,18
-France,Allium porrum,Andrena wilkella,other_wild_bees,18
-France,Allium porrum,Apis mellifera,honeybees,36
-France,Allium porrum,Bembix rostrata,other_flies,18
-France,Allium porrum,Bombus hypnorum,bumblebees,18
-France,Allium porrum,Bombus lapidarius,bumblebees,36
-France,Allium porrum,Bombus pascuorum,bumblebees,18
-France,Allium porrum,Bombus pratorum,bumblebees,18
-France,Allium porrum,Bombus terrestris,bumblebees,36
-France,Allium porrum,Eristalis arbustorum,syrphids,18
-France,Allium porrum,Eristalis tenax,syrphids,36
-France,Allium porrum,Halictus scabiosae,other_wild_bees,18
-France,Allium porrum,Lasioglossum calceatum,other_wild_bees,18
-France,Allium porrum,Lasioglossum laticeps,other_wild_bees,18
-France,Allium porrum,Lasioglossum malachurum,other_wild_bees,36
-France,Allium porrum,Lasioglossum sp.,other_wild_bees,36
-France,Allium porrum,Lasioglossum subhirtum,other_wild_bees,18
-France,Allium porrum,Paravespula sp.,non_bee_hymenoptera,18
-France,Allium porrum,Platycheirus,syrphids,18
-France,Allium porrum,Platycheirus sp.,syrphids,36
-France,Allium porrum,Polistes dominula,non_bee_hymenoptera,36
-France,Allium porrum,Sphaerophoria rueppelli,syrphids,18
-France,Allium porrum,Sphaerophoria scripta,syrphids,36
-France,Allium porrum,Stip of streep fopwesp,non_bee_hymenoptera,18
-France,Allium porrum,Syritta pipiens,syrphids,18
-France,Allium porrum,wilde bij (klein),other_wild_bees,18
-France,Allium porrum,Xylocopa violacea,other_wild_bees,18
-France,Helianthus annuus,Andrena flavipes,other_wild_bees,24
-France,Helianthus annuus,Apis mellifera,honeybees,24
-France,Helianthus annuus,Bombus hortorum,bumblebees,24
-France,Helianthus annuus,Bombus lapidarius,bumblebees,24
-France,Helianthus annuus,Bombus pascuorum,bumblebees,24
-France,Helianthus annuus,Bombus sp.,bumblebees,24
-France,Helianthus annuus,Bombus terrestris-complex,bumblebees,24
-France,Helianthus annuus,Eristalis sp.,syrphids,24
-France,Helianthus annuus,Halictinae sp.,other_wild_bees,24
-France,Helianthus annuus,Halictus scabiosae,other_wild_bees,24
-France,Helianthus annuus,Lasioglossum malachurum,other_wild_bees,24
-France,Helianthus annuus,Lasioglossum subhirtum,other_wild_bees,24
-France,Helianthus annuus,Melanostoma mellinum,syrphids,24
-France,Helianthus annuus,solitary bee,other_wild_bees,24
-France,Helianthus annuus,Syrphidae sp.,syrphids,24
-Germany,Malus domestica,Andrena cineraria,other_wild_bees,30
-Germany,Malus domestica,Andrena fulva,other_wild_bees,30
-Germany,Malus domestica,Andrena jacobi,other_wild_bees,30
-Germany,Malus domestica,Andrena sp.,other_wild_bees,30
-Germany,Malus domestica,Apis mellifera,honeybees,30
-Germany,Malus domestica,Beetle,beetles,30
-Germany,Malus domestica,Bombus lapidarius,bumblebees,30
-Germany,Malus domestica,Bombus pascuorum,bumblebees,30
-Germany,Malus domestica,Bombus pratorum,bumblebees,30
-Germany,Malus domestica,Bombus sp.,bumblebees,30
-Germany,Malus domestica,Bombus terrestris,bumblebees,30
-Germany,Malus domestica,Butterfly,lepidoptera,30
-Germany,Malus domestica,Fly,other_flies,30
-Germany,Malus domestica,Hoverfly,syrphids,30
-Germany,Malus domestica,Ladybug,beetles,30
-Germany,Malus domestica,Lasioglossum sp.,other_wild_bees,30
-Germany,Malus domestica,Spider,other,30
-Germany,Malus domestica,Wasp,non_bee_hymenoptera,30
-Germany,Malus domestica,Wild bee,other_wild_bees,30
-India,Coffea canephora,Apis cerana indica,other_wild_bees,66
-India,Coffea canephora,Apis dorsata,honeybees,66
-India,Coffea canephora,Apis florea,honeybees,66
-India,Coffea canephora,Apis_cerana,other_wild_bees,112
-India,Coffea canephora,Apis_dorsata,other_wild_bees,112
-India,Coffea canephora,Catopsilia pyranthe (Mottled Emigrant),lepidoptera,19
-India,Coffea canephora,Ceratina hieroglyphica,other_wild_bees,66
-India,Coffea canephora,Cetoniinae,beetles,38
-India,Coffea canephora,Coleoptera_sp.1,beetles,38
-India,Coffea canephora,Coleoptera_sp.2,beetles,38
-India,Coffea canephora,Coleoptera_sp.3,beetles,9
-India,Coffea canephora,Diptera-Fly,other_flies,66
-India,Coffea canephora,Diptera sp1,other_flies,38
-India,Coffea canephora,Dolichopodidae,other_flies,19
-India,Coffea canephora,Eumenine,non_bee_hymenoptera,66
-India,Coffea canephora,Euploea core (Common Indian crow),lepidoptera,19
-India,Coffea canephora,Junonia iphita (Chocolate pansy),lepidoptera,38
-India,Coffea canephora,May fly,other_flies,9
-India,Coffea canephora,Muscidae (like a house fly),other_flies,38
-India,Coffea canephora,Pieris canidia (Indian cabbage white),lepidoptera,19
-India,Coffea canephora,Syrphid- Honeybee mimic,syrphids,38
-India,Coffea canephora,Syrphidae (hover fly),syrphids,66
-India,Coffea canephora,Tetragonula iridipennis,other_wild_bees,66
-India,Coffea canephora,Tetragonula_iridipennis,other_wild_bees,112
-India,Coffea canephora,Thysanoptera (Thrips),other,47
-Ireland,Brassica napus,Andrena,other_wild_bees,3
-Ireland,Brassica napus,Apis mellifera,honeybees,3
-Ireland,Brassica napus,Bombus hortorum,bumblebees,3
-Ireland,Brassica napus,Bombus lapidarius,bumblebees,3
-Ireland,Brassica napus,Bombus pascuorum,bumblebees,3
-Ireland,Brassica napus,Bombus terrestris/lucorum,bumblebees,3
-Ireland,Brassica napus,Eristalis,syrphids,3
-Ireland,Brassica napus,fly,other_flies,3
-Ireland,Brassica napus,Helophilus,syrphids,3
-Ireland,Brassica napus,Hoverfly A,syrphids,3
-Ireland,Brassica napus,Melanostoma,syrphids,3
-Ireland,Brassica napus,Other solitary bee,other_wild_bees,3
-Ireland,Brassica napus,Pararge aegeria,lepidoptera,3
-Ireland,Brassica napus,Rhingia campestris,syrphids,3
-Italy,Allium porrum,Andrena albopunctata,other_wild_bees,18
-Italy,Allium porrum,Andrena flavipes,other_wild_bees,36
-Italy,Allium porrum,Andrena lepida,other_wild_bees,36
-Italy,Allium porrum,Andrena pilipes,other_wild_bees,36
-Italy,Allium porrum,Andrena thoracica,other_wild_bees,18
-Italy,Allium porrum,Andrena variabilis,other_wild_bees,18
-Italy,Allium porrum,Apis mellifera,honeybees,36
-Italy,Allium porrum,Bembix sp. 1,other_flies,18
-Italy,Allium porrum,Bombus hortorum,bumblebees,18
-Italy,Allium porrum,Bombus lapidarius,bumblebees,36
-Italy,Allium porrum,Bombus pascuorum,bumblebees,18
-Italy,Allium porrum,Bombus terrestris,bumblebees,36
-Italy,Allium porrum,Eristalinus aeneus,syrphids,18
-Italy,Allium porrum,Eristalis arbustorum,syrphids,18
-Italy,Allium porrum,Eristalis tenax,syrphids,36
-Italy,Allium porrum,Eupeodes lapponicus,syrphids,18
-Italy,Allium porrum,Eupeodes latifasciatus,syrphids,18
-Italy,Allium porrum,Halictus scabiosae,other_wild_bees,36
-Italy,Allium porrum,Lasioglossum malachurum,other_wild_bees,36
-Italy,Allium porrum,Megascolia maculata,non_bee_hymenoptera,18
-Italy,Allium porrum,Nomiapis bispinosa,honeybees,36
-Italy,Allium porrum,Polistes dominula,non_bee_hymenoptera,36
-Italy,Allium porrum,Sphaerophoria rueppelli,syrphids,18
-Italy,Allium porrum,Sphaerophoria scripta,syrphids,36
-Italy,Allium porrum,Sphaerophoria sp. 2,syrphids,18
-Italy,Allium porrum,Syritta pipiens,syrphids,36
-Italy,Allium porrum,Unknown wasp sp. 13,non_bee_hymenoptera,18
-Italy,Allium porrum,Unknown wasp sp. 21,non_bee_hymenoptera,18
-Italy,Allium porrum,Wasp sp.,non_bee_hymenoptera,18
-Japan,Fagopyrum esculentum,Apis cerana,other_wild_bees,32
-Japan,Fagopyrum esculentum,Apis mellifera,honeybees,32
-Japan,Fagopyrum esculentum,Aulacophora indica,beetles,15
-Japan,Fagopyrum esculentum,Aulacophora nigripennis,beetles,17
-Japan,Fagopyrum esculentum,Boettcherisca peregrina,other_flies,15
-Japan,Fagopyrum esculentum,Byasa alcinous,lepidoptera,17
-Japan,Fagopyrum esculentum,Camponotus japonicus,non_bee_hymenoptera,32
-Japan,Fagopyrum esculentum,Campsomeriella annulata,non_bee_hymenoptera,15
-Japan,Fagopyrum esculentum,Cetonia roelofsi,beetles,15
-Japan,Fagopyrum esculentum,Chalicodoma sculpturalis,other_wild_bees,17
-Japan,Fagopyrum esculentum,Chrysolina exanthematica,beetles,15
-Japan,Fagopyrum esculentum,Chrysomya pinguis,other_flies,32
-Japan,Fagopyrum esculentum,Coccinella septempunctata,beetles,17
-Japan,Fagopyrum esculentum,Colletes patellatus,other_wild_bees,15
-Japan,Fagopyrum esculentum,Colletes vogti,other_wild_bees,17
-Japan,Fagopyrum esculentum,Dolerus similis,non_bee_hymenoptera,15
-Japan,Fagopyrum esculentum,Eristalinus (Lathyrophthalmus) quinquestriatus,syrphids,15
-Japan,Fagopyrum esculentum,Eristalinus (Lathyrophthalmus) tarsalis,syrphids,17
-Japan,Fagopyrum esculentum,Eristalis (Eoeristaris) cerealis,syrphids,32
-Japan,Fagopyrum esculentum,Eristalis tenax,syrphids,32
-Japan,Fagopyrum esculentum,Eumenes sp,non_bee_hymenoptera,32
-Japan,Fagopyrum esculentum,Formica japonica,non_bee_hymenoptera,32
-Japan,Fagopyrum esculentum,Gametis jucunda,beetles,32
-Japan,Fagopyrum esculentum,Hylaeus floralis,other_wild_bees,32
-Japan,Fagopyrum esculentum,Hylaeus nippon,other_wild_bees,32
-Japan,Fagopyrum esculentum,Lasioglossum occidens,other_wild_bees,32
-Japan,Fagopyrum esculentum,Lucilia papuensis,other_flies,32
-Japan,Fagopyrum esculentum,Lycaena phlaeas,lepidoptera,17
-Japan,Fagopyrum esculentum,Megacampsomeris grossa,non_bee_hymenoptera,15
-Japan,Fagopyrum esculentum,Megachile tsurugensis,other_wild_bees,32
-Japan,Fagopyrum esculentum,Parnara guttata,lepidoptera,32
-Japan,Fagopyrum esculentum,Pelopidas mathias,lepidoptera,15
-Japan,Fagopyrum esculentum,Phytomia zonata,syrphids,32
-Japan,Fagopyrum esculentum,Polistes nipponensis,non_bee_hymenoptera,15
-Japan,Fagopyrum esculentum,Polytremis pellucida,lepidoptera,15
-Japan,Fagopyrum esculentum,Sphaerophoria sp.,syrphids,32
-Japan,Fagopyrum esculentum,Stomorhina obsoleta,other_flies,32
-Japan,Fagopyrum esculentum,Tachinidae sp.,other_flies,17
-Japan,Fagopyrum esculentum,Thoressa varia,lepidoptera,17
-Japan,Fagopyrum esculentum,Vespa simillima,non_bee_hymenoptera,17
-Japan,Fagopyrum esculentum,Vespula flaviceps,non_bee_hymenoptera,17
-Japan,Fagopyrum esculentum,Xylocopa appendiculata circumvolans,other_wild_bees,15
-Japan,Fagopyrum esculentum,Zizeeria maha,lepidoptera,17
-Netherlands,Malus domestica,Andrena_ carantonica,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ chrysosceles,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ cineraria,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ dorsata,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ flavipes,other_wild_bees,30
-Netherlands,Malus domestica,Andrena_ fulva,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ haemorrhoa,other_wild_bees,30
-Netherlands,Malus domestica,Andrena_ minutula-groep,other_wild_bees,15
-Netherlands,Malus domestica,Andrena_ nitida,other_wild_bees,15
-Netherlands,Malus domestica,Apis_ mellifera,honeybees,30
-Netherlands,Malus domestica,Bombus_ hortorum,bumblebees,15
-Netherlands,Malus domestica,Bombus_ hypnorum,bumblebees,30
-Netherlands,Malus domestica,Bombus_ lapidarius,bumblebees,30
-Netherlands,Malus domestica,Bombus_ pascuorum,bumblebees,30
-Netherlands,Malus domestica,Bombus_ pratorum,bumblebees,15
-Netherlands,Malus domestica,Bombus_ terrestris,bumblebees,15
-Netherlands,Malus domestica,Bombus_ terrestris-complex,bumblebees,15
-Netherlands,Malus domestica,Bombus_ terrestris/lucorum,bumblebees,15
-Netherlands,Malus domestica,Eristalis_ pertinax,syrphids,30
-Netherlands,Malus domestica,Eristalis_ similis,syrphids,15
-Netherlands,Malus domestica,Eristalis_ spec.,syrphids,15
-Netherlands,Malus domestica,Eupeodes_ cf. corollae,syrphids,15
-Netherlands,Malus domestica,Helophilus_ pendulus,syrphids,30
-Netherlands,Malus domestica,Heringia_ vitripennis,syrphids,15
-Netherlands,Malus domestica,Lasioglossum_ spec.,other_wild_bees,15
-Netherlands,Malus domestica,Melanostoma_ mellinum,syrphids,30
-Netherlands,Malus domestica,Neocnemodon_ vitripennis,syrphids,15
-Netherlands,Malus domestica,Osmia_ bicornis,other_wild_bees,15
-Netherlands,Malus domestica,Osmia_ rufa,other_wild_bees,15
-Netherlands,Malus domestica,Platycheirus_ albimanus,syrphids,30
-Netherlands,Malus domestica,Platycheirus_ cf. scutatus,syrphids,15
-Netherlands,Malus domestica,Rhingia_ campestris,syrphids,15
-Netherlands,Vaccinium corymbosum,A. mellifera,honeybees,15
-Netherlands,Vaccinium corymbosum,Andrena carantonica,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena fulva,other_wild_bees,30
-Netherlands,Vaccinium corymbosum,Andrena haemorrhoa,other_wild_bees,30
-Netherlands,Vaccinium corymbosum,Andrena mitis,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena nigroaenea,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena nitida,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena sp.,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena synadelpha,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena vaga,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Andrena_cineraria,other_wild_bees,15
-Netherlands,Vaccinium corymbosum,Apis mellifera,honeybees,15
-Netherlands,Vaccinium corymbosum,B. hortorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,B. hypnorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,B. lapidarius,bumblebees,15
-Netherlands,Vaccinium corymbosum,B. pascuorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,B. pratorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,B. terrestris,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus hortorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus hypnorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus lapidarius,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus pascuorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus pratorum,bumblebees,15
-Netherlands,Vaccinium corymbosum,Bombus terrestris,bumblebees,15
-Netherlands,Vaccinium corymbosum,Epistrophe_eligans,syrphids,15
-Netherlands,Vaccinium corymbosum,Episyrhpus balteatus,syrphids,30
-Netherlands,Vaccinium corymbosum,Eristalis tenax,syrphids,15
-Netherlands,Vaccinium corymbosum,Eupeodes corollae,syrphids,15
-Netherlands,Vaccinium corymbosum,Helophilus pendulus,syrphids,15
-Netherlands,Vaccinium corymbosum,Helophilus trivittatus,syrphids,15
-Netherlands,Vaccinium corymbosum,Lasioglossum sexnotatum,other_wild_bees,30
-Netherlands,Vaccinium corymbosum,Myathropa florea,syrphids,30
-Netherlands,Vaccinium corymbosum,Osmia bicornis,other_wild_bees,30
-Netherlands,Vaccinium corymbosum,Syrphus vitripennis,syrphids,30
-South Africa,Helianthus annuus,“Lagria” cf. aeneipennis Fåhraeus,beetles,30
-South Africa,Helianthus annuus,Apis mellifera L.,honeybees,30
-South Africa,Helianthus annuus,Astylus atromaculatus Blanchard *,beetles,30
-South Africa,Helianthus annuus,Betasyrphus adliagatus,syrphids,30
-South Africa,Helianthus annuus,Caliophoridae sp.,other_flies,30
-South Africa,Helianthus annuus,Carpophilus sp.,beetles,30
-South Africa,Helianthus annuus,Cynthia cardui,lepidoptera,30
-South Africa,Helianthus annuus,Decaria sp.,beetles,30
-South Africa,Helianthus annuus,Dioxyna sororcula,other_flies,30
-South Africa,Helianthus annuus,Eumerus obliquus,syrphids,30
-South Africa,Helianthus annuus,Heteroptera sp.,other,30
-South Africa,Helianthus annuus,Heteroptera sp1,other,30
-South Africa,Helianthus annuus,Hypolimnas misippus,lepidoptera,30
-South Africa,Helianthus annuus,Junonia oenone,lepidoptera,30
-South Africa,Helianthus annuus,Lasioglossum sp.,other_wild_bees,30
-South Africa,Helianthus annuus,Lathrididae sp.,beetles,30
-South Africa,Helianthus annuus,Macroglossum trochilus (Hubner),lepidoptera,30
-South Africa,Helianthus annuus,Megachile frontalis cf.,other_wild_bees,30
-South Africa,Helianthus annuus,Monolepta citrinella Jacoby,beetles,30
-South Africa,Helianthus annuus,moth sp3,lepidoptera,30
-South Africa,Helianthus annuus,moth sp5,lepidoptera,30
-South Africa,Helianthus annuus,Sarcophagidae sp.,other_flies,30
-South Africa,Helianthus annuus,Senaspis haemorrhoa,syrphids,30
-South Africa,Helianthus annuus,Syrphidae sp1,syrphids,30
-South Africa,Helianthus annuus,Syrphidae sp20,syrphids,30
-South Africa,Helianthus annuus,Tetraloniella ? apicalis (Friese),other_wild_bees,30
-South Africa,Helianthus annuus,Utetheisa pulchella,lepidoptera,30
-South Africa,Helianthus annuus,Vespidae sp.,non_bee_hymenoptera,30
-South Africa,Helianthus annuus,Xylocopa inconstans,other_wild_bees,30
-South Africa,Mangifera indica,Anoplolepis_sp_2_,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Apionidae_sp1,beetles,32
-South Africa,Mangifera indica,Apis mellifera,honeybees,12
-South Africa,Mangifera indica,Apis_mellifera,honeybees,32
-South Africa,Mangifera indica,Betassyrphus adligatus,syrphids,12
-South Africa,Mangifera indica,Bruchidius_sp__2,beetles,32
-South Africa,Mangifera indica,Bruchidius_sp__near_mendosus__Gyllenhal_,beetles,32
-South Africa,Mangifera indica,Caliophoridae_sp1,other_flies,32
-South Africa,Mangifera indica,Caliophoridae_sp2,other_flies,32
-South Africa,Mangifera indica,Caliophoridae_sp3,other_flies,32
-South Africa,Mangifera indica,Camponotus_sp_1__,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Ceratina sp. (Ceratina lunata Friese or Ceratina moerenhouti Vachal),other_wild_bees,12
-South Africa,Mangifera indica,Ceratina.sp...inc._labrosa_Friese.,other_wild_bees,32
-South Africa,Mangifera indica,Chalcidoidea_sp_,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Chrysidae,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Cratocentrus  sp,non_bee_hymenoptera,12
-South Africa,Mangifera indica,Diptera sp1,other_flies,12
-South Africa,Mangifera indica,Empididae sp1,other_flies,12
-South Africa,Mangifera indica,Empididae sp2,other_flies,12
-South Africa,Mangifera indica,Eucoilidae sp1,non_bee_hymenoptera,12
-South Africa,Mangifera indica,Eumerus obliquus,syrphids,12
-South Africa,Mangifera indica,Exochomus_troberti_Mulsant_1850,beetles,32
-South Africa,Mangifera indica,Formicidae_sp2__bunduda_,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Heteroptera_10_mm_sp1,other,32
-South Africa,Mangifera indica,Heteroptera_2mm,other,32
-South Africa,Mangifera indica,Heteroptera_5mm,other,32
-South Africa,Mangifera indica,heteroptera_sp3,other,32
-South Africa,Mangifera indica,Hippodamia.variegata..Goeze.,beetles,32
-South Africa,Mangifera indica,Ischiodon aegyptius,syrphids,12
-South Africa,Mangifera indica,Lasioglossum_sp1_cf_,other_wild_bees,32
-South Africa,Mangifera indica,Lepidoptera sp.,lepidoptera,12
-South Africa,Mangifera indica,Lepisiota_sp_2_,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Macrocoma_sp__near_apicicornis,beetles,32
-South Africa,Mangifera indica,Malachiinae sp1,beetles,12
-South Africa,Mangifera indica,Malachiinae_sp1,beetles,32
-South Africa,Mangifera indica,Monolepta_ursulae_Wagner_2003,beetles,32
-South Africa,Mangifera indica,Mordellinae sp1,beetles,12
-South Africa,Mangifera indica,Muscidae..inc.Musca_domestica_L.,other_flies,32
-South Africa,Mangifera indica,Nitulidae_sp_,beetles,32
-South Africa,Mangifera indica,Pagurodactylus_sp2,beetles,32
-South Africa,Mangifera indica,Paragus longiventris,syrphids,12
-South Africa,Mangifera indica,Pedinorrhina__Chondrorrhina__trivittata__Schaum,beetles,32
-South Africa,Mangifera indica,Rhyncomya forcipata,other_flies,12
-South Africa,Mangifera indica,Sarcophagidae.sp,other_flies,32
-South Africa,Mangifera indica,"Scymnus cf. capicola Casey, 1899",beetles,12
-South Africa,Mangifera indica,Staphilinidae_sp_,beetles,32
-South Africa,Mangifera indica,Syrphidae sp2,syrphids,12
-South Africa,Mangifera indica,talvez_Allograpta_calopus_,syrphids,32
-South Africa,Mangifera indica,Tetramorium_sp_1_,non_bee_hymenoptera,32
-South Africa,Mangifera indica,Xylocopa sp.,other_wild_bees,12
-Sweden,Brassica napus,Aglais_urticae,lepidoptera,10
-Sweden,Brassica napus,Andrena sp1,wild_bees,15
-Sweden,Brassica napus,Andrena sp2,wild_bees,15
-Sweden,Brassica napus,Andrena sp3,wild_bees,15
-Sweden,Brassica napus,Andrena sp4,wild_bees,15
-Sweden,Brassica napus,Andrena sp5,wild_bees,15
-Sweden,Brassica napus,Andrena sp6,wild_bees,15
-Sweden,Brassica napus,Andrena sp7,wild_bees,15
-Sweden,Brassica napus,Anthomyiidae sp1,non_bee_hymenoptera,15
-Sweden,Brassica napus,Anthomyiidae sp2,non_bee_hymenoptera,15
-Sweden,Brassica napus,Anthomyiidae sp3,non_bee_hymenoptera,15
-Sweden,Brassica napus,Anthomyiidae sp4,non_bee_hymenoptera,15
-Sweden,Brassica napus,Anthomyiidae sp5,non_bee_hymenoptera,15
-Sweden,Brassica napus,Apis_mellifera,honeybees,10
-Sweden,Brassica napus,Athous vittatus,beetles,15
-Sweden,Brassica napus,Bibionidae sp1,other_flies,15
-Sweden,Brassica napus,Bombus lapidarius,bumblebees,15
-Sweden,Brassica napus,Bombus lucorum,bumblebees,15
-Sweden,Brassica napus,Bombus ruderarius,bumblebees,15
-Sweden,Brassica napus,Bombus terrestris,bumblebees,15
-Sweden,Brassica napus,Bombus_lapidarius,bumblebees,10
-Sweden,Brassica napus,Bombus_lucorum,bumblebees,10
-Sweden,Brassica napus,Bombus_sp,bumblebees,10
-Sweden,Brassica napus,Bombus_terrestris,bumblebees,10
-Sweden,Brassica napus,Cantharis fusca,beetles,15
-Sweden,Brassica napus,Cantharis livida,beetles,15
-Sweden,Brassica napus,Cantharis nigricans,beetles,15
-Sweden,Brassica napus,Cantharis obscura,beetles,15
-Sweden,Brassica napus,Cantharis pellucida,beetles,15
-Sweden,Brassica napus,Ceratina sp1,wild_bees,15
-Sweden,Brassica napus,Corymbites sp1,beetles,15
-Sweden,Brassica napus,Dolores haematodes,non_bee_hymenoptera,15
-Sweden,Brassica napus,Dolorus nitens,non_bee_hymenoptera,15
-Sweden,Brassica napus,Empididae sp1,other_flies,15
-Sweden,Brassica napus,Empis_sp,other_flies,10
-Sweden,Brassica napus,Episyrphus_balteatus,syrphids,10
-Sweden,Brassica napus,Eristalis interrupta,syrphids,15
-Sweden,Brassica napus,Eristalis picea,syrphids,15
-Sweden,Brassica napus,Eristalis_arbustorum,syrphids,10
-Sweden,Brassica napus,gen_sp,other_wild_bees,10
-Sweden,Brassica napus,gen_sp,syrphids,10
-Sweden,Brassica napus,Gonopteryx_rhamni,lepidoptera,10
-Sweden,Brassica napus,Ichneumonidae sp1,non_bee_hymenoptera,15
-Sweden,Brassica napus,Limonius pilosus,beetles,15
-Sweden,Brassica napus,Melanostoma mellinum,syrphids,15
-Sweden,Brassica napus,Melanostoma_mellinum,syrphids,10
-Sweden,Brassica napus,Muscidae sp1,other_flies,15
-Sweden,Brassica napus,Muscidae sp2,other_flies,15
-Sweden,Brassica napus,Muscidae sp3,other_flies,15
-Sweden,Brassica napus,Muscidae sp8,other_flies,15
-Sweden,Brassica napus,Pachyprotasis rapae,non_bee_hymenoptera,15
-Sweden,Brassica napus,Pieris napi,lepidoptera,15
-Sweden,Brassica napus,Pieris_brassicae,lepidoptera,10
-Sweden,Brassica napus,Platycheirus peltatus,syrphids,15
-Sweden,Brassica napus,Platycheirus Scambus,syrphids,15
-Sweden,Brassica napus,Rhagonycha limbata,beetles,15
-Sweden,Brassica napus,Rhingia campestris,syrphids,15
-Sweden,Brassica napus,Scathophaga sp1,other_flies,15
-Sweden,Brassica napus,Sphaerophoria scripta,syrphids,15
-Sweden,Brassica napus,Sphaerophoria_scripta,syrphids,10
-Sweden,Brassica napus,NA,beetles,15
-Sweden,Brassica napus,NA,bumblebees,15
-Sweden,Brassica napus,NA,honeybees,15
-Sweden,Brassica napus,NA,lepidoptera,15
-Sweden,Brassica napus,NA,non_bee_hymenoptera,15
-Sweden,Brassica napus,NA,other,15
-Sweden,Brassica napus,NA,other_flies,15
-Sweden,Brassica napus,NA,syrphids,15
-Sweden,Brassica napus,NA,wild_bees,15
-Sweden,Brassica rapa,Andrena semilaevis,other_wild_bees,11
-Sweden,Brassica rapa,Apis mellifera,honeybees,11
-Sweden,Brassica rapa,Bombus distinguendus,bumblebees,11
-Sweden,Brassica rapa,Bombus hortorum,bumblebees,11
-Sweden,Brassica rapa,Bombus hypnorum,bumblebees,11
-Sweden,Brassica rapa,Bombus lapidarius,bumblebees,11
-Sweden,Brassica rapa,Bombus muscorum,bumblebees,11
-Sweden,Brassica rapa,Bombus pascuorum,bumblebees,11
-Sweden,Brassica rapa,Bombus pratensis,bumblebees,11
-Sweden,Brassica rapa,Bombus rudurarius,bumblebees,11
-Sweden,Brassica rapa,Bombus soroeensis,bumblebees,11
-Sweden,Brassica rapa,Bombus sp.,bumblebees,11
-Sweden,Brassica rapa,Bombus subterraneus,bumblebees,11
-Sweden,Brassica rapa,Bombus sylvestris,bumblebees,11
-Sweden,Brassica rapa,Bombus terrestris,bumblebees,11
-Sweden,Brassica rapa,Cerceris rybyensis,non_bee_hymenoptera,11
-Sweden,Brassica rapa,Chloromyia formosa,other_flies,11
-Sweden,Brassica rapa,Episyrphus balteatus,syrphids,11
-Sweden,Brassica rapa,Eupeodes corollae,syrphids,11
-Sweden,Brassica rapa,Halictus tumulorum,other_wild_bees,11
-Sweden,Brassica rapa,Lasioglossum leucopus,other_wild_bees,11
-Sweden,Brassica rapa,Lindenius albilabris,non_bee_hymenoptera,11
-Sweden,Brassica rapa,Melanostoma mellinum,syrphids,11
-Sweden,Brassica rapa,Nemotelus nigrinus,other_flies,11
-Sweden,Brassica rapa,Platycheirus clypeatus,syrphids,11
-Sweden,Brassica rapa,Sargus iridatus,other_flies,11
-Sweden,Brassica rapa,Sphaerophoria scripta,syrphids,11
-Sweden,Brassica rapa,Syritta pipiens,syrphids,11
-Sweden,Brassica rapa,Trypoxylon clavicerum,non_bee_hymenoptera,11
-Sweden,Fragaria x ananassa,Apoidea,other_wild_bees,30
-Sweden,Vicia faba,Bombus hortorum,bumblebees,16
-Sweden,Vicia faba,Bombus hypnorum,bumblebees,16
-Sweden,Vicia faba,Bombus lapidarius,bumblebees,16
-Sweden,Vicia faba,Bombus pascuorum,bumblebees,16
-Sweden,Vicia faba,Bombus sp,bumblebees,16
-Sweden,Vicia faba,Bombus sylvarum,bumblebees,16
-Sweden,Vicia faba,Bombus terrestris/lucorum,bumblebees,16
-Tanzania,Coffea arabica,Apis mellifera,honeybees,12
-Tanzania,Coffea arabica,Apoidea_largerthanHoneybee,other_wild_bees,12
-Tanzania,Coffea arabica,Apoidea_sizeequalsHoneybee,other_wild_bees,12
-Tanzania,Coffea arabica,Apoidea_smallerthanHoneybee,other_wild_bees,12
-Tanzania,Coffea arabica,Formicidae,non_bee_hymenoptera,12
-Tanzania,Coffea arabica,Hymenoptera_Nonbee_Aculeata,other_wild_bees,12
-Tanzania,Coffea arabica,Lepidoptera,lepidoptera,12
-Tanzania,Coffea arabica,other_Diptera,other_flies,12
-Tanzania,Coffea arabica,Syrphidae,syrphids,12
-UK,Brassica napus,Andrena chrysosceles,other_wild_bees,8
-UK,Brassica napus,Andrena nigroaenea,other_wild_bees,8
-UK,Brassica napus,Apis mellifera,honeybees,8
-UK,Brassica napus,Bibio spp. (st Marks fly),other_flies,8
-UK,Brassica napus,Bombus hypnorum,bumblebees,8
-UK,Brassica napus,Bombus lapidarius,bumblebees,8
-UK,Brassica napus,Bombus pascuorum,bumblebees,8
-UK,Brassica napus,Bombus pratorum,bumblebees,8
-UK,Brassica napus,Bombus spp. unknown or unidentified,bumblebees,8
-UK,Brassica napus,Bombus terrestris or lucorum,bumblebees,8
-UK,Brassica napus,Coleoptera unknown or unidentified,beetles,8
-UK,Brassica napus,Diptera unknown or unidentified,other_flies,8
-UK,Brassica napus,Empididea spp,other_flies,8
-UK,Brassica napus,Eristalis intricarius,syrphids,8
-UK,Brassica napus,Hoverfly unknown or unidentified,syrphids,8
-UK,Brassica napus,Ladybirds,beetles,8
-UK,Brassica napus,Lepidoptera,lepidoptera,8
-UK,Brassica napus,Platycheirus albimanus,syrphids,8
-UK,Brassica napus,Platycheirus manicatus,syrphids,8
-UK,Brassica napus,Pollen beetle,beetles,8
-UK,Brassica napus,Solitary bee unknown or unidentified,other_wild_bees,8
-UK,Brassica napus,Syrphus ribesii,syrphids,8
-UK,Brassica napus,Tipulidae spp.,other_flies,8
-UK,Brassica napus,Weevil,beetles,8
-UK,Fragaria x ananassa,Andrena bicolor,other_wild_bees,8
-UK,Fragaria x ananassa,Andrena chrysosceles,other_wild_bees,8
-UK,Fragaria x ananassa,Ant,non_bee_hymenoptera,8
-UK,Fragaria x ananassa,Apis mellifera,honeybees,8
-UK,Fragaria x ananassa,Bombus hypnorum,bumblebees,8
-UK,Fragaria x ananassa,Bombus lapidarius,bumblebees,8
-UK,Fragaria x ananassa,Bombus pascuorum,bumblebees,8
-UK,Fragaria x ananassa,Bombus pratorum,bumblebees,8
-UK,Fragaria x ananassa,Bombus spp. unknown or unidentified,bumblebees,8
-UK,Fragaria x ananassa,Bombus terrestris or lucorum,bumblebees,8
-UK,Fragaria x ananassa,Chrysopidae spp.,other,8
-UK,Fragaria x ananassa,Clytus arietus,beetles,8
-UK,Fragaria x ananassa,Coccinella septempunctata,beetles,8
-UK,Fragaria x ananassa,Coleoptera unknown or unidentified,beetles,8
-UK,Fragaria x ananassa,Cricket/Grasshopper,other,8
-UK,Fragaria x ananassa,Diptera unknown or unidentified,other_flies,8
-UK,Fragaria x ananassa,Hoverfly unknown or unidentified,syrphids,8
-UK,Fragaria x ananassa,Lasioglossum calceatum,other_wild_bees,8
-UK,Fragaria x ananassa,Lepidoptera,lepidoptera,8
-UK,Fragaria x ananassa,Miris striatus,other,8
-UK,Fragaria x ananassa,Nephrotoma spp.,other_flies,8
-UK,Fragaria x ananassa,Oedemera lurida,beetles,8
-UK,Fragaria x ananassa,Oedemera spp.,beetles,8
-UK,Fragaria x ananassa,Phyllopertha horticola,beetles,8
-UK,Fragaria x ananassa,Platycheirus manicatus,syrphids,8
-UK,Fragaria x ananassa,Platycheirus sp.,syrphids,8
-UK,Fragaria x ananassa,Rove beetle,beetles,8
-UK,Fragaria x ananassa,Solitary bee unknown or unidentified,other_wild_bees,8
-UK,Fragaria x ananassa,Sphaerophoria sp.,syrphids,8
-UK,Fragaria x ananassa,spider,other,8
-UK,Malus domestica,Andrena dorsata,other_wild_bees,8
-UK,Malus domestica,Andrena haemorrhoa,other_wild_bees,8
-UK,Malus domestica,Andrena nitida,other_wild_bees,8
-UK,Malus domestica,Andrena sp.,other_wild_bees,8
-UK,Malus domestica,Ant,non_bee_hymenoptera,8
-UK,Malus domestica,Apis mellifera,honeybees,8
-UK,Malus domestica,Bombus lapidarius,bumblebees,8
-UK,Malus domestica,Bombus pratorum,bumblebees,8
-UK,Malus domestica,Bombus spp. unknown or unidentified,bumblebees,8
-UK,Malus domestica,Bombus terrestris or lucorum,bumblebees,8
-UK,Malus domestica,Brachycera spp.,other_flies,8
-UK,Malus domestica,Chrysopidae spp.,other,8
-UK,Malus domestica,Coleoptera unknown or unidentified,beetles,8
-UK,Malus domestica,Crane flies,other_flies,8
-UK,Malus domestica,Cyclorrhapha,other_flies,8
-UK,Malus domestica,Diptera unknown or unidentified,other_flies,8
-UK,Malus domestica,Flesh flies,other_flies,8
-UK,Malus domestica,Hemiptera unknown or unidentified,other,8
-UK,Malus domestica,Hoverfly unknown or unidentified,syrphids,8
-UK,Malus domestica,Ladybirds,beetles,8
-UK,Malus domestica,Lepidoptera,lepidoptera,8
-UK,Malus domestica,Parasitoids,non_bee_hymenoptera,8
-UK,Malus domestica,Plecoptera spp.,other,8
-UK,Malus domestica,Shield Bugs,other,8
-UK,Malus domestica,Solitary bee unknown or unidentified,other_wild_bees,8
-UK,Malus domestica,Sphaerophoria sp.,syrphids,8
-UK,Malus domestica,spider,other,8
-UK,Malus domestica,Weevil,beetles,8
-UK,Vicia faba,Andrena carantonica,other_wild_bees,8
-UK,Vicia faba,Andrena haemorrhoa,other_wild_bees,8
-UK,Vicia faba,Andrena wilkella,other_wild_bees,8
-UK,Vicia faba,Andrena_cineraria,other_wild_bees,10
-UK,Vicia faba,Andrena_labialis,other_wild_bees,10
-UK,Vicia faba,Andrena_wilkella,other_wild_bees,10
-UK,Vicia faba,Apis mellifera,honeybees,8
-UK,Vicia faba,Apis_mellifera,honeybees,10
-UK,Vicia faba,Bombus hortorum,bumblebees,8
-UK,Vicia faba,Bombus hypnorum,bumblebees,8
-UK,Vicia faba,Bombus lapidarius,bumblebees,8
-UK,Vicia faba,Bombus pascuorum,bumblebees,8
-UK,Vicia faba,Bombus pratorum,bumblebees,8
-UK,Vicia faba,Bombus rupestris,bumblebees,8
-UK,Vicia faba,Bombus spp. unknown or unidentified,bumblebees,8
-UK,Vicia faba,Bombus terrestris or lucorum,bumblebees,8
-UK,Vicia faba,Bombus_hortorum,bumblebees,10
-UK,Vicia faba,Bombus_lapidarius,bumblebees,10
-UK,Vicia faba,Bombus_lucorum/terrestris,bumblebees,10
-UK,Vicia faba,Bombus_pascuorum,bumblebees,10
-UK,Vicia faba,Coleoptera unknown or unidentified,beetles,8
-UK,Vicia faba,Crane flies,other_flies,8
-UK,Vicia faba,Cyclorrhapha,other_flies,8
-UK,Vicia faba,Diptera unknown or unidentified,other_flies,8
-UK,Vicia faba,Episyrphus balteatus,syrphids,8
-UK,Vicia faba,Flesh flies,other_flies,8
-UK,Vicia faba,Halictus rubicundus,other_wild_bees,8
-UK,Vicia faba,Hoverfly unknown or unidentified,syrphids,8
-UK,Vicia faba,Odonata spp.,other,8
-UK,Vicia faba,Parasitoids,non_bee_hymenoptera,8
-UK,Vicia faba,Saw flies,non_bee_hymenoptera,8
-UK,Vicia faba,Solitary bee unknown or unidentified,other_wild_bees,8
-UK,Vicia faba,Unknown cuckoo bee,other_wild_bees,8
-UK,Vicia faba,Weevil,beetles,8
-USA,Fragaria x ananassa,Andrena,other_wild_bees,30
-USA,Fragaria x ananassa,Andrena cressonii,other_wild_bees,16
-USA,Fragaria x ananassa,Andrena nasonii,other_wild_bees,136
-USA,Fragaria x ananassa,ant,non_bee_hymenoptera,16
-USA,Fragaria x ananassa,Apis mellifera,honeybees,136
-USA,Fragaria x ananassa,Augochlorella,other_wild_bees,30
-USA,Fragaria x ananassa,Augochlorella aurata,other_wild_bees,106
-USA,Fragaria x ananassa,beetle,beetles,16
-USA,Fragaria x ananassa,Bombus,bumblebees,30
-USA,Fragaria x ananassa,Bombus californicus,bumblebees,16
-USA,Fragaria x ananassa,Bombus impatiens,bumblebees,60
-USA,Fragaria x ananassa,Bombus melanopygus,bumblebees,16
-USA,Fragaria x ananassa,Bombus rufocinctus,bumblebees,16
-USA,Fragaria x ananassa,Bombus vosnesenskii,bumblebees,16
-USA,Fragaria x ananassa,butterfly,other_flies,16
-USA,Fragaria x ananassa,Ceratina,other_wild_bees,30
-USA,Fragaria x ananassa,Ceratina calcarata,other_wild_bees,76
-USA,Fragaria x ananassa,Ceratina dupla,other_wild_bees,60
-USA,Fragaria x ananassa,Ceratina mikmaqi,other_wild_bees,16
-USA,Fragaria x ananassa,Ceratina sp,other_wild_bees,30
-USA,Fragaria x ananassa,flower_fly,syrphids,16
-USA,Fragaria x ananassa,green_leaf_beetle_pest_insect,beetles,16
-USA,Fragaria x ananassa,Halictus,other_wild_bees,30
-USA,Fragaria x ananassa,Halictus confusus,other_wild_bees,106
-USA,Fragaria x ananassa,Halictus tripartitus,other_wild_bees,16
-USA,Fragaria x ananassa,honey_bee,honeybees,16
-USA,Fragaria x ananassa,Hylaeus sp,other_wild_bees,30
-USA,Fragaria x ananassa,Large Andrena sp.,other_wild_bees,30
-USA,Fragaria x ananassa,Lasioglossum,other_wild_bees,30
-USA,Fragaria x ananassa,Lasioglossum (Dialictus) spp.,other_wild_bees,16
-USA,Fragaria x ananassa,Lasioglossum hitchensi,other_wild_bees,16
-USA,Fragaria x ananassa,Lasioglossum incompletum,other_wild_bees,16
-USA,Fragaria x ananassa,Lasioglossum kincaidii,other_wild_bees,16
-USA,Fragaria x ananassa,Lasioglossum knereri,other_wild_bees,16
-USA,Fragaria x ananassa,Lasioglossum sp,other_wild_bees,30
-USA,Fragaria x ananassa,Lasioglossum tegulariforme,other_wild_bees,16
-USA,Fragaria x ananassa,native_bee,other_wild_bees,16
-USA,Fragaria x ananassa,native_bumble_bee,bumblebees,16
-USA,Fragaria x ananassa,Nomada,other_wild_bees,30
-USA,Fragaria x ananassa,Nomada sp,other_wild_bees,30
-USA,Fragaria x ananassa,Osmia,other_wild_bees,30
-USA,Fragaria x ananassa,Osmia sp,other_wild_bees,30
-USA,Fragaria x ananassa,other,other,16
-USA,Fragaria x ananassa,other_fly,other_flies,16
-USA,Fragaria x ananassa,parasitoid_wasp,non_bee_hymenoptera,16
-USA,Fragaria x ananassa,vespids,non_bee_hymenoptera,16
-USA,Gossypium hirsutum,Agapostemon texana,other_wild_bees,12
-USA,Gossypium hirsutum,Allograpta exotica,syrphids,12
-USA,Gossypium hirsutum,Apis mellifera,honeybees,12
-USA,Gossypium hirsutum,Bombus pensylvanicus,bumblebees,12
-USA,Gossypium hirsutum,Brephidium exile,lepidoptera,12
-USA,Gossypium hirsutum,Diabrotica undecimpunctata,beetles,12
-USA,Gossypium hirsutum,Halictus ligatus,other_wild_bees,12
-USA,Gossypium hirsutum,Hermetia  illucens ,other_flies,12
-USA,Gossypium hirsutum,Ladybird sp1,beetles,12
-USA,Gossypium hirsutum,Ladybird sp2,beetles,12
-USA,Gossypium hirsutum,Ladybird sp3,beetles,12
-USA,Gossypium hirsutum,Ladybird sp4,beetles,12
-USA,Gossypium hirsutum,Lasioglossum coactum,other_wild_bees,12
-USA,Gossypium hirsutum,Lasioglossum dialictus sp.,other_wild_bees,12
-USA,Gossypium hirsutum,Lepidoptera sp1,lepidoptera,12
-USA,Gossypium hirsutum,Lerodae eufala,lepidoptera,12
-USA,Gossypium hirsutum,Melissodes tepanaca,other_wild_bees,12
-USA,Gossypium hirsutum,Muscidae sp1,other_flies,12
-USA,Gossypium hirsutum,Palpada furcata,syrphids,12
-USA,Gossypium hirsutum,Polistes sp2,non_bee_hymenoptera,12
-USA,Gossypium hirsutum,Strymon melinus,lepidoptera,12
-USA,Gossypium hirsutum,Toxomerus politus,syrphids,12
-USA,malus domestica,Andrena carlini,other_wild_bees,17
-USA,malus domestica,Andrena cressonii,other_wild_bees,36
-USA,malus domestica,Andrena hippotes,other_wild_bees,17
-USA,malus domestica,Andrena imitatrix,other_wild_bees,17
-USA,malus domestica,Andrena miserabilis,other_wild_bees,17
-USA,malus domestica,Andrena nasonii,other_wild_bees,36
-USA,malus domestica,Andrena perplexa,other_wild_bees,19
-USA,malus domestica,Bombus auricomus,bumblebees,19
-USA,malus domestica,Bombus bimaculatus,bumblebees,36
-USA,malus domestica,Bombus fervidus,bumblebees,36
-USA,malus domestica,Bombus impatiens,bumblebees,36
-USA,malus domestica,Bombus vagans,bumblebees,19
-USA,malus domestica,Lasioglossum hitchensi,other_wild_bees,36
+country,crop,pollinator,guild
+Argentina,Citrus limon,Abeja abdomen naranja,other_wild_bees
+Argentina,Citrus limon,Abeja brillante sin pelos rayas en abdomen,other_wild_bees
+Argentina,Citrus limon,Abeja marron cola negra,other_wild_bees
+Argentina,Citrus limon,Abeja negra,other_wild_bees
+Argentina,Citrus limon,Aphididae,other
+Argentina,Citrus limon,Apis melifera,honeybees
+Argentina,Citrus limon,Avispa marron,non_bee_hymenoptera
+Argentina,Citrus limon,Avispa negra,non_bee_hymenoptera
+Argentina,Citrus limon,Avispa negra copada,non_bee_hymenoptera
+Argentina,Citrus limon,Avispa pequeña,non_bee_hymenoptera
+Argentina,Citrus limon,Avispa rayada,non_bee_hymenoptera
+Argentina,Citrus limon,Bombus atratus,bumblebees
+Argentina,Citrus limon,Bombus negro,bumblebees
+Argentina,Citrus limon,Coleoptera 1,beetles
+Argentina,Citrus limon,Coleoptera 2,beetles
+Argentina,Citrus limon,Coleoptera 3,beetles
+Argentina,Citrus limon,Diptero 1,other_flies
+Argentina,Citrus limon,Diptero 2,other_flies
+Argentina,Citrus limon,Diptero 3,other_flies
+Argentina,Citrus limon,Diptero 4,other_flies
+Argentina,Citrus limon,Diptero 5,other_flies
+Argentina,Citrus limon,Diptero 6,other_flies
+Argentina,Citrus limon,Halictidae 1,other_wild_bees
+Argentina,Citrus limon,Halictidae 2,other_wild_bees
+Argentina,Citrus limon,Halictidae 3,other_wild_bees
+Argentina,Citrus limon,Hormiga,non_bee_hymenoptera
+Argentina,Citrus limon,Ligaidae,other
+Argentina,Citrus limon,Mariposa alas transparentes,lepidoptera
+Argentina,Citrus limon,Mariposa gris chiquita,lepidoptera
+Argentina,Citrus limon,Mariposa marron grande,lepidoptera
+Argentina,Citrus limon,Mariposa marron pequeña,lepidoptera
+Argentina,Citrus limon,Mariposa monarca,lepidoptera
+Argentina,Citrus limon,Mosca brillante,other_flies
+Argentina,Citrus limon,Mosca domestica,other_flies
+Argentina,Citrus limon,Mosca gris lomo rayado,other_flies
+Argentina,Citrus limon,Papilio thoas,lepidoptera
+Argentina,Citrus limon,Pirpinto amarillo,lepidoptera
+Argentina,Citrus limon,Plebeia sp,other_wild_bees
+Argentina,Citrus limon,Syrphido,syrphids
+Argentina,Citrus limon,Xylocopa eximia,other_wild_bees
+Argentina,Citrus limon,Xylocopa negro,other_wild_bees
+Argentina,Citrus paradisi,Andrenidae,other_wild_bees
+Argentina,Citrus paradisi,Apis mellifera,honeybees
+Argentina,Citrus paradisi,Bombini,other_wild_bees
+Argentina,Citrus paradisi,Coleoptera,beetles
+Argentina,Citrus paradisi,Diptera,other_flies
+Argentina,Citrus paradisi,Halictini,other_wild_bees
+Argentina,Citrus paradisi,Hemiptera,other
+Argentina,Citrus paradisi,Lepidotera,lepidoptera
+Argentina,Citrus paradisi,Megachilidae,other_wild_bees
+Argentina,Citrus paradisi,Meliponini,other_wild_bees
+Argentina,Citrus paradisi,Vespid,non_bee_hymenoptera
+Argentina,Rubus idaeus,Apis mellifera,honeybees
+Argentina,Rubus idaeus,Bombus dahlbomii,bumblebees
+Argentina,Rubus idaeus,Bombus terrestris,bumblebees
+Argentina,Rubus idaeus,Manuelia gayatina,other_wild_bees
+Argentina,Rubus idaeus,Ruizantheda proxima,other_wild_bees
+Argentina,Rubus idaeus,Ruizanthedella mutabilis,other_wild_bees
+Argentina,Vaccinium corymbosum,Allograpta sp1,syrphids
+Argentina,Vaccinium corymbosum,Allograpta sp2,syrphids
+Argentina,Vaccinium corymbosum,Allograpta sp3,syrphids
+Argentina,Vaccinium corymbosum,Apis mellifera,honeybees
+Argentina,Vaccinium corymbosum,Bombus atratus,bumblebees
+Argentina,Vaccinium corymbosum,Bombus belicoso,bumblebees
+Argentina,Vaccinium corymbosum,Calliphora sp.,other_flies
+Argentina,Vaccinium corymbosum,Coccinellidae sp,beetles
+Argentina,Vaccinium corymbosum,Danaus plexippus,lepidoptera
+Argentina,Vaccinium corymbosum,Diptera (ep14),other_flies
+Argentina,Vaccinium corymbosum,Doclichopodidae,other_flies
+Argentina,Vaccinium corymbosum,Eristalis sp2,syrphids
+Argentina,Vaccinium corymbosum,Ichneumonidea,non_bee_hymenoptera
+Argentina,Vaccinium corymbosum,Muscidae,other_flies
+Argentina,Vaccinium corymbosum,Ornidia obessa,syrphids
+Argentina,Vaccinium corymbosum,Phoebis neocypris,lepidoptera
+Argentina,Vaccinium corymbosum,Sarcophagidae,other_flies
+Argentina,Vaccinium corymbosum,Sciaridae sp,other_flies
+Argentina,Vaccinium corymbosum,Syrphus ribessi,syrphids
+Argentina,Vaccinium corymbosum,Tipulidae,other_flies
+Argentina,Vaccinium corymbosum,Toxomerus sp1,syrphids
+Argentina,Vaccinium corymbosum,Toxomerus sp2,syrphids
+Argentina,Vaccinium corymbosum,Typhedanus undulatus,lepidoptera
+Argentina,Vaccinium corymbosum,Vanessa braziliensis,lepidoptera
+Argentina,Vaccinium corymbosum,Vanessa carye,lepidoptera
+Argentina,Vaccinium corymbosum,Vespidae sp1,non_bee_hymenoptera
+Argentina,Vaccinium corymbosum,Vespidae sp2,non_bee_hymenoptera
+Argentina,Vaccinium corymbosum,Vespidae sp3,non_bee_hymenoptera
+Argentina,Vaccinium corymbosum,Xylocopa augusti,other_wild_bees
+Argentina,Vaccinium corymbosum,Xylocopa ciliata,other_wild_bees
+Argentina,Vaccinium corymbosum,Xylocopa macrops,other_wild_bees
+Argentina,Vaccinium corymbosum,Xylocopa splendidula,other_wild_bees
+Australia,Mangifera indica,Allobacha sp.,syrphids
+Australia,Mangifera indica,Allograpta sp.,syrphids
+Australia,Mangifera indica,Apis cerana,other_wild_bees
+Australia,Mangifera indica,Apis mellifera,honeybees
+Australia,Mangifera indica,Apoidea sp 1,other_wild_bees
+Australia,Mangifera indica,Arctiidae sp 1,lepidoptera
+Australia,Mangifera indica,Bombylidae sp,humbleflies
+Australia,Mangifera indica,Chrysididae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Chrysomya sp,other_flies
+Australia,Mangifera indica,Coccinella sp 1,beetles
+Australia,Mangifera indica,Coccinella sp 2,beetles
+Australia,Mangifera indica,Coleoptera sp 1,beetles
+Australia,Mangifera indica,Curculionidae sp 1,beetles
+Australia,Mangifera indica,Curculionidae sp 2,beetles
+Australia,Mangifera indica,Diptera sp 1,other_flies
+Australia,Mangifera indica,Diptera sp 4,other_flies
+Australia,Mangifera indica,Diptera sp 5,other_flies
+Australia,Mangifera indica,Diptera sp 9,other_flies
+Australia,Mangifera indica,Eristalinus sp,syrphids
+Australia,Mangifera indica,Eumerus sp,syrphids
+Australia,Mangifera indica,Formicidae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Formicidae sp 2,non_bee_hymenoptera
+Australia,Mangifera indica,Homalictus damperia,other_wild_bees
+Australia,Mangifera indica,Hymenoptera sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 2,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 3,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 4,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 5,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 6,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 7,non_bee_hymenoptera
+Australia,Mangifera indica,Hymenoptera sp 8,non_bee_hymenoptera
+Australia,Mangifera indica,Ichneumonoidae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Lepidoptera sp 1,lepidoptera
+Australia,Mangifera indica,Lucilia sp,other_flies
+Australia,Mangifera indica,Lucillia sp,other_flies
+Australia,Mangifera indica,Melanostoma sp.,syrphids
+Australia,Mangifera indica,Mesembrius sp,syrphids
+Australia,Mangifera indica,Monolepta australis,beetles
+Australia,Mangifera indica,Musca domestica,other_flies
+Australia,Mangifera indica,Muscidae sp 1,other_flies
+Australia,Mangifera indica,Nezara viridula,other
+Australia,Mangifera indica,Plecia sp,other_flies
+Australia,Mangifera indica,Pompillidae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Sarcophagidae sp 1,other_flies
+Australia,Mangifera indica,Stomorhina discolour,other_flies
+Australia,Mangifera indica,Stomorhina xanthogaster,non_bee_hymenoptera
+Australia,Mangifera indica,Syritta sp,syrphids
+Australia,Mangifera indica,Tachinidae sp 1,other_flies
+Australia,Mangifera indica,Tenebrionidae sp,beetles
+Australia,Mangifera indica,Tetragonula carbonaria,other_wild_bees
+Australia,Mangifera indica,Tiphiidae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Vespidae sp 1,non_bee_hymenoptera
+Australia,Mangifera indica,Xylocopa sp 1,other_wild_bees
+Brazil,Anacardium occidentale,Apis mellifera,honeybees
+Brazil,Anacardium occidentale,Brachygastra lecheguana,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Centris  byrsonimae,other_wild_bees
+Brazil,Anacardium occidentale,Centris byrsonimae,other_wild_bees
+Brazil,Anacardium occidentale,Centris flavifrons,other_wild_bees
+Brazil,Anacardium occidentale,Diptera spp.,other_flies
+Brazil,Anacardium occidentale,Lepidoptera spp.,lepidoptera
+Brazil,Anacardium occidentale,Melitoma aff. segmentaria,other_wild_bees
+Brazil,Anacardium occidentale,Odonata sp.1,other
+Brazil,Anacardium occidentale,Odonata sp.2,other
+Brazil,Anacardium occidentale,Scaptotrigona sp.1,other_wild_bees
+Brazil,Anacardium occidentale,Stratiomyidae sp.2,syrphids
+Brazil,Anacardium occidentale,Tiphiidae sp.4,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Trigona spinipes,other_wild_bees
+Brazil,Anacardium occidentale,vespidae sp.1,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Vespidae sp.1,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Vespidae sp.2,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Vespidae sp.5,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Vespidae sp.6,non_bee_hymenoptera
+Brazil,Anacardium occidentale,Xylocopa cearensis,other_wild_bees
+Brazil,Anacardium occidentale,Xylocopa cearensis ,other_wild_bees
+Brazil,Annona squamosa,Apis mellifera,honeybees
+Brazil,Bixa orellana,Augochloropsis sp.,other_wild_bees
+Brazil,Bixa orellana,Euglossa sp.,other_wild_bees
+Brazil,Bixa orellana,Eulaema nigrita,other_wild_bees
+Brazil,Bixa orellana,Exomalopsis analis,other_wild_bees
+Brazil,Bixa orellana,Megalopta sp.,other_wild_bees
+Brazil,Bixa orellana,Melipona subnitida,other_wild_bees
+Brazil,Bixa orellana,Trigona spinipes,other_wild_bees
+Brazil,Bixa orellana,Xylocopa frontalis,other_wild_bees
+Brazil,Bixa orellana,Xylocopa griscescens,other_wild_bees
+Brazil,Bixa orellana,Xylocopa muscaria,other_wild_bees
+Brazil,Coffea arabica,Apis mellifera,honeybees
+Brazil,Coffea arabica,Asilidae,other_flies
+Brazil,Coffea arabica,Augochloropsis sp.1,other_wild_bees
+Brazil,Coffea arabica,Bibionidae sp.,other_flies
+Brazil,Coffea arabica,Bibionidae sp.1,other_flies
+Brazil,Coffea arabica,Bombus brevivillus,bumblebees
+Brazil,Coffea arabica,Bombus morio,bumblebees
+Brazil,Coffea arabica,Brachygastra lecheguana,non_bee_hymenoptera
+Brazil,Coffea arabica,Bracronidae sp1,non_bee_hymenoptera
+Brazil,Coffea arabica,Calliphoridae sp.1,other_flies
+Brazil,Coffea arabica,Centris (Centris) aenea,other_wild_bees
+Brazil,Coffea arabica,Centris (Hemisiela)tarsata,other_wild_bees
+Brazil,Coffea arabica,Centris sp,other_wild_bees
+Brazil,Coffea arabica,Cerambycidae,beetles
+Brazil,Coffea arabica,Ceratina (Calloceratina) chloris,other_wild_bees
+Brazil,Coffea arabica,Ceratitis capitata,other_flies
+Brazil,Coffea arabica,Ceratitis sp.1,other_flies
+Brazil,Coffea arabica,Chrysomelidae,beetles
+Brazil,Coffea arabica,Chrysops varians,other_flies
+Brazil,Coffea arabica,Coleoptera sp1,beetles
+Brazil,Coffea arabica,Crabronidae sp1,non_bee_hymenoptera
+Brazil,Coffea arabica,Crabronidae sp2,non_bee_hymenoptera
+Brazil,Coffea arabica,Curculionidae,beetles
+Brazil,Coffea arabica,Dermestidae,beetles
+Brazil,Coffea arabica,Dialictus sp.1,other_wild_bees
+Brazil,Coffea arabica,Diptera sp.3,other_flies
+Brazil,Coffea arabica,Diptera sp.4,other_flies
+Brazil,Coffea arabica,Efferia sp.1,other_flies
+Brazil,Coffea arabica,Eichoichemus sp.,other_flies
+Brazil,Coffea arabica,Fanniidae? Sp.2,other_flies
+Brazil,Coffea arabica,Geotrigona subterranea,other_wild_bees
+Brazil,Coffea arabica,Hemipenthes sp.,humbleflies
+Brazil,Coffea arabica,Hemiptera sp.6,other
+Brazil,Coffea arabica,Hymenoptera,non_bee_hymenoptera
+Brazil,Coffea arabica,Hymenoptera sp,non_bee_hymenoptera
+Brazil,Coffea arabica,Lepidoptera,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp 1,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp 2,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp 3,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp 5,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp3,lepidoptera
+Brazil,Coffea arabica,Lepidoptera sp4,lepidoptera
+Brazil,Coffea arabica,Lycidae,beetles
+Brazil,Coffea arabica,Melolonthidae,beetles
+Brazil,Coffea arabica,Mischicyttatus rotundicollis,non_bee_hymenoptera
+Brazil,Coffea arabica,Nannotrigona testaceicornes,other_wild_bees
+Brazil,Coffea arabica,Neuroptera sp.2,other
+Brazil,Coffea arabica,Ocyptamus gastrostactus,syrphids
+Brazil,Coffea arabica,Odonata sp.1,other
+Brazil,Coffea arabica,Ornidia obesa,syrphids
+Brazil,Coffea arabica,Orthoptera sp.1,other
+Brazil,Coffea arabica,Palpada furcata,syrphids
+Brazil,Coffea arabica,Palpada pygolampus,syrphids
+Brazil,Coffea arabica,Partamona sp.1,other_wild_bees
+Brazil,Coffea arabica,Plebeia sp.1,other_wild_bees
+Brazil,Coffea arabica,Polybia ignobilis,non_bee_hymenoptera
+Brazil,Coffea arabica,Polybia sericea,non_bee_hymenoptera
+Brazil,Coffea arabica,Pseudodorus clavatus,syrphids
+Brazil,Coffea arabica,Ripiphoridae,beetles
+Brazil,Coffea arabica,Scoliidae sp.1,non_bee_hymenoptera
+Brazil,Coffea arabica,Stenotabanus sp?,other_flies
+Brazil,Coffea arabica,Symphyta sp1,non_bee_hymenoptera
+Brazil,Coffea arabica,Synoeca cyanea,non_bee_hymenoptera
+Brazil,Coffea arabica,Tachinidae sp.1,other_flies
+Brazil,Coffea arabica,Toxomerus floralis,syrphids
+Brazil,Coffea arabica,Trigona spinipes,other_wild_bees
+Brazil,Coffea arabica,Villa sp.,humbleflies
+Brazil,Malpighia emarginata,Centris aenea,other_wild_bees
+Brazil,Malpighia emarginata,Centris analis,other_wild_bees
+Brazil,Malpighia emarginata,Centris flavifrons,other_wild_bees
+Brazil,Malpighia emarginata,Centris fuscata,other_wild_bees
+Brazil,Malpighia emarginata,Centris tarsata,other_wild_bees
+Brazil,Malpighia emarginata,Trigona spinipes,other_wild_bees
+Brazil,Phaseolus vulgaris L.,Allograpta exotica cf.,syrphids
+Brazil,Phaseolus vulgaris L.,"Apis mellifera Linnaeus, 1758",honeybees
+Brazil,Phaseolus vulgaris L.,Apoidea sp.1,other_wild_bees
+Brazil,Phaseolus vulgaris L.,Bombus  cf. brevivillus,bumblebees
+Brazil,Phaseolus vulgaris L.,"Bombus (Fervidobombus) morio Swederus, 1787",bumblebees
+Brazil,Phaseolus vulgaris L.,Bombus sp.,bumblebees
+Brazil,Phaseolus vulgaris L.,Brachygastra lecheguana,non_bee_hymenoptera
+Brazil,Phaseolus vulgaris L.,Non identified bee,other_wild_bees
+Brazil,Phaseolus vulgaris L.,"Paratrigona lineata Lepeletier, 1836",other_wild_bees
+Brazil,Phaseolus vulgaris L.,Pepsis sp.,non_bee_hymenoptera
+Brazil,Phaseolus vulgaris L.,Polybia dimidiata,non_bee_hymenoptera
+Brazil,Phaseolus vulgaris L.,Polybia ignobilis,non_bee_hymenoptera
+Brazil,Phaseolus vulgaris L.,"Trigona spinipes Fabricius, 1793",other_wild_bees
+France,Allium porrum,Andrena bimaculata,other_wild_bees
+France,Allium porrum,Andrena dorsata,other_wild_bees
+France,Allium porrum,Andrena flavipes,other_wild_bees
+France,Allium porrum,Andrena labialis,other_wild_bees
+France,Allium porrum,Andrena nigroaenea,other_wild_bees
+France,Allium porrum,Andrena thoracica,other_wild_bees
+France,Allium porrum,Andrena wilkella,other_wild_bees
+France,Allium porrum,Apis mellifera,honeybees
+France,Allium porrum,Bembix rostrata,other_flies
+France,Allium porrum,Bombus hypnorum,bumblebees
+France,Allium porrum,Bombus lapidarius,bumblebees
+France,Allium porrum,Bombus pascuorum,bumblebees
+France,Allium porrum,Bombus pratorum,bumblebees
+France,Allium porrum,Bombus terrestris,bumblebees
+France,Allium porrum,Eristalis arbustorum,syrphids
+France,Allium porrum,Eristalis tenax,syrphids
+France,Allium porrum,Halictus scabiosae,other_wild_bees
+France,Allium porrum,Lasioglossum calceatum,other_wild_bees
+France,Allium porrum,Lasioglossum laticeps,other_wild_bees
+France,Allium porrum,Lasioglossum malachurum,other_wild_bees
+France,Allium porrum,Lasioglossum sp.,other_wild_bees
+France,Allium porrum,Lasioglossum subhirtum,other_wild_bees
+France,Allium porrum,Paravespula sp.,non_bee_hymenoptera
+France,Allium porrum,Platycheirus,syrphids
+France,Allium porrum,Platycheirus sp.,syrphids
+France,Allium porrum,Polistes dominula,non_bee_hymenoptera
+France,Allium porrum,Sphaerophoria rueppelli,syrphids
+France,Allium porrum,Sphaerophoria scripta,syrphids
+France,Allium porrum,Stip of streep fopwesp,non_bee_hymenoptera
+France,Allium porrum,Syritta pipiens,syrphids
+France,Allium porrum,wilde bij (klein),other_wild_bees
+France,Allium porrum,Xylocopa violacea,other_wild_bees
+France,Helianthus annuus,Andrena flavipes,other_wild_bees
+France,Helianthus annuus,Apis mellifera,honeybees
+France,Helianthus annuus,Bombus hortorum,bumblebees
+France,Helianthus annuus,Bombus lapidarius,bumblebees
+France,Helianthus annuus,Bombus pascuorum,bumblebees
+France,Helianthus annuus,Bombus sp.,bumblebees
+France,Helianthus annuus,Bombus terrestris-complex,bumblebees
+France,Helianthus annuus,Eristalis sp.,syrphids
+France,Helianthus annuus,Halictinae sp.,other_wild_bees
+France,Helianthus annuus,Halictus scabiosae,other_wild_bees
+France,Helianthus annuus,Lasioglossum malachurum,other_wild_bees
+France,Helianthus annuus,Lasioglossum subhirtum,other_wild_bees
+France,Helianthus annuus,Melanostoma mellinum,syrphids
+France,Helianthus annuus,solitary bee,other_wild_bees
+France,Helianthus annuus,Syrphidae sp.,syrphids
+Germany,Malus domestica,Andrena cineraria,other_wild_bees
+Germany,Malus domestica,Andrena fulva,other_wild_bees
+Germany,Malus domestica,Andrena jacobi,other_wild_bees
+Germany,Malus domestica,Andrena sp.,other_wild_bees
+Germany,Malus domestica,Apis mellifera,honeybees
+Germany,Malus domestica,Beetle,beetles
+Germany,Malus domestica,Bombus lapidarius,bumblebees
+Germany,Malus domestica,Bombus pascuorum,bumblebees
+Germany,Malus domestica,Bombus pratorum,bumblebees
+Germany,Malus domestica,Bombus sp.,bumblebees
+Germany,Malus domestica,Bombus terrestris,bumblebees
+Germany,Malus domestica,Butterfly,lepidoptera
+Germany,Malus domestica,Fly,other_flies
+Germany,Malus domestica,Hoverfly,syrphids
+Germany,Malus domestica,Ladybug,beetles
+Germany,Malus domestica,Lasioglossum sp.,other_wild_bees
+Germany,Malus domestica,Spider,other
+Germany,Malus domestica,Wasp,non_bee_hymenoptera
+Germany,Malus domestica,Wild bee,other_wild_bees
+India,Coffea canephora,Apis cerana indica,other_wild_bees
+India,Coffea canephora,Apis dorsata,honeybees
+India,Coffea canephora,Apis florea,honeybees
+India,Coffea canephora,Apis_cerana,other_wild_bees
+India,Coffea canephora,Apis_dorsata,other_wild_bees
+India,Coffea canephora,Catopsilia pyranthe (Mottled Emigrant),lepidoptera
+India,Coffea canephora,Ceratina hieroglyphica,other_wild_bees
+India,Coffea canephora,Cetoniinae,beetles
+India,Coffea canephora,Coleoptera_sp.1,beetles
+India,Coffea canephora,Coleoptera_sp.2,beetles
+India,Coffea canephora,Coleoptera_sp.3,beetles
+India,Coffea canephora,Diptera-Fly,other_flies
+India,Coffea canephora,Diptera sp1,other_flies
+India,Coffea canephora,Dolichopodidae,other_flies
+India,Coffea canephora,Eumenine,non_bee_hymenoptera
+India,Coffea canephora,Euploea core (Common Indian crow),lepidoptera
+India,Coffea canephora,Junonia iphita (Chocolate pansy),lepidoptera
+India,Coffea canephora,May fly,other_flies
+India,Coffea canephora,Muscidae (like a house fly),other_flies
+India,Coffea canephora,Pieris canidia (Indian cabbage white),lepidoptera
+India,Coffea canephora,Syrphid- Honeybee mimic,syrphids
+India,Coffea canephora,Syrphidae (hover fly),syrphids
+India,Coffea canephora,Tetragonula iridipennis,other_wild_bees
+India,Coffea canephora,Tetragonula_iridipennis,other_wild_bees
+India,Coffea canephora,Thysanoptera (Thrips),other
+Ireland,Brassica napus,Andrena,other_wild_bees
+Ireland,Brassica napus,Apis mellifera,honeybees
+Ireland,Brassica napus,Bombus hortorum,bumblebees
+Ireland,Brassica napus,Bombus lapidarius,bumblebees
+Ireland,Brassica napus,Bombus pascuorum,bumblebees
+Ireland,Brassica napus,Bombus terrestris/lucorum,bumblebees
+Ireland,Brassica napus,Eristalis,syrphids
+Ireland,Brassica napus,fly,other_flies
+Ireland,Brassica napus,Helophilus,syrphids
+Ireland,Brassica napus,Hoverfly A,syrphids
+Ireland,Brassica napus,Melanostoma,syrphids
+Ireland,Brassica napus,Other solitary bee,other_wild_bees
+Ireland,Brassica napus,Pararge aegeria,lepidoptera
+Ireland,Brassica napus,Rhingia campestris,syrphids
+Italy,Allium porrum,Andrena albopunctata,other_wild_bees
+Italy,Allium porrum,Andrena flavipes,other_wild_bees
+Italy,Allium porrum,Andrena lepida,other_wild_bees
+Italy,Allium porrum,Andrena pilipes,other_wild_bees
+Italy,Allium porrum,Andrena thoracica,other_wild_bees
+Italy,Allium porrum,Andrena variabilis,other_wild_bees
+Italy,Allium porrum,Apis mellifera,honeybees
+Italy,Allium porrum,Bembix sp. 1,other_flies
+Italy,Allium porrum,Bombus hortorum,bumblebees
+Italy,Allium porrum,Bombus lapidarius,bumblebees
+Italy,Allium porrum,Bombus pascuorum,bumblebees
+Italy,Allium porrum,Bombus terrestris,bumblebees
+Italy,Allium porrum,Eristalinus aeneus,syrphids
+Italy,Allium porrum,Eristalis arbustorum,syrphids
+Italy,Allium porrum,Eristalis tenax,syrphids
+Italy,Allium porrum,Eupeodes lapponicus,syrphids
+Italy,Allium porrum,Eupeodes latifasciatus,syrphids
+Italy,Allium porrum,Halictus scabiosae,other_wild_bees
+Italy,Allium porrum,Lasioglossum malachurum,other_wild_bees
+Italy,Allium porrum,Megascolia maculata,non_bee_hymenoptera
+Italy,Allium porrum,Nomiapis bispinosa,honeybees
+Italy,Allium porrum,Polistes dominula,non_bee_hymenoptera
+Italy,Allium porrum,Sphaerophoria rueppelli,syrphids
+Italy,Allium porrum,Sphaerophoria scripta,syrphids
+Italy,Allium porrum,Sphaerophoria sp. 2,syrphids
+Italy,Allium porrum,Syritta pipiens,syrphids
+Italy,Allium porrum,Unknown wasp sp. 13,non_bee_hymenoptera
+Italy,Allium porrum,Unknown wasp sp. 21,non_bee_hymenoptera
+Italy,Allium porrum,Wasp sp.,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Apis cerana,other_wild_bees
+Japan,Fagopyrum esculentum,Apis mellifera,honeybees
+Japan,Fagopyrum esculentum,Aulacophora indica,beetles
+Japan,Fagopyrum esculentum,Aulacophora nigripennis,beetles
+Japan,Fagopyrum esculentum,Boettcherisca peregrina,other_flies
+Japan,Fagopyrum esculentum,Byasa alcinous,lepidoptera
+Japan,Fagopyrum esculentum,Camponotus japonicus,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Campsomeriella annulata,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Cetonia roelofsi,beetles
+Japan,Fagopyrum esculentum,Chalicodoma sculpturalis,other_wild_bees
+Japan,Fagopyrum esculentum,Chrysolina exanthematica,beetles
+Japan,Fagopyrum esculentum,Chrysomya pinguis,other_flies
+Japan,Fagopyrum esculentum,Coccinella septempunctata,beetles
+Japan,Fagopyrum esculentum,Colletes patellatus,other_wild_bees
+Japan,Fagopyrum esculentum,Colletes vogti,other_wild_bees
+Japan,Fagopyrum esculentum,Dolerus similis,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Eristalinus (Lathyrophthalmus) quinquestriatus,syrphids
+Japan,Fagopyrum esculentum,Eristalinus (Lathyrophthalmus) tarsalis,syrphids
+Japan,Fagopyrum esculentum,Eristalis (Eoeristaris) cerealis,syrphids
+Japan,Fagopyrum esculentum,Eristalis tenax,syrphids
+Japan,Fagopyrum esculentum,Eumenes sp,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Formica japonica,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Gametis jucunda,beetles
+Japan,Fagopyrum esculentum,Hylaeus floralis,other_wild_bees
+Japan,Fagopyrum esculentum,Hylaeus nippon,other_wild_bees
+Japan,Fagopyrum esculentum,Lasioglossum occidens,other_wild_bees
+Japan,Fagopyrum esculentum,Lucilia papuensis,other_flies
+Japan,Fagopyrum esculentum,Lycaena phlaeas,lepidoptera
+Japan,Fagopyrum esculentum,Megacampsomeris grossa,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Megachile tsurugensis,other_wild_bees
+Japan,Fagopyrum esculentum,Parnara guttata,lepidoptera
+Japan,Fagopyrum esculentum,Pelopidas mathias,lepidoptera
+Japan,Fagopyrum esculentum,Phytomia zonata,syrphids
+Japan,Fagopyrum esculentum,Polistes nipponensis,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Polytremis pellucida,lepidoptera
+Japan,Fagopyrum esculentum,Sphaerophoria sp.,syrphids
+Japan,Fagopyrum esculentum,Stomorhina obsoleta,other_flies
+Japan,Fagopyrum esculentum,Tachinidae sp.,other_flies
+Japan,Fagopyrum esculentum,Thoressa varia,lepidoptera
+Japan,Fagopyrum esculentum,Vespa simillima,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Vespula flaviceps,non_bee_hymenoptera
+Japan,Fagopyrum esculentum,Xylocopa appendiculata circumvolans,other_wild_bees
+Japan,Fagopyrum esculentum,Zizeeria maha,lepidoptera
+Netherlands,Malus domestica,Andrena_ carantonica,other_wild_bees
+Netherlands,Malus domestica,Andrena_ chrysosceles,other_wild_bees
+Netherlands,Malus domestica,Andrena_ cineraria,other_wild_bees
+Netherlands,Malus domestica,Andrena_ dorsata,other_wild_bees
+Netherlands,Malus domestica,Andrena_ flavipes,other_wild_bees
+Netherlands,Malus domestica,Andrena_ fulva,other_wild_bees
+Netherlands,Malus domestica,Andrena_ haemorrhoa,other_wild_bees
+Netherlands,Malus domestica,Andrena_ minutula-groep,other_wild_bees
+Netherlands,Malus domestica,Andrena_ nitida,other_wild_bees
+Netherlands,Malus domestica,Apis_ mellifera,honeybees
+Netherlands,Malus domestica,Bombus_ hortorum,bumblebees
+Netherlands,Malus domestica,Bombus_ hypnorum,bumblebees
+Netherlands,Malus domestica,Bombus_ lapidarius,bumblebees
+Netherlands,Malus domestica,Bombus_ pascuorum,bumblebees
+Netherlands,Malus domestica,Bombus_ pratorum,bumblebees
+Netherlands,Malus domestica,Bombus_ terrestris,bumblebees
+Netherlands,Malus domestica,Bombus_ terrestris-complex,bumblebees
+Netherlands,Malus domestica,Bombus_ terrestris/lucorum,bumblebees
+Netherlands,Malus domestica,Eristalis_ pertinax,syrphids
+Netherlands,Malus domestica,Eristalis_ similis,syrphids
+Netherlands,Malus domestica,Eristalis_ spec.,syrphids
+Netherlands,Malus domestica,Eupeodes_ cf. corollae,syrphids
+Netherlands,Malus domestica,Helophilus_ pendulus,syrphids
+Netherlands,Malus domestica,Heringia_ vitripennis,syrphids
+Netherlands,Malus domestica,Lasioglossum_ spec.,other_wild_bees
+Netherlands,Malus domestica,Melanostoma_ mellinum,syrphids
+Netherlands,Malus domestica,Neocnemodon_ vitripennis,syrphids
+Netherlands,Malus domestica,Osmia_ bicornis,other_wild_bees
+Netherlands,Malus domestica,Osmia_ rufa,other_wild_bees
+Netherlands,Malus domestica,Platycheirus_ albimanus,syrphids
+Netherlands,Malus domestica,Platycheirus_ cf. scutatus,syrphids
+Netherlands,Malus domestica,Rhingia_ campestris,syrphids
+Netherlands,Vaccinium corymbosum,A. mellifera,honeybees
+Netherlands,Vaccinium corymbosum,Andrena carantonica,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena fulva,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena haemorrhoa,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena mitis,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena nigroaenea,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena nitida,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena sp.,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena synadelpha,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena vaga,other_wild_bees
+Netherlands,Vaccinium corymbosum,Andrena_cineraria,other_wild_bees
+Netherlands,Vaccinium corymbosum,Apis mellifera,honeybees
+Netherlands,Vaccinium corymbosum,B. hortorum,bumblebees
+Netherlands,Vaccinium corymbosum,B. hypnorum,bumblebees
+Netherlands,Vaccinium corymbosum,B. lapidarius,bumblebees
+Netherlands,Vaccinium corymbosum,B. pascuorum,bumblebees
+Netherlands,Vaccinium corymbosum,B. pratorum,bumblebees
+Netherlands,Vaccinium corymbosum,B. terrestris,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus hortorum,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus hypnorum,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus lapidarius,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus pascuorum,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus pratorum,bumblebees
+Netherlands,Vaccinium corymbosum,Bombus terrestris,bumblebees
+Netherlands,Vaccinium corymbosum,Epistrophe_eligans,syrphids
+Netherlands,Vaccinium corymbosum,Episyrhpus balteatus,syrphids
+Netherlands,Vaccinium corymbosum,Eristalis tenax,syrphids
+Netherlands,Vaccinium corymbosum,Eupeodes corollae,syrphids
+Netherlands,Vaccinium corymbosum,Helophilus pendulus,syrphids
+Netherlands,Vaccinium corymbosum,Helophilus trivittatus,syrphids
+Netherlands,Vaccinium corymbosum,Lasioglossum sexnotatum,other_wild_bees
+Netherlands,Vaccinium corymbosum,Myathropa florea,syrphids
+Netherlands,Vaccinium corymbosum,Osmia bicornis,other_wild_bees
+Netherlands,Vaccinium corymbosum,Syrphus vitripennis,syrphids
+South Africa,Helianthus annuus,“Lagria” cf. aeneipennis Fåhraeus,beetles
+South Africa,Helianthus annuus,Apis mellifera L.,honeybees
+South Africa,Helianthus annuus,Astylus atromaculatus Blanchard *,beetles
+South Africa,Helianthus annuus,Betasyrphus adliagatus,syrphids
+South Africa,Helianthus annuus,Caliophoridae sp.,other_flies
+South Africa,Helianthus annuus,Carpophilus sp.,beetles
+South Africa,Helianthus annuus,Cynthia cardui,lepidoptera
+South Africa,Helianthus annuus,Decaria sp.,beetles
+South Africa,Helianthus annuus,Dioxyna sororcula,other_flies
+South Africa,Helianthus annuus,Eumerus obliquus,syrphids
+South Africa,Helianthus annuus,Heteroptera sp.,other
+South Africa,Helianthus annuus,Heteroptera sp1,other
+South Africa,Helianthus annuus,Hypolimnas misippus,lepidoptera
+South Africa,Helianthus annuus,Junonia oenone,lepidoptera
+South Africa,Helianthus annuus,Lasioglossum sp.,other_wild_bees
+South Africa,Helianthus annuus,Lathrididae sp.,beetles
+South Africa,Helianthus annuus,Macroglossum trochilus (Hubner),lepidoptera
+South Africa,Helianthus annuus,Megachile frontalis cf.,other_wild_bees
+South Africa,Helianthus annuus,Monolepta citrinella Jacoby,beetles
+South Africa,Helianthus annuus,moth sp3,lepidoptera
+South Africa,Helianthus annuus,moth sp5,lepidoptera
+South Africa,Helianthus annuus,Sarcophagidae sp.,other_flies
+South Africa,Helianthus annuus,Senaspis haemorrhoa,syrphids
+South Africa,Helianthus annuus,Syrphidae sp1,syrphids
+South Africa,Helianthus annuus,Syrphidae sp20,syrphids
+South Africa,Helianthus annuus,Tetraloniella ? apicalis (Friese),other_wild_bees
+South Africa,Helianthus annuus,Utetheisa pulchella,lepidoptera
+South Africa,Helianthus annuus,Vespidae sp.,non_bee_hymenoptera
+South Africa,Helianthus annuus,Xylocopa inconstans,other_wild_bees
+South Africa,Mangifera indica,Anoplolepis_sp_2_,non_bee_hymenoptera
+South Africa,Mangifera indica,Apionidae_sp1,beetles
+South Africa,Mangifera indica,Apis mellifera,honeybees
+South Africa,Mangifera indica,Apis_mellifera,honeybees
+South Africa,Mangifera indica,Betassyrphus adligatus,syrphids
+South Africa,Mangifera indica,Bruchidius_sp__2,beetles
+South Africa,Mangifera indica,Bruchidius_sp__near_mendosus__Gyllenhal_,beetles
+South Africa,Mangifera indica,Caliophoridae_sp1,other_flies
+South Africa,Mangifera indica,Caliophoridae_sp2,other_flies
+South Africa,Mangifera indica,Caliophoridae_sp3,other_flies
+South Africa,Mangifera indica,Camponotus_sp_1__,non_bee_hymenoptera
+South Africa,Mangifera indica,Ceratina sp. (Ceratina lunata Friese or Ceratina moerenhouti Vachal),other_wild_bees
+South Africa,Mangifera indica,Ceratina.sp...inc._labrosa_Friese.,other_wild_bees
+South Africa,Mangifera indica,Chalcidoidea_sp_,non_bee_hymenoptera
+South Africa,Mangifera indica,Chrysidae,non_bee_hymenoptera
+South Africa,Mangifera indica,Cratocentrus  sp,non_bee_hymenoptera
+South Africa,Mangifera indica,Diptera sp1,other_flies
+South Africa,Mangifera indica,Empididae sp1,other_flies
+South Africa,Mangifera indica,Empididae sp2,other_flies
+South Africa,Mangifera indica,Eucoilidae sp1,non_bee_hymenoptera
+South Africa,Mangifera indica,Eumerus obliquus,syrphids
+South Africa,Mangifera indica,Exochomus_troberti_Mulsant_1850,beetles
+South Africa,Mangifera indica,Formicidae_sp2__bunduda_,non_bee_hymenoptera
+South Africa,Mangifera indica,Heteroptera_10_mm_sp1,other
+South Africa,Mangifera indica,Heteroptera_2mm,other
+South Africa,Mangifera indica,Heteroptera_5mm,other
+South Africa,Mangifera indica,heteroptera_sp3,other
+South Africa,Mangifera indica,Hippodamia.variegata..Goeze.,beetles
+South Africa,Mangifera indica,Ischiodon aegyptius,syrphids
+South Africa,Mangifera indica,Lasioglossum_sp1_cf_,other_wild_bees
+South Africa,Mangifera indica,Lepidoptera sp.,lepidoptera
+South Africa,Mangifera indica,Lepisiota_sp_2_,non_bee_hymenoptera
+South Africa,Mangifera indica,Macrocoma_sp__near_apicicornis,beetles
+South Africa,Mangifera indica,Malachiinae sp1,beetles
+South Africa,Mangifera indica,Malachiinae_sp1,beetles
+South Africa,Mangifera indica,Monolepta_ursulae_Wagner_2003,beetles
+South Africa,Mangifera indica,Mordellinae sp1,beetles
+South Africa,Mangifera indica,Muscidae..inc.Musca_domestica_L.,other_flies
+South Africa,Mangifera indica,Nitulidae_sp_,beetles
+South Africa,Mangifera indica,Pagurodactylus_sp2,beetles
+South Africa,Mangifera indica,Paragus longiventris,syrphids
+South Africa,Mangifera indica,Pedinorrhina__Chondrorrhina__trivittata__Schaum,beetles
+South Africa,Mangifera indica,Rhyncomya forcipata,other_flies
+South Africa,Mangifera indica,Sarcophagidae.sp,other_flies
+South Africa,Mangifera indica,"Scymnus cf. capicola Casey, 1899",beetles
+South Africa,Mangifera indica,Staphilinidae_sp_,beetles
+South Africa,Mangifera indica,Syrphidae sp2,syrphids
+South Africa,Mangifera indica,talvez_Allograpta_calopus_,syrphids
+South Africa,Mangifera indica,Tetramorium_sp_1_,non_bee_hymenoptera
+South Africa,Mangifera indica,Xylocopa sp.,other_wild_bees
+Sweden,Brassica napus,Aglais_urticae,lepidoptera
+Sweden,Brassica napus,Andrena sp1,wild_bees
+Sweden,Brassica napus,Andrena sp2,wild_bees
+Sweden,Brassica napus,Andrena sp3,wild_bees
+Sweden,Brassica napus,Andrena sp4,wild_bees
+Sweden,Brassica napus,Andrena sp5,wild_bees
+Sweden,Brassica napus,Andrena sp6,wild_bees
+Sweden,Brassica napus,Andrena sp7,wild_bees
+Sweden,Brassica napus,Anthomyiidae sp1,non_bee_hymenoptera
+Sweden,Brassica napus,Anthomyiidae sp2,non_bee_hymenoptera
+Sweden,Brassica napus,Anthomyiidae sp3,non_bee_hymenoptera
+Sweden,Brassica napus,Anthomyiidae sp4,non_bee_hymenoptera
+Sweden,Brassica napus,Anthomyiidae sp5,non_bee_hymenoptera
+Sweden,Brassica napus,Apis_mellifera,honeybees
+Sweden,Brassica napus,Athous vittatus,beetles
+Sweden,Brassica napus,Bibionidae sp1,other_flies
+Sweden,Brassica napus,Bombus lapidarius,bumblebees
+Sweden,Brassica napus,Bombus lucorum,bumblebees
+Sweden,Brassica napus,Bombus ruderarius,bumblebees
+Sweden,Brassica napus,Bombus terrestris,bumblebees
+Sweden,Brassica napus,Bombus_lapidarius,bumblebees
+Sweden,Brassica napus,Bombus_lucorum,bumblebees
+Sweden,Brassica napus,Bombus_sp,bumblebees
+Sweden,Brassica napus,Bombus_terrestris,bumblebees
+Sweden,Brassica napus,Cantharis fusca,beetles
+Sweden,Brassica napus,Cantharis livida,beetles
+Sweden,Brassica napus,Cantharis nigricans,beetles
+Sweden,Brassica napus,Cantharis obscura,beetles
+Sweden,Brassica napus,Cantharis pellucida,beetles
+Sweden,Brassica napus,Ceratina sp1,wild_bees
+Sweden,Brassica napus,Corymbites sp1,beetles
+Sweden,Brassica napus,Dolores haematodes,non_bee_hymenoptera
+Sweden,Brassica napus,Dolorus nitens,non_bee_hymenoptera
+Sweden,Brassica napus,Empididae sp1,other_flies
+Sweden,Brassica napus,Empis_sp,other_flies
+Sweden,Brassica napus,Episyrphus_balteatus,syrphids
+Sweden,Brassica napus,Eristalis interrupta,syrphids
+Sweden,Brassica napus,Eristalis picea,syrphids
+Sweden,Brassica napus,Eristalis_arbustorum,syrphids
+Sweden,Brassica napus,gen_sp,other_wild_bees
+Sweden,Brassica napus,gen_sp,syrphids
+Sweden,Brassica napus,Gonopteryx_rhamni,lepidoptera
+Sweden,Brassica napus,Ichneumonidae sp1,non_bee_hymenoptera
+Sweden,Brassica napus,Limonius pilosus,beetles
+Sweden,Brassica napus,Melanostoma mellinum,syrphids
+Sweden,Brassica napus,Melanostoma_mellinum,syrphids
+Sweden,Brassica napus,Muscidae sp1,other_flies
+Sweden,Brassica napus,Muscidae sp2,other_flies
+Sweden,Brassica napus,Muscidae sp3,other_flies
+Sweden,Brassica napus,Muscidae sp8,other_flies
+Sweden,Brassica napus,Pachyprotasis rapae,non_bee_hymenoptera
+Sweden,Brassica napus,Pieris napi,lepidoptera
+Sweden,Brassica napus,Pieris_brassicae,lepidoptera
+Sweden,Brassica napus,Platycheirus peltatus,syrphids
+Sweden,Brassica napus,Platycheirus Scambus,syrphids
+Sweden,Brassica napus,Rhagonycha limbata,beetles
+Sweden,Brassica napus,Rhingia campestris,syrphids
+Sweden,Brassica napus,Scathophaga sp1,other_flies
+Sweden,Brassica napus,Sphaerophoria scripta,syrphids
+Sweden,Brassica napus,Sphaerophoria_scripta,syrphids
+Sweden,Brassica napus,NA,beetles
+Sweden,Brassica napus,NA,bumblebees
+Sweden,Brassica napus,NA,honeybees
+Sweden,Brassica napus,NA,lepidoptera
+Sweden,Brassica napus,NA,non_bee_hymenoptera
+Sweden,Brassica napus,NA,other
+Sweden,Brassica napus,NA,other_flies
+Sweden,Brassica napus,NA,syrphids
+Sweden,Brassica napus,NA,wild_bees
+Sweden,Brassica rapa,Andrena semilaevis,other_wild_bees
+Sweden,Brassica rapa,Apis mellifera,honeybees
+Sweden,Brassica rapa,Bombus distinguendus,bumblebees
+Sweden,Brassica rapa,Bombus hortorum,bumblebees
+Sweden,Brassica rapa,Bombus hypnorum,bumblebees
+Sweden,Brassica rapa,Bombus lapidarius,bumblebees
+Sweden,Brassica rapa,Bombus muscorum,bumblebees
+Sweden,Brassica rapa,Bombus pascuorum,bumblebees
+Sweden,Brassica rapa,Bombus pratensis,bumblebees
+Sweden,Brassica rapa,Bombus rudurarius,bumblebees
+Sweden,Brassica rapa,Bombus soroeensis,bumblebees
+Sweden,Brassica rapa,Bombus sp.,bumblebees
+Sweden,Brassica rapa,Bombus subterraneus,bumblebees
+Sweden,Brassica rapa,Bombus sylvestris,bumblebees
+Sweden,Brassica rapa,Bombus terrestris,bumblebees
+Sweden,Brassica rapa,Cerceris rybyensis,non_bee_hymenoptera
+Sweden,Brassica rapa,Chloromyia formosa,other_flies
+Sweden,Brassica rapa,Episyrphus balteatus,syrphids
+Sweden,Brassica rapa,Eupeodes corollae,syrphids
+Sweden,Brassica rapa,Halictus tumulorum,other_wild_bees
+Sweden,Brassica rapa,Lasioglossum leucopus,other_wild_bees
+Sweden,Brassica rapa,Lindenius albilabris,non_bee_hymenoptera
+Sweden,Brassica rapa,Melanostoma mellinum,syrphids
+Sweden,Brassica rapa,Nemotelus nigrinus,other_flies
+Sweden,Brassica rapa,Platycheirus clypeatus,syrphids
+Sweden,Brassica rapa,Sargus iridatus,other_flies
+Sweden,Brassica rapa,Sphaerophoria scripta,syrphids
+Sweden,Brassica rapa,Syritta pipiens,syrphids
+Sweden,Brassica rapa,Trypoxylon clavicerum,non_bee_hymenoptera
+Sweden,Fragaria x ananassa,Apoidea,other_wild_bees
+Sweden,Vicia faba,Bombus hortorum,bumblebees
+Sweden,Vicia faba,Bombus hypnorum,bumblebees
+Sweden,Vicia faba,Bombus lapidarius,bumblebees
+Sweden,Vicia faba,Bombus pascuorum,bumblebees
+Sweden,Vicia faba,Bombus sp,bumblebees
+Sweden,Vicia faba,Bombus sylvarum,bumblebees
+Sweden,Vicia faba,Bombus terrestris/lucorum,bumblebees
+Tanzania,Coffea arabica,Apis mellifera,honeybees
+Tanzania,Coffea arabica,Apoidea_largerthanHoneybee,other_wild_bees
+Tanzania,Coffea arabica,Apoidea_sizeequalsHoneybee,other_wild_bees
+Tanzania,Coffea arabica,Apoidea_smallerthanHoneybee,other_wild_bees
+Tanzania,Coffea arabica,Formicidae,non_bee_hymenoptera
+Tanzania,Coffea arabica,Hymenoptera_Nonbee_Aculeata,other_wild_bees
+Tanzania,Coffea arabica,Lepidoptera,lepidoptera
+Tanzania,Coffea arabica,other_Diptera,other_flies
+Tanzania,Coffea arabica,Syrphidae,syrphids
+UK,Brassica napus,Andrena chrysosceles,other_wild_bees
+UK,Brassica napus,Andrena nigroaenea,other_wild_bees
+UK,Brassica napus,Apis mellifera,honeybees
+UK,Brassica napus,Bibio spp. (st Marks fly),other_flies
+UK,Brassica napus,Bombus hypnorum,bumblebees
+UK,Brassica napus,Bombus lapidarius,bumblebees
+UK,Brassica napus,Bombus pascuorum,bumblebees
+UK,Brassica napus,Bombus pratorum,bumblebees
+UK,Brassica napus,Bombus spp. unknown or unidentified,bumblebees
+UK,Brassica napus,Bombus terrestris or lucorum,bumblebees
+UK,Brassica napus,Coleoptera unknown or unidentified,beetles
+UK,Brassica napus,Diptera unknown or unidentified,other_flies
+UK,Brassica napus,Empididea spp,other_flies
+UK,Brassica napus,Eristalis intricarius,syrphids
+UK,Brassica napus,Hoverfly unknown or unidentified,syrphids
+UK,Brassica napus,Ladybirds,beetles
+UK,Brassica napus,Lepidoptera,lepidoptera
+UK,Brassica napus,Platycheirus albimanus,syrphids
+UK,Brassica napus,Platycheirus manicatus,syrphids
+UK,Brassica napus,Pollen beetle,beetles
+UK,Brassica napus,Solitary bee unknown or unidentified,other_wild_bees
+UK,Brassica napus,Syrphus ribesii,syrphids
+UK,Brassica napus,Tipulidae spp.,other_flies
+UK,Brassica napus,Weevil,beetles
+UK,Fragaria x ananassa,Andrena bicolor,other_wild_bees
+UK,Fragaria x ananassa,Andrena chrysosceles,other_wild_bees
+UK,Fragaria x ananassa,Ant,non_bee_hymenoptera
+UK,Fragaria x ananassa,Apis mellifera,honeybees
+UK,Fragaria x ananassa,Bombus hypnorum,bumblebees
+UK,Fragaria x ananassa,Bombus lapidarius,bumblebees
+UK,Fragaria x ananassa,Bombus pascuorum,bumblebees
+UK,Fragaria x ananassa,Bombus pratorum,bumblebees
+UK,Fragaria x ananassa,Bombus spp. unknown or unidentified,bumblebees
+UK,Fragaria x ananassa,Bombus terrestris or lucorum,bumblebees
+UK,Fragaria x ananassa,Chrysopidae spp.,other
+UK,Fragaria x ananassa,Clytus arietus,beetles
+UK,Fragaria x ananassa,Coccinella septempunctata,beetles
+UK,Fragaria x ananassa,Coleoptera unknown or unidentified,beetles
+UK,Fragaria x ananassa,Cricket/Grasshopper,other
+UK,Fragaria x ananassa,Diptera unknown or unidentified,other_flies
+UK,Fragaria x ananassa,Hoverfly unknown or unidentified,syrphids
+UK,Fragaria x ananassa,Lasioglossum calceatum,other_wild_bees
+UK,Fragaria x ananassa,Lepidoptera,lepidoptera
+UK,Fragaria x ananassa,Miris striatus,other
+UK,Fragaria x ananassa,Nephrotoma spp.,other_flies
+UK,Fragaria x ananassa,Oedemera lurida,beetles
+UK,Fragaria x ananassa,Oedemera spp.,beetles
+UK,Fragaria x ananassa,Phyllopertha horticola,beetles
+UK,Fragaria x ananassa,Platycheirus manicatus,syrphids
+UK,Fragaria x ananassa,Platycheirus sp.,syrphids
+UK,Fragaria x ananassa,Rove beetle,beetles
+UK,Fragaria x ananassa,Solitary bee unknown or unidentified,other_wild_bees
+UK,Fragaria x ananassa,Sphaerophoria sp.,syrphids
+UK,Fragaria x ananassa,spider,other
+UK,Malus domestica,Andrena dorsata,other_wild_bees
+UK,Malus domestica,Andrena haemorrhoa,other_wild_bees
+UK,Malus domestica,Andrena nitida,other_wild_bees
+UK,Malus domestica,Andrena sp.,other_wild_bees
+UK,Malus domestica,Ant,non_bee_hymenoptera
+UK,Malus domestica,Apis mellifera,honeybees
+UK,Malus domestica,Bombus lapidarius,bumblebees
+UK,Malus domestica,Bombus pratorum,bumblebees
+UK,Malus domestica,Bombus spp. unknown or unidentified,bumblebees
+UK,Malus domestica,Bombus terrestris or lucorum,bumblebees
+UK,Malus domestica,Brachycera spp.,other_flies
+UK,Malus domestica,Chrysopidae spp.,other
+UK,Malus domestica,Coleoptera unknown or unidentified,beetles
+UK,Malus domestica,Crane flies,other_flies
+UK,Malus domestica,Cyclorrhapha,other_flies
+UK,Malus domestica,Diptera unknown or unidentified,other_flies
+UK,Malus domestica,Flesh flies,other_flies
+UK,Malus domestica,Hemiptera unknown or unidentified,other
+UK,Malus domestica,Hoverfly unknown or unidentified,syrphids
+UK,Malus domestica,Ladybirds,beetles
+UK,Malus domestica,Lepidoptera,lepidoptera
+UK,Malus domestica,Parasitoids,non_bee_hymenoptera
+UK,Malus domestica,Plecoptera spp.,other
+UK,Malus domestica,Shield Bugs,other
+UK,Malus domestica,Solitary bee unknown or unidentified,other_wild_bees
+UK,Malus domestica,Sphaerophoria sp.,syrphids
+UK,Malus domestica,spider,other
+UK,Malus domestica,Weevil,beetles
+UK,Vicia faba,Andrena carantonica,other_wild_bees
+UK,Vicia faba,Andrena haemorrhoa,other_wild_bees
+UK,Vicia faba,Andrena wilkella,other_wild_bees
+UK,Vicia faba,Andrena_cineraria,other_wild_bees
+UK,Vicia faba,Andrena_labialis,other_wild_bees
+UK,Vicia faba,Andrena_wilkella,other_wild_bees
+UK,Vicia faba,Apis mellifera,honeybees
+UK,Vicia faba,Apis_mellifera,honeybees
+UK,Vicia faba,Bombus hortorum,bumblebees
+UK,Vicia faba,Bombus hypnorum,bumblebees
+UK,Vicia faba,Bombus lapidarius,bumblebees
+UK,Vicia faba,Bombus pascuorum,bumblebees
+UK,Vicia faba,Bombus pratorum,bumblebees
+UK,Vicia faba,Bombus rupestris,bumblebees
+UK,Vicia faba,Bombus spp. unknown or unidentified,bumblebees
+UK,Vicia faba,Bombus terrestris or lucorum,bumblebees
+UK,Vicia faba,Bombus_hortorum,bumblebees
+UK,Vicia faba,Bombus_lapidarius,bumblebees
+UK,Vicia faba,Bombus_lucorum/terrestris,bumblebees
+UK,Vicia faba,Bombus_pascuorum,bumblebees
+UK,Vicia faba,Coleoptera unknown or unidentified,beetles
+UK,Vicia faba,Crane flies,other_flies
+UK,Vicia faba,Cyclorrhapha,other_flies
+UK,Vicia faba,Diptera unknown or unidentified,other_flies
+UK,Vicia faba,Episyrphus balteatus,syrphids
+UK,Vicia faba,Flesh flies,other_flies
+UK,Vicia faba,Halictus rubicundus,other_wild_bees
+UK,Vicia faba,Hoverfly unknown or unidentified,syrphids
+UK,Vicia faba,Odonata spp.,other
+UK,Vicia faba,Parasitoids,non_bee_hymenoptera
+UK,Vicia faba,Saw flies,non_bee_hymenoptera
+UK,Vicia faba,Solitary bee unknown or unidentified,other_wild_bees
+UK,Vicia faba,Unknown cuckoo bee,other_wild_bees
+UK,Vicia faba,Weevil,beetles
+USA,Fragaria x ananassa,Andrena,other_wild_bees
+USA,Fragaria x ananassa,Andrena cressonii,other_wild_bees
+USA,Fragaria x ananassa,Andrena nasonii,other_wild_bees
+USA,Fragaria x ananassa,ant,non_bee_hymenoptera
+USA,Fragaria x ananassa,Apis mellifera,honeybees
+USA,Fragaria x ananassa,Augochlorella,other_wild_bees
+USA,Fragaria x ananassa,Augochlorella aurata,other_wild_bees
+USA,Fragaria x ananassa,beetle,beetles
+USA,Fragaria x ananassa,Bombus,bumblebees
+USA,Fragaria x ananassa,Bombus californicus,bumblebees
+USA,Fragaria x ananassa,Bombus impatiens,bumblebees
+USA,Fragaria x ananassa,Bombus melanopygus,bumblebees
+USA,Fragaria x ananassa,Bombus rufocinctus,bumblebees
+USA,Fragaria x ananassa,Bombus vosnesenskii,bumblebees
+USA,Fragaria x ananassa,butterfly,other_flies
+USA,Fragaria x ananassa,Ceratina,other_wild_bees
+USA,Fragaria x ananassa,Ceratina calcarata,other_wild_bees
+USA,Fragaria x ananassa,Ceratina dupla,other_wild_bees
+USA,Fragaria x ananassa,Ceratina mikmaqi,other_wild_bees
+USA,Fragaria x ananassa,Ceratina sp,other_wild_bees
+USA,Fragaria x ananassa,flower_fly,syrphids
+USA,Fragaria x ananassa,green_leaf_beetle_pest_insect,beetles
+USA,Fragaria x ananassa,Halictus,other_wild_bees
+USA,Fragaria x ananassa,Halictus confusus,other_wild_bees
+USA,Fragaria x ananassa,Halictus tripartitus,other_wild_bees
+USA,Fragaria x ananassa,honey_bee,honeybees
+USA,Fragaria x ananassa,Hylaeus sp,other_wild_bees
+USA,Fragaria x ananassa,Large Andrena sp.,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum (Dialictus) spp.,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum hitchensi,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum incompletum,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum kincaidii,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum knereri,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum sp,other_wild_bees
+USA,Fragaria x ananassa,Lasioglossum tegulariforme,other_wild_bees
+USA,Fragaria x ananassa,native_bee,other_wild_bees
+USA,Fragaria x ananassa,native_bumble_bee,bumblebees
+USA,Fragaria x ananassa,Nomada,other_wild_bees
+USA,Fragaria x ananassa,Nomada sp,other_wild_bees
+USA,Fragaria x ananassa,Osmia,other_wild_bees
+USA,Fragaria x ananassa,Osmia sp,other_wild_bees
+USA,Fragaria x ananassa,other,other
+USA,Fragaria x ananassa,other_fly,other_flies
+USA,Fragaria x ananassa,parasitoid_wasp,non_bee_hymenoptera
+USA,Fragaria x ananassa,vespids,non_bee_hymenoptera
+USA,Gossypium hirsutum,Agapostemon texana,other_wild_bees
+USA,Gossypium hirsutum,Allograpta exotica,syrphids
+USA,Gossypium hirsutum,Apis mellifera,honeybees
+USA,Gossypium hirsutum,Bombus pensylvanicus,bumblebees
+USA,Gossypium hirsutum,Brephidium exile,lepidoptera
+USA,Gossypium hirsutum,Diabrotica undecimpunctata,beetles
+USA,Gossypium hirsutum,Halictus ligatus,other_wild_bees
+USA,Gossypium hirsutum,Hermetia  illucens ,other_flies
+USA,Gossypium hirsutum,Ladybird sp1,beetles
+USA,Gossypium hirsutum,Ladybird sp2,beetles
+USA,Gossypium hirsutum,Ladybird sp3,beetles
+USA,Gossypium hirsutum,Ladybird sp4,beetles
+USA,Gossypium hirsutum,Lasioglossum coactum,other_wild_bees
+USA,Gossypium hirsutum,Lasioglossum dialictus sp.,other_wild_bees
+USA,Gossypium hirsutum,Lepidoptera sp1,lepidoptera
+USA,Gossypium hirsutum,Lerodae eufala,lepidoptera
+USA,Gossypium hirsutum,Melissodes tepanaca,other_wild_bees
+USA,Gossypium hirsutum,Muscidae sp1,other_flies
+USA,Gossypium hirsutum,Palpada furcata,syrphids
+USA,Gossypium hirsutum,Polistes sp2,non_bee_hymenoptera
+USA,Gossypium hirsutum,Strymon melinus,lepidoptera
+USA,Gossypium hirsutum,Toxomerus politus,syrphids
+USA,malus domestica,Andrena carlini,other_wild_bees
+USA,malus domestica,Andrena cressonii,other_wild_bees
+USA,malus domestica,Andrena hippotes,other_wild_bees
+USA,malus domestica,Andrena imitatrix,other_wild_bees
+USA,malus domestica,Andrena miserabilis,other_wild_bees
+USA,malus domestica,Andrena nasonii,other_wild_bees
+USA,malus domestica,Andrena perplexa,other_wild_bees
+USA,malus domestica,Bombus auricomus,bumblebees
+USA,malus domestica,Bombus bimaculatus,bumblebees
+USA,malus domestica,Bombus fervidus,bumblebees
+USA,malus domestica,Bombus impatiens,bumblebees
+USA,malus domestica,Bombus vagans,bumblebees
+USA,malus domestica,Lasioglossum hitchensi,other_wild_bees
