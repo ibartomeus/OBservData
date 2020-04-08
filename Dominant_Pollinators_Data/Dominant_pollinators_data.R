@@ -92,6 +92,11 @@ unique(list_main_pollinators_complete$sampling_method[grepl("hand",
 
 setwd(dir_ini)
 write_csv(brief_list, "Summary_dominant_species.csv")
+
+list_main_pollinators_complete <- 
+  select(list_main_pollinators_complete,study_id,country,crop,variety,
+          pollinator,guild,percentage,sampling_method)
+
 write_csv(list_main_pollinators_complete, "Full_report_dominant_species.csv")
 
 
