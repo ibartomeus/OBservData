@@ -74,11 +74,10 @@ for (i in 1:length(list_field_level_files)){
   }
 }
 
-
-brief_list <- list_main_pollinators_complete %>% group_by(country,crop,pollinator,guild) %>%
-  count() %>% select(-n)
-
+#####################################
 # Test sampling methods' sanity
+#####################################
+
 unique(list_main_pollinators_complete$sampling_method[grepl("pan",
                                                             list_main_pollinators_complete$sampling_method,
                                                             ignore.case = TRUE)])
@@ -93,9 +92,72 @@ unique(list_main_pollinators_complete$sampling_method[grepl("hand",
                                                             ignore.case = TRUE)])
 #HAND generate No matches
 
+#######################
+# FILTER ODD ORGANISMS
+#######################
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
+  filter(!grepl("Avispa",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("solitary bee",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("honeybee",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("identified",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("pest_",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("native_bee",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("negro",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("brillante",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("mariposa",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!(grepl("fly",pollinator,ignore.case = T) & !grepl("mark",pollinator,ignore.case = TRUE)))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("Lucillia",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("gen_sp",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("other",pollinator,ignore.case = TRUE))
+
+list_main_pollinators_complete <- list_main_pollinators_complete %>% 
+  filter(!grepl("spider",pollinator,ignore.case = TRUE))
 
 
+
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "A. mellifera"] <- "Apis mellifera"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. hortorum"] <- "Bombus hortorum"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. hypnorum"] <- "Bombus hypnorum"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. lapidarius"] <- "Bombus lapidarius"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. pascuorum"] <- "Bombus pascuorum"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. pratorum"] <- "Bombus pratorum"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. terrestris"] <- "Bombus terrestris"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Nomada"] <- "Nomada sp"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Osmia"] <- "Osmia sp"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "honey_bee"] <- "Apis mellifera"
+
+#######################
 # Save results
+#######################
+
+
+brief_list <- list_main_pollinators_complete %>% group_by(country,crop,pollinator,guild) %>%
+  count() %>% select(-n)
 
 setwd(dir_ini)
 write_csv(brief_list, "Summary_dominant_species.csv")
