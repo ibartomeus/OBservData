@@ -160,7 +160,7 @@ list_main_pollinators_complete <- list_main_pollinators_complete %>%
 list_main_pollinators_complete <- list_main_pollinators_complete %>% 
   filter(!grepl("spider",pollinator,ignore.case = TRUE))
 
-
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Syrphido"] <- "Syrphidae"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Vespid"] <- "Vespidae"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Ligaidae"] <- "Lygaeidae"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "A. mellifera"] <- "Apis mellifera"
