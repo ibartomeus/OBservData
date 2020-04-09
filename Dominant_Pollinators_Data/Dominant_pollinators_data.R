@@ -141,7 +141,7 @@ list_main_pollinators_complete <- list_main_pollinators_complete %>%
 
 
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "A. mellifera"] <- "Apis mellifera"
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_mellifera"] <- "Apis mellifera"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_mellifera"] <- "Apis mellifera"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. hortorum"] <- "Bombus hortorum"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. hypnorum"] <- "Bombus hypnorum"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. lapidarius"] <- "Bombus lapidarius"
@@ -151,11 +151,12 @@ list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollina
 
 
 
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_hortorum"] <- "Bombus hortorum"
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_lucorum/terrestris"] <- "Bombus terrestris or lucorum"
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_lapidarius"] <- "Bombus lapidarius"
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_pascuorum"] <- "Bombus pascuorum"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_hortorum"] <- "Bombus hortorum"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_lucorum/terrestris"] <- "Bombus terrestris or lucorum"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_lapidarius"] <- "Bombus lapidarius"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus_pascuorum"] <- "Bombus pascuorum"
 
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Bombus terrestris or lucorum"] <- "Bombus lucorum/terrestris"
 
 
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Nomada"] <- "Nomada sp"
@@ -163,8 +164,8 @@ list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollina
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "honey_bee"] <- "Apis mellifera"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Ladybirds"] <- "Coccinellidae"
 
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_cerana"] <- "Apis cerana"
-list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_dorsata"] <- "Apis dorsata"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_cerana"] <- "Apis cerana"
+#list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_dorsata"] <- "Apis dorsata"
 
 
 list_main_pollinators_complete$pollinator <- str_replace(list_main_pollinators_complete$pollinator, "_", " ")
