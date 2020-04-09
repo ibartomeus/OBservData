@@ -1,15 +1,9 @@
 country,crop,pollinator,guild
 Argentina,Citrus limon,Apis melifera,honeybees
 Argentina,Citrus limon,Bombus atratus,bumblebees
-Argentina,Citrus limon,Coleoptera 1,beetles
-Argentina,Citrus limon,Coleoptera 2,beetles
-Argentina,Citrus limon,Diptero 1,other_flies
-Argentina,Citrus limon,Diptero 2,other_flies
-Argentina,Citrus limon,Diptero 3,other_flies
-Argentina,Citrus limon,Diptero 5,other_flies
 Argentina,Citrus limon,Halictidae 1,other_wild_bees
 Argentina,Citrus limon,Halictidae 2,other_wild_bees
-Argentina,Citrus limon,Ligaidae,other
+Argentina,Citrus limon,Lygaeidae,other
 Argentina,Citrus limon,Mosca domestica,other_flies
 Argentina,Citrus limon,Papilio thoas,lepidoptera
 Argentina,Citrus limon,Pirpinto amarillo,lepidoptera
@@ -19,14 +13,10 @@ Argentina,Citrus limon,Xylocopa eximia,other_wild_bees
 Argentina,Citrus paradisi,Andrenidae,other_wild_bees
 Argentina,Citrus paradisi,Apis mellifera,honeybees
 Argentina,Citrus paradisi,Bombini,other_wild_bees
-Argentina,Citrus paradisi,Coleoptera,beetles
-Argentina,Citrus paradisi,Diptera,other_flies
 Argentina,Citrus paradisi,Halictini,other_wild_bees
-Argentina,Citrus paradisi,Hemiptera,other
-Argentina,Citrus paradisi,Lepidotera,lepidoptera
 Argentina,Citrus paradisi,Megachilidae,other_wild_bees
 Argentina,Citrus paradisi,Meliponini,other_wild_bees
-Argentina,Citrus paradisi,Vespid,non_bee_hymenoptera
+Argentina,Citrus paradisi,Vespidae,non_bee_hymenoptera
 Argentina,Rubus idaeus,Apis mellifera,honeybees
 Argentina,Rubus idaeus,Bombus terrestris,bumblebees
 Argentina,Rubus idaeus,Ruizantheda proxima,other_wild_bees
@@ -50,7 +40,6 @@ Australia,Mangifera indica,Tenebrionidae sp,beetles
 Australia,Mangifera indica,Tetragonula carbonaria,other_wild_bees
 Brazil,Anacardium occidentale,Apis mellifera,honeybees
 Brazil,Anacardium occidentale,Brachygastra lecheguana,non_bee_hymenoptera
-Brazil,Anacardium occidentale,Diptera spp.,other_flies
 Brazil,Anacardium occidentale,Scaptotrigona sp.1,other_wild_bees
 Brazil,Anacardium occidentale,Trigona spinipes,other_wild_bees
 Brazil,Anacardium occidentale,Xylocopa cearensis,other_wild_bees
@@ -172,7 +161,6 @@ Sweden,Vicia faba,Bombus terrestris/lucorum,bumblebees
 Tanzania,Coffea arabica,Apis mellifera,honeybees
 Tanzania,Coffea arabica,Formicidae,non_bee_hymenoptera
 Tanzania,Coffea arabica,Hymenoptera Nonbee_Aculeata,other_wild_bees
-Tanzania,Coffea arabica,Lepidoptera,lepidoptera
 Tanzania,Coffea arabica,Syrphidae,syrphids
 UK,Brassica napus,Bibio spp. (st Marks fly),other_flies
 UK,Brassica napus,Bombus lapidarius,bumblebees
@@ -183,7 +171,6 @@ UK,Fragaria x ananassa,Apis mellifera,honeybees
 UK,Fragaria x ananassa,Bombus hypnorum,bumblebees
 UK,Fragaria x ananassa,Bombus lapidarius,bumblebees
 UK,Fragaria x ananassa,Bombus lucorum/terrestris,bumblebees
-UK,Fragaria x ananassa,Lepidoptera,lepidoptera
 UK,Malus domestica,Apis mellifera,honeybees
 UK,Malus domestica,Bombus lapidarius,bumblebees
 UK,Malus domestica,Bombus lucorum/terrestris,bumblebees

@@ -96,6 +96,28 @@ unique(list_main_pollinators_complete$sampling_method[grepl("hand",
 # FILTER ODD ORGANISMS
 #######################
 
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
+  filter(!grepl("Diptero",pollinator,ignore.case = TRUE)) %>% unique()
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
+  filter(!grepl("Diptera",pollinator,ignore.case = TRUE)) %>% unique()
+
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
+  filter(!grepl("Coleoptera",pollinator,ignore.case = TRUE)) %>% unique()
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
+  filter(!grepl("Hemiptera",pollinator,ignore.case = TRUE)) %>% unique()
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>%
+  filter(!grepl("Lepidotera",pollinator,ignore.case = TRUE)) %>% unique()
+
+list_main_pollinators_complete <- list_main_pollinators_complete  %>%
+  filter(!grepl("Lepidoptera",pollinator,ignore.case = TRUE)) %>% unique()
+
+
+
 list_main_pollinators_complete <- list_main_pollinators_complete  %>% 
   filter(!grepl("Avispa",pollinator,ignore.case = TRUE))
 
@@ -139,7 +161,8 @@ list_main_pollinators_complete <- list_main_pollinators_complete %>%
   filter(!grepl("spider",pollinator,ignore.case = TRUE))
 
 
-
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Vespid"] <- "Vespidae"
+list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Ligaidae"] <- "Lygaeidae"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "A. mellifera"] <- "Apis mellifera"
 #list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_mellifera"] <- "Apis mellifera"
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "B. hortorum"] <- "Bombus hortorum"
