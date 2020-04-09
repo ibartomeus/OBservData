@@ -167,7 +167,7 @@ list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollina
 list_main_pollinators_complete$pollinator[list_main_pollinators_complete$pollinator == "Apis_dorsata"] <- "Apis dorsata"
 
 
-str_replace(list_main_pollinators_complete$pollinator, "_", " ")
+list_main_pollinators_complete$pollinator <- str_replace(list_main_pollinators_complete$pollinator, "_", " ")
 
 #######################
 # Save results

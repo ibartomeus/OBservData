@@ -101,7 +101,6 @@ India,Coffea canephora,Apis dorsata,other_wild_bees
 India,Coffea canephora,Apis florea,honeybees
 India,Coffea canephora,Ceratina hieroglyphica,other_wild_bees
 India,Coffea canephora,Tetragonula iridipennis,other_wild_bees
-India,Coffea canephora,Tetragonula_iridipennis,other_wild_bees
 India,Coffea canephora,Thysanoptera (Thrips),other
 Ireland,Brassica napus,Andrena,other_wild_bees
 Ireland,Brassica napus,Apis mellifera,honeybees
@@ -128,13 +127,13 @@ Japan,Fagopyrum esculentum,Parnara guttata,lepidoptera
 Japan,Fagopyrum esculentum,Sphaerophoria sp.,syrphids
 Japan,Fagopyrum esculentum,Stomorhina obsoleta,other_flies
 Japan,Fagopyrum esculentum,Tachinidae sp.,other_flies
-Netherlands,Malus domestica,Apis_ mellifera,honeybees
-Netherlands,Malus domestica,Bombus_ lapidarius,bumblebees
-Netherlands,Malus domestica,Bombus_ pascuorum,bumblebees
-Netherlands,Malus domestica,Bombus_ terrestris-complex,bumblebees
-Netherlands,Malus domestica,Bombus_ terrestris/lucorum,bumblebees
-Netherlands,Malus domestica,Eristalis_ pertinax,syrphids
-Netherlands,Malus domestica,Melanostoma_ mellinum,syrphids
+Netherlands,Malus domestica,Apis  mellifera,honeybees
+Netherlands,Malus domestica,Bombus  lapidarius,bumblebees
+Netherlands,Malus domestica,Bombus  pascuorum,bumblebees
+Netherlands,Malus domestica,Bombus  terrestris-complex,bumblebees
+Netherlands,Malus domestica,Bombus  terrestris/lucorum,bumblebees
+Netherlands,Malus domestica,Eristalis  pertinax,syrphids
+Netherlands,Malus domestica,Melanostoma  mellinum,syrphids
 Netherlands,Vaccinium corymbosum,Apis mellifera,honeybees
 Netherlands,Vaccinium corymbosum,Bombus hortorum,bumblebees
 Netherlands,Vaccinium corymbosum,Bombus hypnorum,bumblebees
@@ -150,18 +149,18 @@ South Africa,Helianthus annuus,Lasioglossum sp.,other_wild_bees
 South Africa,Helianthus annuus,Sarcophagidae sp.,other_flies
 South Africa,Mangifera indica,Apis mellifera,honeybees
 South Africa,Mangifera indica,Betassyrphus adligatus,syrphids
-South Africa,Mangifera indica,Camponotus_sp_1__,non_bee_hymenoptera
+South Africa,Mangifera indica,Camponotus sp_1__,non_bee_hymenoptera
 South Africa,Mangifera indica,Ceratina sp. (Ceratina lunata Friese or Ceratina moerenhouti Vachal),other_wild_bees
-South Africa,Mangifera indica,Ceratina.sp...inc._labrosa_Friese.,other_wild_bees
+South Africa,Mangifera indica,Ceratina.sp...inc. labrosa_Friese.,other_wild_bees
 South Africa,Mangifera indica,Empididae sp1,other_flies
 South Africa,Mangifera indica,Ischiodon aegyptius,syrphids
-South Africa,Mangifera indica,Lasioglossum_sp1_cf_,other_wild_bees
-South Africa,Mangifera indica,Nitulidae_sp_,beetles
+South Africa,Mangifera indica,Lasioglossum sp1_cf_,other_wild_bees
+South Africa,Mangifera indica,Nitulidae sp_,beetles
 South Africa,Mangifera indica,Rhyncomya forcipata,other_flies
 Sweden,Brassica napus,Apis mellifera,honeybees
-Sweden,Brassica napus,Bombus_sp,bumblebees
-Sweden,Brassica napus,Bombus_terrestris,bumblebees
-Sweden,Brassica napus,Empis_sp,other_flies
+Sweden,Brassica napus,Bombus sp,bumblebees
+Sweden,Brassica napus,Bombus terrestris,bumblebees
+Sweden,Brassica napus,Empis sp,other_flies
 Sweden,Fragaria x ananassa,Apoidea,other_wild_bees
 Sweden,Vicia faba,Bombus hortorum,bumblebees
 Sweden,Vicia faba,Bombus hypnorum,bumblebees
@@ -172,7 +171,7 @@ Sweden,Vicia faba,Bombus sylvarum,bumblebees
 Sweden,Vicia faba,Bombus terrestris/lucorum,bumblebees
 Tanzania,Coffea arabica,Apis mellifera,honeybees
 Tanzania,Coffea arabica,Formicidae,non_bee_hymenoptera
-Tanzania,Coffea arabica,Hymenoptera_Nonbee_Aculeata,other_wild_bees
+Tanzania,Coffea arabica,Hymenoptera Nonbee_Aculeata,other_wild_bees
 Tanzania,Coffea arabica,Lepidoptera,lepidoptera
 Tanzania,Coffea arabica,Syrphidae,syrphids
 UK,Brassica napus,Bibio spp. (st Marks fly),other_flies
@@ -188,7 +187,7 @@ UK,Fragaria x ananassa,Lepidoptera,lepidoptera
 UK,Malus domestica,Apis mellifera,honeybees
 UK,Malus domestica,Bombus lapidarius,bumblebees
 UK,Malus domestica,Bombus terrestris or lucorum,bumblebees
-UK,Vicia faba,Andrena_wilkella,other_wild_bees
+UK,Vicia faba,Andrena wilkella,other_wild_bees
 UK,Vicia faba,Apis mellifera,honeybees
 UK,Vicia faba,Bombus hortorum,bumblebees
 UK,Vicia faba,Bombus lapidarius,bumblebees
