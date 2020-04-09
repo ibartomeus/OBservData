@@ -1,14 +1,14 @@
 study_id,country,crop,variety,pollinator,guild,percentage,sampling_method
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
-bomm01,Sweden,Brassica napus,NA,Apis_mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
+bomm01,Sweden,Brassica napus,NA,Apis mellifera,honeybees,32.28155339805825,survey
 bomm01,Sweden,Brassica napus,NA,Bombus_sp,bumblebees,5.339805825242719,survey
 bomm01,Sweden,Brassica napus,NA,Bombus_sp,bumblebees,5.339805825242719,survey
 bomm01,Sweden,Brassica napus,NA,Bombus_sp,bumblebees,5.339805825242719,survey
@@ -39,230 +39,230 @@ bomm01,Sweden,Brassica napus,NA,Empis_sp,other_flies,6.310679611650485,survey
 bomm01,Sweden,Brassica napus,NA,Empis_sp,other_flies,6.310679611650485,survey
 bomm01,Sweden,Brassica napus,NA,Empis_sp,other_flies,6.310679611650485,survey
 bomm01,Sweden,Brassica napus,NA,Empis_sp,other_flies,6.310679611650485,survey
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
-bore01,India,Coffea canephora,NA,Apis_dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis cerana,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
+bore01,India,Coffea canephora,NA,Apis dorsata,other_wild_bees,32,"observations (15min/observation, simulatenous)"
 bore01,India,Coffea canephora,NA,Tetragonula_iridipennis,other_wild_bees,32,"observations (15min/observation, simulatenous)"
 bore01,India,Coffea canephora,NA,Tetragonula_iridipennis,other_wild_bees,32,"observations (15min/observation, simulatenous)"
 bore01,India,Coffea canephora,NA,Tetragonula_iridipennis,other_wild_bees,32,"observations (15min/observation, simulatenous)"
@@ -747,38 +747,38 @@ carv02,South Africa,Helianthus annuus,Pannar 7033,Sarcophagidae sp.,other_flies,
 carv02,South Africa,Helianthus annuus,Pannar 7033,Sarcophagidae sp.,other_flies,5.882352941176471,sweep net
 carv02,South Africa,Helianthus annuus,MonsantoDK4040,Sarcophagidae sp.,other_flies,5.882352941176471,sweep net
 carv02,South Africa,Helianthus annuus,MonsantoDK4040,Sarcophagidae sp.,other_flies,5.882352941176471,sweep net
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,TA,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KEITT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
-carv03,South Africa,Mangifera indica,KENT,Apis_mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,TA,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KEITT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
+carv03,South Africa,Mangifera indica,KENT,Apis mellifera,honeybees,12.987012987012987,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
 carv03,South Africa,Mangifera indica,KENT,Camponotus_sp_1__,non_bee_hymenoptera,9.090909090909092,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
 carv03,South Africa,Mangifera indica,TA,Camponotus_sp_1__,non_bee_hymenoptera,9.090909090909092,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
 carv03,South Africa,Mangifera indica,KENT,Camponotus_sp_1__,non_bee_hymenoptera,9.090909090909092,"sweep net, note that flower abundance (hence sampling effort) varied between sites"
@@ -2675,14 +2675,14 @@ garr04,UK,Brassica napus,NA,Bombus terrestris or lucorum,bumblebees,5.9405940594
 garr04,UK,Brassica napus,NA,Bombus terrestris or lucorum,bumblebees,5.9405940594059405,transect
 garr04,UK,Brassica napus,NA,Bombus terrestris or lucorum,bumblebees,5.9405940594059405,transect
 garr04,UK,Brassica napus,NA,Bombus terrestris or lucorum,bumblebees,5.9405940594059405,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
-garr04,UK,Brassica napus,NA,Ladybirds,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
+garr04,UK,Brassica napus,NA,Coccinellidae,beetles,6.930693069306931,transect
 garr04,UK,Brassica napus,NA,Pollen beetle,beetles,7.920792079207921,transect
 garr04,UK,Brassica napus,NA,Pollen beetle,beetles,7.920792079207921,transect
 garr04,UK,Brassica napus,NA,Pollen beetle,beetles,7.920792079207921,transect
@@ -4566,56 +4566,56 @@ pott01,UK,Vicia faba,NA,Andrena_wilkella,other_wild_bees,7.142857142857143,trans
 pott01,UK,Vicia faba,NA,Andrena_wilkella,other_wild_bees,7.142857142857143,transect
 pott01,UK,Vicia faba,NA,Andrena_wilkella,other_wild_bees,7.142857142857143,transect
 pott01,UK,Vicia faba,NA,Andrena_wilkella,other_wild_bees,7.142857142857143,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Apis_mellifera,honeybees,23.80952380952381,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_hortorum,bumblebees,21.428571428571427,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lapidarius,bumblebees,11.904761904761905,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_lucorum/terrestris,bumblebees,16.666666666666668,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
-pott01,UK,Vicia faba,NA,Bombus_pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Apis mellifera,honeybees,23.80952380952381,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus hortorum,bumblebees,21.428571428571427,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus lapidarius,bumblebees,11.904761904761905,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus terrestris or lucorum,bumblebees,16.666666666666668,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
+pott01,UK,Vicia faba,NA,Bombus pascuorum,bumblebees,9.523809523809524,transect
 rade01,Australia,Mangifera indica,NA,Allograpta sp.,syrphids,5.882352941176471,observation
 rade01,Australia,Mangifera indica,NA,Allograpta sp.,syrphids,5.882352941176471,observation
 rade01,Australia,Mangifera indica,NA,Allograpta sp.,syrphids,5.882352941176471,observation

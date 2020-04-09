@@ -94,11 +94,11 @@ Germany,Malus domestica,Andrena cineraria,other_wild_bees
 Germany,Malus domestica,Andrena sp.,other_wild_bees
 Germany,Malus domestica,Apis mellifera,honeybees
 Germany,Malus domestica,Bombus terrestris,bumblebees
+India,Coffea canephora,Apis cerana,other_wild_bees
 India,Coffea canephora,Apis cerana indica,other_wild_bees
 India,Coffea canephora,Apis dorsata,honeybees
+India,Coffea canephora,Apis dorsata,other_wild_bees
 India,Coffea canephora,Apis florea,honeybees
-India,Coffea canephora,Apis_cerana,other_wild_bees
-India,Coffea canephora,Apis_dorsata,other_wild_bees
 India,Coffea canephora,Ceratina hieroglyphica,other_wild_bees
 India,Coffea canephora,Tetragonula iridipennis,other_wild_bees
 India,Coffea canephora,Tetragonula_iridipennis,other_wild_bees
@@ -149,7 +149,6 @@ South Africa,Helianthus annuus,Hypolimnas misippus,lepidoptera
 South Africa,Helianthus annuus,Lasioglossum sp.,other_wild_bees
 South Africa,Helianthus annuus,Sarcophagidae sp.,other_flies
 South Africa,Mangifera indica,Apis mellifera,honeybees
-South Africa,Mangifera indica,Apis_mellifera,honeybees
 South Africa,Mangifera indica,Betassyrphus adligatus,syrphids
 South Africa,Mangifera indica,Camponotus_sp_1__,non_bee_hymenoptera
 South Africa,Mangifera indica,Ceratina sp. (Ceratina lunata Friese or Ceratina moerenhouti Vachal),other_wild_bees
@@ -159,7 +158,7 @@ South Africa,Mangifera indica,Ischiodon aegyptius,syrphids
 South Africa,Mangifera indica,Lasioglossum_sp1_cf_,other_wild_bees
 South Africa,Mangifera indica,Nitulidae_sp_,beetles
 South Africa,Mangifera indica,Rhyncomya forcipata,other_flies
-Sweden,Brassica napus,Apis_mellifera,honeybees
+Sweden,Brassica napus,Apis mellifera,honeybees
 Sweden,Brassica napus,Bombus_sp,bumblebees
 Sweden,Brassica napus,Bombus_terrestris,bumblebees
 Sweden,Brassica napus,Empis_sp,other_flies
@@ -179,7 +178,7 @@ Tanzania,Coffea arabica,Syrphidae,syrphids
 UK,Brassica napus,Bibio spp. (st Marks fly),other_flies
 UK,Brassica napus,Bombus lapidarius,bumblebees
 UK,Brassica napus,Bombus terrestris or lucorum,bumblebees
-UK,Brassica napus,Ladybirds,beetles
+UK,Brassica napus,Coccinellidae,beetles
 UK,Brassica napus,Pollen beetle,beetles
 UK,Fragaria x ananassa,Apis mellifera,honeybees
 UK,Fragaria x ananassa,Bombus hypnorum,bumblebees
@@ -191,16 +190,11 @@ UK,Malus domestica,Bombus lapidarius,bumblebees
 UK,Malus domestica,Bombus terrestris or lucorum,bumblebees
 UK,Vicia faba,Andrena_wilkella,other_wild_bees
 UK,Vicia faba,Apis mellifera,honeybees
-UK,Vicia faba,Apis_mellifera,honeybees
 UK,Vicia faba,Bombus hortorum,bumblebees
 UK,Vicia faba,Bombus lapidarius,bumblebees
 UK,Vicia faba,Bombus pascuorum,bumblebees
 UK,Vicia faba,Bombus pratorum,bumblebees
 UK,Vicia faba,Bombus terrestris or lucorum,bumblebees
-UK,Vicia faba,Bombus_hortorum,bumblebees
-UK,Vicia faba,Bombus_lapidarius,bumblebees
-UK,Vicia faba,Bombus_lucorum/terrestris,bumblebees
-UK,Vicia faba,Bombus_pascuorum,bumblebees
 USA,Fragaria x ananassa,Andrena,other_wild_bees
 USA,Fragaria x ananassa,Andrena nasonii,other_wild_bees
 USA,Fragaria x ananassa,Apis mellifera,honeybees
