@@ -10,7 +10,7 @@ library(sp) #Transforming latitude and longitude
 dir_ini <- getwd()
 options(digits=14)
 
-datafield <- read.xlsx("Crop_pollination_database_Hevia et al.xlsx",
+datafield <- read.xlsx("Crop_pollination_database_Hevia_et_al_UPDATE.xlsx",
                           sheet = "field_level_data", startRow = 1)
 
 datafield <- as_tibble(datafield)
@@ -18,7 +18,8 @@ datafield <- as_tibble(datafield)
 datafield <- datafield %>%
   rename(field_size = field.size,
          fruits_per_plant = mean_fruits_per_plant,
-         richness_estimator_method = richness_estimator_.Method)
+         richness_estimator_method = `richness_estimator_&#10;Method`)
+
 
 datafield$management <- "conventional"
 datafield$crop <- "Helianthus annuus"
@@ -61,13 +62,13 @@ field_level_data <- tibble(
   sampling_end_month = datafield$sampling_end_month,
   sampling_year = datafield$sampling_year,
   field_size = datafield$field_size,
-  yield=datafield$total_yield,
-  yield_units=NA,
-  yield2=NA,
-  yield2_units=NA,
-  yield_treatments_no_pollinators=NA,
+  yield=datafield$yield,
+  yield_units=datafield$yield_units,
+  yield2=datafield$yield2,
+  yield2_units=datafield$yield2_units,
+  yield_treatments_no_pollinators=datafield$yield_treatments_no_pollinators,
   yield_treatments_pollen_supplement=NA,
-  yield_treatments_no_pollinators2=NA,
+  yield_treatments_no_pollinators2=datafield$yield_treatments_no_pollinators2,
   yield_treatments_pollen_supplement2=NA,
   fruits_per_plant=datafield$fruits_per_plant,
   fruit_weight= datafield$fruit_weight,
