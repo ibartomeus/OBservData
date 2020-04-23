@@ -7,10 +7,10 @@ library("iNEXT")
 dir_ini <- getwd()
 
 ##########################
-#Data: Rundlof_2011
+#Data: Cunningham_2001
 ##########################
 
-data_raw <- read_csv("Individual CSV/Rundlof_2011.csv")
+data_raw <- read_csv("Individual CSV/Cunningham_2001.csv")
 
 # Remove columns full of NA's
 data_raw_without_NAs <- 
@@ -24,20 +24,20 @@ data_raw_without_NAs <-
 data.site_aux <- tibble(
   study_id = paste0(data_raw_without_NAs$author,"_",data_raw_without_NAs$Year_of_study),
   site_id = data_raw_without_NAs$site,
-  crop = "Brassica napus",
+  crop = "Annona squamosa atemoya",
   variety = NA,
   management = data_raw_without_NAs$land_management,
-  country = "Sweden",
-  latitude = NA,#"55°48'15.31''N",
-  longitude = NA,#"13°28'4.12''E",
+  country = "Australia",
+  latitude = data_raw_without_NAs$latitude,
+  longitude = data_raw_without_NAs$longitude,
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month = 5,
-  sampling_end_month = 6,
+  sampling_start_month = 11,
+  sampling_end_month = 11,
   sampling_year = data_raw_without_NAs$Year_of_study,
   field_size = NA,
-  yield=NA,
+  yield= NA,
   yield_units=NA,
   yield2= NA,
   yield2_units= NA,
@@ -52,6 +52,8 @@ data.site_aux <- tibble(
   seeds_per_plant= NA,
   seed_weight= NA
 )
+
+
 
 data.site <- data.site_aux %>% 
   group_by(study_id,site_id,crop,variety,management,country,
@@ -68,27 +70,27 @@ data.site[is.nan(data.site)] <- NA
 ############################################################
 
 # Convert Latitude/Longitude from degrees min sec to decimal
-# 
-# chd = substr(data.site$latitude, 3, 3)[1]
-# chm = substr(data.site$latitude, 6, 6)[1]
-# chs = substr(data.site$latitude, 12, 13)[1]
-# 
-# cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-# data.site$latitude <- as.numeric(cd)
-# 
-# chd = substr(data.site$longitude, 3, 3)[1]
-# chm = substr(data.site$longitude, 6, 6)[1]
-# chs = substr(data.site$longitude, 11, 12)[1]
-# 
-# cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
-# data.site$longitude <- as.numeric(cd)
-# 
-# #########################
+
+chd = substr(data.site$latitude, 4, 4)[1]
+chm = substr(data.site$latitude, 9, 9)[1]
+chs = substr(data.site$latitude, 14, 15)[1]
+
+cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
+data.site$latitude <- as.numeric(cd)
+
+chd = substr(data.site$longitude, 5, 5)[1]
+chm = substr(data.site$longitude, 10, 10)[1]
+chs = substr(data.site$longitude, 15, 16)[1]
+
+cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
+data.site$longitude <- as.numeric(cd)
+
+#########################
 # Adding credit, Publication and contact
 
-data.site$Publication <- NA
-data.site$Credit  <- "Maj Rundlof"
-data.site$Email_contact <- "Maj.Rundlof@biol.lu.se"
+data.site$Publication <- "10.1603/0022-0493-98.4.1193"
+data.site$Credit  <- "Rosalind Blanche, and Saul A. Cunningham"
+data.site$Email_contact <- "saul.cunningham@csiro.au"
 
 ###########################
 # SAMPLING DATA
@@ -101,6 +103,7 @@ data_raw_obs <- data_raw %>%
 # Remove NAs
 data_raw_obs <- 
   data_raw_obs[,colSums(is.na(data_raw_obs))<nrow(data_raw_obs)]
+
 
 data_raw_gather <- data_raw_obs %>% gather(-site,key = "Organism_ID", value = 'Abundance', !contains("site"))
 data_raw_gather$Family <- as.character(NA)
@@ -118,85 +121,59 @@ data_raw_gather %>% filter(is.na(Guild))
 # INSECT SAMPLING
 #######################
 
-# Insect surveys were conducted in
-# two 150 × 1 m transects per field, one transect located 8 m and the
-# other 100 m from the edge of the field. Each transect was surveyed
-# for insects visiting the crop flowers during a 15-min period.
-# data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
+# a single sample of 100 female-phase flowers
+# from 30 to 50 randomly selected trees of the Pinks
+# Mammoth variety at each orchard.
 
 # Remove entries with zero abundance
 data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
 
 insect_sampling <- tibble(
-  study_id = "Rundlof_2011",
+  study_id = "Cunningham_2001",
   site_id = data_raw_gather$site,
   pollinator = data_raw_gather$Organism_ID,
   guild = data_raw_gather$Guild,
-  sampling_method = "transects",
+  sampling_method = "sample of female flowers",
   abundance = data_raw_gather$Abundance,
-  total_sampled_area = 2*150*1,
-  total_sampled_time = 2*15,
+  total_sampled_area = NA,
+  total_sampled_time = NA,
   total_sampled_flowers = NA,
-  Description = "Two surveys per field, and surveys were conducted in one 150 × 1 m transect per field, 15 min each"
+  Description = "Insects/flower: sample of 100 female-phase flowers from 30 to 50 randomly selected trees at each orchard."
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_Rundlof_2011.csv")
+write_csv(insect_sampling, "insect_sampling_Cunningham_2001.csv")
 setwd(dir_ini)
 
 #######################################
-# ABUNDANCE
+# VISITATION RATE
 #######################################
 
 # Add site observations
 
-data_raw_gather <-  data_raw_gather %>%
-  group_by(site,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
+data_raw_gather <-  data_raw_gather %>% rename(site_id=site) %>%
+  group_by(site_id,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
-abundance_aux <- data_raw_gather %>% rename(site_id=site) %>%
+
+visit_aux <- data_raw_gather %>%
   group_by(site_id,Guild) %>% count(wt=Abundance) %>% 
   spread(key=Guild, value=n)
 
-names(abundance_aux)
+names(visit_aux)
 
-# There are ""bumblebees"      "honeybees"       "other_wild_bees" "syrphids"
+# There are "beetles" ""bumblebees"      "honeybees"   "lepidoptera"     "other_flies" 
+# "other_wild_bees" "syrphids" humbleflies non_bee_hymenoptera other
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(other_flies=0,lepidoptera=0,beetles=0,
-                                          non_bee_hymenoptera=0,other=0,humbleflies=0,total=0)
-abundance_aux[is.na(abundance_aux)] <- 0
-abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
+visit_aux <- visit_aux %>% mutate(total=0,honeybees=0, bumblebees=0, other_wild_bees=0,
+                                  syrphids=0, humbleflies=0,other_flies=0,
+                                  non_bee_hymenoptera=0, lepidoptera=0, other=0)
+visit_aux[is.na(visit_aux)] <- 0
+visit_aux$total <- rowSums(visit_aux[,c(2:ncol(visit_aux))])
 
-data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
-
-######################################################
-# ESTIMATING CHAO INDEX
-######################################################
-
-abundace_field <- data_raw_gather %>% rename(site_id=site) %>%
-  select(site_id,Organism_ID,Abundance)%>%
-  group_by(site_id,Organism_ID) %>% count(wt=Abundance)
-
-abundace_field <- abundace_field %>% spread(key=Organism_ID,value=n)
-
-abundace_field[is.na(abundace_field)] <- 0
-abundace_field$r_obser <-  0
-abundace_field$r_chao <-  0
-
-for (i in 1:nrow(abundace_field)) {
-  x <- as.numeric(abundace_field[i,2:(ncol(abundace_field)-2)])
-  chao  <-  ChaoRichness(x, datatype = "abundance", conf = 0.95)
-  abundace_field$r_obser[i] <-  chao$Observed
-  abundace_field$r_chao[i] <-  chao$Estimator 
-}
-
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
-
-data.site <- data.site %>% left_join(richness_aux, by = "site_id")
+data.site <- data.site %>% left_join(visit_aux, by = "site_id")
 
 
 ###############################
@@ -234,39 +211,38 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = data.site$pollinator_richness,
-  richness_estimator_method = data.site$richness_estimator_method,
-  abundance = data.site$total,
-  ab_honeybee = data.site$honeybees,
-  ab_bombus = data.site$bumblebees,
-  ab_wildbees = data.site$other_wild_bees,
-  ab_syrphids = data.site$syrphids,
-  ab_humbleflies= data.site$humbleflies,
-  ab_other_flies= data.site$other_flies,
-  ab_beetles=data.site$beetles,
-  ab_lepidoptera=data.site$lepidoptera,
-  ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
-  ab_others = data.site$other,
-  total_sampled_area = 2*150,
-  total_sampled_time = 2*15,
-  visitation_rate_units = NA,
-  visitation_rate = NA,
-  visit_honeybee = NA,
-  visit_bombus = NA,
-  visit_wildbees = NA,
-  visit_syrphids = NA,
-  visit_humbleflies = NA,
-  visit_other_flies = NA,
-  visit_beetles = NA,
-  visit_lepidoptera = NA,
-  visit_nonbee_hymenoptera = NA,
-  visit_others = NA,
+  pollinator_richness = NA,
+  richness_estimator_method = NA,
+  abundance = NA,
+  ab_honeybee = NA,
+  ab_bombus = NA,
+  ab_wildbees = NA,
+  ab_syrphids = NA,
+  ab_humbleflies= NA,
+  ab_other_flies= NA,
+  ab_beetles = NA,
+  ab_lepidoptera = NA,
+  ab_nonbee_hymenoptera=NA,
+  ab_others = NA,
+  total_sampled_area = NA,
+  total_sampled_time = NA,
+  visitation_rate_units = "Insects per flower",
+  visitation_rate = data.site$total,
+  visit_honeybee = data.site$honeybees,
+  visit_bombus = data.site$bumblebees,
+  visit_wildbees = data.site$other_wild_bees,
+  visit_syrphids = data.site$syrphids,
+  visit_humbleflies = data.site$humbleflies,
+  visit_other_flies = data.site$other_flies,
+  visit_beetles = data.site$beetles,
+  visit_lepidoptera = data.site$lepidoptera,
+  visit_nonbee_hymenoptera = data.site$non_bee_hymenoptera,
+  visit_others = data.site$other,
   Publication = data.site$Publication,
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_Rundlof_2011.csv")
+write_csv(field_level_data, "field_level_data_Cunningham_2001.csv")
 setwd(dir_ini)
-

@@ -106,18 +106,17 @@ data_raw_obs <- data_raw %>%
 data_raw_obs <- 
   data_raw_obs[,colSums(is.na(data_raw_obs))<nrow(data_raw_obs)]
 
-# Add site observations
-data_raw_g <- data_raw_obs %>% select(-sample_num) %>%
-  group_by(site) %>% summarise_all(sum,na.rm=TRUE)
+data_raw_g <- data_raw_obs %>% select(-sample_num)
 
 # Gather observations
 data_raw_gather <- data_raw_g %>% gather(-site,key = "Organism_ID", value = 'Abundance', !contains("site"))
+data_raw_gather$Family <- as.character(NA)
 
 #Add guild via guild list
 
 gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
 
-data_raw_gather <- data_raw_gather %>% left_join(gild_list,by=c("Organism_ID"))
+data_raw_gather <- data_raw_gather %>% left_join(gild_list,by=c("Organism_ID","Family"))
 
 #Check NA's in guild
 data_raw_gather %>% filter(is.na(Guild))
@@ -133,7 +132,7 @@ data_raw_gather %>% filter(is.na(Guild))
 # crop flowers were collected during a period of 5 min
 
 # Remove entries with zero abundance
-data_raw_gather <- data_raw_gather %>% filter(Abundance>0, is.na(Family))
+data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
 
 insect_sampling <- tibble(
   study_id = "Scheper_2011",
@@ -155,6 +154,11 @@ setwd(dir_ini)
 #######################################
 # ABUNDANCE
 #######################################
+
+# Add site observations
+
+data_raw_gather <-  data_raw_gather %>%
+  group_by(site,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
 abundance_aux <- data_raw_gather %>% rename(site_id=site) %>%
   group_by(site_id,Guild) %>% count(wt=Abundance) %>% 

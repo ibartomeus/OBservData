@@ -1,16 +1,16 @@
 
 library(tidyverse)
-#library(sp) #Transforming latitude and longitude
+library(sp) #Transforming latitude and longitude
 library("iNEXT")
 
 
 dir_ini <- getwd()
 
 ##########################
-#Data: pisanty_mandelik_2009
+#Data: Cunningham_2006
 ##########################
 
-data_raw <- read_csv("Individual CSV/pisanty_mandelik_2009.csv")
+data_raw <- read_csv("Individual CSV/Cunningham_2006.csv")
 
 # Remove columns full of NA's
 data_raw_without_NAs <- 
@@ -24,20 +24,20 @@ data_raw_without_NAs <-
 data.site_aux <- tibble(
   study_id = paste0(data_raw_without_NAs$author,"_",data_raw_without_NAs$Year_of_study),
   site_id = data_raw_without_NAs$site,
-  crop = "Citrullus lanatus",
+  crop = "Brassica napus",
   variety = NA,
   management = data_raw_without_NAs$land_management,
-  country = "Israel",
-  latitude = NA,
-  longitude = NA,
+  country = "Australia",
+  latitude = data_raw_without_NAs$latitude,
+  longitude = data_raw_without_NAs$longitude,
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month = 6,
-  sampling_end_month = 6,
+  sampling_start_month = 10,
+  sampling_end_month = 10,
   sampling_year = data_raw_without_NAs$Year_of_study,
   field_size = NA,
-  yield=NA,
+  yield= NA,
   yield_units=NA,
   yield2= NA,
   yield2_units= NA,
@@ -53,6 +53,8 @@ data.site_aux <- tibble(
   seed_weight= NA
 )
 
+
+
 data.site <- data.site_aux %>% 
   group_by(study_id,site_id,crop,variety,management,country,
            latitude,longitude,X_UTM,zone_UTM,sampling_end_month,sampling_year,yield_units) %>% 
@@ -67,61 +69,44 @@ data.site[is.nan(data.site)] <- NA
 
 ############################################################
 
-# # Convert Latitude/Longitude from degrees min sec to decimal
-# 
-# chd = substr(data.site$latitude, 3, 3)[1]
-# chm = substr(data.site$latitude, 6, 6)[1]
-# chs = substr(data.site$latitude, 12, 13)[1]
-# 
-# cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-# data.site$latitude <- as.numeric(cd)
-# 
-# chd = substr(data.site$longitude, 3, 3)[1]
-# chm = substr(data.site$longitude, 6, 6)[1]
-# chs = substr(data.site$longitude, 11, 12)[1]
-# 
-# cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
-# data.site$longitude <- as.numeric(cd)
+# Convert Latitude/Longitude from degrees min sec to decimal
+#34 ° 29 ' 7 ''
 
+chd = substr(data.site$latitude, 4, 4)[1]
+chm = substr(data.site$latitude, 8, 8)[1]
+chs = substr(data.site$latitude, 12, 13)[1]
+
+cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
+data.site$latitude <- as.numeric(cd)
+#148 ° 34 ' 51 ''
+chd = substr(data.site$longitude, 5, 5)[1]
+chm = substr(data.site$longitude, 10, 10)[1]
+chs = substr(data.site$longitude, 14, 15)[1]
+
+cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
+data.site$longitude <- as.numeric(cd)
+  
 #########################
 # Adding credit, Publication and contact
 
-data.site$Publication <- NA
-data.site$Credit  <- "Yael Mandelik"
-data.site$Email_contact <- "Yael.Mandelik@mail.huji.ac.il"
+data.site$Publication <- "10.1016/j.baae.2010.05.001"
+data.site$Credit  <- "Anthony D. Arthur, Jin Li, Steve Henry, and Saul A. Cunningham"
+data.site$Email_contact <- "saul.cunningham@csiro.au"
 
 ###########################
 # SAMPLING DATA
 ###########################
 
+
 data_raw_obs <- data_raw %>%
-  select(site,round,row,observation_location, cultivar_other_label, names(data_raw[30:ncol(data_raw)]))
+  select(site,round,row,observation_location, names(data_raw[30:ncol(data_raw)]))
 
 # Remove NAs
 data_raw_obs <- 
   data_raw_obs[,colSums(is.na(data_raw_obs))<nrow(data_raw_obs)]
 
-# Extract transect data: two tipes of sites, a/b
 
-transect_data <-  data_raw_obs %>% filter(cultivar_other_label!="b") %>% 
-  select(site,cultivar_other_label) %>% group_by(site) %>% count() %>%
-  mutate(area=n*25*25,time=n*10)
-  
-additional_transect_data <-  data_raw_obs %>% filter(cultivar_other_label=="b") %>% 
-  select(site,cultivar_other_label) %>% group_by(site) %>% count() %>%
-  mutate(add_area=n*25*25,add_time=n*10)
-
-transect_data <- transect_data %>% left_join(additional_transect_data, by="site")
-transect_data$total_area <- rowSums(transect_data[,c(3,6)],na.rm = T)
-transect_data$total_time <- rowSums(transect_data[,c(4,7)], na.rm = T)
-
-# Add site observations
-data_raw_g <- data_raw_obs %>% select(-cultivar_other_label)
-
-
-# Gather observations
-data_raw_gather <- data_raw_g %>% 
-  gather(-site,key = "Organism_ID", value = 'Abundance', !contains("site"))
+data_raw_gather <- data_raw_obs %>% gather(-site,key = "Organism_ID", value = 'Abundance', !contains("site"))
 data_raw_gather$Family <- as.character(NA)
 
 #Add guild via guild list
@@ -137,26 +122,33 @@ data_raw_gather %>% filter(is.na(Guild))
 # INSECT SAMPLING
 #######################
 
-# In each field, a 25 × 25 m plot was marked at the
-# field edge; in eight fields that were sufficiently large to test for
-# edge effects, an additional 25 × 25 m plot was marked at the
-# interior of the field, 80???110 m from the edge. Edge plots were
-# surrounded by 10???70% (median 25%) seminatural habitat at a
-# 1,000-m radius. Each plot was surveyed on one or two different
-# dates, two times per day, between 7:00???9:00AMand 9:00???11:00 AM,
-# with intervals of ???60 min between successive rounds. Each sampling
-# round included 10 min of slow walking along the rows of the plot
+# Pollinators were counted in transects 22.5 m long by 3 m
+# wide. The entire transects had been covered in 5-8 min each
+# 
+# The density of inflorescences on each transect was estimated using four 50 cm × 50 cm randomly placed quadrats.
+# The average count from the four quadrats was used as a
+# possible explanatory variable in analyses.
 
 # Remove entries with zero abundance
-data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
+data_raw_gather <- data_raw_gather %>% filter(Abundance>0) %>% rename(site_id=site)
 
-data_raw_gather <- data_raw_gather %>% left_join(transect_data[,c(1,8:9)],by=c("site"))
+#########################
+# Add field size and transect pairs from paper (table 1)
+# Note that order is mutated a,b,c,d,e,f in table 1 corresponds here with 1,2,3,4,5,6
 
+data_transects <- tibble(site_id=data_raw_obs$site,transects=c(16,9,35,17,11,18),
+                         field_size = c(86,62,67,20,34,21)) %>% 
+  mutate(total_area = 2*transects*22.5*3,
+         total_time = 2*transects*(5+8)/2)
 
+data.site <- data.site %>% left_join(data_transects,by="site_id")
+
+data_raw_gather <- data_raw_gather %>% left_join(data_transects,by="site_id")
+data_raw_gather$Abundance <- 2*data_raw_gather$Abundance*data_raw_gather$transects
 
 insect_sampling <- tibble(
-  study_id = "pisanty_mandelik_2009",
-  site_id = data_raw_gather$site,
+  study_id = "Cunningham_2006",
+  site_id = data_raw_gather$site_id,
   pollinator = data_raw_gather$Organism_ID,
   guild = data_raw_gather$Guild,
   sampling_method = "transects",
@@ -164,11 +156,11 @@ insect_sampling <- tibble(
   total_sampled_area = data_raw_gather$total_area,
   total_sampled_time = data_raw_gather$total_time,
   total_sampled_flowers = NA,
-  Description = "One or two 25x25 plots per field. Each plot was surveyed two or four times per season (10 min of slow walking each)"
+  Description = "22.5 m long by 3 m wide transects, 5-8 min each."
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_pisanty_mandelik_2009.csv")
+write_csv(insect_sampling, "insect_sampling_Cunningham_2006.csv")
 setwd(dir_ini)
 
 #######################################
@@ -178,21 +170,24 @@ setwd(dir_ini)
 # Add site observations
 
 data_raw_gather <-  data_raw_gather %>%
-  group_by(site,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
+  group_by(site_id,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
-abundance_aux <- data_raw_gather %>% rename(site_id=site) %>%
+
+abundance_aux <- data_raw_gather %>%
   group_by(site_id,Guild) %>% count(wt=Abundance) %>% 
   spread(key=Guild, value=n)
 
 names(abundance_aux)
 
-# There are "beetles"      "honeybees"  "lepidoptera"     "other_wild_bees" "syrphids"
-# "non_bee_hymenoptera"  "other" other_flies
+# There are     "honeybees"     "other_wild_bees"
+# "syrphids"
+
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(bumblebees=0,
-                                          humbleflies=0,total=0)
+abundance_aux <- abundance_aux %>% mutate(bumblebees=0,lepidoptera=0,
+                                          other_flies=0,beetles=0,non_bee_hymenoptera=0,
+                                          other=0,humbleflies=0,total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
 
@@ -202,7 +197,7 @@ data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
 # ESTIMATING CHAO INDEX
 ######################################################
 
-abundace_field <- data_raw_gather %>% rename(site_id=site) %>%
+abundace_field <- data_raw_gather %>%
   select(site_id,Organism_ID,Abundance)%>%
   group_by(site_id,Organism_ID) %>% count(wt=Abundance)
 
@@ -246,7 +241,7 @@ field_level_data <- tibble(
   sampling_start_month = data.site$sampling_start_month,
   sampling_end_month = data.site$sampling_end_month,
   sampling_year = data.site$sampling_year,
-  field_size = data.site$field_size,
+  field_size = data.site$field_size.y,
   yield=data.site$yield,
   yield_units=data.site$yield_units,
   yield2=data.site$yield2,
@@ -274,8 +269,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = transect_data$total_area,
-  total_sampled_time = transect_data$total_time,
+  total_sampled_area = data.site$total_area,
+  total_sampled_time = data.site$total_time,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,
@@ -294,6 +289,5 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_pisanty_mandelik_2009.csv")
+write_csv(field_level_data, "field_level_data_Cunningham_2006.csv")
 setwd(dir_ini)
-

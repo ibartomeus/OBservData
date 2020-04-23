@@ -7,10 +7,10 @@ library("iNEXT")
 dir_ini <- getwd()
 
 ##########################
-#Data: pisanty_mandelik_2009
+#Data: pisanty_mandelik_2010  ### WRITE commands are masked!!
 ##########################
 
-data_raw <- read_csv("Individual CSV/pisanty_mandelik_2009.csv")
+data_raw <- read_csv("Individual CSV/pisanty_mandelik_2010.csv")
 
 # Remove columns full of NA's
 data_raw_without_NAs <- 
@@ -24,7 +24,7 @@ data_raw_without_NAs <-
 data.site_aux <- tibble(
   study_id = paste0(data_raw_without_NAs$author,"_",data_raw_without_NAs$Year_of_study),
   site_id = data_raw_without_NAs$site,
-  crop = "Citrullus lanatus",
+  crop = "Helianthus annuus",
   variety = NA,
   management = data_raw_without_NAs$land_management,
   country = "Israel",
@@ -33,8 +33,8 @@ data.site_aux <- tibble(
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month = 6,
-  sampling_end_month = 6,
+  sampling_start_month = 5,
+  sampling_end_month = 5,
   sampling_year = data_raw_without_NAs$Year_of_study,
   field_size = NA,
   yield=NA,
@@ -86,8 +86,8 @@ data.site[is.nan(data.site)] <- NA
 #########################
 # Adding credit, Publication and contact
 
-data.site$Publication <- NA
-data.site$Credit  <- "Yael Mandelik"
+data.site$Publication <- "10.1007/s13592-013-0242-5"
+data.site$Credit  <- "Gideon PISANTY, Alexandra-Maria KLEIN, Yael MANDELIK"
 data.site$Email_contact <- "Yael.Mandelik@mail.huji.ac.il"
 
 ###########################
@@ -137,15 +137,23 @@ data_raw_gather %>% filter(is.na(Guild))
 # INSECT SAMPLING
 #######################
 
-# In each field, a 25 × 25 m plot was marked at the
-# field edge; in eight fields that were sufficiently large to test for
-# edge effects, an additional 25 × 25 m plot was marked at the
-# interior of the field, 80???110 m from the edge. Edge plots were
-# surrounded by 10???70% (median 25%) seminatural habitat at a
-# 1,000-m radius. Each plot was surveyed on one or two different
-# dates, two times per day, between 7:00???9:00AMand 9:00???11:00 AM,
-# with intervals of ???60 min between successive rounds. Each sampling
-# round included 10 min of slow walking along the rows of the plot
+# According to Rader et al (2016), the sampling methods are described in 10.1007/s13592-013-0242-5  
+# In each field, a
+# 25×25-m plot was marked at the field edge; in nine
+# fields, an additional 25×25-m plot was marked at the
+# interior of the field, 80-110 m from the edge. Each
+# plot was observed on one to two different dates. In
+# each plot on each date, 40 randomly chosen heads
+# were observed between 0730 and 1130 hours and
+# another randomly chosen 40 were observed between
+# 1130 and 1530 hours, thus covering the main daily
+# period of activity for the majority of bee species. For
+# each head, we recorded the head size and bloom stage
+# and the number of visits per each bee species
+# encountered during 30 s of observation. In order to
+# validate species identifications of observed bee
+# visitors, after each round of observation, we netted
+# wild bees for 10-15 min in each plot.
 
 # Remove entries with zero abundance
 data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
@@ -155,7 +163,7 @@ data_raw_gather <- data_raw_gather %>% left_join(transect_data[,c(1,8:9)],by=c("
 
 
 insect_sampling <- tibble(
-  study_id = "pisanty_mandelik_2009",
+  study_id = "pisanty_mandelik_2010",
   site_id = data_raw_gather$site,
   pollinator = data_raw_gather$Organism_ID,
   guild = data_raw_gather$Guild,
@@ -168,7 +176,7 @@ insect_sampling <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_pisanty_mandelik_2009.csv")
+#write_csv(insect_sampling, "insect_sampling_pisanty_mandelik_2010.csv")
 setwd(dir_ini)
 
 #######################################
@@ -294,6 +302,6 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_pisanty_mandelik_2009.csv")
+#write_csv(field_level_data, "field_level_data_pisanty_mandelik_2010.csv")
 setwd(dir_ini)
 

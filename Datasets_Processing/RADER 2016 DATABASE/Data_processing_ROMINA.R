@@ -96,33 +96,12 @@ for (i in 1:nrow(resultados)){
                                       crop==resultados$crop[i],
                                       Year_of_study==resultados$Year_of_study[i])
   path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],".csv")
+  
+  if ("Reemer_Kleijn"==resultados$author[i] & "Malus_domestica"==resultados$crop[i]){
+    path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],"_Apple.csv")
+  }
+  
   print(path_i)
   write_csv(dataset_i,path_i)
 }
 
-#######################################33
-# EXAMPLE BARTOMEUS
-bartomeus_data <- data_raw %>% filter(author=="Bartomeus")
-
-
-bartomeus_data_obs <- bartomeus_data %>%
-  select(site,round,row,observation_location, names(bartomeus_data[30:ncol(bartomeus_data)]))
-
-
-bartomeus_data_g <- bartomeus_data_obs %>% 
-  filter(!observation_location %in% c("Control_Edge","Control_Crop")) %>%
-  group_by(site,round,row,observation_location) %>% summarise_all(funs(sum))
-
-# Remove columns full of NA's
-bartomeus_data_g <- 
-  bartomeus_data_g[,colSums(is.na(bartomeus_data_g))<nrow(bartomeus_data_g)]
-
-x <- bartomeus_data_g %>% select(-round,-observation_location) %>% 
-  group_by(site) %>% summarise_all(funs(sum))
-
-dir_ini <- getwd()
-setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_Processing/POLLINATION DATABASE - DAINESE-20200218T092444Z-001/DATASETS/")
-bart_raw <- read.xlsx("Bart01_DataCollection_Pollination.xlsx",
-                      sheet = "SpeciesData", startRow = 2)
-setwd(dir_ini)
-bart_raw %>% group_by(SiteID,OrganismID) %>% summarise(Abundance=sum(Abundance)) %>% head(15)
