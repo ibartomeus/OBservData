@@ -73,12 +73,10 @@ data_raw <- as_tibble(data_raw)
 authors_in_Dainese <- c("Anderson","Bartomeus","Carvalheiro",
                         "Chacoff","Freitas","Garratt_potts",
                         "garrett","Howlett","Stanley_stout",
-                        "taki")
+                        "taki","smitha")
 
 data_filter <- data_raw %>% filter(!author %in% authors_in_Dainese)
 
-# Filter the works by Smitha
-data_filter <- data_filter %>% filter(!(author=="smitha" & Year_of_study> 1900))
 
 
 resultados <- data_filter %>% group_by(author,crop,Year_of_study) %>%
@@ -91,6 +89,7 @@ resultados <- data_filter %>% group_by(author,crop,Year_of_study) %>%
 
 # Save studies in individual CSV files
 for (i in 1:nrow(resultados)){
+  print(i)
 
   dataset_i <- data_filter %>% filter(author==resultados$author[i],
                                       crop==resultados$crop[i],
@@ -101,7 +100,21 @@ for (i in 1:nrow(resultados)){
     path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],"_Apple.csv")
   }
   
+  if ("mayfield"==resultados$author[i]){
+    dataset_i <- data_filter %>% filter(author==resultados$author[i])
+    path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],".csv")
+  }
+  
+  if ("Schueep"==resultados$author[i]){
+    dataset_i <- data_filter %>% filter(author==resultados$author[i])
+    path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],".csv")
+  }
+  
+  if ("Szentgyorgyi"==resultados$author[i]){
+    dataset_i <- data_filter %>% filter(author==resultados$author[i])
+    path_i = paste0("Individual CSV/",resultados$author[i],"_",resultados$Year_of_study[i],".csv")
+  }
+  
   print(path_i)
   write_csv(dataset_i,path_i)
 }
-
