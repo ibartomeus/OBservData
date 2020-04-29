@@ -91,6 +91,12 @@ data.species <- data.species %>% rename(site_id=SiteID,sampling_year=Year.of.sam
                                         Organism_ID=OrganismID,abundance_NO_corrected= `Abundance.(no.correction.for.sampling.effort)`)
 
 data.species_01 <- data.species %>% filter(grepl("carv02",data.species$site_id,ignore.case = TRUE))
+
+# Evaluate the percentage of species + morphospecies
+data.species_01 %>% group_by(Identified.to) %>% count()
+percentage_species_morphos <- sum(data.species_01$Identified.to %in% c("species or morphospecies"))/nrow(data.species_01)
+
+
 data.species_01 %>% group_by(sampling_method) %>% count()
 
 gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
@@ -157,9 +163,18 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Observed")
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
+
+# Abundances are not integer numbers. So Chao1=observed
+richness_aux$other_richness_estimator_method <- NA
+richness_aux$other_pollinator_richness <- NA
+
+if (percentage_species_morphos<0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 ###############################################################
@@ -211,8 +226,9 @@ field_level_data <- tibble(
   seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
-  pollinator_richness=data.site$pollinator_richness,
-  richness_estimator_method=data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance=NA,
   ab_honeybee=NA,
   ab_bombus=NA,

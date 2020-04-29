@@ -107,6 +107,12 @@ data.species <- data.species %>% filter(SiteID=="chac01",Year.of.sampling==2000)
 # No information about flower has been provided
 
 
+# Evaluate the percentage of species + morphospecies
+data.species %>% group_by(Identified.to) %>% count()
+percentage_species_morphos <- 
+  sum(data.species$Identified.to %in% c("morphoespecies","species level"))/nrow(data.species)
+
+
 
 #We are going to estimate the number of census
 
@@ -212,10 +218,14 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  sum(x>0)
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="observed")
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
 
+if (percentage_species_morphos<0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 
 
@@ -303,8 +313,9 @@ field_level_data <- tibble(
   seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
-  pollinator_richness=data.site$pollinator_richness,
-  richness_estimator_method=data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance=NA,
   ab_honeybee=NA,
   ab_bombus=NA,

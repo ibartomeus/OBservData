@@ -113,6 +113,11 @@ data.species <- data.species %>% rename(site_id=SiteID,sampling_year=Year.of.sam
 
 data.species_04 <- data.species %>% filter(sampling_year==2014,site_id %in% data.site$site_id)
 
+# Evaluate the percentage of species + morphospecies
+data.species_04 %>% group_by(Identified.to) %>% count()
+percentage_species_morphos <-
+  sum(data.species_04$Identified.to %in% c("Species"))/nrow(data.species_04)
+
 gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
   
 data.species_04 %>% select(-Identified.to,-X6)
@@ -192,9 +197,14 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
+
+if (percentage_species_morphos<0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 ###############################################################
@@ -233,8 +243,9 @@ field_level_data <- tibble(
   seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
-  pollinator_richness=data.site$pollinator_richness,
-  richness_estimator_method=data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,
