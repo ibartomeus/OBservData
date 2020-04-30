@@ -103,7 +103,7 @@ names_check <- gnr_resolve(names = candidates)
 # The number of words in the submitted name should be larger than or equal to 
 # that of matched name 
 
-names_NCBI <- names_check %>% filter(data_source_title=="NCBI",
+names_NCBI <- names_check %>% filter(data_source_title =="NCBI",
                                      sapply(strsplit(names_check$submitted_name, " "), length)>=
                                        sapply(strsplit(names_check$matched_name, " "), length))
 
@@ -122,6 +122,7 @@ other_taxons <- tibble(submitted_name=candidates[!candidates %in% names_NCBI$sub
 other_taxons$matched_name <- NA
 other_taxons$rank <- NA
 
+#Following queries to NCBI do not work
 for (i in 1:nrow(other_taxons)){
   print(other_taxons$submitted_name[i])
   rank_i <- classification(other_taxons$submitted_name[i], db = "ncbi")
@@ -130,6 +131,7 @@ for (i in 1:nrow(other_taxons)){
   
 }
 
+#Following queries to EOL do not work
 for (i in 1:nrow(other_taxons)){
   if (is.na(other_taxons$rank[i])){
     print(other_taxons$submitted_name[i])
@@ -142,29 +144,43 @@ for (i in 1:nrow(other_taxons)){
 taxon_tibble <- bind_rows(morpho_taxon,taxons,other_taxons) %>%
   rename(pollinator=submitted_name)
 
-bad_names <- as.vector(taxon_tibble[197:nrow(taxon_tibble),1])
 
-for (i in 1:nrow(other_taxons)){
-  if (is.na(other_taxons$rank[i]) & other_taxons$submitted_name[i]!="Bird"){
-    print(other_taxons$submitted_name[i])
-    rank_i <- classification(other_taxons$submitted_name[i], db = "itis")
-    other_taxons$matched_name[i] <- rank_i[[1]][nrow(rank_i[[1]]),1]
-    other_taxons$rank[i] <- rank_i[[1]][nrow(rank_i[[1]]),2]
-  }
-}
+order_list <- c("hymenoptera sp.")
+
+family_list <- c("Otitidae","syrphidae","Bombylidae","formicidae")
+
+genus_list <- c("Salpinigaster sp")
+  
+species_list <- c("Bombus abuterraneus",
+                  "Bombus lucorum_terrestris","Bombus terrestris_aggregate",
+                  "Sphaerophoria cf_scripta","Macrodactylus fulvescens",
+                  "Osmia rufa","Sphaerophoria interrupta","Bibo hortulans","Bibo marci",
+                  "Bibo varipes","Dilophilus febrilis","Eristalinus sepulchralis",
+                  "Eristalis horticola","Eristalis lineata","Eristalis intricaria",
+                  "Eristalis nemorum","Eristalis pratorum","Eristalis similis",
+                  "Macrodactylus fulvescens","Melanogaster hirtella","Myathropa florea",
+                  "Osmia rufa","Parhelophilus frutetorum","Rhingia rostrata",
+                  "Sphaerophoria interrupta","Tropidia scita","Halictus tumulorum",
+                  "Helophilus trivittatus")
+
+mophospecies_list <- c("Syrphid 1","Syrphid 2","Syrphid 3","Syrphid 1_vergara",
+                       "Syrphid 2_vergara","Syrphid 3_vergara","Andrena 2_brittaindataset",
+                       "Andrena 3_brittaindataset","Andrena 4_brittaindataset","Bombus 6",
+                       "Bombus 7","Dialictus 12","Diptera 2","Diptera 3",
+                       "Diptera 4","	Drosophila 5","Eucera 16","Evylaeus 13","Habropoda 17",
+                       "Lasioglossum 8","Lasioglossum 9","Lasioglossum 10","Lasioglossum 11",
+                       "Lasioglossum 14","Muscidae 6","Muscidae 7","Osmia 18","Osmia 19",
+                       "Panurginus 15","Anthophora 5")
+                       
+                       
+                       
+taxon_tibble$rank[taxon_tibble$pollinator %in% family_list] <- "family"
+taxon_tibble$rank[taxon_tibble$pollinator %in% genus_list] <- "genus"
+taxon_tibble$rank[taxon_tibble$pollinator %in% order_list] <- "order"
+taxon_tibble$rank[taxon_tibble$pollinator %in% species_list] <- "species"
+taxon_tibble$rank[taxon_tibble$pollinator %in% mophospecies_list] <- "morphospecies"
 
 
-
-alternative_naming <- names_check %>% filter(user_supplied_name %in% bad_names$pollinator,
-                                             data_source_title %in% c("ITIS","Encyclopedia of Life"))
-
-
-"Andrena 2_brittaindataset","Andrena 3_brittaindataset","Andrena 4_brittaindataset",
-"Anthophora 5","Bombus abuterraneus","Bombus lucorum_terrestris","Bombus terrestris_aggregate",
-"Bombus 6","Bombus 7","Dialictus 12","Diptera 2","Diptera 3","Diptera 4","	Drosophila 5",
-"Eucera 16","Evylaeus 13","Habropoda 17","Lasioglossum 8","Lasioglossum 9",
-"Lasioglossum 10","Lasioglossum 11","Lasioglossum 14","Muscidae 6","Muscidae 7",
-"Osmia 18","Osmia 19","Panurginus 15","Sphaerophoria cf_scripta"
 
 study_id <- "Rader"
 

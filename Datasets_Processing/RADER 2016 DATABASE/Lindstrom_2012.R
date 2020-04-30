@@ -176,9 +176,25 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+# Load our estimation for taxonomic resolution
+
+tax_res <- read_csv("taxon_table_Rader.csv")
+#Mutate pollinator labels to match those of taxon table
+tax_estimation <- insect_sampling %>% mutate(pollinator=str_replace(pollinator,"_"," ")) %>%
+  left_join(tax_res, by="pollinator")
+tax_estimation %>% group_by(rank) %>% count()
+
+percentage_species_morphos <- 
+  sum(tax_estimation$rank %in% c("morphospecies","species"))/nrow(tax_estimation)
+
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
+
+if (percentage_species_morphos < 0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 
@@ -218,8 +234,9 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = data.site$pollinator_richness,
-  richness_estimator_method = data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,

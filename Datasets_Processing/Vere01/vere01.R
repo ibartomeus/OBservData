@@ -100,8 +100,14 @@ for (j in 1:nrow(richness_aux)) {
   richness_aux$r_chao[j] <-  chao$Estimator 
 }
 
-richness_aux <- richness_aux %>% select(site_id, pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+#richness_aux <- richness_aux %>% select(site_id, pollinator_richness=r_chao) %>%
+#  mutate(richness_estimator_method="Chao1")
+
+richness_aux <- richness_aux %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
+
 
 data.site_i_mod <- data.site_i_mod %>% 
   select(-pollinator_richness,-richness_estimator_.Method)%>% 
@@ -167,8 +173,11 @@ field_level_data_i <- tibble(
   seeds_per_fruit=data.site_i_mod$seeds_per_fruit,
   seeds_per_plant=data.site_i_mod$seeds_per_plant,
   seed_weight=data.site_i_mod$seed_weight,
-  pollinator_richness=data.site_i_mod$pollinator_richness,
-  richness_estimator_method=data.site_i_mod$richness_estimator_method,
+  observed_pollinator_richness=data.site_i_mod$observed_pollinator_richness,
+  other_pollinator_richness=data.site_i_mod$other_pollinator_richness,
+  other_richness_estimator_method=data.site_i_mod$other_richness_estimator_method,
+  #pollinator_richness=data.site_i_mod$pollinator_richness,
+  #richness_estimator_method=data.site_i_mod$richness_estimator_method,
   abundance=data.site_i_mod$abundance,
   ab_honeybee=data.site_i_mod$ab_honeybee,
   ab_bombus=data.site_i_mod$ab_bombus,

@@ -197,6 +197,59 @@ data.site <- data.site %>% left_join(visit_aux, by = "site_id")
 
 
 ###############################
+# SPECIES RICHNESS
+###############################
+
+
+#Estimate species richness from visits
+
+abundace_field <- data_raw_gather %>%
+  select(site_id,Organism_ID,Abundance)%>%
+  group_by(site_id,Organism_ID) %>% count(wt=Abundance)
+
+abundace_field <- abundace_field %>% spread(key=Organism_ID,value=n)
+
+abundace_field[is.na(abundace_field)] <- 0
+#Set non integer abundances to 1. Otherwise, the iNet code that is below will crash.
+abundace_field[,2:ncol(abundace_field)][abundace_field[,2:ncol(abundace_field)] > 0] <- 1
+abundace_field$r_obser <-  0
+abundace_field$r_chao <-  0
+
+for (i in 1:nrow(abundace_field)) {
+  x <- as.numeric(abundace_field[i,2:(ncol(abundace_field)-2)])
+  chao  <-  ChaoRichness(x, datatype = "abundance", conf = 0.95)
+  abundace_field$r_obser[i] <-  chao$Observed
+  abundace_field$r_chao[i] <-  chao$Estimator 
+}
+
+# Load our estimation for taxonomic resolution
+
+tax_res <- read_csv("taxon_table_Rader.csv")
+#Mutate pollinator labels to match those of taxon table
+tax_estimation <- insect_sampling %>% mutate(pollinator=str_replace(pollinator,"_"," ")) %>%
+  left_join(tax_res, by="pollinator")
+tax_estimation %>% group_by(rank) %>% count()
+
+percentage_species_morphos <- 
+  sum(tax_estimation$rank %in% c("morphospecies","species"))/nrow(tax_estimation)
+
+
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
+
+if (percentage_species_morphos < 0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
+# Since the prior chao estimation makes no sense, we remove it
+richness_aux$other_pollinator_richness <- NA
+richness_aux$other_richness_estimator_method <- NA
+
+data.site <- data.site %>% left_join(richness_aux, by = "site_id")
+
+
+###############################
 # FIELD LEVEL DATA
 ###############################
 
@@ -231,8 +284,9 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = NA,
-  richness_estimator_method = NA,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance = NA,
   ab_honeybee = NA,
   ab_bombus = NA,

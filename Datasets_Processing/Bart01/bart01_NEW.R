@@ -389,7 +389,7 @@ data.site <- data.site %>% left_join(guild_abundance, by= "site_id")
 
 
 ###################################
-# ESTIAMTION RICHNESS INDEX
+# ESTIMATION RICHNESS INDEX
 ###################################
 richness_field2 <- m_richness2 %>% select(-Guild) %>%
   spread(key = Organism, value = n)
@@ -405,8 +405,11 @@ for (i in 1:nrow(richness_field2)) {
   richness_field2$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- richness_field2 %>% select(site_id=Field, pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+
+richness_aux <- richness_field2 %>% select(site_id=Field,r_obser,r_chao)
+richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
+                                        other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1")
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 
@@ -491,8 +494,9 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = data.site$pollinator_richness,
-  richness_estimator_method = data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
   abundance = data.site$abundance,
   ab_honeybee = data.site$ab_honeybee,
   ab_bombus = data.site$ab_bombus,

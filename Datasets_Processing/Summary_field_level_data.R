@@ -15,6 +15,8 @@ list_files_field_level <- files_base[grepl("field_level_data", files_base)]
 
 list_files_field_level <- files_base[grepl("field_level_data", files_base)]
 
+list_files_field_level <- list_files_field_level[-which(list_files_field_level=="field_level_data_vere01.csv")]
+
 # open file_field_level files to summarize their data
 
 
@@ -51,8 +53,8 @@ for (i in 1:length(list_files_field_level)){
   }
   
   
-  if (sum(!is.na(data.site$pollinator_richness))<number_sites){
-    richness=paste("Missing richness values: Given ",sum(!is.na(data.site$pollinator_richness))," out of ",number_sites,sep="")
+  if (sum(!is.na(data.site$observed_pollinator_richness))<number_sites){
+    richness=paste("Missing richness values: Given ",sum(!is.na(data.site$observed_pollinator_richness))," out of ",number_sites,sep="")
   }else{
     richness="Information given"
   }
