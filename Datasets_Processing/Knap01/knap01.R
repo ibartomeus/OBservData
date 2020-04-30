@@ -20,6 +20,8 @@ datafield <- datafield %>%
   rename(field_size = field.size,total_yield = `total_yield(KG/HA)`,
          fruits_per_plant = mean_fruits_per_plant,
          richness_estimator_method = `richness_estimator_.Method`)
+
+datafield$country <- "UK"
 datafield$sampling_year <- 2016
 datafield$richness_estimator_method <- "observed"
 datafield$management <- "conventional"
@@ -101,3 +103,4 @@ field_level_data <- tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_knap01.csv")
 setwd(dir_ini)
+

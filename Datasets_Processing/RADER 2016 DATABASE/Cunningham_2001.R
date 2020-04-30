@@ -76,7 +76,7 @@ chm = substr(data.site$latitude, 9, 9)[1]
 chs = substr(data.site$latitude, 14, 15)[1]
 
 cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-data.site$latitude <- as.numeric(cd)
+data.site$latitude <- -1*as.numeric(cd) #We add the minus sign to fix country location errors
 
 chd = substr(data.site$longitude, 5, 5)[1]
 chm = substr(data.site$longitude, 10, 10)[1]

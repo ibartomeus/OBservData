@@ -38,6 +38,7 @@ data.site <- data.site %>% select(-'Annual/perennial',-Management.2,-Management.
 #sputm <- SpatialPoints(data.site[,3:4], proj4string=CRS("+proj=utm +zone=24 +datum=WGS84"))  
 #spgeo <- spTransform(sputm, CRS("+proj=longlat +datum=WGS84"))
 
+
 #####################################
 # YIELD
 
@@ -77,7 +78,18 @@ data.Final <- data.Final %>%
 
 data.site <- data.site %>% left_join(data.Final,by="site_id")
 
-x <- data.site %>% group_by(site_id) %>% count()
+###############################################################
+# carv03_Bavaria_L_FA1 is wrong: 2 different crop yields
+data.site %>% group_by(site_id) %>% count() %>% filter(n>1)
+
+data.site$yield2[data.site$site_id=="carv03_Bavaria_L_FA1"] <- 
+  mean(as.numeric(data.site$yield2[data.site$site_id=="carv03_Bavaria_L_FA1"]))
+
+data.site <- unique(data.site)
+
+#sanity check
+data.site %>% group_by(site_id) %>% count() %>% filter(n>1)
+################################################################
 ###########################
 # Adding  Field_size
 
@@ -303,5 +315,6 @@ write_csv(field_level_data, "field_level_data_carv03.csv")
 setwd(dir_ini)
 
 # NOTE: carv03_Bavaria_L_FA1 is repeated
-# Two values of crop yield (denoted here as yield2) has been assigned to such site
+# Two values of crop yield (denoted here as yield2) were assigned to such site
+# We replaced such value by the site mean value for yield.
 

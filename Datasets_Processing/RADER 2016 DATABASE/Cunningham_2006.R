@@ -77,7 +77,7 @@ chm = substr(data.site$latitude, 8, 8)[1]
 chs = substr(data.site$latitude, 12, 13)[1]
 
 cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-data.site$latitude <- as.numeric(cd)
+data.site$latitude <- -1*as.numeric(cd)
 #148 ° 34 ' 51 ''
 chd = substr(data.site$longitude, 5, 5)[1]
 chm = substr(data.site$longitude, 10, 10)[1]
@@ -309,3 +309,4 @@ field_level_data <- tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Cunningham_2006.csv")
 setwd(dir_ini)
+

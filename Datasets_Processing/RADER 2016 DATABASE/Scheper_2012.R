@@ -87,6 +87,10 @@ is.nan.data.frame <- function(x){
 
 data.site[is.nan(data.site)] <- NA
 
+
+# Fixing location
+data.site$country[4] <- "Germany"
+
 ############################################################
 #########################
 # Adding credit, Publication and contact

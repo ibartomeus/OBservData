@@ -72,6 +72,10 @@ data.site_aux <- tibble(
   seed_weight= NA
 )
 
+# Fix latitude ORD04
+
+data.site_aux$latitude[data.site_aux$site_id=="ORD4"]<- "19°27.898' N"
+
 # Fix sampling months
 
 sites <- unique(data.site_aux$site_id)
@@ -110,9 +114,11 @@ data.site[is.nan(data.site)] <- NA
 
 data.site$latitude <- str_replace(data.site$latitude, "´", "'")
 data.site$latitude <- str_replace(data.site$latitude, "'", "'")
+data.site$latitude <- str_replace(data.site$latitude, "'", "'")
+
 data.site$longitude <- str_replace(data.site$longitude,"´", "'")
 data.site$longitude <- str_replace(data.site$longitude, "'", "'")
-                                  
+data.site$longitude <- str_replace(data.site$longitude, "'", "'")                           
 # Convert Latitude/Longitude from degrees min sec to decimal
 #19°12.664' N	96°53.984´ W
 chd = substr(data.site$latitude, 3, 3)[1]
@@ -126,6 +132,10 @@ chm = substr(data.site$longitude, 10, 10)[1]
 
 cd = char2dms(data.site$longitude,chd = chd,chm = chm)
 data.site$longitude <- as.numeric(cd)
+
+#########################
+
+
 
 #########################
 # Adding credit, Publication and contact
