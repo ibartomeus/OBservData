@@ -97,8 +97,9 @@ for (i in seq(length(list_files_field_level))) {
                               fruits_per_plant = col_double(),fruit_weight = col_double(),
                               plant_density = col_double(),seeds_per_fruit = col_double(),
                               seeds_per_plant = col_double(),seed_weight = col_double(),
-                              pollinator_richness = col_double(),
-                              richness_estimator_method = col_character(),
+                              observed_pollinator_richness = col_double(),
+                              other_pollinator_richness = col_double(),
+                              other_richness_estimator_method = col_character(),
                               abundance = col_double(),ab_honeybee = col_double(),
                               ab_bombus = col_double(),ab_wildbees = col_double(),
                               ab_syrphids = col_double(),ab_humbleflies = col_double(),
@@ -390,9 +391,22 @@ for (i in seq(length(list_files_field_level))) {
   test_name_i <- paste("Pollinator richness format:", list_files_field_level[i], sep = " ")
   test_that(test_name_i,{
     
-    NA_values <- is.na(field_level_i$pollinator_richness)
+    NA_values <- is.na(field_level_i$observed_pollinator_richness)
     if(all(NA_values) == FALSE){
-      values_pos_i <- field_level_i$pollinator_richness[!NA_values]
+      values_pos_i <- field_level_i$observed_pollinator_richness[!NA_values]
+      expect_equal(all(0 <= values_pos_i), TRUE)
+      
+    }else{
+      expect_equal(TRUE, TRUE)
+    }
+  })
+  
+  test_name_i <- paste("Other pollinator richness format:", list_files_field_level[i], sep = " ")
+  test_that(test_name_i,{
+    
+    NA_values <- is.na(field_level_i$other_pollinator_richness)
+    if(all(NA_values) == FALSE){
+      values_pos_i <- field_level_i$other_pollinator_richness[!NA_values]
       expect_equal(all(0 <= values_pos_i), TRUE)
       
     }else{
