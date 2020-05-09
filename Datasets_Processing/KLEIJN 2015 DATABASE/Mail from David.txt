@@ -1,0 +1,66 @@
+Hi Nacho,
+ 
+Please find attached the datasets from the Kleijn et al. 2015 paper. Apologies for the delay.
+ 
+I have only included datasets when the first author of the dataset was on the list you sent me. This means that a number of datasets from Claire Kremen’s group, Yael Mandelik’s group and colleagues of Ruan Veldtman have not been included. Note that while I included Taylor Rickets data, these data do not have spatial coordinates, so I assume they are pretty useless to you. For the same reason the data from Hungary, which I extracted myself from the literature, are not included as the authors didn’t report the locations where the specimens had been collected.
+ 
+Also check carefully for overlap between the data that you receive from Romina, Lucas and me. Some of the datasets have been used in two or maybe all three studies.
+
+LIST sent by Nacho
+
+Bryony Willcox
+Jeroen Schepper
+Georg Andersson
+Agustin Saez 
+Thijs Fijen
+Natacha Chacoff
+Luisa Carvalheiro
+Juliana Hipolito
+Riccardo Bommarco 
+Johan Ekros
+Alex Klein
+Claudio Gratton
+Alice Classen
+Isabel Berdanhauser
+Yi Zou
+Heather Lee Grab
+Berno Freitas
+HIsatomo Taki
+Louis Sutter
+Jarboury Ghazoul
+Smitha Krishnan
+Maike Nesper
+Matthias Albrecht
+Mike Garran
+Simon Potts
+Ignasi Bartomeus
+Lucas Garibaldi
+Rachael Winfree
+Romina Rader
+David Kleijn
+May Rundolf
+Henrich Smith
+Frank Jauker
+Lina Lindström
+Dara Standley
+Juliana Hipolito
+Saul Cunninham
+Rufus Isaacs
+Alex Klein
+Jessica Petersen
+Carlos Vergara
+Margaret Mayfield
+Mark Otieno
+Shaleen Jha
+Teja Tscharntke
+Tylor Rickets
+Carsten Dornman
+Charlie Nicholson
+Ola Lundin
+Ruan Veldtman
+Yael Mandelik
+Claire Kremen
+EJ Blitzer
+Mia Park
+
+
