@@ -9,11 +9,11 @@ library(parzer) #parse coordinates
 dir_ini <- getwd()
 
 ##########################
-#Data: 20_DavidKleijn_aliumporrum2012
+#Data: 90_ShaleneJhaCoffee_2006
 ##########################
 
-data_raw <- read_excel("20_DavidKleijn_aliumporrum2012/Italie_David_2012_def.xls",
-                       sheet = "Bijen_totaal")
+data_raw <- read_excel("90_ShaleneJhaCoffee_2006/Coffee-visit-2006-kleijn2_coordinates.xls",
+                       sheet = "Visitation")
 data_raw <- as_tibble(data_raw)
 
 
@@ -36,7 +36,7 @@ data.site <- data_raw %>% select(`field code 1`,Lat,Long) %>%
   group_by(`field code 1`,Lat,Long) %>% count() %>% select(-n) %>%
   rename(site_id=`field code 1`,latitude=Lat,longitude=Long)
 
-data.site$study_id <- "20_DavidKleijn_alliumporrum2012"
+data.site$study_id <- "90_ShaleneJhaCoffee_2006"
 data.site$crop <- "Allium porrum"
 data.site$variety <- NA
 data.site$management <- NA
@@ -123,7 +123,7 @@ data_obs_guild <- data_raw_obs %>% left_join(list_organisms_guild, by = "Organis
 data_obs_guild  <- data_obs_guild  %>% filter(abundance>0)
 
 insect_sampling <- tibble(
-  study_id = "20_DavidKleijn_alliumporrum2012",
+  study_id = "90_ShaleneJhaCoffee_2006",
   site_id = data_obs_guild$site_id,
   pollinator = data_obs_guild$Organism_ID,
   guild = data_obs_guild$Guild,
@@ -136,7 +136,7 @@ insect_sampling <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_20_DavidKleijn_alliumporrum2012.csv")
+write_csv(insect_sampling, "insect_sampling_90_ShaleneJhaCoffee_2006.csv")
 setwd(dir_ini)
 
 #######################################
@@ -276,6 +276,6 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_20_DavidKleijn_alliumporrum2012.csv")
+write_csv(field_level_data, "field_level_data_90_ShaleneJhaCoffee_2006.csv")
 setwd(dir_ini)
 
