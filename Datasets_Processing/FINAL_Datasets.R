@@ -8,6 +8,9 @@ folder_base <- "../Datasets_storage"
 
 files_base <- list.files(folder_base)
 
+
+#Date: 11/05/2020 -> Version: 0.1
+
 ##############################
 # MERGE FIELD_LEVEL DATA
 ##############################
@@ -100,7 +103,7 @@ for (i in seq(length(list_files_field_level))) {
 
 # Save "total_field_level_data" file
 
-write_csv(FINAL_field_level_data, "../Final_Data/FINAL_field_level_data.csv")
+write_csv(FINAL_field_level_data, "../Final_Data/FINAL_field_level_data_V0p1.csv")
 
 
 ##############################
@@ -150,4 +153,4 @@ FINAL_sampling_data <- FINAL_sampling_data %>% filter(abundance > 0)
 
 # Save "FINAL_sampling_data" file
 
-write_csv(FINAL_sampling_data, "../Final_Data/FINAL_sampling_data.csv")
+write_csv(FINAL_sampling_data, "../Final_Data/FINAL_sampling_data_V0p1.csv")
