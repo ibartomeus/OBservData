@@ -14,13 +14,13 @@
 
 # To Do:  
 Now:  
-[ ] Add process to this repo.
-[ ] Add tests: e.g. lat long in country. Outlyers.
-Next:  
-[ ] Analysis preliminar... analysis. 
-[ ] Add Rader, Garibaldi, Kleijn... :deadline summer.
-Future:  
-[ ] Data corrections by Authors: In Original.
+[ ] Add process to this repo.  
+[ ] Add tests: e.g. lat long in country. Outlyers.  
+Next:   
+[ ] Analysis preliminar... analysis.   
+[ ] Add Rader, Garibaldi, Kleijn... :deadline summer.  
+Future:    
+[ ] Data corrections by Authors: In Original.  
 
 
 ## Thanks to:  
