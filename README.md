@@ -2,45 +2,31 @@
 [![License](http://i.creativecommons.org/p/zero/1.0/88x31.png)](https://raw.githubusercontent.com/weecology/livedat/master/LICENSE)
 
 
-#process:
-[See https://github.com/dfalster/baad for examples]
-0- Use secret folder to preprocess not publichable data.
-1- Crear tesauro especies 2 archivos de R. ALFONSO COMPLETAR
-1.1- tesaure crops.
-2- Para cada estudio, lees, limpias y popular -> MASTER. 
-3- Revision por autores. Datos - R - SPECIFIC QUESTIONS - decisions. NOTE ALL CHANGES.
-4- Redo 1 and 2.
-5- Create a MASTER insect sampling with all insect crop interactions.
+# Ideal process:  
 
-#To Do:
-Now:
-[] Add process to this repo.
-[] Add tests: e.g. lat long in country. Outlyers.
-Next:
-[] Analysis preliminar... analysis. 
-[] Add Rader, Garibaldi, Kleijn... :hasta verano.
-Future:
-[] Data corrections by Authors: In Original.
+0- Use secret folder to preprocess not publicable data.  
+1- Creat a tesaurus for especies taxonomy.  
+1.1- Also for crops.  
+2- For each study, read, clean and summarize data -> Upload to MASTER.   
+3- Authors should review and complete their data: Data - R - SPECIFIC QUESTIONS - decisions. NOTE ALL CHANGES.  
+4- Redo 1 and 2.  
+5- Create a MASTER insect sampling with all insect crop interactions.  
 
-# livedat
+# To Do:  
+Now:  
+[ ] Add process to this repo.  
+[ ] Add tests: e.g. lat long in country. Outlyers.  
+Next:   
+[ ] Analysis preliminar... analysis.   
+[ ] Add Rader, Garibaldi, Kleijn... :deadline summer.  
+Future:    
+[ ] Data corrections by Authors: In Original.  
 
-This is a **Template Repo** designed to assist in setting up a repository for regularly-updated data 
-(new data are regularly added and need cleaning and curating). Read [our PLOS Biology paper](https://doi.org/10.1371/journal.pbio.3000125) for more details.
 
-Instructions for creating an updating data workflow can be found at our companion website: 
-## [UpdatingData.org](https://www.updatingdata.org/).
+## Thanks to:  
 
-  The basic steps are:
-
-    1. Clone the repository
-    2. Configure the repository for your project
-    3. Connect to Zenodo
-    4. Connect to Travis
-    5. Allow automated updating
-    6. Add data code
-    7. Add data
-    8. Add data checks
-    9. Update data
+We used livedat **Template Repo** designed to assist in setting up a repository for regularly-updated data 
+(new data are regularly added and need cleaning and curating). Details in [this PLOS Biology paper](https://doi.org/10.1371/journal.pbio.3000125). Instructions for creating an updating data workflow can be found at our companion website: [UpdatingData.org](https://www.updatingdata.org/).  
 
 ## Some Thoughts on Security
 
