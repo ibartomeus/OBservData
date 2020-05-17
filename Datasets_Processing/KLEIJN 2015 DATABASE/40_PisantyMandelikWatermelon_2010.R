@@ -3,53 +3,64 @@ library(tidyverse)
 library(sp) #Transforming latitude and longitude
 library("iNEXT")
 library(openxlsx)
-library(readxl)
+#library(readxl)
 library(parzer) #parse coordinates
 
 dir_ini <- getwd()
 
 ##########################
-#Data: 66_AlexKleinAlmond_2009_2011
+#Data: 40_PisantyMandelikWatermelon_2010
 ##########################
 
-data_raw <- read_excel("66_AlexKleinAlmond_2009/Final_almond_flower visits_all bee database_observ_2009_species ID.xls",
-                       sheet = "data")
+data_raw <- read.xlsx("39_40_PisantyMandelikWatermelon_2009_2010/crop visitors Pisanty and Mandelik_editted.xlsx",
+                       sheet = "watermelon")
 data_raw <- as_tibble(data_raw)
 
-# Extract sampling month
+data_raw$zone_UTM <- 36
 
+# Transforma UTM coodinates to lat/long in degrees
+
+sputm <- SpatialPoints(data_raw[,c(4,5)], proj4string=CRS("+proj=utm +zone=36 +datum=WGS84"))  
+spgeo <- spTransform(sputm, CRS("+proj=longlat +datum=WGS84"))
+data_raw$longitude <- NA
+data_raw$latitude <- NA
+data_raw[,8:9] <- spgeo@coords
+
+# Extract sampling months
+data_raw$Date <- openxlsx::convertToDate(data_raw$Date)
 data_raw$month_of_study <- as.numeric(format(as.Date(data_raw$Date, format="%Y/%m/%d"),"%m"))
+data_raw$sampling_year <- as.numeric(format(as.Date(data_raw$Date, format="%Y/%m/%d"),"%Y"))
 
 
-# There should be 15 sites
-data_raw %>% group_by(Site) %>% count() # OK!
+# Data for our study year
+data_raw <- data_raw %>% filter(sampling_year==2010)
 
-# Adapt variety information
+# There should be 13 sites
+fields <- data_raw %>% group_by(latitude,longitude,UTM.36R.E,UTM.36R.N) %>% count() %>%
+  select(-n)
 
-data_raw$`Bloom Variety`[data_raw$Site=="Bramlett"] <- "Neplus + Nonpareil"
-data_raw$`Bloom Variety`[data_raw$Site=="Full Belly"] <- "Neplus + Nonpareil"
-data_raw$`Bloom Variety`[data_raw$Site=="Taber"] <- "Monterey + Nonpareil + Peerless"
+# Create an ID for each field
+fields$site_id <- seq.int(nrow(fields))
+
+# Add ID to data_raw
+data_raw <- data_raw %>% left_join(fields, by=c("latitude","longitude","UTM.36R.E","UTM.36R.N"))
 
 ##############
 # Data site
 ##############
 
-data.site <- data_raw  %>%
-  select(Site,Lat,Long,`Bloom Variety`) %>% 
-  group_by(Site,Lat,Long,`Bloom Variety`) %>% count() %>% select(-n) %>%
-  rename(site_id=Site,latitude=Lat,longitude=Long,variety=`Bloom Variety`)
 
+data.site <- data_raw %>% select(site_id,latitude,longitude,UTM.36R.E,UTM.36R.N) %>% 
+  group_by(site_id,latitude,longitude,UTM.36R.E,UTM.36R.N) %>% count() %>% select(-n) %>%
+  rename(X_UTM = UTM.36R.E,Y_UTM = UTM.36R.N)
 
-# We add data site ID
-
-data.site$study_id <- "66_AlexKleinAlmond_2009"
-data.site$crop <- "Prunus dulcis"
+data.site$study_id <- "40_PisantyMandelikWatermelon_2010"
+data.site$crop <- "Citrullus lanatus"
+data.site$variety <- NA
 data.site$management <- NA
-data.site$country <- "USA"
-data.site$X_UTM <- NA
-data.site$Y_UTM <- NA
-data.site$zone_UTM <- NA
-data.site$sampling_year <- 2009
+data.site$country <- "Israel"
+data.site$zone_UTM <- 36
+data.site$sampling_year <- 2010
 data.site$field_size <- NA
 data.site$yield <- NA
 data.site$yield_units <- NA
@@ -65,37 +76,41 @@ data.site$plant_density <- NA
 data.site$seeds_per_fruit <- NA
 data.site$seeds_per_plant <- NA
 data.site$seed_weight <- NA
-data.site$Publication <- "10.1038/ncomms8414"
-data.site$Credit <- "Alexandra-Maria Klein"
-data.site$Email_contact <- "alexandra.klein@nature.uni-freiburg.de"
+data.site$Publication <- "10.1890/14-0910.1"
+data.site$Credit <- "Gideon Pisanty, Yael Mandelik"
+data.site$Email_contact <- "gidpisa79@yahoo.com"
   
-# Add sampling months
-
 data.site$sampling_start_month <- NA
 data.site$sampling_end_month <- NA
-  
+
 sites <- unique(data.site$site_id)
 
 for (i in sites){
   
   data.site$sampling_start_month[data.site$site_id==i] <- 
-    data_raw %>% filter(Site==i) %>% 
+    data_raw %>% filter(site_id==i) %>% 
     select(month_of_study) %>% min()
   
   data.site$sampling_end_month[data.site$site_id==i] <- 
-    data_raw %>% filter(Site==i) %>% 
+    data_raw %>% filter(site_id==i) %>% 
     select(month_of_study) %>% max()
 }
-
 
 ###########################
 # SAMPLING DATA
 ###########################
 
+# There are fields with extra 25x25 m2 plots. Since we don't know their corresponding IDs,
+# we set to NA the sampling parameters.
+
+sampling <- data_raw %>%
+  select(site_id,Date) %>% unique() %>% group_by(site_id) %>% count() %>%
+  mutate(total_area=NA*n*2,total_time=NA*n*2)
+
+
 data_raw_obs <- data_raw %>%
-  select(Site,Visitor,Abundance,`Frequency (total # flowers visited)`) %>% rename(site_id=Site,Organism_ID=Visitor,
-                                                                                  abundance=Abundance,
-                                                                                  flowers_visited=`Frequency (total # flowers visited)`)
+  select(site_id,species) %>% mutate(abundance=1) %>% rename(Organism_ID=species)
+
 
 
 #Add guild via guild list
@@ -109,10 +124,10 @@ list_organisms_guild <- list_organisms %>% left_join(gild_list,by=c("Organism_ID
 #Check NA's in guild
 list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% count()
 
-list_organisms_guild$Guild[list_organisms_guild$Organism_ID=="Fruit fly"] <- "other_flies"
+# Those species belong to ""other_wild_bees"" guild
 list_organisms_guild$Guild[is.na(list_organisms_guild$Guild)] <- "other_wild_bees"
 
-#Sanity Checks
+# Sanity Checks
 list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% count()
 
 #Add guild to observations
@@ -129,20 +144,20 @@ data_obs_guild  <- data_obs_guild  %>% filter(abundance>0)
 
 
 insect_sampling <- tibble(
-  study_id = "66_AlexKleinAlmond_2009",
+  study_id = "40_PisantyMandelikWatermelon_2010",
   site_id = data_obs_guild$site_id,
   pollinator = data_obs_guild$Organism_ID,
   guild = data_obs_guild$Guild,
-  sampling_method = "observation",
+  sampling_method = "netting",
   abundance = data_obs_guild$abundance,
   total_sampled_area = NA,
-  total_sampled_time = 5*8*20/60, #netting+observations
-  total_sampled_flowers = NA,
-  Description = "On each orchard, 5 trees were observed. At each tree, eight groups of flowers were observed for 20 seconds each (total of around 13 min per orchard)."
+  total_sampled_time = NA,
+  total_sampled_flowers = NA, #We dont know the number and IDs of fieds with two plotsper site
+  Description = "Fields have one or two study plots (25 × 25 m). Each plot was sampled between one and three times (mostly twice), each time on a separate day. In each sampling day, two sampling sessions were carried out. Each session included 15 min of bee netting."
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_66_AlexKleinAlmond_2009_2011.csv")
+write_csv(insect_sampling, "insect_sampling_40_PisantyMandelikWatermelon_2010.csv")
 setwd(dir_ini)
 
 #######################################
@@ -163,14 +178,14 @@ abundance_aux <- data_obs_guild_2 %>%
 
 names(abundance_aux)
 
-# There are "bumblebees"      "honeybees"       "other_flies"     "other_wild_bees"
+# There are ""other_wild_bees" ""
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,
-                                          syrphids=0,other=0,humbleflies=0,
-                                          non_bee_hymenoptera=0,
+abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,other_flies=0,
+                                          syrphids=0,other=0,humbleflies=0,honeybees=0,
+                                          non_bee_hymenoptera=0,bumblebees=0,
                                           total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
@@ -205,7 +220,7 @@ percentage_species_morphos <- 0.9
 richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
 richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
                                         other_pollinator_richness=r_chao) %>%
-  mutate(other_richness_estimator_method="Chao1",richness_restriction="mostly bees")
+  mutate(other_richness_estimator_method="Chao1",richness_restriction="only non-managed bees")
 
 if (percentage_species_morphos < 0.8){
   richness_aux[,2:ncol(richness_aux)] <- NA
@@ -214,44 +229,6 @@ if (percentage_species_morphos < 0.8){
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 
 
-###############################
-# VISITATION RATE
-###############################
-
-# Add flowers 
-
-flowers_visited <- data_obs_guild_2 %>%
-  group_by(site_id,Guild) %>% count(wt=flowers_visited) %>% 
-  spread(key=Guild, value=n)
-
-names(flowers_visited)
-
-flowers_visited <- flowers_visited %>% mutate(lepidoptera=0,beetles=0,
-                                          syrphids=0,other=0,humbleflies=0,
-                                          non_bee_hymenoptera=0,
-                                          total=0)
-flowers_visited[is.na(flowers_visited)] <- 0
-flowers_visited$total <- rowSums(flowers_visited[,c(2:ncol(flowers_visited))])
-
-flowers_visited <- flowers_visited %>%
-  mutate(
-    visit_bumblebees=60*bumblebees/(40/3),
-    visit_honeybees=60*honeybees/(40/3),
-    visit_other_wild_bees=60*other_wild_bees/(40/3),
-    visit_lepidoptera=60*lepidoptera/(40/3),
-    visit_beetles=60*beetles/(40/3),
-    visit_other_flies=60*other_flies/(40/3),
-    visit_syrphids=60*syrphids/(40/3),
-    visit_other=60*other/(40/3),
-    visit_humbleflies=60*humbleflies/(40/3),
-    visit_non_bee_hymenoptera=60*non_bee_hymenoptera/(40/3),
-    visit_total=60*total/(40/3)
-  ) %>%
-  select(site_id, visit_bumblebees,visit_honeybees,visit_other_wild_bees,visit_lepidoptera,
-         visit_beetles,visit_other_flies,visit_syrphids,visit_other,visit_humbleflies,
-         visit_non_bee_hymenoptera,visit_total)
-
-data.site <- data.site %>% left_join(flowers_visited, by = "site_id")
 ###############################
 # FIELD LEVEL DATA
 ###############################
@@ -303,28 +280,27 @@ field_level_data <- tibble(
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
   total_sampled_area = NA,
-  total_sampled_time = 40/3,
-  visitation_rate_units = "visited flowers per hour",
-  visitation_rate = data.site$visit_total,
-  visit_honeybee = data.site$visit_honeybees,
-  visit_bombus = data.site$visit_bumblebees,
-  visit_wildbees = data.site$visit_other_wild_bees,
-  visit_syrphids = data.site$visit_syrphids,
-  visit_humbleflies = data.site$visit_humbleflies,
-  visit_other_flies = data.site$visit_other_flies,
-  visit_beetles = data.site$visit_beetles,
-  visit_lepidoptera = data.site$visit_lepidoptera,
-  visit_nonbee_hymenoptera = data.site$visit_non_bee_hymenoptera,
-  visit_others = data.site$visit_other,
+  total_sampled_time = NA,
+  visitation_rate_units = NA,
+  visitation_rate = NA,
+  visit_honeybee = NA,
+  visit_bombus = NA,
+  visit_wildbees = NA,
+  visit_syrphids = NA,
+  visit_humbleflies = NA,
+  visit_other_flies = NA,
+  visit_beetles = NA,
+  visit_lepidoptera = NA,
+  visit_nonbee_hymenoptera = NA,
+  visit_others = NA,
   Publication = data.site$Publication,
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_66_AlexKleinAlmond_2009.csv")
+write_csv(field_level_data, "field_level_data_40_PisantyMandelikWatermelon_2010.csv")
 setwd(dir_ini)
 
-# NOTE: what is the meaning of column "# Flower Obs."?
-# How should I aggregate visitors and frequency to obtain visitation rates
-# [in counts/(100 flowers hour)] per guild and site?
+# There are fields with two (25x25 m2) plots. Since we don't know their corresponding IDs,
+# we set to NA the sampling parameters, namely: total sampling area and total sampling time

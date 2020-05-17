@@ -24,7 +24,7 @@ data.site$Sampling.Day <- openxlsx::convertToDate(data.site$Sampling.Day)
 data.site$month_of_study <- as.numeric(format(as.Date(data.site$Sampling.Day, format="%Y/%m/%d"),"%m"))
 
 # Adapt latitude and longitude information
-data.site$`Latitude.(S)` <- parse_lat(data.site$`Latitude.(S)`)
+data.site$`Latitude.(S)` <- -1*parse_lat(data.site$`Latitude.(S)`)
 data.site$`Longitude.(E)` <- parse_lon(data.site$`Longitude.(E)`)
 
 # There should be 16 sites
@@ -76,15 +76,21 @@ data.site$Email_contact <- "david.kleijn@wur.nl/veldtman@sun.ac.za"
 # SAMPLING DATA
 ###########################
 
+# Observation list
 data_raw_obs <- read.xlsx("85_86_MarietteBrandOnion_2009_2010/SA_Onion data_MarietteBrand_editted.xlsx",
                               sheet = "Observation data",startRow = 1)
 
 data_raw_obs <- data_raw_obs[1:960,1:5]
 data_raw_obs <- as_tibble(data_raw_obs)
-# Remove entries with abundance = 0
-data_raw_obs <- data_raw_obs %>% filter(Abundance>0) 
 
 
+# Select observations for the study year
+
+data_raw_obs <- data_raw_obs %>% filter(Site %in% c("09OvdW","09JD","09JO","09FvdM")) 
+
+data_raw_obs %>% group_by(Site,Session,Parent) %>% count()
+
+# Identification of "bees"
 identification <- read.xlsx("85_86_MarietteBrandOnion_2009_2010/Bee Identifications_editted.xlsx",
                                        sheet = "Sheet1",startRow = 3)
 
@@ -96,40 +102,9 @@ identification$Session <- as.numeric(identification$Session)
 identification <- rename(identification,Parent=Parent.line)
 identification$Visitor <- "Bee"
 
-data_raw_obs %>% left_join(identification, by=c("Site","Session","Parent","Visitor"))
+data_raw_obs <- data_raw_obs %>% left_join(identification, by=c("Site","Session","Parent","Visitor"))
 
-
-identification$Site %in% data_raw_obs$Site
-identification$Parent %in% data_raw_obs$Parent
-identification$Session %in% data_raw_obs$Session
-identification$Visitor %in% data_raw_obs$Visitor
-
-str(identification)
-str(data_raw_obs)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+data_raw_obs <- data_raw_obs %>% rename(site_id=Site,Organism_ID=Visitor,abundance=Abundance)
 
 #Add guild via guild list
 
@@ -142,7 +117,7 @@ list_organisms_guild <- list_organisms %>% left_join(gild_list,by=c("Organism_ID
 #Check NA's in guild
 list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% count()
 
-list_organisms_guild$Guild[list_organisms_guild$Organism_ID=="Fruit fly"] <- "other_flies"
+list_organisms_guild$Guild[list_organisms_guild$Organism_ID=="Honeybee"] <- "honeybees"
 list_organisms_guild$Guild[is.na(list_organisms_guild$Guild)] <- "other_wild_bees"
 
 #Sanity Checks
@@ -169,9 +144,9 @@ insect_sampling <- tibble(
   sampling_method = "observation",
   abundance = data_obs_guild$abundance,
   total_sampled_area = NA,
-  total_sampled_time = 13, #netting+observations
+  total_sampled_time = 4*10*4, 
   total_sampled_flowers = NA,
-  Description = "On each orchard, 5 trees were observed. At each tree, eight groups of flowers were observed for three times 20 seconds each (total of around 13 min per orchard)."
+  Description = "On each observation day, observations were made during four data collection periods. Observations were replicated five times on both male-fertile and male-sterile rows during each collection period. Four neighbouring umbels in at least 50% bloom were selected and observed for 4 minutes."
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -184,7 +159,7 @@ setwd(dir_ini)
 
 # Add site observations
 
-data_obs_guild_2 <-  data_obs_guild %>%
+data_obs_guild_2 <-  data_obs_guild %>% select(site_id,Organism_ID,Guild,abundance) %>%
   group_by(site_id,Organism_ID,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
 
@@ -196,14 +171,14 @@ abundance_aux <- data_obs_guild_2 %>%
 
 names(abundance_aux)
 
-# There are "bumblebees" "other_wild_bees"
+# There are "honeybees" "other_wild_bees"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,
+abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,other_flies=0,
                                           syrphids=0,other=0,humbleflies=0,
-                                          non_bee_hymenoptera=0,
+                                          non_bee_hymenoptera=0,bumblebees=0,
                                           total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
@@ -233,12 +208,12 @@ for (i in 1:nrow(abundace_field)) {
 }
 
 # Load our estimation for taxonomic resolution
-percentage_species_morphos <- 0.9
+percentage_species_morphos <- 0.5
 
 richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
 richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
                                         other_pollinator_richness=r_chao) %>%
-  mutate(other_richness_estimator_method="Chao1",richness_restriction="mostly bees")
+  mutate(other_richness_estimator_method="Chao1",richness_restriction="only bees")
 
 if (percentage_species_morphos < 0.8){
   richness_aux[,2:ncol(richness_aux)] <- NA
@@ -298,7 +273,7 @@ field_level_data <- tibble(
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
   total_sampled_area = NA,
-  total_sampled_time = 13,
+  total_sampled_time = 4*10*4,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,
@@ -320,6 +295,8 @@ setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_85_MarietteBrandOnion_2009.csv")
 setwd(dir_ini)
 
-# NOTE: what is the meaning of column "# Flower Obs."?
-# How should I aggregate visitors and frequency to obtain visitation rates
-# [in counts/(100flowers hour)] per guild and site?
+# NOTE: Records in "Bee Identifications_editted" (excel file) do not match bee
+# observations in "SA_Onion data_MarietteBrand_editted" (excel file) with
+# abundance greater that zero.
+
+# We assumed that Bee entries belong to "other_wild_bees" guild
