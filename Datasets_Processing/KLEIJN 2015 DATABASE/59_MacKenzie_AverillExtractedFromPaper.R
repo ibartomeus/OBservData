@@ -21,7 +21,9 @@ data.site <- read.xlsx("58_59_MacKenzie_AverillExtractedFromPaper/MacKenzie&Aver
 
 data.site <- data.site[9:17,c(1,8,12)]
 
-data.site <- as_tibble(data.site) %>% rename(site_id=X1,latitude=Lat,longitude=Long)
+data.site <- as_tibble(data.site) %>% rename(site_id=X1,latitude=Lat,longitude=Long) %>%
+  mutate(longitude = -1*as.numeric(longitude),latitude=as.numeric(latitude))
+
 
 # We add data site ID
 

@@ -35,7 +35,8 @@ data_raw %>% group_by(farmcode) %>% count()
 
 data.site <- data_raw %>% select(farmcode,latitude,longitude) %>% 
   group_by(farmcode,latitude,longitude) %>% count() %>% select(-n) %>%
-  rename(site_id=farmcode)
+  rename(site_id=farmcode,longitude1=latitude,latitude1=longitude)%>%
+  rename(longitude=longitude1,latitude=latitude1)
 
 
 # We add data site ID
