@@ -104,8 +104,9 @@ list_organisms_guild <- list_organisms %>% left_join(gild_list,by=c("Organism_ID
 #Check NA's in guild
 list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% count()
 
-list_organisms_guild$Guild[grepl("unidentified",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- NA
-
+#list_organisms_guild$Guild[grepl("unidentified",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- NA
+list_organisms_guild$Guild[grepl("Bombus",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- "bumblebees"
+list_organisms_guild$Guild[grepl("Psithyrus",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- "bumblebees"
 #Sanity Checks
 list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% count()
 
