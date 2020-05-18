@@ -320,3 +320,5 @@ setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_14_MikeGarratt_FieldBean2005.csv")
 setwd(dir_ini)
 
+# I found differences between this dataset and the one from Potts (in Dainese 2019). Please, confirm
+# that the referred datasets are different.
