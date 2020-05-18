@@ -125,7 +125,7 @@ for (i in seq(length(list_files_field_level))) {
   file_field_level_i <- paste(folder_base, list_files_field_level[i], sep = "/")
   data.site <- extract_template_i(file_field_level_i)
   
-  if (!"richness_restriction" %in% colnames(field_level_i)){
+  if (!"richness_restriction" %in% colnames(data.site)){
     
     if (list_files_field_level[i] %in% results_filtered$file){
       aux_i <- results_filtered$richness_restriction[results_filtered$file==list_files_field_level[i]]
@@ -154,7 +154,7 @@ for (i in seq(length(list_files_field_level))) {
       yield2=data.site$yield2,
       yield2_units=data.site$yield2_units,
       yield_treatments_no_pollinators=data.site$yield_treatments_no_pollinators,
-      yield_treatments_pollen_supplement=data.site$yield_treatments_no_pollinators,
+      yield_treatments_pollen_supplement=data.site$ yield_treatments_pollen_supplement,
       yield_treatments_no_pollinators2=data.site$yield_treatments_no_pollinators2,
       yield_treatments_pollen_supplement2=data.site$yield_treatments_pollen_supplement2,
       fruits_per_plant=data.site$fruits_per_plant,
@@ -197,7 +197,8 @@ for (i in seq(length(list_files_field_level))) {
       Email_contact = data.site$Email_contact
     )
     
-    write_csv(field_level_data, file_field_level_i)
+    # Uncomment to write file
+    # write_csv(field_level_data, file_field_level_i) # Commented for security reasons
     
   }
   
