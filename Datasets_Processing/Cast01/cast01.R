@@ -1,7 +1,7 @@
 
 library(tidyverse)
 library(openxlsx)
-library(sp) #Transforming latitude and longitude
+library(parzer) #Transforming latitude and longitude
 
 ###################################
 #Data holder: Violeta Hevia, hevi01 
@@ -10,15 +10,22 @@ library(sp) #Transforming latitude and longitude
 dir_ini <- getwd()
 options(digits=14)
 
-datafield <- read.xlsx("Crop_pollination_database_Hevia_et_al_UPDATE.xlsx",
+datafield <- read.xlsx("Crop_pollination_database_PollOleGI - Burgos_v2.xlsx",
                           sheet = "field_level_data", startRow = 1)
 
 datafield <- as_tibble(datafield)
 
+# Check site_id
+datafield %>% group_by(site_id,sampling_year) %>% count()
+
+names(datafield)
+
+
+
 datafield <- datafield %>%
   rename(field_size = field.size,
          fruits_per_plant = mean_fruits_per_plant,
-         richness_estimator_method = `richness_estimator_&#10;Method`)
+         richness_estimator_method = richness_estimator_.Method)
 
 
 datafield$management <- "conventional"
