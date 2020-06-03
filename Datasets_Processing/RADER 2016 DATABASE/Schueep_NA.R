@@ -145,8 +145,10 @@ datafield2$Organism_ID[datafield2$Organism_ID=="Polistes_sp."] <- "Polistes_sp"
 datafield2$Organism_ID[datafield2$Organism_ID=="Pompilidae"] <- "Pompilidae_cf"
 datafield2$Organism_ID[datafield2$Organism_ID=="Syrphidae"] <- "syrphidae"
 
+datafield3 <- datafield2 %>% select(-`Contact behaviour`,-Daytime) %>%
+  group_by(site_id,Organism_ID) %>% summarise_all(sum)
 
-data_raw_gather <- data_raw_gather %>% left_join(datafield2,by=c("site_id","Organism_ID"))
+data_raw_gather <- data_raw_gather %>% left_join(datafield3,by=c("site_id","Organism_ID"))
 
 
 insect_sampling <- tibble(
@@ -172,8 +174,7 @@ setwd(dir_ini)
 
 # Add site observations
 
-data_raw_gather2 <-  data_raw_gather %>% select(-`Contact behaviour`,-`Duration (sec)`,-Daytime,
-                                               -`Flowers per video`) %>%
+data_raw_gather2 <-  data_raw_gather %>% select(-`Duration (sec)`,-`Flowers per video`) %>%
   group_by(site_id,Organism_ID,Family,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
 
@@ -336,3 +337,8 @@ setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Schueep_NA.csv")
 setwd(dir_ini)
 
+# Rader's data only refers to 20 sites, whereas the original paper and its suppl. material
+# report 25 sites.
+
+# In Garibaldi 2015, data for 25 farms are shown. However, such paper only provides info on
+# the # of visits per site and yield.

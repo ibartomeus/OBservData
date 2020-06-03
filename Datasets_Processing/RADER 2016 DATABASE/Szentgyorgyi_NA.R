@@ -132,6 +132,8 @@ data_raw_gather <- data_raw_obs %>% rename(site_id = site)%>%
   gather(-site_id,key = "Organism_ID", value = 'Abundance', !contains("site_id"))
 data_raw_gather$Family <- as.character(NA)
 
+x <- data_raw_gather %>% group_by(site_id,Organism_ID) %>% count()
+
 #Add guild via guild list
 
 gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
@@ -177,8 +179,7 @@ insect_sampling <- tibble(
   total_sampled_area = NA,
   total_sampled_time = NA,
   total_sampled_flowers = NA,
-  Description = "In each site, two sets of pan traps were placed and a 150 m-long (4-m wide) standardized transect line was set (observer walked this line in 30 min)"
-)
+  Description = "In each site, two sets of pan traps were placed and a 150 m-long (4-m wide) standardized transect line was set (observer walked this line in 30 min). Four rounds of bee sampling using both methods were conducted during the main flowering period for each crop from May to August 2005")
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_Szentgyorgyi_NA.csv")
@@ -212,6 +213,8 @@ abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
 
 data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
+
+
 
 ######################################################
 # ESTIMATING CHAO INDEX
