@@ -117,6 +117,6 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_hevi01.csv")
+#write_csv(field_level_data, "field_level_data_hevi01.csv")
 setwd(dir_ini)
 
