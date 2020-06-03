@@ -1,4 +1,4 @@
-Organism_ID,Family,Guild
+﻿Organism_ID,Family,Guild
 (Dialictus) sp. D,Halictidae,other_wild_bees
 “Lagria” cf. aeneipennis Fåhraeus,Tenebrionidae,beetles
 0,NA,NA
@@ -1845,7 +1845,7 @@ Pseudapis sp.,NA,other_wild_bees
 Pseudapis sp. 1,Halictidae,other_wild_bees
 Pseudoanthidium sp.,NA,other_wild_bees
 Pseudodorus clavatus,Syrphidae,syrphids
-Pseudophilanthus sp.,NA,non_bee_hymenoptera
+Pseudophilanthus sp.,NA,other_wild_bees
 Pterostichus.anthracinus,NA,beetles
 Pterostichus.melanarius,NA,beetles
 Pterostichus.nigrita,NA,beetles

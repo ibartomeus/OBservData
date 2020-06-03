@@ -17,7 +17,6 @@ familias_list <- bind_rows(DAINESE,ROMINA,GARIBALDI) %>% unique() %>% arrange(Or
 
 write_csv(familias_list, "organism_guild_META_STUDIES.csv")
 
-
 #Apis Mellifera
 familias_list$Guild[grepl("Mell",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
 familias_list$Guild[grepl("Melif",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
@@ -836,8 +835,7 @@ familias_list$Guild[familias_list$Organism_ID=="Tanypezidae"] <- "other_flies"
 familias_list$Guild[familias_list$Organism_ID=="Tephritidae"] <- "other_flies"
 familias_list$Guild[familias_list$Organism_ID=="Tineoidea_sp."] <- "lepidoptera"
 familias_list$Guild[familias_list$Organism_ID=="Zygoptera_sp."] <- "other"
-
-
+familias_list$Guild[grepl("Pseudophilanthus",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
 
 #recap----
 familias_list %>% group_by(Guild)%>% count() #48 missing; 
