@@ -2,7 +2,7 @@
 library(tidyverse)
 library(sp) #Transforming latitude and longitude
 library("iNEXT")
-
+library(readxl)
 
 dir_ini <- getwd()
 
@@ -10,11 +10,17 @@ dir_ini <- getwd()
 #Data: Jauker_2006
 ##########################
 
-data_raw <- read_csv("Individual CSV/Jauker_2006.csv")
+#data_raw <- read_csv("Individual CSV/Jauker_2006.csv")
+
+data_raw <- read_excel("Individual CSV/Oilseedrape_Jauker_03.xls")
+
 
 # Remove columns full of NA's
 data_raw_without_NAs <- 
   data_raw[,colSums(is.na(data_raw))<nrow(data_raw)]
+
+# Add month of sampling
+data_raw_without_NAs$month_of_study <- as.numeric(format(as.Date(data_raw_without_NAs$date, format="%Y/%m/%d"),"%m"))
 
 
 ############################
@@ -22,20 +28,20 @@ data_raw_without_NAs <-
 ############################
 
 data.site_aux <- tibble(
-  study_id = paste0(data_raw_without_NAs$author,"_",data_raw_without_NAs$Year_of_study),
-  site_id = data_raw_without_NAs$sample_num,
+  study_id = "Jauker_2006",
+  site_id = data_raw_without_NAs$site_ID,
   crop = "Brassica napus",
   variety = NA,
-  management = data_raw_without_NAs$land_management,
+  management = "conventional",
   country = "Germany",
-  latitude = NA,
-  longitude = NA,
+  latitude = data_raw_without_NAs$latitude,
+  longitude = data_raw_without_NAs$longitude,
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month = data_raw_without_NAs$month_of_study,
-  sampling_end_month = data_raw_without_NAs$month_of_study,
-  sampling_year = data_raw_without_NAs$Year_of_study,
+  sampling_start_month = NA,
+  sampling_end_month = NA,
+  sampling_year = 2006,
   field_size = NA,
   yield=NA,
   yield_units=NA,
@@ -53,24 +59,6 @@ data.site_aux <- tibble(
   seed_weight= NA
 )
 
-
-# Fix sampling months
-
-sites <- unique(data.site_aux$site_id)
-
-for (i in sites){
-  
-  data.site_aux$sampling_start_month[data.site_aux$site_id==i] <- 
-    data.site_aux %>% filter(site_id==i) %>% 
-    select(sampling_start_month) %>% min()
-  
-  data.site_aux$sampling_end_month[data.site_aux$site_id==i] <- 
-    data.site_aux %>% filter(site_id==i) %>% 
-    select(sampling_end_month) %>% max()
-  
-}
-
-
 data.site <- data.site_aux %>% 
   group_by(study_id,site_id,crop,variety,management,country,
            latitude,longitude,X_UTM,zone_UTM,sampling_end_month,sampling_year,yield_units) %>% 
@@ -83,46 +71,50 @@ is.nan.data.frame <- function(x){
 
 data.site[is.nan(data.site)] <- NA
 
-############################################################
 
-# Convert Latitude/Longitude from degrees min sec to decimal
-# 
-# chd = substr(data.site$latitude, 3, 3)[1]
-# chm = substr(data.site$latitude, 6, 6)[1]
-# chs = substr(data.site$latitude, 9, 10)[1]
-# 
-# cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-# data.site$latitude <- as.numeric(cd)
-# 
-# chd = substr(data.site$longitude, 3, 3)[1]
-# chm = substr(data.site$longitude, 5, 5)[1]
-# chs = substr(data.site$longitude, 8, 9)[1]
-# 
-# cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
-# data.site$longitude <- as.numeric(cd)
+# Fix sampling months
+
+sites <- unique(data.site_aux$site_id)
+
+data_raw_without_NAs$month_of_study
+
+for (i in sites){
+  
+  data.site$sampling_start_month[data.site$site_id==i] <- 
+    data_raw_without_NAs %>% filter(site_ID==i) %>% 
+    select(month_of_study) %>% min()
+  
+  data.site$sampling_end_month[data.site$site_id==i] <- 
+    data_raw_without_NAs %>% filter(site_ID==i) %>% 
+    select(month_of_study) %>% max()
+  
+}
+
 
 #########################
 # Adding credit, Publication and contact
 
-data.site$Publication <- "10.4257/oeco.2010.1401.09"
-data.site$Credit  <- "Juliana Hipólito de Sousa, Camila Magalhães Pigozzo & Blandina Felipe Viana"
-data.site$Email_contact <- "jhdsousa@yahoo.com"
+data.site$Publication <- "10.1007/s10980-009-9331-2"
+data.site$Credit  <- "Frank Jauker"
+data.site$Email_contact <- "Frank.Jauker@allzool.bio.uni-giessen.de"
 
 ###########################
 # SAMPLING DATA
 ###########################
 
 
-data_raw_obs <- data_raw %>%
-  select(site,cultivar_other_label,round,row,observation_location, names(data_raw[30:ncol(data_raw)]))
+data_raw_obs <- data_raw_without_NAs %>%
+  select(site_ID, names(data_raw[17:ncol(data_raw)])) %>% rename(site_id=site_ID)
 
 # Remove NAs
 data_raw_obs <- 
   data_raw_obs[,colSums(is.na(data_raw_obs))<nrow(data_raw_obs)]
 
 
-data_raw_gather <- data_raw_obs %>% select(-site) %>% rename(site_id=cultivar_other_label)%>%
-  gather(-site_id,key = "Organism_ID", value = 'Abundance', !contains("site_id"))
+data_raw_gather <- data_raw_obs %>% 
+  gather(-site_id,key = "Organism_ID", value = 'Abundance', !contains("site_id")) %>%
+  filter(!is.na(Abundance))
+
 data_raw_gather$Family <- as.character(NA)
 
 #Add guild via guild list
@@ -130,6 +122,24 @@ data_raw_gather$Family <- as.character(NA)
 gild_list <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators/Table_organism_guild_META.csv")
 
 data_raw_gather <- data_raw_gather %>% left_join(gild_list,by=c("Organism_ID","Family"))
+
+#Check NA's in guild
+data_raw_gather %>% filter(is.na(Guild))
+
+data_raw_gather$Guild[grepl("Andrena",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "other_wild_bees"
+data_raw_gather$Guild[grepl("Apis melifera",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "honeybees"
+data_raw_gather$Guild[grepl("Bombus",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "bumblebees"
+data_raw_gather$Guild[grepl("Hylaeus",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "other_wild_bees"
+data_raw_gather$Guild[grepl("Lasioglossum",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "other_wild_bees"
+data_raw_gather$Guild[grepl("Anasimyia",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Eristalis",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Syrphus",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Tropidia",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Sphaerophoria",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Scaeva",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Parhelophilus",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Melangyna",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
+data_raw_gather$Guild[grepl("Melanostoma",data_raw_gather$Organism_ID,ignore.case = FALSE)] <- "syrphids"
 
 #Check NA's in guild
 data_raw_gather %>% filter(is.na(Guild))
@@ -150,21 +160,24 @@ data_raw_gather %>% filter(is.na(Guild))
 # Remove entries with zero abundance
 data_raw_gather <- data_raw_gather %>% filter(Abundance>0,!is.na(Abundance))
 
-#Field 1 has been surveyed twice
-total_time <- tibble(site_id=data.site$site_id,total_time=c(2*24*60,24*60,24*60,24*60))
-data_raw_gather <- data_raw_gather %>% left_join(total_time,by="site_id")
+#Sampling rounds
+
+sampling <- data_raw_without_NAs %>% group_by(site_ID) %>% count() %>%
+  rename(site_id=site_ID) %>% mutate(time=n*30,area=n*20*20)
+
+data_raw_gather <- data_raw_gather %>% left_join(sampling,by="site_id")
 
 insect_sampling <- tibble(
   study_id = "Jauker_2006",
   site_id = data_raw_gather$site_id,
   pollinator = data_raw_gather$Organism_ID,
   guild = data_raw_gather$Guild,
-  sampling_method = "insect collection",
+  sampling_method = "netting",
   abundance = data_raw_gather$Abundance,
-  total_sampled_area = NA,
-  total_sampled_time = data_raw_gather$total_time,
+  total_sampled_area = data_raw_gather$area,
+  total_sampled_time = data_raw_gather$time,
   total_sampled_flowers = NA,
-  Description = "2 trees were selected in each field and insects were collected at 1 hour intervals over 24 hours"
+  Description = "Six 2000m transects were sampled. Sampling was conducted in a 20 x 20 m area every 100 m. Here results represent samping points with pollinator records from oilseed rape.  At point stops, wild bees and hoverflies were sampled for 20 min using insect nets. There were 5 sampling rounds, so some fields turn up more than once, if oilseed rape was in bloom over more than one sampling round"
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -187,13 +200,12 @@ abundance_aux <- data_raw_gather %>%
 
 names(abundance_aux)
 
-# There are     "beetles"  "lepidoptera" "non_bee_hymenoptera"
-# "syrphids" other_flies
+# There are     "bumblebees"      "honeybees"       "other_wild_bees" "syrphids"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(bumblebees=0,honeybees=0,other_wild_bees=0,
+abundance_aux <- abundance_aux %>% mutate(other_flies=0, beetles=0, non_bee_hymenoptera=0, lepidoptera=0,
   other=0,humbleflies=0,total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
@@ -221,11 +233,26 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+# Load our estimation for taxonomic resolution
+percentage_species_morphos <- .9
 
-data.site <- data.site %>% left_join(richness_aux, by = "site_id")
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% dplyr::rename(observed_pollinator_richness=r_obser,
+                                               other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1",richness_restriction="bees and hoverflies")
+
+if (percentage_species_morphos < 0.8){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
+
+
+data.site <- data.site %>% left_join(richness_aux,by="site_id")
+
+###############################
+# SAMPLING DATA
+###############################
+
+data.site <- data.site %>% left_join(sampling,by="site_id")
 
 
 ###############################
@@ -263,8 +290,10 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = data.site$pollinator_richness,
-  richness_estimator_method = data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_pollinator_richness,
+  richness_restriction = data.site$richness_restriction,
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,
@@ -276,8 +305,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = NA,
-  total_sampled_time = total_time$total_time,
+  total_sampled_area = data.site$area,
+  total_sampled_time = data.site$time,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,
