@@ -1,167 +1,168 @@
-study_id,crop,year,email,number_sites,latitude,longitude,place
-mayfield_NA,Actinidia deliciosa,NA,m.mayfield@uq.edu.au,6,-38.00353045,175.95785260835657,"New Zealand, North Island"
-85_MarietteBrandOnion_2009,Allium cepa,2009,david.kleijn@wur.nl/veldtman@sun.ac.za,4,-33.45217418670654,22.535319328308105,NA
-86_MarietteBrandOnion_2010,Allium cepa,2010,david.kleijn@wur.nl/veldtman@sun.ac.za,8,-33.23082685470581,21.230482816696167,NA
-20_DavidKleijn_alliumporrum2012,Allium porrum,2012,david.kleijn@wur.nl,10,41.2764843,15.3652917,NA
-fije01,Allium porrum,2016,thijs.fijen@wur.nl,18,45.75385355,4.045473682551104,"France, Loire"
-fije02,Allium porrum,2016,thijs.fijen@wur.nl,18,42.6384261,12.674297,"Italy, South Italy"
-FREI01,Anacardium occidentale,2011,freitas@ufc.br,10,-5.3264703,-39.7156073,"Brazil, Ceará"
-FREI02,Anacardium occidentale,2012,antonniodiego@hotmail.com,10,-5.3264703,-39.7156073,"Brazil, Ceará"
-FREI07,Annona muricata,2013,freitas@ufc.br,1,-10.3333333,-53.2,Brazil
-FREI06,Annona squamosa,2013,freitas@ufc.br,1,-10.3333333,-53.2,Brazil
-Cunningham_2001,Annona squamosa atemoya,2001,saul.cunningham@csiro.au,9,-17.131481481481483,145.4537037037037,NA
-FREI04,Bixa orellana,2007,freitas@ufc.br,6,-10.3333333,-53.2,Brazil
-10_REV_RADER_FrankJaukerOilSeedRape_2006,Brassica napus,2006,Frank.Jauker@bio.uni-giessen.de,24,50.438461583333336,8.734084416666667,NA
-Bart01,Brassica napus,2013,nacho.bartomeus@gmail.com,15,58.3644846,13.284107333333333,NA
-Brassica_napus_Brazil_2011,Brassica napus,2011,patriciabiene@gmail.com; betinabl@pucrs.br; rosana.oliveira@pucrs.br,6,-28.120789845784504,-54.32084846496582,NA
-Cunningham_2006,Brassica napus,2006,saul.cunningham@csiro.au,6,-34.42777777777778,148.65555555555557,NA
-Jauker_2006,Brassica napus,2006,Frank.Jauker@allzool.bio.uni-giessen.de,25,50.43944184,8.73267692,NA
-Scheper_2011,Brassica napus,2011,jeroen.scheper@wur.nl,8,52.19323202530986,6.340481268005083,NA
-Scheper_2012,Brassica napus,2012,jeroen.scheper@wur.nl,6,52.16975421788389,6.374756186349719,NA
-stan01,Brassica napus,2010,darastanley@gmail.com,3,52.710927813333335,-6.64883026,NA
-vere01,Brassica napus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.22638,0.6455555,NA
-vere01,Brassica napus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.22638,0.6455555,NA
-vere01,Brassica napus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.22638,0.6455555,NA
-vere09,Brassica napus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.490304249999994,4.82597,NA
-vere09,Brassica napus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.490304249999994,4.82597,NA
-vere09,Brassica napus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.490304249999994,4.82597,NA
-zouy01,Brassica napus,2015,yi.zou.1@hotmail.com,18,28.734652289444444,115.51856599444444,NA
-bomm01,Brassica napus,2005,Riccardo.Bommarco@slu.se,10,59.8586126,17.6387436,"Sweden, Uppsala"
-Bommarco_Rundlof_2009,Brassica napus,2009,Riccardo.Bommarco@slu.se,10,59.3174775,18.0710989,"Sweden, Västergötland"
-garr04,Brassica napus,2012,m.p.garratt@reading.ac.uk,8,51.20707485,0.7210361813401444,"UK, Kent"
-Lindstrom_2011,Brassica napus,2011,Sandra.Lindstrom@hushallningssallskapet.se,22,63,14,"Sweden, Scandinavia"
-Lindstrom_2012,Brassica napus,2012,Sandra.Lindstrom@hushallningssallskapet.se,22,63,14,"Sweden, Scandinavia"
-Rundlof_2011,Brassica napus,2011,Maj.Rundlof@biol.lu.se,16,59.1766942,17.639028213789608,"Sweden, Scania"
-Rundlof_2012,Brassica napus,2012,Maj.Rundlof@biol.lu.se,16,59.1766942,17.639028213789608,"Sweden, Scania"
-ande01,Brassica rapa,2010,gandersson@unrn.edu.ar,11,55.793516454545454,13.57072,NA
-Sutt01,brassica.napus,2014,louis.sutter@agroscope.admin.ch,18,47.3723941,8.5423328,"Switzerland, Zurich"
-Mark_pigeonpea,Cajanus cajan,2009,mmarkotieno@gmail.com,12,-2.410343,37.965529,"Kenya, Kibwezi"
-39_PisantyMandelikWatermelon_2009,Citrullus lanatus,2009,gidpisa79@yahoo.com,17,31.738235424187582,34.886326867646275,NA
-40_PisantyMandelikWatermelon_2010,Citrullus lanatus,2010,gidpisa79@yahoo.com,13,31.711236602555278,34.879517671973034,NA
-Winfree_griffin_2008,Citrullus lanatus,2008,rwinfree@rutgers.edu,18,40.32671111111111,-75.11483333333334,NA
-Winfree_griffin_2010,Citrullus lanatus,2010,rwinfree@rutgers.edu,18,40.35899988888889,-75.09900283333333,NA
-Winfree_griffin_2011,Citrullus lanatus,2011,rwinfree@rutgers.edu,18,40.33269104777778,-75.09426122222223,NA
-Winfree_griffin_2012,Citrullus lanatus,2012,rwinfree@rutgers.edu,18,40.34269166666667,-75.08788277777778,NA
-pisanty_mandelik_2009,Citrullus lanatus,2009,Yael.Mandelik@mail.huji.ac.il,19,31.5313113,34.8667654,Israel
-chac04,Citrus limon,2015,nchacoff@gmail.com,12,-27.030888888888857,-65.5106157407407,NA
-chac01,Citrus paradisi,2000,nchacoff@gmail.com,4,-23.26429601672815,-64.38061153168168,NA
-chac02,Citrus paradisi,2001,nchacoff@gmail.com,4,-23.26429601672815,-64.38061153168168,NA
-chac03,Citrus paradisi,2002,nchacoff@gmail.com,4,-23.26429601672815,-64.38061153168168,NA
-74_AlexKleinCoffee_2Varieties_2001,Coffea arabica,2000/2001,alexandra.klein@nature.uni-freiburg.de,24,-1.799250453710556,120.33255767822266,NA
-clas01,Coffea arabica,2011-2012,alice.classen@uni-wuerzburg.de,12,-3.261529117333333,37.346779475,NA
-Vergara_2004,Coffea arabica,2004,carlosh.vergara@udlap.mx,16,19.323170833333332,-96.92646875,NA
-87_TaylorRickettsCoffee_2001,Coffea arabica,2001,taylor.ricketts@UVM.EDU,12,9.33921865,-83.64458558172157,"Costa Rica, Perez Zeledon"
-88_TaylorRickettsCoffee_2002,Coffea arabica,2002,taylor.ricketts@UVM.EDU,16,9.33921865,-83.64458558172157,"Costa Rica, Perez Zeledon"
-hipo01,Coffea arabica,2013,jhdsousa@yahoo.com,31,-12.884137500000001,-41.39828610355487,"Brazil, Chapada Diamantina"
-hipo02,Coffea arabica,2014,jhdsousa@yahoo.com,22,-12.884137500000001,-41.39828610355487,"Brazil, Chapada Diamantina"
-90_ShaleneJhaCoffee_2006,Coffea arabica/robusta,2006,sjha@austin.utexas.edu,9,15.172860964018048,-92.32744545038855,NA
-75_AlexKleinCoffee_2Varieties_2001,Coffea canephora,2000/2001,alexandra.klein@nature.uni-freiburg.de,15,-1.4216785192489625,120.3282475789388,NA
-bore01,Coffea canephora,2008,virginie.boreux@nature.uni-freiburg.de,112,12.121119473839286,75.96005699446428,NA
-krish011,Coffea canephora,2007,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,13,12.132006692307693,75.97198735897436,NA
-krish012,Coffea canephora,2008,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,19,12.111555537037038,75.97936575925925,NA
-krish013,Coffea canephora,2009,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,9,12.234262296296297,75.7940032962963,NA
-krish011,Coffea canephora,2014,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch/maike.nesper@gmail.com/mnesper@ethz.ch,25,12.2068464,75.8946544,NA
-50_RachaelWinfreeMuskMelon_2004,Cucumis melo,2004,rwinfree@rutgers.edu,13,40.34027692307692,-75.02643884615385,NA
-knap01,Cucurbita pepo,2016,jessica.knapp@biol.lu.se,9,51.14952259002107,-3.3892452953004746,NA
-Jessica_Pumpkin,Cucurbita pepo,2011,jessica.petersen@cornell.edu,24,40.7127281,-74.0060152,"USA, New York"
-Taki01,Fagopyrum esculentum,2007,htaki@affrc.go.jp,15,36.607694,140.451774,NA
-Taki02,Fagopyrum esculentum,2008,htaki@affrc.go.jp,17,36.60187,140.4522994117647,NA
-szen01,Fagopyrum esculentum,2005,hajnalka.szentgyorgyi@gmail.com,6,52.215933,19.134422,Poland
-ande02,Fragaria × ananassa,2009,gandersson@unrn.edu.ar,11,55.610865,13.449076454545455,NA
-vere010,Fragaria × ananassa,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.5520935,4.8723357499999995,NA
-vere010,Fragaria × ananassa,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.5520935,4.8723357499999995,NA
-vere010,Fragaria × ananassa,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",4,50.5520935,4.8723357499999995,NA
-grab011,Fragaria x ananassa,2012,hlc66@cornell.edu,16,42.77299006682905,-76.72655916215535,NA
-grab012,Fragaria x ananassa,2014,hlc66@cornell.edu,30,42.724248308659206,-76.74424510403702,NA
-grab013,Fragaria x ananassa,2015,hlc66@cornell.edu,30,42.724248308659206,-76.74424510403702,NA
-scil01,Fragaria x ananassa,2012,amber.sciligo@berkeley.edu,16,36.871315,-121.80777,NA
-stew01,Fragaria x ananassa,2014,rebecca.stewart@cec.lu.se,30,55.524905000000004,13.585049999999999,NA
-garr01,Fragaria x ananassa,2011,m.p.garratt@reading.ac.uk,8,55.8606731,-4.2567906,"UK, Yorkshire"
-cuss01,Gossypium hirsutum,2014,sarah.cusser@gmail.com,12,28.47409990975,-97.0429735683333,NA
-Breno_cotton,Gossypium hirsutum,NA,freitas@ufc.br,20,-5.3264703,-39.7156073,"Brazil, Ceará"
-FREI05,Gossypium hirsutum,2011,freitas@ufc.br,2,-5.3264703,-39.7156073,"Brazil, Ceará"
-38_PisantyMandelik_Sunflower2010,Helianthus annuus,2010,gidpisa79@yahoo.com,15,31.79283238046105,34.90944312988252,NA
-carv02,Helianthus annuus,2009,lgcarvalheiro@gmail.com,30,-24.995231333333333,28.475119333333332,NA
-hevi01,Helianthus annuus,2017,violeta.hevia@uam.es,9,39.83419444444445,-2.387743827160494,NA
-sche01,Helianthus annuus,2015,jeroen.scheper@wur.nl,24,46.1934363076443,-0.3920692324318615,NA
-Sunflowers_SouthAfrica_2011,Helianthus annuus,2011,R.Veldtman@sanbi.org.za,10,-24.984214,28.485285,NA
-FREI03,Malpighia emarginata,2011,freitas@ufc.br,8,-5.3264703,-39.7156073,"Brazil, Ceará"
-mall01,malus domestica,2012,rachel.mallinger@ars.usda.gov,17,44.4308975,-89.6884637,"USA, Wisconsin"
-mall02,malus domestica,2013,rachel.mallinger@ars.usda.gov,19,44.4308975,-89.6884637,"USA, Wisconsin"
-42_MiaParkApple_2009,Malus domestica,2009,mia.park@ndsu.edu,12,42.53680958333334,-76.61102591666666,NA
-43_MiaParkApple_2010,Malus domestica,2010,mia.park@ndsu.edu,9,42.957332111111114,-76.86353566666666,NA
-44_MiaParkApple_2011,Malus domestica,2011,mia.park@ndsu.edu,22,42.811235363636364,-76.82858445454545,NA
-84_RuanVeldtmanApple_2011,Malus domestica,2011,veldtman@sun.ac.za,10,-34.1490258,19.130221,NA
-burn01,Malus domestica,2018,katherine.burns@ucdconnect.ie,16,52.2841616875,-7.6027803125,NA
-bore02,Malus domestica,2015,virginie.boreux@nature.uni-freiburg.de,30,47.73358035572488,9.381177408020465,NA
-Groo01,Malus domestica,2013,g.a.degroot@wur.nl,15,51.90408782,5.3693755933333325,NA
-Groo02,Malus domestica,2014,g.a.degroot@wur.nl,15,51.89573406666667,5.456737613333333,NA
-Malus_domestia_Norway_2013,Malus domestica,2013,jens.astrom@nina.no,13,59.533317341461554,8.850802615769231,NA
-Malus_domestica_Brazil_2010,Malus domestica,2010,fabia714@gmail.com; jeferson.gabriel@gmail.com,8,-13.273333875,-41.41400775,NA
-Malus_domestica_Brazil_2011,Malus domestica,2011,fabia714@gmail.com; jeferson.gabriel@gmail.com,6,-13.2743535,-41.41481733333333,NA
-Malus_domestica_Brazil_2012,Malus domestica,2012,fabia714@gmail.com; jeferson.gabriel@gmail.com,7,-13.273487,-41.41671928571429,NA
-Reemer_Kleijn_2010_Apple,Malus domestica,2010,David.Kleijn@wur.nl,6,51.83606198666667,5.365499174166667,NA
-Reemer_Kleijn_2011_Apple,Malus domestica,2011,David.Kleijn@wur.nl,6,51.83606198666667,5.365499174166667,NA
-vere02,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.255,0.629444,NA
-vere02,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.255,0.629444,NA
-vere02,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,49.255,0.629444,NA
-vere03,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",11,50.72665318181818,4.820260181818182,NA
-vere03,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",11,50.72665318181818,4.820260181818182,NA
-vere03,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",11,50.72665318181818,4.820260181818182,NA
-vere04,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",13,47.67074761538461,2.8228516153846153,NA
-vere04,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",13,47.67074761538461,2.8228516153846153,NA
-vere04,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",13,47.67074761538461,2.8228516153846153,NA
-vere05,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.59932633333334,4.726561,NA
-vere05,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.59932633333334,4.726561,NA
-vere05,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.59932633333334,4.726561,NA
-vere08,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.618128,4.7340695,NA
-vere08,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.618128,4.7340695,NA
-vere08,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.618128,4.7340695,NA
-garr02,Malus domestica,2011,m.p.garratt@reading.ac.uk,8,51.20707485,0.7210361813401444,"UK, Kent"
-45_RachaelWinfree_Apple_2004,Malus Domestica,2004,rwinfree@rutgers.edu,16,40.57425,-74.7266875,NA
-carv01,Mangifera indica,2008,lgcarvalheiro@gmail.com,12,-24.430375083333335,30.849238333333332,NA
-carv03,Mangifera indica,2009,lgcarvalheiro@gmail.com,31,-24.413608387096772,30.86857677419355,NA
-rade01,Mangifera indica,2014,rrader@une.edu.au,10,-17.006475278,145.3897613888889,NA
-will01,Mangifera indica,2016,bwillcox@myune.edu.au,9,-17.004780555555556,145.3997049382716,NA
-Hipolito_2005,Mangifera indica,2005,jhdsousa@yahoo.com,4,-12.285251,-41.9294776,"Brazil, Bahia"
-89_BlandeViana_PassionFruit2005,Passiflora edulis,2005,blande.viana@gmail.com,16,-9.306860038656302,-40.27875626132475,NA
-ramo01,Phaseolus vulgaris L.,2015/2016,davilramos91@gmail.com,27,-15.919595740740741,-47.55425481481481,NA
-Schueep_NA,Prunus avium,2011,entling@uni-landau.de,20,46.7985624,8.2319736,Switzerland
-66_AlexKleinAlmond_2009,Prunus dulcis,2009,alexandra.klein@nature.uni-freiburg.de,15,38.86123341333333,-122.11586594666667,NA
-AK_almond,Prunus dulcis,2008,aklein@uni.leuphana.de,23,36.7014631,-118.7559974,"USA, California"
-Brittain_Klein_2008,Prunus dulcis,2008,alexandra.klein@nature.uni-freiburg.de,23,35.0576608,-114.17706631348096,"USA, Sacramento Valley"
-Reemer_Kleijn_2010,Pyrus communis,2010,David.Kleijn@wur.nl,6,51.83155933166667,5.3485727965,NA
-Reemer_Kleijn_2011,Pyrus communis,2011,David.Kleijn@wur.nl,6,51.83155933166667,5.3485727965,NA
-vere011,Pyrus communis,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.6213245,4.7602945000000005,NA
-vere011,Pyrus communis,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.6213245,4.7602945000000005,NA
-vere011,Pyrus communis,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",2,50.6213245,4.7602945000000005,NA
-saez01,Rubus idaeus,2014,agustinsaez@live.com.ar,16,-42.036712375,-71.5166220625,NA
-vere06,Rubus idaeus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,50.007962,5.1566090000000004,NA
-vere06,Rubus idaeus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,50.007962,5.1566090000000004,NA
-vere06,Rubus idaeus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",1,50.007962,5.1566090000000004,NA
-46_RachaelWinfreeTomato_2004,Solanum lycopersicum,2004,rwinfree@rutgers.edu,15,40.387759333333335,-75.0521834,NA
-47_RachaelWinfreeTomato_2005,Solanum lycopersicum,2005,rwinfree@rutgers.edu,13,40.362553846153844,-75.06052307692308,NA
-69_GreenleafKremenTomato2001,Solanum lycopersicum,2001,sgreenleaf@ucdavis.edu,11,36.7014631,-118.7559974,"USA, California"
-Trifolium pratense_Norway_2013,Trifolium pratense,2013,jens.astrom@nina.no,30,59.48021378745266,10.418941183698953,NA
-Trifolium pratense_Norway_2013,Trifolium pratense,2014,jens.astrom@nina.no,30,59.48021378745266,10.418941183698953,NA
-1_RiccardoBommarco_RedClover_2008,Trifolium pratense,2008,riccardo.bommarco@slu.se,1,58.36782395,16.050427203885352,"Sweden, Östergötland"
-2_3_RiccardoBommarco_RedClover_2009,Trifolium pratense,2009,riccardo.bommarco@slu.se,2,55.846940950000004,13.635831212379532,"Sweden, Skåne"
-4_5_RiccardoBommarco_RedClover_2010,Trifolium pratense,2010,riccardo.bommarco@slu.se,2,58.36782395,16.050427203885352,"Sweden, Östergötland"
-51_RachaelWinfreeBlueBerry_2010,Vaccinium corymbosum,2010,rwinfree@rutgers.edu,16,39.666549625,-74.7570329375,NA
-52_RachaelWinfreeBlueBerry_2011,Vaccinium corymbosum,2011,rwinfree@rutgers.edu,16,39.666549625,-74.7570329375,NA
-Groo03,Vaccinium corymbosum,2013,g.a.degroot@wur.nl,15,51.79952261999998,6.222867733333332,NA
-Groo04,Vaccinium corymbosum,2014,g.a.degroot@wur.nl,15,51.817132333333326,6.171345919999999,NA
-mont01,Vaccinium corymbosum,2018,ana.montero.castano@gmail.com,12,43.061530287333355,-80.56606268790972,NA
-vere07,Vaccinium corymbosum,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.416699666666666,5.070474333333333,NA
-vere07,Vaccinium corymbosum,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.416699666666666,5.070474333333333,NA
-vere07,Vaccinium corymbosum,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be",3,50.416699666666666,5.070474333333333,NA
-cavi01,Vaccinium corymbosum,2016,pablo.cavigliaso@gmail.com; cavigliasso.pablo@inta.gob.ar,13,-28.595388,-62.5033426,"Argentina, Ñandubay"
-48_RachaelWinfreeCranberry_2009,Vaccinium macrocarpon,2009,rwinfree@rutgers.edu,16,39.7982568125,-74.55739493749999,NA
-49_RachaelWinfreeCranberry_2010,Vaccinium macrocarpon,2010,rwinfree@rutgers.edu,16,39.7982568125,-74.55739493749999,NA
-58_MacKenzie_AverillExtractedFromPaper,Vaccinium macrocarpon,1990,david.kleijn@wur.nl,8,41.70929826388889,-70.55860833333332,NA
-59_MacKenzie_AverillExtractedFromPaper,Vaccinium macrocarpon,1991,david.kleijn@wur.nl,9,41.86953425925926,-70.81210679012345,NA
-Vaccinium_meridionale_Colombia_2013,Vaccinium meridionale,2013,mgnatesp@gmail.com,5,5.5489882,-73.7168632,NA
-14_MikeGarratt_FieldBean2005,Vicia faba,2005,m.p.garratt@reading.ac.uk,10,51.551194647,-1.2432100934,NA
-ekro01,Vicia faba,2016,johan.ekroos@cec.lu.se,16,55.70673675,13.5683100625,NA
-pott01,Vicia faba,2005,s.g.potts@reading.ac.uk,10,51.551194647,-1.2432100934,NA
-garr03,Vicia faba,2011,m.p.garratt@reading.ac.uk,8,51.453488899999996,-1.0318729593399247,"UK, Berkshire"
+study_id,crop,year,email,Credit,number_sites,latitude,longitude,place
+mayfield_NA,Actinidia deliciosa,NA,m.mayfield@uq.edu.au,"Taylor H. Ricketts, Neal M. Williams, and Margaret M. Mayfield",6,-38.00353045,175.95785260835657,"New Zealand, North Island"
+85_MarietteBrandOnion_2009,Allium cepa,2009,david.kleijn@wur.nl/veldtman@sun.ac.za,Mariëtte R. Brand,4,-33.45217418670654,22.535319328308105,NA
+86_MarietteBrandOnion_2010,Allium cepa,2010,david.kleijn@wur.nl/veldtman@sun.ac.za,Mariëtte R. Brand,8,-33.23082685470581,21.230482816696167,NA
+20_DavidKleijn_alliumporrum2012,Allium porrum,2012,david.kleijn@wur.nl,David Kleijn,10,41.2764843,15.3652917,NA
+fije01,Allium porrum,2016,thijs.fijen@wur.nl,Thijs Fijen,18,45.75385355,4.045473682551104,"France, Loire"
+fije02,Allium porrum,2016,thijs.fijen@wur.nl,Thijs Fijen,18,42.6384261,12.674297,"Italy, South Italy"
+FREI01,Anacardium occidentale,2011,freitas@ufc.br,Breno M. Freitas,10,-5.3264703,-39.7156073,"Brazil, Ceará"
+FREI02,Anacardium occidentale,2012,"freitas@ufc.br,antonniodiego@hotmail.com",Breno M. Freitas,10,-5.3264703,-39.7156073,"Brazil, Ceará"
+FREI07,Annona muricata,2013,freitas@ufc.br,Breno M. Freitas,1,-10.3333333,-53.2,Brazil
+FREI06,Annona squamosa,2013,freitas@ufc.br,Breno M. Freitas,1,-10.3333333,-53.2,Brazil
+Cunningham_2001,Annona squamosa atemoya,2001,saul.cunningham@csiro.au,"Rosalind Blanche, and Saul A. Cunningham",9,-17.131481481481483,145.4537037037037,NA
+FREI04,Bixa orellana,2007,freitas@ufc.br,Breno M. Freitas,6,-10.3333333,-53.2,Brazil
+Bart01,Brassica napus,2013,nacho.bartomeus@gmail.com,"Ignasi Bartomeus, Vesna Gagic, Riccardo Bommarco",15,58.3644846,13.284107333333333,NA
+Brassica_napus_Brazil_2011,Brassica napus,2011,patriciabiene@gmail.com; betinabl@pucrs.br; rosana.oliveira@pucrs.br,Betina Blochtein & Patrícia Nunes-Silva & Rosana Halinski de Oliveira,6,-28.120789845784504,-54.32084846496582,NA
+Cunningham_2006,Brassica napus,2006,saul.cunningham@csiro.au,"Anthony D. Arthur, Jin Li, Steve Henry, and Saul A. Cunningham",6,-34.42777777777778,148.65555555555557,NA
+Jauker_2006,Brassica napus,2006,Frank.Jauker@allzool.bio.uni-giessen.de,Frank Jauker,25,50.43944184,8.73267692,NA
+Lichtenberg_Crowder_Canola,Brassica napus,2013,dcrowder@wsu.edu,David Crowder (dcrowder@wsu.edu); Elinor Lichtenberg (elinor.lichtenberg@unt.edu),15,46.723198960666664,-117.21910469,NA
+Lichtenberg_Crowder_Canola,Brassica napus,2014,dcrowder@wsu.edu,David Crowder (dcrowder@wsu.edu); Elinor Lichtenberg (elinor.lichtenberg@unt.edu),15,46.723198960666664,-117.21910469,NA
+Scheper_2011,Brassica napus,2011,jeroen.scheper@wur.nl,Jeroen Scheper,8,52.19323202530986,6.340481268005083,NA
+Scheper_2012,Brassica napus,2012,jeroen.scheper@wur.nl,Jeroen Scheper,6,52.16975421788389,6.374756186349719,NA
+stan01,Brassica napus,2010,darastanley@gmail.com,"Dara Stanley NUI Galway, Jane Stout (Trinity College Dublin)",3,52.710927813333335,-6.64883026,NA
+vere01,Brassica napus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.22638,0.6455555,NA
+vere01,Brassica napus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.22638,0.6455555,NA
+vere01,Brassica napus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.22638,0.6455555,NA
+vere09,Brassica napus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.490304249999994,4.82597,NA
+vere09,Brassica napus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.490304249999994,4.82597,NA
+vere09,Brassica napus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.490304249999994,4.82597,NA
+zouy01,Brassica napus,2015,yi.zou.1@hotmail.com,Wageningen University,18,28.734652289444444,115.51856599444444,NA
+bomm01,Brassica napus,2005,Riccardo.Bommarco@slu.se,Riccardo Bommarco,10,59.8586126,17.6387436,"Sweden, Uppsala"
+Bommarco_Rundlof_2009,Brassica napus,2009,Riccardo.Bommarco@slu.se,Riccardo Bommarco,10,59.3174775,18.0710989,"Sweden, Västergötland"
+garr04,Brassica napus,2012,m.p.garratt@reading.ac.uk,Michael Garratt (University of Reading),8,51.20707485,0.7210361813401444,"UK, Kent"
+Lindstrom_2011,Brassica napus,2011,Sandra.Lindstrom@hushallningssallskapet.se,Sandra Lindstrom,22,63,14,"Sweden, Scandinavia"
+Lindstrom_2012,Brassica napus,2012,Sandra.Lindstrom@hushallningssallskapet.se,Sandra Lindstrom,22,63,14,"Sweden, Scandinavia"
+Rundlof_2011,Brassica napus,2011,Maj.Rundlof@biol.lu.se,Maj Rundlof,16,59.1766942,17.639028213789608,"Sweden, Scania"
+Rundlof_2012,Brassica napus,2012,Maj.Rundlof@biol.lu.se,Maj Rundlof,16,59.1766942,17.639028213789608,"Sweden, Scania"
+Sutt01,Brassica napus,2014,louis.sutter@agroscope.admin.ch,"Louis Sutter (Agroscope, Zurich, Switzerland), Project QuESSA",18,47.3723941,8.5423328,"Switzerland, Zurich"
+ande01,Brassica rapa,2010,gandersson@unrn.edu.ar,"Georg Andersson (Lund University), Project MULTIFUNC",11,55.793516454545454,13.57072,NA
+Mark_pigeonpea,Cajanus cajan,2009,mmarkotieno@gmail.com,"Mark Otieno, C. Sheena Sidhu, Ben A. Woodcock, Andrew Wilby, Ioannis N. Vogiatzakis, Alice L. Mauchline, Mary W. Gikungu, and Simon G. Potts",12,-2.410343,37.965529,"Kenya, Kibwezi"
+39_PisantyMandelikWatermelon_2009,Citrullus lanatus,2009,gidpisa79@yahoo.com,"Gideon Pisanty, Yael Mandelik",17,31.738235424187582,34.886326867646275,NA
+40_PisantyMandelikWatermelon_2010,Citrullus lanatus,2010,gidpisa79@yahoo.com,"Gideon Pisanty, Yael Mandelik",13,31.711236602555278,34.879517671973034,NA
+Winfree_griffin_2008,Citrullus lanatus,2008,rwinfree@rutgers.edu,"Rachael Winfree, Neal M. Williams, Jonathan Dushoff, and Claire Kremen",18,40.32671111111111,-75.11483333333334,NA
+Winfree_griffin_2010,Citrullus lanatus,2010,rwinfree@rutgers.edu,"Rachael Winfree, Neal M. Williams, Jonathan Dushoff, and Claire Kremen",18,40.35899988888889,-75.09900283333333,NA
+Winfree_griffin_2011,Citrullus lanatus,2011,rwinfree@rutgers.edu,"Rachael Winfree, Neal M. Williams, Jonathan Dushoff, and Claire Kremen",18,40.33269104777778,-75.09426122222223,NA
+Winfree_griffin_2012,Citrullus lanatus,2012,rwinfree@rutgers.edu,"Rachael Winfree, Neal M. Williams, Jonathan Dushoff, and Claire Kremen",18,40.34269166666667,-75.08788277777778,NA
+pisanty_mandelik_2009,Citrullus lanatus,2009,Yael.Mandelik@mail.huji.ac.il,Yael Mandelik,19,31.5313113,34.8667654,Israel
+chac04,Citrus limon,2015,nchacoff@gmail.com,Natacha Chacoff (Instituto de Ecologia Regional. CONICET UNT),12,-27.030888888888857,-65.5106157407407,NA
+chac01,Citrus paradisi,2000,nchacoff@gmail.com,Natacha Chacoff (Instituto de Ecologia Regional. CONICET UNT),4,-23.26429601672815,-64.38061153168168,NA
+chac02,Citrus paradisi,2001,nchacoff@gmail.com,Natacha Chacoff (Instituto de Ecologia Regional. CONICET UNT),4,-23.26429601672815,-64.38061153168168,NA
+chac03,Citrus paradisi,2002,nchacoff@gmail.com,Natacha Chacoff (Instituto de Ecologia Regional. CONICET UNT),4,-23.26429601672815,-64.38061153168168,NA
+74_AlexKleinCoffee_2Varieties_2001,Coffea arabica,2000/2001,alexandra.klein@nature.uni-freiburg.de,"Alexandra-Maria Klein, Ingolf Steffan-Dewenter and Teja Tscharntke",24,-1.799250453710556,120.33255767822266,NA
+clas01,Coffea arabica,2011-2012,alice.classen@uni-wuerzburg.de,"Alice Claßen, Ingolf Steffan-Dewenter (University of Würzburg). Landscape Data: Thomas Nauss et al. (University of Marburg)",12,-3.261529117333333,37.346779475,NA
+Vergara_2004,Coffea arabica,2004,carlosh.vergara@udlap.mx,Carlos H. Vergara and Ernesto I. Badano,16,19.323170833333332,-96.92646875,NA
+87_TaylorRickettsCoffee_2001,Coffea arabica,2001,taylor.ricketts@UVM.EDU,"Taylor H. Ricketts, Gretchen C. Daily, Paul R. Ehrlich, and Charles D. Michener",12,9.33921865,-83.64458558172157,"Costa Rica, Perez Zeledon"
+88_TaylorRickettsCoffee_2002,Coffea arabica,2002,taylor.ricketts@UVM.EDU,"Taylor H. Ricketts, Gretchen C. Daily, Paul R. Ehrlich, and Charles D. Michener",16,9.33921865,-83.64458558172157,"Costa Rica, Perez Zeledon"
+hipo01,Coffea arabica,2013,jhdsousa@yahoo.com,"Juliana Hipólito, Blandina Viana (Universidade Federal da Bahia)",31,-12.884137500000001,-41.39828610355487,"Brazil, Chapada Diamantina"
+hipo02,Coffea arabica,2014,jhdsousa@yahoo.com,"Juliana Hipólito, Blandina Viana (Universidade Federal da Bahia)",22,-12.884137500000001,-41.39828610355487,"Brazil, Chapada Diamantina"
+90_ShaleneJhaCoffee_2006,Coffea arabica/robusta,2006,sjha@austin.utexas.edu,Shalene Jha and John H. Vandermeer,9,15.172860964018048,-92.32744545038855,NA
+75_AlexKleinCoffee_2Varieties_2001,Coffea canephora,2000/2001,alexandra.klein@nature.uni-freiburg.de,"Alexandra-Maria Klein, Ingolf Steffan-Dewenter and Teja Tscharntke",15,-1.4216785192489625,120.3282475789388,NA
+bore01,Coffea canephora,2008,virginie.boreux@nature.uni-freiburg.de,"Virginie Boreux (now at Freiburg Uni), ETH Zurich",112,12.121119473839286,75.96005699446428,NA
+krish011,Coffea canephora,2007,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,"Smitha Krishnan, ETH Zurich",13,12.132006692307693,75.97198735897436,NA
+krish012,Coffea canephora,2008,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,"Smitha Krishnan, ETH Zurich",19,12.111555537037038,75.97936575925925,NA
+krish013,Coffea canephora,2009,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch,"Smitha Krishnan, ETH Zurich",9,12.234262296296297,75.7940032962963,NA
+krish011,Coffea canephora,2014,smithakrishnan@gmail.com / smitha.krishnan@env.ethz.ch/maike.nesper@gmail.com/mnesper@ethz.ch,"Smitha Krishnan, ETH Zurich and Ms. Maike Nesper (The PI of the project MOCA is Prof. Jaboury Ghazoul)",25,12.2068464,75.8946544,NA
+50_RachaelWinfreeMuskMelon_2004,Cucumis melo,2004,rwinfree@rutgers.edu,Rachael Winfree et al.,13,40.34027692307692,-75.02643884615385,NA
+knap01,Cucurbita pepo,2016,jessica.knapp@biol.lu.se,Knapp et al. 19,9,51.14952259002107,-3.3892452953004746,NA
+Jessica_Pumpkin,Cucurbita pepo,2011,jessica.petersen@cornell.edu,Jessica D. Petersen and Brian A. Nault,24,40.7127281,-74.0060152,"USA, New York"
+Taki01,Fagopyrum esculentum,2007,htaki@affrc.go.jp,"Hisatomo Taki, Forestry and forest products research institute",15,36.607694,140.451774,NA
+Taki02,Fagopyrum esculentum,2008,htaki@affrc.go.jp,"Hisatomo Taki, Forestry and forest products research institute",17,36.60187,140.4522994117647,NA
+szen01,Fagopyrum esculentum,2005,hajnalka.szentgyorgyi@gmail.com,Hajnalka Szentgyorgyi,6,52.215933,19.134422,Poland
+ande02,Fragaria × ananassa,2009,gandersson@unrn.edu.ar,"Georg Andersson (Lund University), Project MULTIFUNC",11,55.610865,13.449076454545455,NA
+vere010,Fragaria × ananassa,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.5520935,4.8723357499999995,NA
+vere010,Fragaria × ananassa,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.5520935,4.8723357499999995,NA
+vere010,Fragaria × ananassa,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",4,50.5520935,4.8723357499999995,NA
+grab011,Fragaria x ananassa,2012,hlc66@cornell.edu,"Heather Grab, USDA NASS",16,42.77299006682905,-76.72655916215535,NA
+grab012,Fragaria x ananassa,2014,hlc66@cornell.edu,"Heather Grab, USDA NASS",30,42.724248308659206,-76.74424510403702,NA
+grab013,Fragaria x ananassa,2015,hlc66@cornell.edu,"Heather Grab, USDA NASS",30,42.724248308659206,-76.74424510403702,NA
+scil01,Fragaria x ananassa,2012,amber.sciligo@berkeley.edu,"Amber Sciligo, Claire Kremen (UC Berkeley)",16,36.871315,-121.80777,NA
+stew01,Fragaria x ananassa,2014,rebecca.stewart@cec.lu.se,https://snd.gu.se/en/catalogue/study/by-topic,30,55.524905000000004,13.585049999999999,NA
+garr01,Fragaria x ananassa,2011,m.p.garratt@reading.ac.uk,Michael Garratt (University of Reading),8,55.8606731,-4.2567906,"UK, Yorkshire"
+cuss01,Gossypium hirsutum,2014,sarah.cusser@gmail.com,"Sarah Cusser (University of Texas, Austin)",12,28.47409990975,-97.0429735683333,NA
+Breno_cotton,Gossypium hirsutum,NA,freitas@ufc.br,Breno M. Freitas,20,-5.3264703,-39.7156073,"Brazil, Ceará"
+FREI05,Gossypium hirsutum,2011,freitas@ufc.br,Breno M. Freitas,2,-5.3264703,-39.7156073,"Brazil, Ceará"
+38_PisantyMandelik_Sunflower2010,Helianthus annuus,2010,gidpisa79@yahoo.com,"Gideon Pisanty, Alexandra-Maria Klein, Yael Mandelik",15,31.79283238046105,34.90944312988252,NA
+carv02,Helianthus annuus,2009,lgcarvalheiro@gmail.com,Luísa G. Carvalheiro,30,-24.995231333333333,28.475119333333332,NA
+hevi01,Helianthus annuus,2017,violeta.hevia@uam.es,"Violeta Hevia, Jorge Ortega, José A. González",9,39.83419444444445,-2.387743827160494,NA
+sche01,Helianthus annuus,2015,jeroen.scheper@wur.nl,"Jeroen Scheper (WUR), David Kleijn (WUR), Isabelle Badenhausser (CEBC-CNRS), Vincent Bretagnolle (CEBC-CNRS), Ignasi Bartomeus (EBD-CSIC), Carlos Zaragoza-Trello (EBD-CSIC)",24,46.1934363076443,-0.3920692324318615,NA
+Sunflowers_SouthAfrica_2011,Helianthus annuus,2011,R.Veldtman@sanbi.org.za,Ruan Veldtman & Jonathan Colville,10,-24.984214,28.485285,NA
+FREI03,Malpighia emarginata,2011,freitas@ufc.br,Breno M. Freitas,8,-5.3264703,-39.7156073,"Brazil, Ceará"
+42_MiaParkApple_2009,Malus domestica,2009,mia.park@ndsu.edu,Mia Park,12,42.53680958333334,-76.61102591666666,NA
+43_MiaParkApple_2010,Malus domestica,2010,mia.park@ndsu.edu,Mia Park,9,42.957332111111114,-76.86353566666666,NA
+44_MiaParkApple_2011,Malus domestica,2011,mia.park@ndsu.edu,Mia Park,22,42.811235363636364,-76.82858445454545,NA
+84_RuanVeldtmanApple_2011,Malus domestica,2011,veldtman@sun.ac.za,"J.F. Colville, R. Veldtman",10,-34.1490258,19.130221,NA
+burn01,Malus domestica,2018,katherine.burns@ucdconnect.ie,Katherine LW Burns & Dara A Stanley,16,52.2841616875,-7.6027803125,NA
+bore02,Malus domestica,2015,virginie.boreux@nature.uni-freiburg.de,"Virginie Boreux (now at Freiburg Uni), ETH Zurich, Project EcoFruit",30,47.73358035572488,9.381177408020465,NA
+Groo01,Malus domestica,2013,g.a.degroot@wur.nl,"G.A. (Arjen) de Groot, Wageningen Environmental Research (Alterra) + David Kleijn, Wageningen University",15,51.90408782,5.3693755933333325,NA
+Groo02,Malus domestica,2014,g.a.degroot@wur.nl,"G.A. (Arjen) de Groot, Wageningen Environmental Research (Alterra) + David Kleijn, Wageningen University",15,51.89573406666667,5.456737613333333,NA
+Malus_domestia_Norway_2013,Malus domestica,2013,jens.astrom@nina.no,Jens Åström,13,59.533317341461554,8.850802615769231,NA
+Malus_domestica_Brazil_2010,Malus domestica,2010,fabia714@gmail.com; jeferson.gabriel@gmail.com,"Fabiana Oliveira da silva, Jeferson da Encarnação Coutinho",8,-13.273333875,-41.41400775,NA
+Malus_domestica_Brazil_2011,Malus domestica,2011,fabia714@gmail.com; jeferson.gabriel@gmail.com,"Fabiana Oliveira da silva, Jeferson da Encarnação Coutinho",6,-13.2743535,-41.41481733333333,NA
+Malus_domestica_Brazil_2012,Malus domestica,2012,fabia714@gmail.com; jeferson.gabriel@gmail.com,"Fabiana Oliveira da Silva, Jeferson da Encarnação Coutinho",6,-13.273245833333332,-41.41657716666667,NA
+Reemer_Kleijn_2010_Apple,Malus domestica,2010,David.Kleijn@wur.nl,David Kleijn,6,51.83606198666667,5.365499174166667,NA
+Reemer_Kleijn_2011_Apple,Malus domestica,2011,David.Kleijn@wur.nl,David Kleijn,6,51.83606198666667,5.365499174166667,NA
+vere02,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.255,0.629444,NA
+vere02,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.255,0.629444,NA
+vere02,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,49.255,0.629444,NA
+vere03,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",11,50.72665318181818,4.820260181818182,NA
+vere03,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",11,50.72665318181818,4.820260181818182,NA
+vere03,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",11,50.72665318181818,4.820260181818182,NA
+vere04,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",13,47.67074761538461,2.8228516153846153,NA
+vere04,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",13,47.67074761538461,2.8228516153846153,NA
+vere04,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",13,47.67074761538461,2.8228516153846153,NA
+vere05,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.59932633333334,4.726561,NA
+vere05,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.59932633333334,4.726561,NA
+vere05,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.59932633333334,4.726561,NA
+vere08,Malus domestica,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.618128,4.7340695,NA
+vere08,Malus domestica,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.618128,4.7340695,NA
+vere08,Malus domestica,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.618128,4.7340695,NA
+garr02,Malus domestica,2011,m.p.garratt@reading.ac.uk,Michael Garratt (University of Reading),8,44.4308975,-89.6884637,"USA, Wisconsin"
+mall01,Malus domestica,2012,rachel.mallinger@ars.usda.gov,"Rachel Mallinger, USDA-ARS",17,44.4308975,-89.6884637,"USA, Wisconsin"
+mall02,Malus domestica,2013,rachel.mallinger@ars.usda.gov,"Rachel Mallinger, USDA-ARS",19,51.20707485,0.7210361813401444,"UK, Kent"
+45_RachaelWinfree_Apple_2004,Malus Domestica,2004,rwinfree@rutgers.edu,Rachael Winfree,16,40.57425,-74.7266875,NA
+carv01,Mangifera indica,2008,lgcarvalheiro@gmail.com,Luísa G. Carvalheiro,12,-24.430375083333335,30.849238333333332,NA
+carv03,Mangifera indica,2009,lgcarvalheiro@gmail.com,Luísa G. Carvalheiro,31,-24.413608387096772,30.86857677419355,NA
+rade01,Mangifera indica,2014,rrader@une.edu.au,Dr Romina Rader (The University of New England),10,-17.006475278,145.3897613888889,NA
+will01,Mangifera indica,2016,bwillcox@myune.edu.au,Bryony Willcox (The University of New England),9,-17.004780555555556,145.3997049382716,NA
+Hipolito_2005,Mangifera indica,2005,jhdsousa@yahoo.com,"Juliana Hipólito de Sousa, Camila Magalhães Pigozzo & Blandina Felipe Viana",4,-12.285251,-41.9294776,"Brazil, Bahia"
+89_BlandeViana_PassionFruit2005,Passiflora edulis,2005,blande.viana@gmail.com,Blande Viana,16,-9.306860038656302,-40.27875626132475,NA
+ramo01,Phaseolus vulgaris L.,2015/2016,davilramos91@gmail.com,Davi L. Ramos; Felipe D. da Silva e Silva (University of Brasilia),27,-15.919595740740741,-47.55425481481481,NA
+Schueep_NA,Prunus avium,2011,entling@uni-landau.de,"Christof Schuepp, Felix Herzog and Martin H. Entling",20,46.7985624,8.2319736,Switzerland
+66_AlexKleinAlmond_2009,Prunus dulcis,2009,alexandra.klein@nature.uni-freiburg.de,Alexandra-Maria Klein,15,38.86123341333333,-122.11586594666667,NA
+AK_almond,Prunus dulcis,2008,aklein@uni.leuphana.de,"Alexandra-Maria Klein, Claire Brittain, Stephen D. Hendrix, Robbin Thorp, Neal Williams and Claire Kremen",23,36.7014631,-118.7559974,"USA, California"
+Brittain_Klein_2008,Prunus dulcis,2008,alexandra.klein@nature.uni-freiburg.de,"Claire Brittain, Claire Kremen and Alexandra-Maria Klein",23,35.0576608,-114.17706631348096,"USA, Sacramento Valley"
+Reemer_Kleijn_2010,Pyrus communis,2010,David.Kleijn@wur.nl,David Kleijn,6,51.83155933166667,5.3485727965,NA
+Reemer_Kleijn_2011,Pyrus communis,2011,David.Kleijn@wur.nl,David Kleijn,6,51.83155933166667,5.3485727965,NA
+vere011,Pyrus communis,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.6213245,4.7602945000000005,NA
+vere011,Pyrus communis,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.6213245,4.7602945000000005,NA
+vere011,Pyrus communis,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",2,50.6213245,4.7602945000000005,NA
+saez01,Rubus idaeus,2014,agustinsaez@live.com.ar,Agustin Saez/CONICET (Universidad Nacional del Comahue),16,-42.036712375,-71.5166220625,NA
+vere06,Rubus idaeus,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,50.007962,5.1566090000000004,NA
+vere06,Rubus idaeus,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,50.007962,5.1566090000000004,NA
+vere06,Rubus idaeus,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",1,50.007962,5.1566090000000004,NA
+46_RachaelWinfreeTomato_2004,Solanum lycopersicum,2004,rwinfree@rutgers.edu,Rachael Winfree et al.,15,40.387759333333335,-75.0521834,NA
+47_RachaelWinfreeTomato_2005,Solanum lycopersicum,2005,rwinfree@rutgers.edu,Rachael Winfree et al.,13,40.362553846153844,-75.06052307692308,NA
+69_GreenleafKremenTomato2001,Solanum lycopersicum,2001,sgreenleaf@ucdavis.edu,"Sarah S. Greenleaf, Claire Kremen",11,36.7014631,-118.7559974,"USA, California"
+Trifolium pratense_Norway_2013,Trifolium pratense,2013,jens.astrom@nina.no,Jens Åström,10,59.48021378745266,10.418941183698953,NA
+Trifolium pratense_Norway_2013,Trifolium pratense,2014,jens.astrom@nina.no,Jens Åström,20,59.48021378745266,10.418941183698953,NA
+1_RiccardoBommarco_RedClover_2008,Trifolium pratense,2008,riccardo.bommarco@slu.se,"Riccardo Bommarco, Ola Lundin, Henrik G. Smith, and Maj Rundlof",1,58.36782395,16.050427203885352,"Sweden, Östergötland"
+2_3_RiccardoBommarco_RedClover_2009,Trifolium pratense,2009,riccardo.bommarco@slu.se,"Riccardo Bommarco, Ola Lundin, Henrik G. Smith, and Maj Rundlof",2,55.846940950000004,13.635831212379532,"Sweden, Skåne"
+4_5_RiccardoBommarco_RedClover_2010,Trifolium pratense,2010,riccardo.bommarco@slu.se,"Riccardo Bommarco, Ola Lundin, Henrik G. Smith, and Maj Rundlof",2,58.36782395,16.050427203885352,"Sweden, Östergötland"
+51_RachaelWinfreeBlueBerry_2010,Vaccinium corymbosum,2010,rwinfree@rutgers.edu,"Faye E. Benjamin, James R. Reilly, Rachael Winfree",16,39.666549625,-74.7570329375,NA
+52_RachaelWinfreeBlueBerry_2011,Vaccinium corymbosum,2011,rwinfree@rutgers.edu,"Faye E. Benjamin, James R. Reilly, Rachael Winfree",16,39.666549625,-74.7570329375,NA
+Groo03,Vaccinium corymbosum,2013,g.a.degroot@wur.nl,"G.A. (Arjen) de Groot, Wageningen Environmental Research (Alterra) + David Kleijn, Wageningen University",15,51.79952261999998,6.222867733333332,NA
+Groo04,Vaccinium corymbosum,2014,g.a.degroot@wur.nl,"G.A. (Arjen) de Groot, Wageningen Environmental Research (Alterra) + David Kleijn, Wageningen University",15,51.817132333333326,6.171345919999999,NA
+mont01,Vaccinium corymbosum,2018,ana.montero.castano@gmail.com,Ana Montero-Castaño and Nigel E. Raine,12,43.061530287333355,-80.56606268790972,NA
+vere07,Vaccinium corymbosum,2016,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.416699666666666,5.070474333333333,NA
+vere07,Vaccinium corymbosum,2019,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.416699666666666,5.070474333333333,NA
+vere07,Vaccinium corymbosum,2017,"Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be","Nicolas J. Vereecken, Timothy Weekers",3,50.416699666666666,5.070474333333333,NA
+cavi01,Vaccinium corymbosum,2016,pablo.cavigliaso@gmail.com; cavigliasso.pablo@inta.gob.ar,Pablo Cavigliasso. Instituto Nacional de Tecnologia Agropecuaria (INTA) - Programa Nacional Apicola (PNAPI),13,-28.595388,-62.5033426,"Argentina, Ñandubay"
+48_RachaelWinfreeCranberry_2009,Vaccinium macrocarpon,2009,rwinfree@rutgers.edu,Rachael Winfree et al.,16,39.7982568125,-74.55739493749999,NA
+49_RachaelWinfreeCranberry_2010,Vaccinium macrocarpon,2010,rwinfree@rutgers.edu,Rachael Winfree et al.,16,39.7982568125,-74.55739493749999,NA
+58_MacKenzie_AverillExtractedFromPaper,Vaccinium macrocarpon,1990,david.kleijn@wur.nl,"Kenna E. Mackenzie, Anne L. Averill, David Kleijn",8,41.70929826388889,-70.55860833333332,NA
+59_MacKenzie_AverillExtractedFromPaper,Vaccinium macrocarpon,1991,david.kleijn@wur.nl,"Kenna E. Mackenzie, Anne L. Averill, David Kleijn",9,41.86953425925926,-70.81210679012345,NA
+Vaccinium_meridionale_Colombia_2013,Vaccinium meridionale,2013,mgnatesp@gmail.com,Guiomar Nates Parra,5,5.5489882,-73.7168632,NA
+14_MikeGarratt_FieldBean2005,Vicia faba,2005,m.p.garratt@reading.ac.uk,Michael Garratt,10,51.551194647,-1.2432100934,NA
+ekro01,Vicia faba,2016,johan.ekroos@cec.lu.se,Johan Ekroos & Henrik Smith (Lund University),16,55.70673675,13.5683100625,NA
+pott01,Vicia faba,2005,s.g.potts@reading.ac.uk,Simon Potts (University of Reading),10,51.551194647,-1.2432100934,NA
+garr03,Vicia faba,2011,m.p.garratt@reading.ac.uk,Michael Garratt (University of Reading),8,51.453488899999996,-1.0318729593399247,"UK, Berkshire"

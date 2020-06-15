@@ -147,11 +147,11 @@ for (i in seq(length(list_files_field_level))) {
     expect_equal(fieldID_i, FALSE)
   })
   
-  test_name_i <- paste("Single study-site IDs:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Single study-site IDs (per year of sampling):", list_files_field_level[i], sep = " ")
   
   test_that(test_name_i,{
     
-    ID_i <- field_level_i %>% select(study_id,site_id)
+    ID_i <- field_level_i %>% select(study_id,site_id,sampling_year)
     expect_equal(any(duplicated(ID_i)), FALSE)
   })
   

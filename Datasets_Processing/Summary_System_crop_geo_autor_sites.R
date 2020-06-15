@@ -26,14 +26,17 @@ for (i in 1:length(list_files_field_level)){
   
   if(list_files_field_level[i]!="field_level_data_vere01.csv"){
   
+  sites_year <-  data.site %>% group_by(sampling_year) %>% count()
+    
   field_level_data <- tibble(
     study_id=unique(data.site$study_id),
     crop = unique(data.site$crop),
-    year = as.character(unique(data.site$sampling_year)),
+    year = as.character(sites_year$sampling_year),#as.character(unique(data.site$sampling_year)),
     email=unique(data.site$Email_contact),
-    number_sites=nrow(data.site),
+    number_sites = sites_year$n, #nrows(data.site)
     latitude = mean(data.site$latitude,na.rm = T),
-    longitude = mean(data.site$longitude,na.rm = T)
+    longitude = mean(data.site$longitude,na.rm = T),
+    Credit=unique(data.site$Credit)
 
   )
   
@@ -55,7 +58,8 @@ for (i in 1:length(list_files_field_level)){
         email=unique(data.site_j$Email_contact),
         number_sites=nrow(data.site_j),
         latitude = mean(data.site_j$latitude,na.rm = T),
-        longitude = mean(data.site_j$longitude,na.rm = T)
+        longitude = mean(data.site_j$longitude,na.rm = T),
+        Credit=unique(data.site$Credit)
       )
       
       if (i==1){
@@ -74,6 +78,9 @@ for (i in 1:length(list_files_field_level)){
 }
 
 result <- result %>% arrange(crop)
+
+
+
 
 
 
@@ -129,7 +136,7 @@ for(i in 1:length(result_nan$place)){
   result_nan$latitude[i] <- temp$coords[2]
 }
 
-result_mod <- bind_rows(result_geo,result_nan) %>% select(study_id,crop,year,email,
+result_mod <- bind_rows(result_geo,result_nan) %>% select(study_id,crop,year,email,Credit,
                                                       number_sites,latitude,longitude,place) %>%
   arrange(crop)
 

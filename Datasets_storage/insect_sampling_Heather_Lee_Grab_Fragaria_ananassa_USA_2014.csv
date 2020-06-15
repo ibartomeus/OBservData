@@ -1,0 +1,788 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Agapostemon,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Agapostemon,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Agapostemon,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Agapostemon,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Agapostemon,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Agapostemon,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Agapostemon sericeus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Agapostemon sericeus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Agapostemon sericeus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena,other_wild_bees,timed observation,14,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Andrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena,other_wild_bees,timed observation,14,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Andrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena algida,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena allegheniensis,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena canadensis,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena carlini,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena carlini,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena carlini,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena commoda,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena commoda,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena crataegi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena cressonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena erythronii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena erythronii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena erythronii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena erythronii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena fenningeri,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena hippotes,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Andrena hippotes,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena imitatrix,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena imitatrix,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena integra,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena nasonii,other_wild_bees,sweep netting,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,sweep netting,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,sweep netting,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,sweep netting,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena nasonii,other_wild_bees,sweep netting,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,sweep netting,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena nasonii,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Andrena nasonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena nasonii,other_wild_bees,timed observation,21,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena nasonii,other_wild_bees,timed observation,18,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena nasonii,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,timed observation,14,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Andrena nasonii,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena nasonii,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena nasonii,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena nasonii,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena nasonii,other_wild_bees,timed observation,14,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena nasonii,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,timed observation,24,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena nasonii,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,timed observation,23,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Andrena nasonii,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena nasonii,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena nasonii,other_wild_bees,timed observation,22,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Andrena nasonii,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,timed observation,17,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Andrena nasonii,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena nasonii,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena nasonii,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena nasonii,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena nasonii,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena nasonii,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Andrena nasonii,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Andrena nasonii,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena nasonii,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Andrena nasonii,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Andrena nasonii,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena personata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Andrena personata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Andrena pruni,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena regularis,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena regularis,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Andrena regularis,other_wild_bees,sweep netting,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Andrena regularis,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Andrena regularis,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena robertsonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Andrena rufosignata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Andrena rugosa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Andrena rugosa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Andrena rugosa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Andrena sigmundi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena w-scripta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Andrena w-scripta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Andrena w-scripta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Andrena wilkella,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Apis mellifera,honeybees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Apis mellifera,honeybees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Apis mellifera,honeybees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Apis mellifera,honeybees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Apis mellifera,honeybees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Apis mellifera,honeybees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Apis mellifera,honeybees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Apis mellifera,honeybees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Apis mellifera,honeybees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Apis mellifera,honeybees,timed observation,28,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Apis mellifera,honeybees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Apis mellifera,honeybees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,timed observation,33,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,timed observation,14,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Apis mellifera,honeybees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Apis mellifera,honeybees,timed observation,19,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Augochlora pura,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Augochlora pura,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Augochlorella,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Augochlorella,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Augochlorella,other_wild_bees,timed observation,34,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Augochlorella,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Augochlorella,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Augochlorella,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Augochlorella,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Augochlorella,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Augochlorella,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Augochlorella,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Augochlorella,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Augochlorella,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Augochlorella,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Augochlorella,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Augochlorella,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Augochlorella aurata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Augochlorella aurata,other_wild_bees,sweep netting,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Augochlorella aurata,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Augochlorella aurata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Augochlorella aurata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Augochlorella aurata,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Augochlorella aurata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella aurata,other_wild_bees,sweep netting,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Augochlorella aurata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Augochlorella aurata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Augochloropsis metallica,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Bombus,bumblebees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Bombus,bumblebees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Bombus,bumblebees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Bombus,bumblebees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Bombus,bumblebees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Bombus,bumblebees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Bombus impatiens,bumblebees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Ceratina,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Ceratina,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Ceratina,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina,other_wild_bees,timed observation,30,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina,other_wild_bees,timed observation,23,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Ceratina,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Ceratina,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Ceratina,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina,other_wild_bees,timed observation,35,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina,other_wild_bees,timed observation,47,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Ceratina,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Ceratina,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Ceratina,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Ceratina,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Ceratina,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina,other_wild_bees,timed observation,22,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Ceratina,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Ceratina,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina,other_wild_bees,timed observation,27,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina calcarata,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina calcarata,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Ceratina calcarata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina calcarata,other_wild_bees,sweep netting,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Ceratina calcarata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Ceratina dupla,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Ceratina dupla,other_wild_bees,sweep netting,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Ceratina dupla,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina dupla,other_wild_bees,sweep netting,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Ceratina dupla,other_wild_bees,sweep netting,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Ceratina dupla,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina dupla,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina dupla,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Ceratina dupla,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Chelastoma rapunculi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Colletes,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Colletes,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Colletes,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Halictus,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Halictus,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Halictus,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Halictus,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Halictus,other_wild_bees,timed observation,15,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Halictus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Halictus,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Halictus,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Halictus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Halictus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Halictus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Halictus,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus confusus,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus confusus,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Halictus confusus,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus confusus,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus confusus,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus confusus,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus confusus,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Halictus confusus,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Halictus confusus,other_wild_bees,sweep netting,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Halictus confusus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Halictus ligatus,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Halictus ligatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Hoplitis pilosofrons,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Hoplitis producta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Hoplitis producta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Hoplitis spoliata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Hylaeus,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Hylaeus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Hylaeus,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Hylaeus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Hylaeus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Hylaeus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Hylaeus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Hylaeus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Hylaeus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Hylaeus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Hylaeus,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Hylaeus,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Hylaeus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Hylaeus,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Hylaeus affinis,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Hylaeus affinis,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Hylaeus affinis,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Hylaeus affinis,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Hylaeus affinis,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Hylaeus annulatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Hylaeus annulatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Hylaeus annulatus,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Hylaeus annulatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Hylaeus annulatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Hylaeus annulatus,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Hylaeus mesillae,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Lasioglossum,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Lasioglossum,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Lasioglossum,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Lasioglossum,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Lasioglossum,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCN,Lasioglossum,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Lasioglossum,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Lasioglossum,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Lasioglossum,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Lasioglossum,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Lasioglossum,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Lasioglossum,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Lasioglossum,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Lasioglossum,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Lasioglossum,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Lasioglossum admirandum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum admirandum,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Lasioglossum admirandum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Lasioglossum anomalum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Lasioglossum cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Lasioglossum ephialtum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum foxii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Lasioglossum hitchensi,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Lasioglossum hitchensi,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Lasioglossum hitchensi,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum imitatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDALF,Lasioglossum imitatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Lasioglossum imitatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Lasioglossum obscurum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Lasioglossum obscurum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Lasioglossum perpunctatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Lasioglossum perpunctatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Lasioglossum perpunctatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Lasioglossum perpunctatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Lasioglossum pilosum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Lasioglossum pilosum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Lasioglossum pilosum,other_wild_bees,sweep netting,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Lasioglossum pilosum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Lasioglossum pilosum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Lasioglossum tegulare,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Lasioglossum versatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Lasioglossum versatum,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Megachillid,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Megachillid,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Melandrena,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Melandrena,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Melandrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Melandrena,other_wild_bees,timed observation,18,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Melandrena,other_wild_bees,timed observation,19,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Melandrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Melandrena,other_wild_bees,timed observation,7,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Melandrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Melandrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Melandrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Melandrena,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Melandrena,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPGB,Melandrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Melandrena,other_wild_bees,timed observation,8,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Melandrena,other_wild_bees,timed observation,11,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Melandrena,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Melandrena,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Nomada,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARPD,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Nomada,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Nomada,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,KPCRT,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Nomada,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Nomada,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Nomada,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Nomada,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Nomada,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Nomada,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada armatella,other_wild_bees,sweep netting,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Nomada armatella,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Nomada bethunei,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ELDFL,Nomada bethunei,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada bidentate,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada bidentate,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Nomada bidentate,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Nomada bidentate,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Nomada bidentate,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Nomada cressonii,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTPT,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESWS,Nomada depressa,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO9,Nomada gracilis,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Nomada parva,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Nomada parva,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,BTH,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia,other_wild_bees,timed observation,13,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia,other_wild_bees,timed observation,9,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Osmia,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Osmia,other_wild_bees,timed observation,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Osmia,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Osmia,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia,other_wild_bees,timed observation,17,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia,other_wild_bees,timed observation,10,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia,other_wild_bees,timed observation,6,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,DARWEB,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIT,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVCS,Osmia,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSTR,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Osmia,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESAJ,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Osmia,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Osmia,other_wild_bees,timed observation,4,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESLO,Osmia,other_wild_bees,timed observation,12,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Osmia,other_wild_bees,timed observation,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Osmia,other_wild_bees,timed observation,3,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQFD,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,SQWD,Osmia,other_wild_bees,timed observation,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,EIWT,Osmia albiventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia atriventris,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHK,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,ORCHR,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RES47,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESHI,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,RESNB,Osmia atriventris,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia conjuncta,other_wild_bees,sweep netting,5,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia conjuncta,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,GSUP,Osmia cornifrons,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTGRA,Osmia pumila,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia pumila,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTCEM,Osmia subfasciata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTPMP,Osmia subfasciata,other_wild_bees,sweep netting,2,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,CRTSB,Osmia subfasciata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season
+Heather_Lee_Grab_Fragaria_ananassa_USA_2014,FVO3,Osmia subfasciata,other_wild_bees,sweep netting,1,NA,NA,NA,Temporal replicates: 3-4X per season

@@ -1,0 +1,85 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+Simon_Potts_Vicia_faba_UK_2005,UK2,Andrena_cineraria,other_wild_bees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK4,Andrena_labialis,other_wild_bees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK6,Andrena_wilkella,other_wild_bees,transect,5,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK10,Andrena_wilkella,other_wild_bees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Andrena_wilkella,other_wild_bees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK8,Apis_mellifera,honeybees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK9,Apis_mellifera,honeybees,transect,0,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK7,Apis_mellifera,honeybees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK6,Apis_mellifera,honeybees,transect,16,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK3,Apis_mellifera,honeybees,transect,0,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK5,Apis_mellifera,honeybees,transect,0,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Apis_mellifera,honeybees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK10,Apis_mellifera,honeybees,transect,7,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK1,Apis_mellifera,honeybees,transect,12,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK4,Apis_mellifera,honeybees,transect,8,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK5,Bombus_hortorum,bumblebees,transect,6,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Bombus_hortorum,bumblebees,transect,6,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK1,Bombus_hortorum,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK8,Bombus_hortorum,bumblebees,transect,7,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK4,Bombus_hortorum,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK7,Bombus_hortorum,bumblebees,transect,6,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK10,Bombus_hortorum,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK6,Bombus_hortorum,bumblebees,transect,11,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK9,Bombus_hortorum,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK7,Bombus_lapidarius,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK5,Bombus_lapidarius,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK10,Bombus_lapidarius,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Bombus_lapidarius,bumblebees,transect,4,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK1,Bombus_lapidarius,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Bombus_lucorum,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK10,Bombus_lucorum/terrestris,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK7,Bombus_lucorum/terrestris,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK3,Bombus_lucorum/terrestris,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Bombus_lucorum/terrestris,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK5,Bombus_lucorum/terrestris,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK4,Bombus_lucorum/terrestris,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK6,Bombus_lucorum/terrestris,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK8,Bombus_pascuorum,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK5,Bombus_pascuorum,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK7,Bombus_pascuorum,bumblebees,transect,3,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK2,Bombus_pascuorum,bumblebees,transect,2,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
+Simon_Potts_Vicia_faba_UK_2005,UK6,Bombus_pratorum,bumblebees,transect,1,600,NA,NA," 6 subunits of 150m transect, 4 rounds in 1 year
+"
