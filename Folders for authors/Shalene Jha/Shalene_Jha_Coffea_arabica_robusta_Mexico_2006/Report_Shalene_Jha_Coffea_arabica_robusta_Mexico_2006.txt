@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Shalene_Jha_Coffea_arabica_robusta_Mexico_2006
+
+Contact: sjha@austin.utexas.edu
+
+Credit: Shalene Jha and John H. Vandermeer
+
+Publication: 10.1111/j.1600-0706.2009.17523.x
+
+Number of sites: 9
+
+Year of sampling: 2006
+
+Crop: Coffea arabica/robusta
+
+Variety: There are missing varieties (given 0 out of 9).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: only bees
+
+Abundance: There are missing values (given 0 out of 9).
+
+Visitation rate units: flowers visited per hour
+
+Visitation rate: Full information.
+
+Yield units: NA
+
+Yield: NA
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+- If possible, please, provide yield information.
+
+
+- According to your published paper, within the two agroforestry habitat types, 124 observation sessions were conducted, 15 min each. However we only found 114 observations. On the other hand, our estimations point out that there are sessions longer than 15 min. Nonetheless, we used 15-min per session to perform our calculations.

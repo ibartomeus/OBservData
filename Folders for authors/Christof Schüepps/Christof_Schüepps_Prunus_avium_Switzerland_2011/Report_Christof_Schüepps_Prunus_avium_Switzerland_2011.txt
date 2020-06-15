@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Christof_Schüepps_Prunus_avium_Switzerland_2011
+
+Contact: entling@uni-landau.de
+
+Credit: Christof Schuepp, Felix Herzog and Martin H. Entling
+
+Publication: 10.1098/rspb.2013.2667
+
+Number of sites: 20
+
+Year of sampling: 2011
+
+Crop: Prunus avium
+
+Variety: There are missing varieties (given 0 out of 20).
+
+Location: UTM zone is needed. There are missing locations (given 0 out of 20).
+
+Country: There are no locations to check.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: Full information.
+
+Visitation rate units: visits in 100 flowers during one hour
+
+Visitation rate: Full information.
+
+Yield units: Fruit set (%): percentage of intact marked flowers (not damaged by herbivores) that developed into swollen green fruits approximately three weeks after pollination per site
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the latitude and longitude of the missing locations.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+
+- Rader's raw data provide information on 20 sites, whereas the original paper and its suppl. material report the existence of 25 sites.

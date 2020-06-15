@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: Nicolas_J_Vereecken_several_crops_several_countries_several_years_6
+
+Contact: Nicolas.Vereecken@ulb.be, Timothy.Weekers@ulb.ac.be
+
+Credit: Nicolas J. Vereecken, Timothy Weekers
+
+Publication: NA
+
+Number of sites: 1
+
+Year of sampling: 2017
+
+Crop: Rubus idaeus
+
+Variety: There are missing varieties (given 0 out of 1).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: only bees
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 1).
+
+Yield units: kg/ha
+
+Yield: There are missing values (given 0 out of 1).
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without yield. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

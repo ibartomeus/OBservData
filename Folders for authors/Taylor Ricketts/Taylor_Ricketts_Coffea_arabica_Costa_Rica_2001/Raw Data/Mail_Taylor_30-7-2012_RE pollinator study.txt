@@ -1,0 +1,134 @@
+From:	Kleijn, David
+Sent:	maandag 30 juli 2012 16:29
+To:	'Taylor Ricketts'
+Subject:	RE: pollinator study
+
+Hi Taylor,
+
+Thanks for the positive response. Is the dataset you sent me the dataset Lucas also has? 
+
+We might have a problem with the taxa that were not identified to species level in particular 
+the Trigonisca sp. as they make up more than 10% of the specimens. Were these multiple 
+species? For the purpose of our study that could be problematic since we need to identify 
+the species contributing at least 5% to the total number of flower visits.
+
+Also what does Native-summ indicate?
+
+Assuming we can solve these issues I’m happy to include you as co-author and would 
+welcome comments in the draft stage.
+
+Cheers,
+
+David.
+
+-------------------------------------------------------
+Dr. D. Kleijn
+Resource Ecology Group, Wageningen University &
+Alterra, Centre for Ecosystem studies
+PO Box 47
+6700 AA, Wageningen
+The Netherlands
+Tel. ++31 317 485807, Fax ++31 317 419000
+Email. David.Kleijn@wur.nl
+URL: http://www.alterra.wur.nl/UK/research/Specialisation+Ecosystem+Studies/Dr.Ir.+D.+(David)+Kleijn
+
+From: Taylor Ricketts [mailto:taylor.ricketts@UVM.EDU]  
+Sent: vrijdag 20 juli 2012 0:30 
+To: Kleijn, David 
+Subject: Re: pollinator study
+
+Hi David, 
+
+First, great idea!  Second, yes you may use the data that Lucas has already for my coffee 
+study.  Third, I have some additional sites for which Lucas does not have data (unpublishded, but 
+also for coffee in Costa Rica in the same landscape).  I'll dig those up and get them to you.  You'll 
+be able to tell the new ones by the site codes.  Finally, I'd love to be included as an author, and 
+am happy to help draft/comment on the manuscript if this makes this more appropriate than just 
+supplying unpublished data.
+
+t
+
+ 
+------------------------------------
+Taylor Ricketts 
+Professor, Rubenstein School of Environment & Natural Resources 
+Director, Gund Institute for Ecological Economics 
+University of Vermont 
+617 Main Street 
+Burlington, VT 05405 
+Ph: (802) 656-7796 
+Fax: (802) 656-2995
+Skype: taylor_ricketts
+Webpage
+
+On May 31, 2012, at 2:43 PM, Kleijn, David wrote:
+
+Dear Taylor,
+ 
+I’m one of the participants of the European STEP-project that investigates Status and Trends 
+of European Pollinators.
+ 
+One of the things we aim to investigate within the project is the importance of species 
+identity for crop pollination. In this study we take a global perspective. A number of studies 
+have highlighted the importance of species-rich pollinator communities for pollination 
+quantity and quality. Other studies however, find that most visits to crop flowers were done 
+by just one or a few pollinator species. Most studies to date have however not examined in 
+any detail which species were found on what crops.
+ 
+In this study we want to identify the dominant species for crop pollination. Focussing on 
+bees, we want to know which species most frequently visit what crop species and how this 
+varies with time and space. Flower visitation will be used as a proxy for crop pollination. The 
+lead authors of this study are Rachael Winfree, Luisa Carvalheiro and myself.
+ 
+Because what we are doing is basically a study of studies we are looking for as many 
+datasets as possible that we might be able to use. Our data requirements are relatively 
+simple. We want to have frequency distributions of bee species on crop flowers (pan trap 
+data are unfortunately not suitable). Preferably at the site level as this provides us with 
+information on spatial variation on the geographic origin of the data. For analyses, we intend 
+to use aggregated data across studies. So if it is the only thing you have, data at the study 
+level would also be usable.
+ 
+I have been told that you have supplied Lucas Garibaldi with data from your 2004 papers on 
+bees in coffee in Costa Rica that could be useful for our study as well. Would you be ok for 
+us to use that data? If you approve, we could get them from Lucas, so this would mean no 
+additional work for you.
+ 
+In general we are interested in any data that qualifies the criteria below. Both published and 
+unpublished data are suitable. Data-owners of unpublished data automatically become co-
+authors (unless they prefer not to), data-owners of published data become co-authors if 
+they feel their contribution merits this. Perhaps you have any additional data that could be 
+used in this study?
+ 
+Criteria for studies suitable for inclusion are:
+-       Per study a minimum of 4 separate sites were sampled
+-       Sites are considered to be separate sites if they are at least 1 km apart.
+-       Per study a minimum of 100 specimens of wild bees collected/observed (in countries 
+with feral honey bees these qualify as wild bees)
+-       Analyses will be done with and without honey bees, so please include honey bees 
+whenever available.
+-       All specimens identified to species level (lack of identification of some minor species 
+may be acceptable).
+-       Preferably: per study some information on sampling approach (e.g. by referring to a 
+paper or a short description)
+-       Geographic coordinates for each site.
+ 
+We really hope you are interested (and have the time!) to help us with this.
+ 
+If you have any questions don’t hesitate to ask. Looking forward to your response.
+ 
+Thanks in advance and best wishes,
+ 
+David Kleijn.
+ 
+ 
+ 
+-------------------------------------------------------
+Dr. D. Kleijn
+Alterra, Centre for Ecosystem studies
+PO Box 47
+6700 AA, Wageningen
+The Netherlands
+Tel. ++31 317 485807, Fax ++31 317 419000
+Email. David.Kleijn@wur.nl
+URL: http://www.alterra.wur.nl/UK/research/Specialisation+Ecosystem+Studies/Dr.Ir.+D.+(David)+Kleijn
+

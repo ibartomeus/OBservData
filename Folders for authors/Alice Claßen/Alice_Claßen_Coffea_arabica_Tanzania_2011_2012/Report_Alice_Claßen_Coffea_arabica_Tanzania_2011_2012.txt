@@ -1,0 +1,63 @@
+================
+Automatic report
+================
+
+Study ID: Alice_Claßen_Coffea_arabica_Tanzania_2011_2012
+
+Contact: alice.classen@uni-wuerzburg.de
+
+Credit: Alice Claßen, Ingolf Steffan-Dewenter (University of Würzburg). Landscape Data: Thomas Nauss et al. (University of Marburg)
+
+Publication: 10.1098/rspb.2013.3148, http://dx.doi.org/10.5281/zenodo.12540
+
+Number of sites: 12
+
+Year of sampling: 2011-2012
+
+Crop: Coffea arabica
+
+Variety: There are missing varieties (given 0 out of 12).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: There are missing values (given 11 out of 12).
+
+Visitation rate units: visits per hour and bush
+
+Visitation rate: There are missing values (given 11 out of 12).
+
+Yield units: late fruit set
+
+Yield: Full information.
+
+Alternative yield units: fruit weight
+
+Alternative yield: There are missing values (given 8 out of 12).
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without their alternative yield values. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

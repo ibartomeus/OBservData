@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: Jeroen_Scheper_Brassica_napus_Netherlands_2011
+
+Contact: jeroen.scheper@wur.nl
+
+Credit: Jeroen Scheper
+
+Publication: NA
+
+Number of sites: 8
+
+Year of sampling: 2011
+
+Crop: Brassica napus
+
+Variety: There are missing varieties (given 0 out of 8).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: No taxa restrictions have been identified.
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 8).
+
+Yield units: NA
+
+Yield: NA
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please check that our information about your recorded taxa (or taxa constraint) is correct.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

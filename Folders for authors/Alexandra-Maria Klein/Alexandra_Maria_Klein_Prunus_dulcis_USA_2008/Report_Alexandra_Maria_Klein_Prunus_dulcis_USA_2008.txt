@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Alexandra_Maria_Klein_Prunus_dulcis_USA_2008
+
+Contact: alexandra.klein@nature.uni-freiburg.de
+
+Credit: Claire Brittain, Claire Kremen and Alexandra-Maria Klein
+
+Publication: 10.1111/gcb.12043
+
+Number of sites: 23
+
+Year of sampling: 2008
+
+Crop: Prunus dulcis
+
+Variety: There are missing varieties (given 0 out of 23).
+
+Location: UTM zone is needed. There are missing locations (given 0 out of 23).
+
+Country: There are no locations to check.
+
+Richness: Full information.
+
+Taxa constraint: No taxa restrictions have been identified.
+
+Abundance: There are missing values (given 0 out of 23).
+
+Visitation rate units: visits per flower and second
+
+Visitation rate: Full information.
+
+Yield units: fruitset (%)
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the latitude and longitude of the missing locations.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please check that our information about your recorded taxa (or taxa constraint) is correct.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

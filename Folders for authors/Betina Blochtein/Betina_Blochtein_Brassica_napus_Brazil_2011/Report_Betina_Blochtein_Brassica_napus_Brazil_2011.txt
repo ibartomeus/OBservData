@@ -1,0 +1,57 @@
+================
+Automatic report
+================
+
+Study ID: Betina_Blochtein_Brassica_napus_Brazil_2011
+
+Contact: patriciabiene@gmail.com; betinabl@pucrs.br; rosana.oliveira@pucrs.br
+
+Credit: Betina Blochtein & Patrícia Nunes-Silva & Rosana Halinski de Oliveira
+
+Publication: J. Pollinat. Ecol., 12 (2014), pp. 15-21
+
+Number of sites: 6
+
+Year of sampling: 2011
+
+Crop: Brassica napus
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: Full information.
+
+Visitation rate units: visits per 100 flowers and hour
+
+Visitation rate: Full information.
+
+Yield units: kg
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+
+- We assumed that all dipterans belong to other_flies guild. Besides, notice that results for flower-visitor density (no. flower visitors in 100 flowers), and flower-visitor richness (no. species in 30 minutes) are different from those in Garibaldi's supplementary material (Science, 2016).

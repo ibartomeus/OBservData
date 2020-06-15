@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: Dara_Stanley_Brassica_napus_Ireland_2010
+
+Contact: darastanley@gmail.com
+
+Credit: Dara Stanley NUI Galway, Jane Stout (Trinity College Dublin)
+
+Publication: 10.1007/s10841-013-9599-z, 10.1007/s11258-014-0301-7
+
+Number of sites: 3
+
+Year of sampling: 2010
+
+Crop: Brassica napus
+
+Variety: There are missing varieties (given 0 out of 3).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 3).
+
+Yield units: seed set
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

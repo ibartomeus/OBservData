@@ -1,0 +1,53 @@
+================
+Automatic report
+================
+
+Study ID: Jessica_Knapp_Cucurbita_pepo_UK_2016
+
+Contact: jessica.knapp@biol.lu.se
+
+Credit: Knapp et al. 19
+
+Publication: 10.1016/j.baae.2018.09.003
+
+Number of sites: 9
+
+Year of sampling: 2016
+
+Crop: Cucurbita pepo
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: all visitors considered. Non-bee data was obtained by using pantraps
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 9).
+
+Yield units: kg/ha
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+

@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Louis_Sutter_Brassica_napus_Switzerland_2014
+
+Contact: louis.sutter@agroscope.admin.ch
+
+Credit: Louis Sutter (Agroscope, Zurich, Switzerland), Project QuESSA
+
+Publication: NA
+
+Number of sites: 18
+
+Year of sampling: 2014
+
+Crop: Brassica napus
+
+Variety: There are missing varieties (given 0 out of 18).
+
+Location: UTM zone is needed. There are missing locations (given 0 out of 18).
+
+Country: There are no locations to check.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 18).
+
+Yield units: kg/ha
+
+Yield: Full information.
+
+Alternative yield units: seedset (number of seeds per pod)
+
+Alternative yield: Full information.
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the latitude and longitude of the missing locations.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

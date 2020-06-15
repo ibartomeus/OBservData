@@ -1,0 +1,67 @@
+================
+Automatic report
+================
+
+Study ID: Luísa_G_Carvalheiro_Mangifera_indica_South_Africa_2009
+
+Contact: lgcarvalheiro@gmail.com
+
+Credit: Luísa G. Carvalheiro
+
+Publication: Carvalheiro et al 2012 Journal of Applied Ecology
+
+Number of sites: 31
+
+Year of sampling: 2009
+
+Crop: Mangifera indica
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There are missing values (given 15 out of 31).
+
+Taxa constraint: No taxa restrictions have been identified.
+
+Abundance: There are missing values (given 15 out of 31).
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 31).
+
+Yield units: early fruit set
+
+Yield: There are missing values (given 14 out of 31).
+
+Alternative yield units: production per tree (stadertization was necessary because the number of trees per plot varied)
+
+Alternative yield: There are missing values (given 11 out of 31).
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without richness estimations. Please, check that such information is correct.
+
+- Please check that our information about your recorded taxa (or taxa constraint) is correct.
+
+- There are sites without yield. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- There are sites without their alternative yield values. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+
+- Notice that carv03_Bavaria_L_FA1 is repeated. Two values of crop yield (denoted here as yield2) were assigned to such site. We replaced such value by the site mean value for yield.

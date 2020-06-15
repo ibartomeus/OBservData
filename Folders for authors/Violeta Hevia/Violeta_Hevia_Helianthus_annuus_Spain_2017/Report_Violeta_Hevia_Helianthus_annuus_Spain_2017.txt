@@ -1,0 +1,53 @@
+================
+Automatic report
+================
+
+Study ID: Violeta_Hevia_Helianthus_annuus_Spain_2017
+
+Contact: violeta.hevia@uam.es
+
+Credit: Violeta Hevia, Jorge Ortega, José A. González
+
+Publication: Several projects/publications
+
+Number of sites: 9
+
+Year of sampling: 2017
+
+Crop: Helianthus annuus
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: only bees
+
+Abundance: Full information.
+
+Visitation rate units: visits per 100 flowers and hour
+
+Visitation rate: Full information.
+
+Yield units: seed/plant
+
+Yield: Full information.
+
+Alternative yield units: seed weight (g/100 seeds)
+
+Alternative yield: Full information.
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+

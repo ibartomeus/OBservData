@@ -1,0 +1,55 @@
+================
+Automatic report
+================
+
+Study ID: Fabiana_Oliveira_da_Silva_Malus_domestica_Brazil_2011
+
+Contact: fabia714@gmail.com; jeferson.gabriel@gmail.com
+
+Credit: Fabiana Oliveira da silva, Jeferson da Encarnação Coutinho
+
+Publication: 10.1126/science.aac7287
+
+Number of sites: 6
+
+Year of sampling: 2011
+
+Crop: Malus domestica
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: only bees
+
+Abundance: Full information.
+
+Visitation rate units: visits per 100 flowers and hour
+
+Visitation rate: Full information.
+
+Yield units: kg
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+
+- We assumed that sampling four pairs of adjacent trees takes 5 minutes per round.

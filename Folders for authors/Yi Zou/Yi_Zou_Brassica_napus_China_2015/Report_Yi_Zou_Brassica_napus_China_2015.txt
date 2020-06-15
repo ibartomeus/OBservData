@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: Yi_Zou_Brassica_napus_China_2015
+
+Contact: yi.zou.1@hotmail.com
+
+Credit: Wageningen University
+
+Publication: 10.1186/s12898-017-0116-1
+
+Number of sites: 18
+
+Year of sampling: 2015
+
+Crop: Brassica napus
+
+Variety: There are missing varieties (given 0 out of 18).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: all visitors considered. Data was obtained by using pantraps
+
+Abundance: There are missing values (given 0 out of 18).
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 18).
+
+Yield units: Fruit set (%)
+
+Yield: Full information.
+
+Alternative yield units: Seed set
+
+Alternative yield: Full information.
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

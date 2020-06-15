@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Natacha_Chacoff_Citrus_limon_Argentina_2015
+
+Contact: nchacoff@gmail.com
+
+Credit: Natacha Chacoff (Instituto de Ecologia Regional. CONICET UNT)
+
+Publication: NA
+
+Number of sites: 12
+
+Year of sampling: 2015
+
+Crop: Citrus limon
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: No taxa restrictions have been identified.
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 12).
+
+Yield units: fruit set (%)
+
+Yield: There are missing values (given 9 out of 12).
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please check that our information about your recorded taxa (or taxa constraint) is correct.
+
+- There are sites without yield. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+
+- When processing your raw data, we aggregated the measurements at different distances within each site. Is it correct?

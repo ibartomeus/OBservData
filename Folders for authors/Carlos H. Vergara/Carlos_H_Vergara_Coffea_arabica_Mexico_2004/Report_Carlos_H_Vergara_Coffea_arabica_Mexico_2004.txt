@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: Carlos_H_Vergara_Coffea_arabica_Mexico_2004
+
+Contact: carlosh.vergara@udlap.mx
+
+Credit: Carlos H. Vergara and Ernesto I. Badano
+
+Publication: :10.1016/j.agee.2008.08.001
+
+Number of sites: 16
+
+Year of sampling: 2004
+
+Crop: Coffea arabica
+
+Variety: There are missing varieties (given 0 out of 16).
+
+Location: UTM zone is needed. There are missing locations (given 11 out of 16).
+
+Country: All reported countries are OK.
+
+Richness: Full information.
+
+Taxa constraint: No taxa restrictions have been identified.
+
+Abundance: Full information.
+
+Visitation rate units: visits per plant and hour
+
+Visitation rate: Full information.
+
+Yield units: Fruit set (%): initial number of floral buds in the respective branch and the number of developing fruits
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the latitude and longitude of the missing locations.
+
+- Please check that our information about your recorded taxa (or taxa constraint) is correct.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

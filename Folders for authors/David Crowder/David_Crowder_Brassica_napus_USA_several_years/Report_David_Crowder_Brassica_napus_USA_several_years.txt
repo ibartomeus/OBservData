@@ -1,0 +1,59 @@
+================
+Automatic report
+================
+
+Study ID: David_Crowder_Brassica_napus_USA_several_years
+
+Contact: dcrowder@wsu.edu
+
+Credit: David Crowder (dcrowder@wsu.edu); Elinor Lichtenberg (elinor.lichtenberg@unt.edu)
+
+Publication: In submission
+
+Number of sites: 15
+
+Year of sampling: 2014
+
+Crop: Brassica napus
+
+Variety: Full information.
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There are missing values (given 11 out of 15).
+
+Taxa constraint: Only bees
+
+Abundance: There are missing values (given 11 out of 15).
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 15).
+
+Yield units: kg/ha
+
+Yield: Full information.
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without richness estimations. Please, check that such information is correct.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

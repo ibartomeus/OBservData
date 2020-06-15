@@ -1,0 +1,61 @@
+================
+Automatic report
+================
+
+Study ID: Rebecca_Steward_Fragaria_ananassa_Sweden_2014
+
+Contact: rebecca.stewart@cec.lu.se
+
+Credit: https://snd.gu.se/en/catalogue/study/by-topic
+
+Publication: 10.1016/j.baae.2016.09.006
+
+Number of sites: 30
+
+Year of sampling: 2014
+
+Crop: Fragaria x ananassa
+
+Variety: There are missing varieties (given 0 out of 30).
+
+Location: Full information.
+
+Country: All reported countries are OK.
+
+Richness: There is not enough taxonomic resolution to estimate richness.
+
+Taxa constraint: NA
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 30).
+
+Yield units: number/treatment/site
+
+Yield: Full information.
+
+Alternative yield units: pollination index of strawberry
+
+Alternative yield: There are missing values (given 27 out of 30).
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- There are sites without their alternative yield values. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+

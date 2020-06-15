@@ -1,0 +1,109 @@
+From:	Kleijn, David
+Sent:	dinsdag 28 augustus 2012 19:41
+To:	'Blande Viana'
+Subject:	RE: Passion Fruit in Bahia, Brazil - Complete Data
+
+Hi Blande,
+
+Thanks for the clarifications. Good to know that only the Xylocopa species contribute to 
+pollination.
+
+I will be in touch again when I have some results.
+
+Cheers,
+
+David.
+
+-------------------------------------------------------
+Dr. D. Kleijn
+Resource Ecology Group, Wageningen University &
+Alterra, Centre for Ecosystem studies
+PO Box 47
+6700 AA, Wageningen
+The Netherlands
+Tel. ++31 317 485807, Fax ++31 317 419000
+Email. David.Kleijn@wur.nl
+URL: http://www.alterra.wur.nl/UK/research/Specialisation+Ecosystem+Studies/Dr.Ir.+D.+(David)+Kleijn
+
+From: Blande Viana [mailto:blande.viana@gmail.com]  
+Sent: dinsdag 28 augustus 2012 17:46 
+To: Kleijn, David 
+Subject: Re: Passion Fruit in Bahia, Brazil - Complete Data
+
+Hi David 
+The geographic coordinate system is South America Datum - SAD 69. I think we can assume the 
+less abundant Xylocopa species made up at least 5% of the total visits. I just would like to 
+tell you that the Passion fruit pollinator are the big Xylocopa bees. T spinipes and A mellifera are 
+considering a nectar robber. 
+Cheers 
+Blande
+2012/8/26 Kleijn, David <David.Kleijn@wur.nl>
+Hi Blande,
+ 
+This is really excellent, thanks. I did a quick scan. Xylocopa spp. make up c. 47% of the 
+total number of bees (including Apis; excluding Apis even more). Is it safe to assume that 
+visits of the less abundant Xylocopa species made up at least 5% of the total visits? That 
+way we can list both Xylocopa species and the Trigona species as dominant species in your 
+dataset.
+ 
+Could you also let me know what geographic coordinate system you used?
+ 
+I will keep you informed about progress with the analysis/manuscript. I will probably work in 
+force on this the last couple of months of the year (still busy collecting datasets).
+ 
+All the best,
+ 
+David.
+ 
+ 
+ 
+ 
+-------------------------------------------------------
+Dr. D. Kleijn
+Resource Ecology Group, Wageningen University &
+Alterra, Centre for Ecosystem studies
+PO Box 47
+6700 AA, Wageningen
+The Netherlands
+Tel. ++31 317 485807, Fax ++31 317 419000
+Email. David.Kleijn@wur.nl
+URL: http://www.alterra.wur.nl/UK/research/Specialisation+Ecosystem+Studies/Dr.Ir.+D.+(David)+Kleijn
+ 
+From: Blande Viana [mailto:blande.viana@gmail.com]  
+Sent: vrijdag 24 augustus 2012 23:22 
+To: Kleijn, David 
+Subject: Passion Fruit in Bahia, Brazil - Complete Data
+ 
+Hi David,
+Sorry again for delay. I`really very busy lately. I´m sending to you the complete Passion fruit 
+data including 03 columns with total number of specimens per  50m transect (~90 flowers in a 
+trasect of 50m).  All non Apis bees has more than 100 specimens.  
+Xylocopa spp is two species: Xylocopa Megaxylocopa frontalis Olivier and Xylocopa 
+Neoxylocopa grisescens Lepeletier, the last one was more abundant. But as they are very similar 
+morphologically, separate one from the other visiting the flowers was hard, so we chose to 
+consider only the taxonomic level of genus, to avoid mistakes. 
+Cheers 
+Blande
+ 
+Profa. Dra. Blandina Felipe Viana 
+Instituto de Biologia 
+Universidade Federal da Bahia - Campus de Ondina 
+Rua Barão de Geremoabo s/n 
+40170-210 Salvador - BA 
+Fone: 71 3283-6554 
+Fax: 71 32836513 
+www.labea.ufba.br 
+blandefv@ufba.br
+ 
+ 
+ 
+--  
+Profa. Dra. Blandina Felipe Viana 
+Instituto de Biologia 
+Universidade Federal da Bahia - Campus de Ondina 
+Rua Barão de Geremoabo s/n 
+40170-210 Salvador - BA 
+Fone: 71 3283-6554 
+Fax: 71 32836513 
+www.labea.ufba.br 
+blandefv@ufba.br

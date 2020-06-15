@@ -1,0 +1,63 @@
+================
+Automatic report
+================
+
+Study ID: Yael_Mandelik_Helianthus_annuus_Israel_2010
+
+Contact: gidpisa79@yahoo.com
+
+Credit: Gideon Pisanty, Alexandra-Maria Klein, Yael Mandelik
+
+Publication: 10.1007/s13592-013-0242-5
+
+Number of sites: 15
+
+Year of sampling: 2010
+
+Crop: Helianthus annuus
+
+Variety: There are missing varieties (given 0 out of 15).
+
+Location: Full information.
+
+Country: Reported countries may contain errors.
+
+Richness: Full information.
+
+Taxa constraint: only non-managed bees
+
+Abundance: Full information.
+
+Visitation rate units: NA
+
+Visitation rate: There are missing values (given 0 out of 15).
+
+Yield units: NA
+
+Yield: NA
+
+Alternative yield units: NA
+
+Alternative yield: NA
+
+
+===================================
+Queries (answer in line one by one)
+===================================
+
+- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
+
+- If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the names of missing crop varieties.
+
+- If possible, check the latitude and longitude that were included in your field_level_data (csv) file. According to our automatic tests, some locations do not belong to the reported country/countries.
+
+- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
+
+- Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
+
+- If possible, please, provide yield information.
+
+
+- There are fields with two (25x25 m2) plots. Since we don't know their corresponding Ids, we set to NA the sampling parameters, namely: total sampling area and total sampling time
