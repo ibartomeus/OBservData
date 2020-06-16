@@ -22,6 +22,12 @@ Location: UTM zone is needed. There are missing locations (given 0 out of 6).
 
 Country: There are no locations to check.
 
+Field size: There are missing field sizes (given 0 out of 6).
+
+Management: Full information.
+
+Sampling period: There are missing sampling periods.
+
 Richness: There is not enough taxonomic resolution to estimate richness.
 
 Taxa constraint: NA
@@ -52,6 +58,10 @@ Queries (answer in line one by one)
 - Please provide the year of sampling of the study.
 
 - If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).
 
 - If possible, please provide the latitude and longitude of the missing locations.
 

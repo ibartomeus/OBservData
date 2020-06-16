@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: There are missing field sizes (given 0 out of 112).
+
+Management: Full information.
+
+Sampling period: There are missing sampling periods.
+
 Richness: There are missing values (given 56 out of 112).
 
 Taxa constraint: all visitors considered. Ended up with bees only (mainly social)
@@ -51,6 +57,10 @@ Queries (answer in line one by one)
 
 - If possible, please provide the names of missing crop varieties.
 
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).
+
 - There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
 
 - There are sites without richness estimations. Please, check that such information is correct.
@@ -60,6 +70,5 @@ Queries (answer in line one by one)
 - There are sites without their alternative yield values. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
 
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
-
 
 - According to your published paper, 126 fields where analyzed. However, our raw data only provide information on 112 sites.

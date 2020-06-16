@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: Full information.
+
+Management: There are missing results for management (given 0 out of 4).
+
+Sampling period: Full information.
+
 Richness: There is not enough taxonomic resolution to estimate richness.
 
 Taxa constraint: NA
@@ -49,6 +55,8 @@ Queries (answer in line one by one)
 
 - If your study is already published, please check that its DOI is correct.
 
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
+
 - There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
 
 - According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
@@ -56,6 +64,5 @@ Queries (answer in line one by one)
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
 
 - If possible, please, provide yield information.
-
 
 - NOTE: Records in "Bee Identifications_editted" (excel file) do not match bee observations in "SA_Onion data_MarietteBrand_editted" (excel file) with abundance greater that zero.

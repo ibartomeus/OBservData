@@ -7,7 +7,7 @@ library("iNEXT")
 dir_ini <- getwd()
 
 ##########################
-#Data: stanley_stout_2dataset_2009
+#Data: Dara_Stanley_Brassica_napus_Ireland_2010
 ##########################
 
 data_raw <- read_csv("Individual CSV/stanley_stout_2dataset_2009.csv")
@@ -22,7 +22,7 @@ data_raw_without_NAs <-
 ############################
 
 data.site_aux <- tibble(
-  study_id = paste0(data_raw_without_NAs$author,"_",data_raw_without_NAs$Year_of_study),
+  study_id = "Dara_Stanley_Brassica_napus_Ireland_2009",
   site_id = data_raw_without_NAs$site,
   crop = "Brassica napus",
   variety = NA,
@@ -34,7 +34,7 @@ data.site_aux <- tibble(
   Y_UTM=NA,
   zone_UTM=NA,
   sampling_start_month = 5,
-  sampling_end_month = 5,
+  sampling_end_month = 8,
   sampling_year = data_raw_without_NAs$Year_of_study,
   field_size = NA,
   yield=NA,
@@ -65,24 +65,7 @@ is.nan.data.frame <- function(x){
 
 data.site[is.nan(data.site)] <- NA
 
-############################################################
-
-# Convert Latitude/Longitude from degrees min sec to decimal
-# 
-# chd = substr(data.site$latitude, 3, 3)[1]
-# chm = substr(data.site$latitude, 6, 6)[1]
-# chs = substr(data.site$latitude, 9, 10)[1]
-# 
-# cd = char2dms(data.site$latitude,chd=chd,chm=chm,chs=chs)
-# data.site$latitude <- as.numeric(cd)
-# 
-# chd = substr(data.site$longitude, 3, 3)[1]
-# chm = substr(data.site$longitude, 5, 5)[1]
-# chs = substr(data.site$longitude, 8, 9)[1]
-# 
-# cd = char2dms(data.site$longitude,chd = chd,chm = chm,chs = chs)
-# data.site$longitude <- as.numeric(cd)
-
+###########################################################
 #########################
 # Adding credit, Publication and contact
 
@@ -96,7 +79,7 @@ data.site$Email_contact <- "stanleyd@tcd.ie"
 
 
 data_raw_obs <- data_raw %>%
-  select(site,round,row,observation_location, names(data_raw[30:ncol(data_raw)]))
+  select(site, names(data_raw[30:ncol(data_raw)]))
 
 # Remove NAs
 data_raw_obs <- 
@@ -128,20 +111,20 @@ data_raw_gather %>% filter(is.na(Guild))
 data_raw_gather <- data_raw_gather %>% filter(Abundance>0)
 
 insect_sampling <- tibble(
-  study_id = "stanley_stout_2dataset_2009",
+  study_id = "Dara_Stanley_Brassica_napus_Ireland_2009",
   site_id = data_raw_gather$site,
   pollinator = data_raw_gather$Organism_ID,
   guild = data_raw_gather$Guild,
   sampling_method = "transects",
   abundance = data_raw_gather$Abundance,
-  total_sampled_area = 4*3*200*2,
-  total_sampled_time = NA,
+  total_sampled_area = 4*3*100*2,
+  total_sampled_time = 4*3*100/0.255/60, #0.255 is the approximated average velocity
   total_sampled_flowers = NA,
-  Description = "Four surveys per field, and surveys were conducted in three 200 × 2 m transects per field"
+  Description = "Each field was visited three times and there were four 100 × 2 m transects walked on each sampling visit (two on the edge and two on the centre), at a slow, steady pace (0.07-0.44 m/s)."
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_stanley_stout_2dataset_2009.csv")
+write_csv(insect_sampling, "insect_sampling_Dara_Stanley_Brassica_napus_Ireland_2009.csv")
 setwd(dir_ini)
 
 #######################################
@@ -166,7 +149,8 @@ names(abundance_aux)
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(other_flies=0,beetles=0,non_bee_hymenoptera=0,other=0,humbleflies=0,total=0)
+abundance_aux <- abundance_aux %>% mutate(other_flies=0,beetles=0,non_bee_hymenoptera=0,
+                                          other=0,humbleflies=0,total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
 
@@ -193,12 +177,19 @@ for (i in 1:nrow(abundace_field)) {
   abundace_field$r_chao[i] <-  chao$Estimator 
 }
 
-richness_aux <- abundace_field %>% select(site_id, r_chao)
-richness_aux <- richness_aux %>% rename(pollinator_richness=r_chao) %>%
-  mutate(richness_estimator_method="Chao1")
+# Load our estimation for taxonomic resolution
+percentage_species_morphos <- (69-14)/69
+
+richness_aux <- abundace_field %>% select(site_id,r_obser,r_chao)
+richness_aux <- richness_aux %>% dplyr::rename(observed_pollinator_richness=r_obser,
+                                               other_pollinator_richness=r_chao) %>%
+  mutate(other_richness_estimator_method="Chao1",richness_restriction=NA)
+
+if (percentage_species_morphos < 0.74){
+  richness_aux[,2:ncol(richness_aux)] <- NA
+}
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
-
 
 ###############################
 # FIELD LEVEL DATA
@@ -235,8 +226,10 @@ field_level_data <- tibble(
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,
-  pollinator_richness = data.site$pollinator_richness,
-  richness_estimator_method = data.site$richness_estimator_method,
+  observed_pollinator_richness=data.site$observed_pollinator_richness,
+  other_pollinator_richness=data.site$other_pollinator_richness,
+  other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction = data.site$richness_restriction,
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,
@@ -248,8 +241,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = 4*3*200*2,
-  total_sampled_time = NA,
+  total_sampled_area = 4*3*100*2,
+  total_sampled_time = 4*3*100/0.255/60,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,
@@ -268,6 +261,6 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_stanley_stout_2dataset_2009.csv")
+write_csv(field_level_data, "field_level_data_Dara_Stanley_Brassica_napus_Ireland_2009.csv")
 setwd(dir_ini)
 

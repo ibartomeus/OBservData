@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: Reported countries may contain errors.
 
+Field size: Full information.
+
+Management: There are missing results for management (given 0 out of 20).
+
+Sampling period: There are missing sampling periods.
+
 Richness: Full information.
 
 Taxa constraint: No taxa restrictions have been identified.
@@ -49,9 +55,12 @@ Queries (answer in line one by one)
 
 - If your study is already published, please check that its DOI is correct.
 
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
+
+- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).
+
 - If possible, check the latitude and longitude that were included in your field_level_data (csv) file. According to our automatic tests, some locations do not belong to the reported country/countries.
 
 - Please check that our information about your recorded taxa (or taxa constraint) is correct.
-
 
 - We assumed that (i) visit to 100 flower were measured for 5 minites in each field, and (ii) apis variables refers to honeybees.

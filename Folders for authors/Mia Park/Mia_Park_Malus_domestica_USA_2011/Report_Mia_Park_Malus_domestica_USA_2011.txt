@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: There are missing field sizes (given 0 out of 22).
+
+Management: There are missing results for management (given 0 out of 22).
+
+Sampling period: Full information.
+
 Richness: Full information.
 
 Taxa constraint: only bees
@@ -50,6 +56,10 @@ Queries (answer in line one by one)
 - If your study is already published, please check that its DOI is correct.
 
 - If possible, please provide the names of missing crop varieties.
+
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
 
 - There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
 

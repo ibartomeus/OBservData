@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: Reported countries may contain errors.
 
+Field size: Full information.
+
+Management: There are missing results for management (given 0 out of 13).
+
+Sampling period: There are missing sampling periods.
+
 Richness: There are missing values (given 12 out of 13).
 
 Taxa constraint: No taxa restrictions have been identified.
@@ -49,6 +55,10 @@ Queries (answer in line one by one)
 
 - If your study is already published, please check that its DOI is correct.
 
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
+
+- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).
+
 - If possible, check the latitude and longitude that were included in your field_level_data (csv) file. According to our automatic tests, some locations do not belong to the reported country/countries.
 
 - There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
@@ -60,6 +70,5 @@ Queries (answer in line one by one)
 - Please check that our information about your recorded taxa (or taxa constraint) is correct.
 
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
-
 
 - We assumed that visit to 100 flower were measured for 5 minites in each field. J.A. richness estimations for each field refers to the average richness per round. Here we use total richness for four rounds. Unidentified bees were remove from abundance and richness calculations (10 over 202 observations).

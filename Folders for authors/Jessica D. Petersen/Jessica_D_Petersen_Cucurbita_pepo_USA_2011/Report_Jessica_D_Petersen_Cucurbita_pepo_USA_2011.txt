@@ -22,6 +22,12 @@ Location: UTM zone is needed. There are missing locations (given 0 out of 24).
 
 Country: There are no locations to check.
 
+Field size: There are missing field sizes (given 0 out of 24).
+
+Management: There are missing results for management (given 0 out of 24).
+
+Sampling period: Full information.
+
 Richness: Full information.
 
 Taxa constraint: Only bees
@@ -48,6 +54,10 @@ Queries (answer in line one by one)
 - Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing
 
 - If your study is already published, please check that its DOI is correct.
+
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
 
 - If possible, please provide the latitude and longitude of the missing locations.
 

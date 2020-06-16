@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: Reported countries may contain errors.
 
+Field size: There are missing field sizes (given 0 out of 17).
+
+Management: There are missing results for management (given 0 out of 17).
+
+Sampling period: Full information.
+
 Richness: Full information.
 
 Taxa constraint: only non-managed bees
@@ -51,6 +57,10 @@ Queries (answer in line one by one)
 
 - If possible, please provide the names of missing crop varieties.
 
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please assign a management category [organic, IPM, conventional] to each field.
+
 - If possible, check the latitude and longitude that were included in your field_level_data (csv) file. According to our automatic tests, some locations do not belong to the reported country/countries.
 
 - There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
@@ -58,6 +68,5 @@ Queries (answer in line one by one)
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
 
 - If possible, please, provide yield information.
-
 
 - There are fields with two (25x25 m2) plots. Since we don't know their corresponding Ids, we set to NA the sampling parameters, namely: total sampling area and total sampling time

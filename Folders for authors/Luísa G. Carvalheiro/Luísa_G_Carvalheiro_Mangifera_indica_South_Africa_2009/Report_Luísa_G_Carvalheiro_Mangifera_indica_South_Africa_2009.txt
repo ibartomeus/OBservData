@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: There are missing field sizes (given 0 out of 31).
+
+Management: Full information.
+
+Sampling period: There are missing sampling periods.
+
 Richness: There are missing values (given 15 out of 31).
 
 Taxa constraint: No taxa restrictions have been identified.
@@ -49,6 +55,10 @@ Queries (answer in line one by one)
 
 - If your study is already published, please check that its DOI is correct.
 
+- If possible, please provide the area of each field [in hectares].
+
+- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).
+
 - There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
 
 - There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.
@@ -62,6 +72,5 @@ Queries (answer in line one by one)
 - There are sites without their alternative yield values. Please, check that such information is correct. If possible, please provide the missing values (or the corresponding z-scores).
 
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
-
 
 - Notice that carv03_Bavaria_L_FA1 is repeated. Two values of crop yield (denoted here as yield2) were assigned to such site. We replaced such value by the site mean value for yield.

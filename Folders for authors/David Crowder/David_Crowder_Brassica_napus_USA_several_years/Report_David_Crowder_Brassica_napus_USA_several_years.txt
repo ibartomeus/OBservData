@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: Full information.
+
+Management: Full information.
+
+Sampling period: Full information.
+
 Richness: There are missing values (given 11 out of 15).
 
 Taxa constraint: Only bees

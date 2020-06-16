@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: Full information.
+
+Management: Full information.
+
+Sampling period: Full information.
+
 Richness: Full information.
 
 Taxa constraint: No taxa restrictions have been identified.
@@ -52,6 +58,5 @@ Queries (answer in line one by one)
 - Please check that our information about your recorded taxa (or taxa constraint) is correct.
 
 - Please, check that the brief description of your methodology (in your insect_sampling file) is correct.
-
 
 - We assumed that sampling four pairs of adjacent trees took 5 minutes per pair (20 min total per round).

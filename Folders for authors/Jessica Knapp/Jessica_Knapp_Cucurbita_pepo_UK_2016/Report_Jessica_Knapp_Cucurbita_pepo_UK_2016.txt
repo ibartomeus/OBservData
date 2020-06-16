@@ -22,6 +22,12 @@ Location: Full information.
 
 Country: All reported countries are OK.
 
+Field size: Full information.
+
+Management: Full information.
+
+Sampling period: Full information.
+
 Richness: Full information.
 
 Taxa constraint: all visitors considered. Non-bee data was obtained by using pantraps

@@ -113,6 +113,32 @@ for (i in 1:length(list_files_field_level)){
       variety="Full information."
     }
     
+    if (sum(!is.na(data.site$field_size))<number_sites){
+      field_size=paste("There are missing field sizes (given ",sum(!is.na(data.site$field_size))," out of ",number_sites,").",sep="")
+      query_lines <- c(query_lines,
+                       "- If possible, please provide the area of each field [in hectares].","")
+    }else{
+      field_size="Full information."
+    }
+    
+    if (sum(!is.na(data.site$management))<number_sites){
+      management=paste("There are missing results for management (given ",sum(!is.na(data.site$management))," out of ",number_sites,").",sep="")
+      query_lines <- c(query_lines,
+                       "- If possible, please assign a management category [organic, IPM, conventional] to each field.","")
+    }else{
+      management="Full information."
+    }
+    
+    if (sum(!is.na(data.site$sampling_start_month))<number_sites | 
+        sum(!is.na(data.site$sampling_end_month))<number_sites){
+      sampling_period="There are missing sampling periods."
+      query_lines <- c(query_lines,
+                       "- If possible, please provide the sampling start month and sampling end month for each field, respectively, and use a numeric format (for example, 1 for January, 2 for February and so on).","")
+    }else{
+      sampling_period="Full information."
+    }
+    
+    
     if (sum(!is.na(data.site$longitude))<number_sites){
       
       if (sum(!is.na(data.site$zone_UTM))==0){
@@ -273,6 +299,9 @@ for (i in 1:length(list_files_field_level)){
       `Variety`=variety,
       `Location`=geolocation,
       `Country`=location_error,
+      `Field size`=field_size,
+      `Management`=management,
+      `Sampling period`=sampling_period,
       `Richness`=richness,
       `Taxa constraint`=taxa,
       `Abundance`=abundance,
@@ -323,7 +352,7 @@ for (i in 1:nrow(result)){
   if(is.na(Additional_comments)){
     report_lines <- c(report_lines,list_query_lines[[i]])
   }else{
-    report_lines <- c(report_lines,list_query_lines[[i]],"",Additional_comments) 
+    report_lines <- c(report_lines,list_query_lines[[i]],Additional_comments) 
   }
   
   fileConn<-file(file_name)
