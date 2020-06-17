@@ -141,7 +141,7 @@ for (i in 1:length(list_files_field_level)){
     
     if (sum(!is.na(data.site$longitude))<number_sites){
       
-      if (sum(!is.na(data.site$zone_UTM))==0){
+      if (sum(!is.na(data.site$zone_UTM))==0 & sum(!is.na(data.site$X_UTM))>0){
         geolocation=paste("UTM zone is needed. There are missing locations (given ",sum(!is.na(data.site$longitude))," out of ",number_sites,").",sep="")
         query_lines <- c(query_lines,
                          "- If possible, please provide the latitude and longitude of the missing locations.","")

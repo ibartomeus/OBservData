@@ -18,7 +18,7 @@ Crop: Cucurbita pepo
 
 Variety: Full information.
 
-Location: UTM zone is needed. There are missing locations (given 0 out of 24).
+Location: There are missing locations (given 0 out of 24).
 
 Country: There are no locations to check.
 

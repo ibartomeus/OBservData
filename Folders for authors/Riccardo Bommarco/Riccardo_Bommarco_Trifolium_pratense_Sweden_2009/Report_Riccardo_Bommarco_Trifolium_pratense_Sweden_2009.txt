@@ -18,7 +18,7 @@ Crop: Trifolium pratense
 
 Variety: There are missing varieties (given 0 out of 2).
 
-Location: UTM zone is needed. There are missing locations (given 0 out of 2).
+Location: There are missing locations (given 0 out of 2).
 
 Country: There are no locations to check.
 

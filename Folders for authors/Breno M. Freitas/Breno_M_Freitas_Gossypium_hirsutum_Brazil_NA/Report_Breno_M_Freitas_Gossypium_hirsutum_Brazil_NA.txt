@@ -18,7 +18,7 @@ Crop: Gossypium hirsutum
 
 Variety: There are missing varieties (given 0 out of 20).
 
-Location: UTM zone is needed. There are missing locations (given 0 out of 20).
+Location: There are missing locations (given 0 out of 20).
 
 Country: There are no locations to check.
 

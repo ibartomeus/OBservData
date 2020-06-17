@@ -18,7 +18,7 @@ Crop: Brassica napus
 
 Variety: There are missing varieties (given 0 out of 22).
 
-Location: UTM zone is needed. There are missing locations (given 0 out of 22).
+Location: There are missing locations (given 0 out of 22).
 
 Country: There are no locations to check.
 
