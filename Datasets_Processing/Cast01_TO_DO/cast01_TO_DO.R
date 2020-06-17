@@ -2,6 +2,7 @@
 library(tidyverse)
 library(openxlsx)
 library(parzer) #Transforming latitude and longitude
+library(stringr)
 
 ###################################
 #Data holder: Violeta Hevia, hevi01 
@@ -20,33 +21,27 @@ datafield %>% group_by(site_id,sampling_year) %>% count()
 
 names(datafield)
 
-
-
 datafield <- datafield %>%
   rename(field_size = field.size,
          fruits_per_plant = mean_fruits_per_plant,
-         richness_estimator_method = richness_estimator_.Method)
+         richness_estimator_method = `richness_estimator_&#10;Method`)
 
 
 datafield$management <- "conventional"
 datafield$crop <- "Helianthus annuus"
-datafield$study_id <- "hevi01"
+datafield$study_id <- "Silvia_Castro_Helianthus_annuus_Spain_several_years"
 
 # Convert Latitude/Longitude from degrees min sec to decimal
 
-chd = substr(datafield$latitude, 3, 3)[1]
-chm = substr(datafield$latitude, 6, 6)[1]
-chs = substr(datafield$latitude, 11, 11)[1]
-
-cd = char2dms(datafield$latitude,chd=chd,chm=chm,chs=chs)
-datafield$latitude <- as.numeric(cd)
-
-chd = substr(datafield$longitude, 2, 2)[1]
-chm = substr(datafield$longitude, 5, 5)[1]
-chs = substr(datafield$longitude, 10, 10)[1]
-
-cd = char2dms(datafield$longitude,chd = chd,chm = chm,chs = chs)
-datafield$longitude <- as.numeric(cd)
+datafield$latitude <- parse_lat(datafield$latitude)
+datafield$longitude <- str_replace_all(datafield$longitude,pattern=" ", repl="")
+datafield$longitude[2] <- "-3.56233ºW"
+datafield$longitude[15] <- "-3.10787ºW"
+datafield$longitude[20] <- "-3.61491ºW"
+datafield$longitude[21] <- "-3.56197ºW"
+datafield$longitude[26] <- "-4.24806ºW"
+datafield$longitude[33] <- "-3.11277ºW"
+datafield$longitude <- parse_lon(datafield$longitude)
 
 ###############################
 # FIELD LEVEL DATA
@@ -69,13 +64,13 @@ field_level_data <- tibble(
   sampling_end_month = datafield$sampling_end_month,
   sampling_year = datafield$sampling_year,
   field_size = datafield$field_size,
-  yield=datafield$yield,
-  yield_units=datafield$yield_units,
-  yield2=datafield$yield2,
-  yield2_units=datafield$yield2_units,
-  yield_treatments_no_pollinators=datafield$yield_treatments_no_pollinators,
+  yield=datafield$total_yield,
+  yield_units="kg/ha",
+  yield2=NA,
+  yield2_units=NA,
+  yield_treatments_no_pollinators=NA,
   yield_treatments_pollen_supplement=NA,
-  yield_treatments_no_pollinators2=datafield$yield_treatments_no_pollinators2,
+  yield_treatments_no_pollinators2=NA,
   yield_treatments_pollen_supplement2=NA,
   fruits_per_plant=datafield$fruits_per_plant,
   fruit_weight= datafield$fruit_weight,
@@ -84,8 +79,9 @@ field_level_data <- tibble(
   seeds_per_plant=datafield$seeds_per_plant,
   seed_weight=datafield$seed_weight,
   observed_pollinator_richness=NA,
-  other_pollinator_richness=NA,
-  other_richness_estimator_method=NA,
+  other_pollinator_richness=datafield$pollinator_richness,
+  other_richness_estimator_method=datafield$richness_estimator_method,
+  richness_restriction = NA,
   abundance = datafield$abundance,
   ab_honeybee = datafield$ab_honeybee,
   ab_bombus = datafield$ab_bombus,
@@ -117,6 +113,6 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-#write_csv(field_level_data, "field_level_data_hevi01.csv")
+write_csv(field_level_data, "field_level_data_Silvia_Castro_Helianthus_annuus_Spain_several_years.csv")
 setwd(dir_ini)
 
