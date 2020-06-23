@@ -145,7 +145,7 @@ list_organisms_guild$Guild[grepl("Hylaeus",list_organisms_guild$Organism_ID,igno
 list_organisms_guild$Guild[grepl("Rhagio",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild$Guild[grepl("Scathophaga",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild$Guild[grepl("Specodes",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_wild_bees"
-list_organisms_guild$Guild[grepl("Systoechus ctenopterus",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_flies"
+list_organisms_guild$Guild[grepl("Systoechus ctenopterus",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "humbleflies"
 list_organisms_guild$Guild[grepl("Tabanus bovine",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild$Guild[grepl("Talmerus atricapillus",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild$Guild[grepl("Volucella pelluceris",list_organisms_guild$Organism_ID,ignore.case = FALSE)] <- "syrphids"
@@ -225,7 +225,7 @@ list_organisms_guild_pa$Guild[grepl("Hylaeus",list_organisms_guild_pa$Organism_I
 list_organisms_guild_pa$Guild[grepl("Rhagio",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild_pa$Guild[grepl("Scathophaga",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild_pa$Guild[grepl("Specodes",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_wild_bees"
-list_organisms_guild_pa$Guild[grepl("Systoechus ctenopterus",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_flies"
+list_organisms_guild_pa$Guild[grepl("Systoechus ctenopterus",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "humbleflies"
 list_organisms_guild_pa$Guild[grepl("Tabanus bovine",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild_pa$Guild[grepl("Talmerus atricapillus",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "other_flies"
 list_organisms_guild_pa$Guild[grepl("Volucella pelluceris",list_organisms_guild_pa$Organism_ID,ignore.case = FALSE)] <- "syrphids"
@@ -297,7 +297,7 @@ names(abundance_aux)
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
 abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,
-                                          other=0,humbleflies=0,non_bee_hymenoptera=0,total=0)
+                                          other=0,non_bee_hymenoptera=0,total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
 
@@ -427,3 +427,4 @@ field_level_data <- tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Hajnalka_Szentgyorgyi_Fagopyrum_esculentum_Poland_2005.csv")
 setwd(dir_ini)
+
