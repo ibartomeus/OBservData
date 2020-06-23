@@ -235,7 +235,7 @@ list_organisms_guild_ob$Guild[grepl("Xylocopa",list_organisms_guild_ob$Organism_
 list_organisms_guild_ob$Guild[grepl("Danus_chrysippus_aegyptius",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "lepidoptera"
 
 list_organisms_guild_ob$Guild[grepl("bee.red.abdomen.sp1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- NA
-list_organisms_guild_ob$Guild[grepl("Bombyliidae_sp.1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "other_flies"
+list_organisms_guild_ob$Guild[grepl("Bombyliidae_sp.1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "humbleflies"
 list_organisms_guild_ob$Guild[grepl("brown_skipper_sp1.",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "lepidoptera"
 list_organisms_guild_ob$Guild[grepl("Caliphoridae",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "other_flies"
 list_organisms_guild_ob$Guild[grepl("Cetoniidae",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "beetles"
