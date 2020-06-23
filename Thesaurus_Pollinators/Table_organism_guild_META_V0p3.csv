@@ -2638,6 +2638,14 @@ Megachile centuncularis,Megachilidae,other wild bees,Kleijn
 Nomada lathburiana,Apidae,other wild bees,Kleijn
 Osmia leaiana,Megachilidae,other wild bees,Kleijn
 Osmia niveata,Megachilidae,other wild bees,Kleijn
+Bombus terrestris terrestris,Apidae,bumblebees,All_Meta
+Diptera sp2,NA,other_flies,All_Meta
+Diptera sp3,NA,other_flies,All_Meta
+Diptera sp4,NA,other_flies,All_Meta
+Wild bee sp1,Apidae,other_wild_bees,All_Meta
+Sphaerophoria rueppellii,Syrphidae,syrphids,All_Meta
+Sphaerophoria sp1,Syrphidae,syrphids,All_Meta
+Beetle sp1,Apidae,beetles,All_Meta
 Plebeia.nigriceps,Apidae,other_wild_bees,All_Meta
 Plebeia.emerina,Apidae,other_wild_bees,All_Meta
 Schwarziana.quadripunctata,Apidae,other_wild_bees,All_Meta
@@ -2736,7 +2744,7 @@ Andrena coitana,Andrenidae,other_wild_bees,All_Meta
 Specodes reticulates,Halictidae,other_wild_bees,All_Meta
 Apidae,Apidae,other_wild_bees,All_Meta
 Hylaeus brevicornis,Apidae,other_wild_bees,All_Meta
-Systoechus ctenopterus,Bombyliidae,other_flies,All_Meta
+Systoechus ctenopterus,Bombyliidae,humbleflies,All_Meta
 Andrena nigriceps,Andrenidae,other_wild_bees,All_Meta
 Scathophaga stercoratia,Scathophagidae,other_flies,All_Meta
 Specodes puncticeps,Halictidae,other_wild_bees,All_Meta
@@ -2786,6 +2794,46 @@ Chrysotoxum.arcuatum,Syrphidae,syrphids,All_Meta
 Platycheirus.nielseni.,Syrphidae,syrphids,All_Meta
 Melanogaster.sp.,Syrphidae,syrphids,All_Meta
 Epistrophe.sp.,Syrphidae,syrphids,All_Meta
+Eristalis spp.,Syrphidae,syrphids,All_Meta
+Other coleopterans,NA,beetles,All_Meta
+Other dipterans,NA,other_flies,All_Meta
+Lepidopterans,NA,lepidoptera,All_Meta
+Wild bees,Apidae,other_wild_bees,All_Meta
+Andrena assimilis,Andrenidae,other_wild_bees,All_Meta
+Xanthandrus comtus,NA,syrphids,All_Meta
+Empis sp.,NA,other_flies,All_Meta
+Halictidae morpho 4,Halictidae,other_wild_bees,All_Meta
+Halictus crenicornis,Halictidae,other_wild_bees,All_Meta
+Meliscaeva auricollis,NA,syrphids,All_Meta
+Others,NA,others,All_Meta
+Halictidae morpho 1,Halictidae,other_wild_bees,All_Meta
+Nomada succinta,Apidae,other_wild_bees,All_Meta
+Oxythyrea funesta,NA,beetles,All_Meta
+Agrypnus murinus,NA,beetles,All_Meta
+Sarcophaga sp.,NA,other_flies,All_Meta
+Symphita,NA,non_bee_hymenoptera,All_Meta
+Tenthredo koehleri,NA,non_bee_hymenoptera,All_Meta
+Oedemera sp.,NA,beetles,All_Meta
+Panorpa sp,NA,others,All_Meta
+Parasitoide,NA,non_bee_hymenoptera,All_Meta
+Lasioglossum cf fulvicorne,Halictidae,other_wild_bees,All_Meta
+Andrena similis,Andrenidae,other_wild_bees,All_Meta
+Eucera sp.,Apidae,other_wild_bees,All_Meta
+Halictus (Seladonia) sp.,Halictidae,other_wild_bees,All_Meta
+Rhagonycha fulva,NA,beetles,All_Meta
+Andrena lathyri,Andrenidae,other_wild_bees,All_Meta
+Lasioglossum limbellum,Apidae,other_wild_bees,All_Meta
+Lasioglossum lucidulum,Halictidae,other_wild_bees,All_Meta
+Stevenia deceptoria,NA,other_flies,All_Meta
+Zophomyia temula,NA,other_flies,All_Meta
+Halictidae morpho 8,Halictidae,other_wild_bees,All_Meta
+Volucella sp.,NA,other_flies,All_Meta
+Halictidae morpho 10,Halictidae,other_wild_bees,All_Meta
+Lasioglossum littorale,Halictidae,other_wild_bees,All_Meta
+Tropinota squalida,NA,beetles,All_Meta
+Bombylius sp,Apidae,humbleflies,All_Meta
+Neomyia cornicina,NA,other_flies,All_Meta
+Tricogena rubricosa,Apidae,other_flies,All_Meta
 Apis_millifera_scutellata,Apidae,honeybees,All_Meta
 Lasioglossum_sp.1,Halictidae,other_wild_bees,All_Meta
 Lasioglossum_sp.2,Halictidae,other_wild_bees,All_Meta
@@ -2823,7 +2871,7 @@ Fulgoridae_sp1.,Fulgoridae,other,All_Meta
 Lace_bug_sp1.,Tingidae,other,All_Meta
 Cetoniidae_sp1.,Cetoniidae,beetles,All_Meta
 ladybird_sp1.,Coccinellidae,beetles,All_Meta
-Bombyliidae_sp.1,Bombyliidae,other_flies,All_Meta
+Bombyliidae_sp.1,Bombyliidae,humbleflies,All_Meta
 Chrysoperla_sp1.(green_lacewing),Chrysopidae,other,All_Meta
 Cleridae_sp1.,Cleridae,beetles,All_Meta
 Chamaesphecia_anthraciformis,Sesiidae,lepidoptera,All_Meta

@@ -14,7 +14,7 @@ list_insect_sampling_files <- files_base[grepl("insect_sampling", files_base)]
 
   
 excluded_methods <- c("Pan-traps","Pantrap","pan trap","hand sampling","pitfall",
-                    "Pan traps","pan_trap")
+                    "Pan traps","pan_trap","pantraps","pantrap")
 
 
 # We look for organism with abundance > 5%
@@ -61,7 +61,14 @@ for (i in 1:length(list_field_level_files)){
   
   field_level_i <- paste(folder_base, list_field_level_files[i], sep = "/")
   data.site <- read_csv(field_level_i) %>% select(study_id,crop,variety,country)
-  study_i <- unique(data.site$study_id)
+  
+  if (length(unique(data.site$study_id))==1){
+    study_i <- unique(data.site$study_id)
+  }else if(grepl("Nicolas_J_Vereecken_several_crops_several_countries_several_years", list_field_level_files[i])){
+    study_i <- "Nicolas_J_Vereecken_several_crops_several_countries_several_years"
+  }
+  
+ 
   
   if (i==1){
     list_main_pollinators_i <- list_main_pollinators %>% filter(study_id==study_i)
@@ -115,7 +122,6 @@ list_main_pollinators_complete <- list_main_pollinators_complete  %>%
 
 list_main_pollinators_complete <- list_main_pollinators_complete  %>%
   filter(!grepl("Lepidoptera",pollinator,ignore.case = TRUE)) %>% unique()
-
 
 
 list_main_pollinators_complete <- list_main_pollinators_complete  %>% 

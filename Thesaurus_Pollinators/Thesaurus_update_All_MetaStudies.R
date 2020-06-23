@@ -35,55 +35,6 @@ thesaurus_updated <- unique(thesaurus_updated)
 
 #Add families to new data----
 
-new_Organisms <- thesaurus_updated %>% filter(Data_version == "All_Meta") %>% 
-  pull(Organism_ID)
-
-library(taxize)
-names_check <- gnr_resolve(names = new_Organisms)
-
-#Filter results by using NCBI database and the following criteria:
-# The number of words in the submitted name should be larger than or equal to 
-# that of matched name 
-
-names_NCBI <- names_check %>% filter(data_source_title=="NCBI",
-                                     sapply(strsplit(names_check$submitted_name, " "), length)>=
-                                       sapply(strsplit(names_check$matched_name, " "), length))
-
-
-taxons <- tibble(submitted_name=names_NCBI$submitted_name,matched_name=names_NCBI$matched_name)
-taxons$Family <- NA
-
-ranks <- classification(names_NCBI$matched_name, db = "ncbi")
-
-for (i in 1:nrow(taxons)){
-  print(i)
-  
-  if(!is.na(ranks[taxons$matched_name[i]])){
-    rank_i <- ranks[taxons$matched_name[i]]
-    taxons$Family[i] <- rank_i[[1]]$name[rank_i[[1]]$rank=="family"]
-  }
-}
-
-#Fix Families----
-
-
-taxons$Family[grepl("Andrena sp. aff. minutula",taxons$Family,ignore.case = TRUE)] <- "Andrenidae"
-taxons$Family[grepl("Lasioglossum evylaeus sp.",taxons$Family,ignore.case = TRUE)] <- "Halictidae"
-taxons$Family[grepl("Amegilla (sulawesi) sp. aff. samarensis",taxons$Family,ignore.case = TRUE)] <- "Apidae"
-taxons$Family[grepl("Patellapis (pachyhalictus, sulawesi) sp.",taxons$Family,ignore.case = TRUE)] <- "Halictidae"
-taxons$Family[grepl("Megachile (sulawesi) sp. aff. bakeri",taxons$Family,ignore.case = TRUE)] <- "Megachilidae"
-taxons$Family[grepl("Amegilla (sulawesi) sp. zonata-group",taxons$Family,ignore.case = TRUE)] <- "Apidae"
-
-taxons_fixed <- taxons %>% select(submitted_name,Family) %>% 
-  rename(Organism_ID=submitted_name) %>% unique() 
-
-
-for(i in 1:nrow(taxons_fixed)){
-  
-  thesaurus_updated$Family[thesaurus_updated$Organism_ID==taxons_fixed$Organism_ID[i] &
-                             thesaurus_updated$Data_version=="All_Meta"] <- taxons_fixed$Family[i]
-}
-
 
 thesaurus_updated$Family[grepl("Agapostemon",thesaurus_updated$Organism_ID,ignore.case = TRUE)&
                            thesaurus_updated$Data_version=="All_Meta"] <- "Halictidae"
