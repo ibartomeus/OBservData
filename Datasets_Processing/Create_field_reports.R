@@ -89,7 +89,7 @@ for (i in 1:length(list_files_field_level)){
                      "===================================",
                      "Queries (answer in line one by one)",
                      "===================================","",
-                     "- Please check that credit information is correct and add the corresponding affiliations in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing","",
+                     "- Please check that credit information is correct and add the corresponding affiliations and acknowledgements in the following Gdocs: https://docs.google.com/spreadsheets/d/1NfGDWqrAuPECfjJ3ZwqosS9zeigLoG021yJewUaAWQ8/edit?usp=sharing","",
                      "- If your study is already published, please check that its DOI is correct.","")
                      
     

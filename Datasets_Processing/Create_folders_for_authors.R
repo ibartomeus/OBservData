@@ -81,9 +81,12 @@ for (i in 1:length(authors)){
   # Copy additional R file to add taxon constraints (if needed)
   #############################################################
   
-  if(! studies$Location[j] %in% c("KLEIJN 2015 DATABASE",
+  if(
+    (!studies$Location[j] %in% c("KLEIJN 2015 DATABASE",
                                   "GARIBALDI 2015 DATABASE",
-                                  "GARIBALDI 2016 DATABASE")){
+                                  "GARIBALDI 2016 DATABASE")) &
+     (!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro"))
+     ){
     
     additional_R_file <- paste0(folder_raw_data,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
     new_additional_R_file <- paste0(base_study_i,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
@@ -109,6 +112,8 @@ for (i in 1:length(authors)){
   # Copy Guild table
   ##################
   
+  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro")){
+  
   thesaurus_file <- paste(folder_thesaurus,"Table_organism_guild_META.csv",sep = "/")
   new_thesaurus_file <- paste0(base_study_i,"/","Table_organism_guild_META.csv")
   
@@ -116,7 +121,7 @@ for (i in 1:length(authors)){
             overwrite = TRUE, recursive = FALSE, 
             copy.mode = TRUE)
   
-  
+  }
   
   #######################
   # Copy resulting csv's
