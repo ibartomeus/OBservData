@@ -24,8 +24,9 @@ data.site$management[data.site$management=="Organic Certified Agriculture"] <- "
 data.site$management[data.site$management=="Integrated pest management"] <- "IPM"
 
 # Fix field size
-data.site$field_size <- data.site %>% 
-  separate(field_size,c("field_size","unit"),"ha") %>% select(field_size)
+
+data.site <- data.site %>% 
+  separate(field_size,c("field_size","unit"),"ha") %>% select(-unit) 
 
 
 
