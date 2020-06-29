@@ -5,6 +5,9 @@ library(maps)
 library(maptools)
 source("Create_field_reports.R")
 source("Create_general_report2.R")
+source("Create_excel_authors.R")
+library(openxlsx)
+library(xlsx)
 
 # get current working directory
 dir_ini <- getwd()
@@ -33,6 +36,13 @@ folder_raw_data <- "C:/Users/USUARIO/Desktop/OBservData/Datasets_Processing"
 folder_procc_data <- "C:/Users/USUARIO/Desktop/OBservData/Datasets_storage"
 folder_thesaurus <- "C:/Users/USUARIO/Desktop/OBservData/Thesaurus_Pollinators"
 
+# Excel for authors
+excel_authors <- openxlsx::read.xlsx("Authors_Gdocs.xlsx", startRow = 1) %>%
+  rename(`Study ID`=Study.ID,
+         `I checked the processed data and it is correct`=`I.checked&#10;the.processed&#10;data.and&#10;it.is.correct.`,
+         `I confirm all coauthors are added and affiliations are correct`=`I.confirm.all&#10;coauthors&#10;are.added.and.&#10;affiliations.are.&#10;correct.`)
+
+
 # List of authors
 
 authors <- unique(data.folders$author_folder)
@@ -48,6 +58,16 @@ for (i in 1:length(authors)){
   # List studies for author_i
   
   studies <- data.folders %>% filter(author_folder==authors[i])
+  
+  
+  ######################
+  # CREATE Authors_template
+  ######################
+  
+  # Open xlsx for authors
+  
+  create_excel_authors(authors,i,studies,base_author_i,excel_authors)
+  
   
   ######################
   # CREATE GENERAL REPORT
@@ -74,6 +94,17 @@ for (i in 1:length(authors)){
   new_R_file <- paste0(base_study_i,"/",studies$code[j],".R")
   
   file.copy(from=R_file, to = new_R_file, 
+            overwrite = TRUE, recursive = FALSE, 
+            copy.mode = TRUE)
+  
+  ##################
+  # Copy metadata file
+  ##################
+  
+  meta_file <- "C:/Users/USUARIO/Desktop/OBservData/Template/Metadata_V6p4.xlsx"
+  new_meta_file <- paste0(base_study_i,"/Metadata_V6p4.xlsx")
+  
+  file.copy(from=meta_file, to = new_meta_file, 
             overwrite = TRUE, recursive = FALSE, 
             copy.mode = TRUE)
   
@@ -112,7 +143,7 @@ for (i in 1:length(authors)){
   # Copy Guild table
   ##################
   
-  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro")){
+  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro")){
   
   thesaurus_file <- paste(folder_thesaurus,"Table_organism_guild_META.csv",sep = "/")
   new_thesaurus_file <- paste0(base_study_i,"/","Table_organism_guild_META.csv")
