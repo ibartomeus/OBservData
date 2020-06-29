@@ -5,7 +5,7 @@ library(parzer) #Transforming latitude and longitude
 library(stringr)
 
 ###################################
-#Data holder: Violeta Hevia, hevi01 
+#Data holder: Silvia Castro, hevi01 
 ###################################
 
 dir_ini <- getwd()
@@ -78,8 +78,8 @@ field_level_data <- tibble(
   seeds_per_fruit=datafield$seeds_per_fruit,
   seeds_per_plant=datafield$seeds_per_plant,
   seed_weight=datafield$seed_weight,
-  observed_pollinator_richness=NA,
-  other_pollinator_richness=datafield$pollinator_richness,
+  observed_pollinator_richness=datafield$pollinator_richness,
+  other_pollinator_richness=NA,
   other_richness_estimator_method=datafield$richness_estimator_method,
   richness_restriction = NA,
   abundance = datafield$abundance,
