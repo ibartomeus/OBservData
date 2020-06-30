@@ -26,8 +26,12 @@ data.site$study_id <- "Amparo_Lázaro_Prunus_dulcis_several_years"
 data.site$variety[data.site$variety=="Unknown"] <- NA
 
 # Rename management
-x <- data.site %>% select(site_id,sampling_year,management,ab_honeybee)
+x <- data.site %>% 
+  select(site_id,sampling_year,management,ab_honeybee,latitude,longitude) %>% 
+  filter(!is.na(management))
 x
+write.csv(x,"Amparo_Lázaro_Prunus_dulcis_Honeybee_hives.csv")
+
 data.site$management <- NA
 
 #Publication
