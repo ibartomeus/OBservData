@@ -8,6 +8,7 @@ source("Create_general_report2.R")
 source("Create_excel_authors.R")
 library(openxlsx)
 library(xlsx)
+library(rmarkdown)
 
 # get current working directory
 dir_ini <- getwd()
@@ -18,7 +19,7 @@ data.folders.old$Location[data.folders.old$old_code=="Burn01"] <- "Katherine_LW_
 data.folders.old$Location[data.folders.old$old_code=="hevi01"] <- "Violeta_Hevia_Helianthus_annuus_Spain_2017"
 data.folders.old$Location[data.folders.old$old_code=="knap01"] <- "Jessica_Knapp_Cucurbita_pepo_UK_2016"
 data.folders.old$Location[data.folders.old$old_code=="Lichtenberg_Crowder_canola"] <- "David_Crowder_Brassica_napus_USA_several_years"
-data.folders.old$Location[data.folders.old$old_code=="mont01"] <- "Ana_Montero_Castaño_Vaccinium_corymbosum_Canada_2018"
+data.folders.old$Location[data.folders.old$old_code=="mont01"] <- "Ana_Montero_CastaÃ±o_Vaccinium_corymbosum_Canada_2018"
 data.folders.old$Location[data.folders.old$old_code=="vere01"] <- "Nicolas_J_Vereecken_several_crops_several_countries_several_years"
 data.folders.old$Location[data.folders.old$old_code=="Szen01"] <- "Hajnalka_Szentgyorgyi_Fagopyrum_esculentum_Poland_2005"
 
@@ -61,7 +62,7 @@ for (i in 1:length(authors)){
   
   
   ######################
-  # CREATE Authors_template
+  # CREATE Data ownership template
   ######################
   
   # Open xlsx for authors
@@ -86,12 +87,20 @@ for (i in 1:length(authors)){
   dir.create(base_study_i)
   
   ##################
+  # Create background information on data file conversion folder
+  ##################
+  
+  # Create raw data folder
+  background_data_folder <- paste(base_study_i,"Background information on data file conversion",sep="/")
+  dir.create(background_data_folder)
+  
+  ##################
   # Copy R file
   ##################
   
   R_file_location <- paste(folder_raw_data,studies$Location[j],sep = "/")
   R_file <- paste0(R_file_location,"/",studies$code[j],".R")
-  new_R_file <- paste0(base_study_i,"/",studies$code[j],".R")
+  new_R_file <- paste0(background_data_folder,"/",studies$code[j],".R")
   
   file.copy(from=R_file, to = new_R_file, 
             overwrite = TRUE, recursive = FALSE, 
@@ -102,7 +111,7 @@ for (i in 1:length(authors)){
   ##################
   
   meta_file <- "C:/Users/USUARIO/Desktop/OBservData/Template/Metadata_V6p4.xlsx"
-  new_meta_file <- paste0(base_study_i,"/Metadata_V6p4.xlsx")
+  new_meta_file <- paste0(base_study_i,"/Explanation column names.xlsx")
   
   file.copy(from=meta_file, to = new_meta_file, 
             overwrite = TRUE, recursive = FALSE, 
@@ -116,11 +125,11 @@ for (i in 1:length(authors)){
     (!studies$Location[j] %in% c("KLEIJN 2015 DATABASE",
                                   "GARIBALDI 2015 DATABASE",
                                   "GARIBALDI 2016 DATABASE")) &
-     (!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro"))
+     (!authors[i] %in% c("Alejandro Trillo","Marcos MiÃ±arro"))
      ){
     
     additional_R_file <- paste0(folder_raw_data,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
-    new_additional_R_file <- paste0(base_study_i,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
+    new_additional_R_file <- paste0(background_data_folder,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
     file.copy(from=additional_R_file, to = new_additional_R_file, 
               overwrite = TRUE, recursive = FALSE, 
               copy.mode = TRUE)
@@ -133,7 +142,7 @@ for (i in 1:length(authors)){
   if(studies$Location[j] == "RADER 2016 DATABASE"){
     
     additional_csv_file <- paste0(folder_raw_data,"/RADER 2016 DATABASE/","taxon_table_Rader.csv")
-    new_additional_csv_file <- paste0(base_study_i,"/","taxon_table_Rader.csv")
+    new_additional_csv_file <- paste0(background_data_folder,"/","taxon_table_Rader.csv")
     file.copy(from=additional_csv_file, to = new_additional_csv_file, 
               overwrite = TRUE, recursive = FALSE, 
               copy.mode = TRUE)
@@ -143,10 +152,10 @@ for (i in 1:length(authors)){
   # Copy Guild table
   ##################
   
-  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro")){
+  if(!authors[i] %in% c("Alejandro Trillo","Marcos MiÃ±arro","Amparo LÃ¡zaro")){
   
   thesaurus_file <- paste(folder_thesaurus,"Table_organism_guild_META.csv",sep = "/")
-  new_thesaurus_file <- paste0(base_study_i,"/","Table_organism_guild_META.csv")
+  new_thesaurus_file <- paste0(background_data_folder,"/","Table_organism_guild_META.csv")
   
   file.copy(from=thesaurus_file, to = new_thesaurus_file, 
             overwrite = TRUE, recursive = FALSE, 
@@ -304,7 +313,7 @@ for (i in 1:length(authors)){
     #new_list_of_files <- new_list_of_files[grepl(new_code,new_list_of_files,ignore.case = TRUE)]
     
     # "carv03" and "cavi01" studies require additional (taxon) data
-    if(studies$code[j]=="Luísa_G_Carvalheiro_Mangifera_indica_South_Africa_2009"){
+    if(studies$code[j]=="LuÃ­sa_G_Carvalheiro_Mangifera_indica_South_Africa_2009"){
       
       additional_file <- paste0(R_file_location,"/","taxon_table_carv03.csv")
       list_of_files <- c(list_of_files,additional_file)

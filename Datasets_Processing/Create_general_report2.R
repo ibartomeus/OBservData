@@ -1,8 +1,17 @@
 
+
 create_general_report <- function(authors,i,studies,base_author_i,folder_procc_data){
   
-  file_name <- paste0("General Report ",authors[i],".txt")
+  file_name <- paste0("First read me - General report ",authors[i],".txt")
   file_name <- paste(base_author_i,file_name,sep = "/")
+  
+  file_name_RMD <- paste0("First read me - General report ",authors[i],".Rmd")
+  file_name_RMD <- paste(base_author_i,file_name_RMD,sep = "/")
+  
+  file_name_docx <- paste0("First read me - General report ",authors[i],".docx")
+  file_name_docx <- paste(base_author_i,file_name_docx,sep = "/")
+  
+  dir_ini <- getwd()
   
   ###############################
   # REPORT LINES
@@ -69,18 +78,18 @@ create_general_report <- function(authors,i,studies,base_author_i,folder_procc_d
   }
   
   report_lines <- c(report_lines,"",
-                    "Please confirm that (i) you are the correct corresponding author of the listed studies, and (ii) we have your permission to re-use your data, and (iii) list all co-author affiliations and acknowledgements in your 'Author template' (excel) file.",
+                    "Please confirm that (i) you are the correct corresponding author of the listed studies, and (ii) we have your permission to re-use your data, and (iii) list all co-author/co-owners affiliations and acknowledgements/funding information in your 'Data_ownership' (excel) file.",
                     "",
                     "The above datasets have been processed in line with OBServ guidelines (see 'General information about OBServ data processing' at the end of this file). In order to check the correctness of the results obtained from the processing stage, we would like to share them with you, along with a report and some queries. To do so, we have created one folder for each study. There you can find the following items:",
                     "",
                     "- One folder that contains the raw data that was sent to us.",
                     "- One 'field_level_data' (csv) file with the processed data.",
                     "- One 'insect sampling' (csv) file, if sampling information was provided to us.",
-                    "- One 'metadata' (xlsx) file with auxiliary information to interpret the data in 'field_level_data' and 'insect_sampling' files.",
-                    "- One report (txt file) generated from your corresponding 'field_level_data' file. It includes queries about your dataset.",
-                    "- One R script. Its name is the study ID. This file was used to process the raw data and generate the previous csv files. Thus, if needed, you can go through all the decisions that were taken to process your file. In case you want to run the script notice that paths and working directories should be updated to your relative local paths. In case your R script needs additional input files or post-processing (such as 'Table_organism_guild_META.csv', 'taxon_table.csv', and 'add_taxon_constraint_column_DAINESE_RADER_OTHER.R'), such files have been also included in the study folder.",
+                    "- One 'Explanation column names' (xlsx) file with auxiliary information to interpret the data in 'field_level_data' and 'insect_sampling' files.",
+                    "- One 'Summary report and queries' (pdf) file generated from your corresponding 'field_level_data' file.",
+                    "- One folder with background information on data file conversion. It contains at least one R script, whose name is the study ID. This file was used to process the raw data and generate the previous csv files. Thus, if needed, you can go through all the decisions that were taken to process your file. In case you want to run the script notice that paths and working directories should be updated to your relative local paths. Besides, if your R script needs additional input files or post-processing (such as 'Table_organism_guild_META.csv', 'taxon_table.csv', or 'add_taxon_constraint_column_DAINESE_RADER_OTHER.R'), such files have been also included in the 'background information on data file conversion' folder.",
                     "",
-                    "Please review at least the 'field_level_data' and the report, and answer the queries in the corresponding report files and send them back to us, along with your author_template.",
+                    "Please review at least the 'field_level_data' and the 'Summary_report_and_queries' files, answer the queries in the latter and send your answers/comments back to us, along with your 'Data_ownership' (excel) file.",
                     "",
                     "",
                     "If you have any questions, please do not hesitate to contact us. ",
@@ -106,9 +115,18 @@ create_general_report <- function(authors,i,studies,base_author_i,folder_procc_d
                     "")
   
 
-  fileConn<-file(file_name)
-  writeLines(report_lines, fileConn)
-  close(fileConn)
+  # fileConn <- file(file_name)
+  # writeLines(report_lines, fileConn)
+  # close(fileConn)
+  #Encoding(report_lines) <- "UTF-8"
+  
+  cat(report_lines, sep="  \n", file = file_name_RMD)
+  
+  setwd(base_author_i)
+  
+  render(file_name_RMD, pdf_document(),encoding="WINDOWS-1252")
+  setwd(dir_ini)
+  file.remove(file_name_RMD) #cleanup
   
 }
 

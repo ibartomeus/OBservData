@@ -86,24 +86,24 @@ for (i in 1:length(list_files_field_level)){
     
     
     query_lines <- c("",
-                     "====================================================",
+                     "======================================================",
                      "Queries",
-                     "====================================================",
+                     "======================================================",
                      "Instructions: Please, edit this file and answer the",
                      "following queries within the document, one by one.",
-                     "Then send the edited report (with your comments) and",
-                     "your 'Author template' (excel) file to",
-                     "alfonso.allen.perkins+observdataset@gmail.com",
+                     "Then send the edited 'Summary_report_and_queries' ",
+                     "(with your comments) and your 'Data_ownership' (excel)",
+                     "file to alfonso.allen.perkins+observdataset@gmail.com",
                      "before the 20th of July.",
-                     "====================================================","",
-                     "- Please check that credit information is correct and add the corresponding affiliations and acknowledgements in your 'Author_template'.","",
+                     "======================================================","",
+                     "- Please check that credit information is correct and add the corresponding affiliations and acknowledgements/funding information in your 'Data_ownership' (excel) file.","",
                      "- If your study is already published, please check that its DOI is correct.","")
                      
     
     if (is.na(as.character(unique(data.site$sampling_year)))){
       sampling_year="Year of sampling is missing."
       query_lines <- c(query_lines,
-                       "- Please provide the year of sampling of the study.","")
+                       "- Please provide the year of sampling of the study [four digits numeric format].","")
     }else{
       sampling_year = as.character(unique(data.site$sampling_year))
     }
@@ -151,11 +151,11 @@ for (i in 1:length(list_files_field_level)){
       if (sum(!is.na(data.site$zone_UTM))==0 & sum(!is.na(data.site$X_UTM))>0){
         geolocation=paste("UTM zone is needed. There are missing locations (given ",sum(!is.na(data.site$longitude))," out of ",number_sites,").",sep="")
         query_lines <- c(query_lines,
-                         "- If possible, please provide the latitude and longitude of the missing locations.","")
+                         "- If possible, please provide the latitude and longitude of the missing locations [in decimal degrees].","")
       }else{
         geolocation=paste("There are missing locations (given ",sum(!is.na(data.site$longitude))," out of ",number_sites,").",sep="")
         query_lines <- c(query_lines,
-                         "- If possible, please provide the latitude and longitude of the missing locations.","")
+                         "- If possible, please provide the latitude and longitude of the missing locations [in decimal degrees].","")
       }
       
     }else{
@@ -192,7 +192,7 @@ for (i in 1:length(list_files_field_level)){
     if (sum(!is.na(data.site$abundance))<number_sites){
       abundance=paste("There are missing values (given ",sum(!is.na(data.site$abundance))," out of ",number_sites,").",sep="")
       query_lines <- c(query_lines,
-                       "- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.","")
+                       "- There are sites without abundance records. Please, check that such information is correct. See also the information about OBServ data processing in your 'First read me - General report' pdf file.","")
     }else{
       abundance="Full information."
     }
@@ -200,7 +200,7 @@ for (i in 1:length(list_files_field_level)){
     if (sum(!is.na(data.site$visitation_rate))<number_sites){
       visitation_rate=paste("There are missing values (given ",sum(!is.na(data.site$visitation_rate))," out of ",number_sites,").",sep="")
       query_lines <- c(query_lines,
-                       "- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.","")
+                       "- There are sites without visitation rate records. Please, check that such information is correct. See also the information about OBServ data processing in your 'First read me - General report' pdf file.","")
       
     }else{
       visitation_rate="Full information."
@@ -224,7 +224,7 @@ for (i in 1:length(list_files_field_level)){
                sum(!is.na(data.site$abundance))>0)){
         richness="There is not enough taxonomic resolution to estimate richness."
         query_lines <- c(query_lines,
-                         "- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your General Report.","")
+                         "- According to our raw data, there is not enough taxonomic resolution to estimate richness. Please, check that such information is correct. See also the information about OBServ data processing in your 'First read me - General report' pdf file.","")
         
       }else{
         richness=paste("There are missing values (given ",sum(!is.na(data.site$observed_pollinator_richness))," out of ",number_sites,").",sep="")
@@ -240,7 +240,7 @@ for (i in 1:length(list_files_field_level)){
     if (is.na(taxa_restriction) & richness!="There is not enough taxonomic resolution to estimate richness."){
       taxa="No taxa restrictions have been identified."
       query_lines <- c(query_lines,
-                       "- Please check that our information about your recorded taxa (or taxa constraint) is correct.","")
+                       "- Please check that our information about the species groups considered is correct.","")
       
     }else{
       taxa=taxa_restriction
@@ -310,7 +310,7 @@ for (i in 1:length(list_files_field_level)){
       `Management`=management,
       `Sampling period`=sampling_period,
       `Richness`=richness,
-      `Taxa constraint`=taxa,
+      `species groups considered`=taxa,
       `Abundance`=abundance,
       `Visitation rate units`=visitation_rate_units,
       `Visitation rate`=visitation_rate,
@@ -341,9 +341,16 @@ for (i in 1:length(list_files_field_level)){
 
 for (i in 1:nrow(result)){
   
-  file_name <- paste0("Report_",result$`Study ID`[i],".txt")
-  
+  file_name <- paste0("Summary_report_and_queries_",result$`Study ID`[i],".txt")
   file_name <- paste(folder_for_reports,file_name,sep = "/")
+  
+  file_name_RMD <- paste0("Summary_report_and_queries_",result$`Study ID`[i],".Rmd")
+  file_name_RMD <- paste(folder_for_reports,file_name_RMD,sep = "/")
+  
+  file_name_tex <- paste0("Summary_report_and_queries_",result$`Study ID`[i],".tex")
+  file_name_tex <- paste(folder_for_reports,file_name_tex,sep = "/")
+  
+  dir_ini <- getwd()
   
   headers_i <- names(result)
   
@@ -362,9 +369,21 @@ for (i in 1:nrow(result)){
     report_lines <- c(report_lines,list_query_lines[[i]],Additional_comments) 
   }
   
-  fileConn<-file(file_name)
-  writeLines(report_lines, fileConn)
-  close(fileConn)
+  # Generate txt
+  
+  # fileConn<-file(file_name)
+  # writeLines(report_lines, fileConn)
+  # close(fileConn)
+  
+  
+  # Generate pdf
+  
+  cat(report_lines, sep="  \n", file = file_name_RMD)
+  setwd(base_author_i)
+  render(file_name_RMD, pdf_document(),encoding="WINDOWS-1252")
+  setwd(dir_ini)
+  file.remove(file_name_RMD) #cleanup
+  file.remove(file_name_tex) #cleanup
   
 }
 

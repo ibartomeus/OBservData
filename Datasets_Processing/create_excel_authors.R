@@ -46,7 +46,7 @@ create_excel_authors <- function(authors,i,studies,base_author_i,excel_authors){
   # Add title and sub title into a worksheet
   #++++++++++++++++++++++++++++++++++++
   # Add title
-  xlsx.addTitle(sheet, rowIndex=1, title="Author Template",
+  xlsx.addTitle(sheet, rowIndex=1, title="Data ownership of your datasets",
                 titleStyle = TITLE_STYLE)
   # Add sub title
   xlsx.addTitle(sheet, rowIndex=2, 
@@ -70,7 +70,7 @@ create_excel_authors <- function(authors,i,studies,base_author_i,excel_authors){
   #++++++++++++++++++++++++++++++++++++
   
   
-  file_name <- paste0(authors[i]," template.xlsx")
+  file_name <- paste0("Data ownership of your datasets (",authors[i],").xlsx")
   file_name <- paste(base_author_i,file_name,sep = "/")
   
   saveWorkbook(wb, file_name)
