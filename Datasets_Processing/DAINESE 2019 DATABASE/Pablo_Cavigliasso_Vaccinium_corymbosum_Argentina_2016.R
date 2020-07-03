@@ -301,6 +301,20 @@ field_level_data <- tibble(
   Credit=data.site$Credit,
   Email_contact=data.site$email
 )
+
+#############
+# Fixing latitude and longitude
+
+field_level_data_aux <- read_csv("C:/Users/USUARIO/Desktop/OBservData/Folders for authors/Pablo Cavigliasso/Feedback/field_level_data_Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016.csv")
+
+field_level_data$latitude <- field_level_data_aux$latitude
+field_level_data$longitude <- field_level_data_aux$longitude
+
+# Fixing sampling months
+field_level_data$sampling_start_month <- field_level_data_aux$sampling_start_month 
+field_level_data$sampling_end_month <- field_level_data_aux$sampling_end_month
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016.csv")
 setwd(dir_ini)
