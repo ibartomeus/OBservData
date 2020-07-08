@@ -10,7 +10,7 @@ dir_ini <- getwd()
 # Load data
 
 
-data.site <- read_excel("Nicholson_OBServ_data_contribution_2Jul2020.xlsx", sheet = "field_level_data")
+data.site <- read_excel("Nicholson_OBServ_data_contribution_3Jul2020.xlsx", sheet = "field_level_data")
 data.site <- as_tibble(data.site)
 
 data.site %>% group_by(site_id,sampling_year) %>% count()
@@ -33,23 +33,31 @@ data.site$crop <- "Vaccinium corymbosum"
 data.site$sampling_start_month <- month(data.site$sampling_start_month)
 data.site$sampling_end_month <- month(data.site$sampling_end_month)
 
+# Addapt DOI
+
+data.site$Publication <- "10.1016/j.agee.2018.10.018; 10.1016/j.agee.2017.08.030"
+
 ###########################
 # SAMPLING DATA
 ###########################
 
-insect_sampling <- read_excel("Nicholson_OBServ_data_contribution_2Jul2020.xlsx", sheet = "insect_sampling")
+insect_sampling <- read_excel("Nicholson_OBServ_data_contribution_3Jul2020.xlsx", sheet = "insect_sampling")
 
 number_sampling_dates <- insect_sampling %>% select(site_id,Year,Date) %>% 
   unique() %>% group_by(site_id,Year) %>% count()
 
-mean(number_sampling_dates$n)/2
+mean(number_sampling_dates$n)
 
 # New study ID
 insect_sampling$study_id <- paste0("Charlie_Nicholson_Vaccinium_corymbosum_USA_",insect_sampling$Year)
 
+# adding total amount of sampling dates
+
+insect_sampling <- insect_sampling %>% left_join(number_sampling_dates,by=c("site_id","Year"))
+
 # Fix area and time
-insect_sampling$total_sampled_area <- 3*insect_sampling$total_sampled_area
-insect_sampling$total_sampled_time <- 3*insect_sampling$total_sampled_time
+insect_sampling <- insect_sampling %>% mutate(total_sampled_area = n*total_sampled_area)
+insect_sampling <- insect_sampling %>% mutate(total_sampled_time = n*total_sampled_time)
 
 #Exploring data
 insect_sampling %>% group_by(pollinator) %>% count()
@@ -65,7 +73,7 @@ insect_sampling %>% group_by(guild) %>% count()
 
 # Modify Description
 insect_sampling <- insect_sampling %>% rename(Description=`Description_(fee_text)`)
-insect_sampling$Description <- paste0("Date: ",insect_sampling$Date,". ~3 sampling rounds per year, 2 aerial netting collections per round; 4 x 20 m transect (80 m^2) for 10 minutes per collection. Nota bene: Honeybees were not collected.")
+insect_sampling$Description <- paste0("Date: ",insect_sampling$Date,". ",insect_sampling$n," sampling rounds (sampling days) per year, 2 aerial netting collections per round; 4 x 20 m transect (80 m^2) for 10 minutes per collection. Nota bene: Honeybees were not collected.")
 
 # Modify method
 insect_sampling$sampling_method <- "netting"
@@ -139,6 +147,15 @@ if (percentage_species_morphos < 0.8){
 data.site <- data.site %>% left_join(richness_aux,by=c("study_id","site_id"))
 
 
+###############################
+# SAMPLING EFFORT
+################################
+
+sampling_effort <- number_sampling_dates %>% mutate(total_sampled_area = n*160,
+                                                    total_sampled_time = n*20) %>%
+  rename(sampling_year=Year)
+
+data.site <- data.site %>% left_join(sampling_effort,by=c("sampling_year","site_id"))
 
 ###############################
 # FIELD LEVEL DATA
@@ -190,8 +207,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$others,
-  total_sampled_area = 1440,
-  total_sampled_time = 180,
+  total_sampled_area = data.site$total_sampled_area.y,
+  total_sampled_time = data.site$total_sampled_time.y,
   visitation_rate_units = data.site$visitation_rate_units,
   visitation_rate = data.site$visitation_rate,
   visit_honeybee = data.site$visit_honeybee,
