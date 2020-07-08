@@ -276,6 +276,10 @@ field_level_data <- tibble(
   Email_contact = data.site$Email_contact
 )
 
+# Adding David corrections
+field_level_data_mod <- read_csv("Individual CSV/field_level_data_David_Kleijn_Malus_domestica_Netherlands_2010.csv")
+field_level_data$variety <- field_level_data_mod$variety
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_David_Kleijn_Malus_domestica_Netherlands_2010.csv")
 setwd(dir_ini)
