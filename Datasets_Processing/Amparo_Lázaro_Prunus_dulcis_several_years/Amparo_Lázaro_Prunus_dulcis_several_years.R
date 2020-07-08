@@ -10,7 +10,7 @@ dir_ini <- getwd()
 # Load data
 
 
-data.site <- read_excel("Crop_pollination_database_Almond_Mallorca.xlsx", sheet = "field_level_data")
+data.site <- read_excel("Crop_pollination_database_Almond_Mallorca_EDITED.xlsx", sheet = "field_level_data")
 data.site <- as_tibble(data.site)
 
 # Remove last row
@@ -20,7 +20,7 @@ data.site <- data.site[1:35,]
 data.site %>% group_by(site_id,sampling_year) %>% count()
 
 # New study ID
-data.site$study_id <- "Amparo_Lázaro_Prunus_dulcis_several_years"
+data.site$study_id <- paste0("Amparo_Lázaro_Prunus_dulcis_Spain_",data.site$sampling_year)
 
 # Fix unknow variety
 data.site$variety[data.site$variety=="Unknown"] <- NA
@@ -112,8 +112,8 @@ field_level_data_2015 <- field_level_data %>% filter(sampling_year==2015)
 field_level_data_2016 <- field_level_data %>% filter(sampling_year==2016)
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data_2015, "field_level_data_Amparo_Lázaro_Prunus_dulcis_2015.csv")
-write_csv(field_level_data_2016, "field_level_data_Amparo_Lázaro_Prunus_dulcis_2016.csv")
+write_csv(field_level_data_2015, "field_level_data_Amparo_Lázaro_Prunus_dulcis_Spain_2015.csv")
+write_csv(field_level_data_2016, "field_level_data_Amparo_Lázaro_Prunus_dulcis_Spain_2016.csv")
 setwd(dir_ini)
 
 # NOTES ABOUT HONEYBEE MANAGEMENT:
