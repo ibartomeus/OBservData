@@ -137,4 +137,4 @@ Alejandro_Trillo_Fragaria_ananassa_Spain_2016,Alejandro_Trillo_Fragaria_ananassa
 Amparo_Lázaro_Prunus_dulcis_2015,Amparo_Lázaro_Prunus_dulcis_2015,
 Amparo_Lázaro_Prunus_dulcis_2016,Amparo_Lázaro_Prunus_dulcis_2016,
 Katrine_Hansen_Psidium_guajava_Thailand_several_years,Katrine_Hansen_Psidium_guajava_Thailand_several_years,"Visitation rates have been recalculated and they are in new units [visits per 100 flowers during 1 hour]. New values were estimated as follows: 100*60* abundance_guild_site/total_sampled_flowers/total_sampled_time. Please, check that new visitation rates are correct."
-Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,
+Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,"To estimate the (accumulated) richness and abundance per site and year, we used your insect_sampling data. Is it correct or should we use the abundance information that you sent us on 3/07/2020?"

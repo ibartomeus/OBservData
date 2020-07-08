@@ -125,7 +125,7 @@ for (i in 1:length(authors)){
     (!studies$Location[j] %in% c("KLEIJN 2015 DATABASE",
                                   "GARIBALDI 2015 DATABASE",
                                   "GARIBALDI 2016 DATABASE")) &
-     (!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro","Katrine Hansen"))
+     (!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",authors[62],authors[63]))
      ){
     
     additional_R_file <- paste0(folder_raw_data,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
@@ -152,7 +152,8 @@ for (i in 1:length(authors)){
   # Copy Guild table
   ##################
   
-  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro","Katrine Hansen")){
+  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",
+                        authors[62],authors[63])){
   
   thesaurus_file <- paste(folder_thesaurus,"Table_organism_guild_META.csv",sep = "/")
   new_thesaurus_file <- paste0(background_data_folder,"/","Table_organism_guild_META.csv")
