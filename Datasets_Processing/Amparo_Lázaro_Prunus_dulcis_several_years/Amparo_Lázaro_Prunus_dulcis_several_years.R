@@ -20,7 +20,7 @@ data.site <- data.site[1:35,]
 data.site %>% group_by(site_id,sampling_year) %>% count()
 
 # New study ID
-data.site$study_id <- paste0("Amparo_Lázaro_Prunus_dulcis_Spain_",data.site$sampling_year)
+data.site$study_id <- paste0("Amparo_LÃ¡zaro_Prunus_dulcis_Spain_",data.site$sampling_year)
 
 # Fix unknow variety
 data.site$variety[data.site$variety=="Unknown"] <- NA
@@ -30,7 +30,7 @@ x <- data.site %>%
   select(site_id,sampling_year,management,ab_honeybee,latitude,longitude) %>% 
   filter(!is.na(management))
 x
-write.csv(x,"Amparo_Lázaro_Prunus_dulcis_Honeybee_hives.csv")
+write.csv(x,"Amparo_LÃ¡zaro_Prunus_dulcis_Honeybee_hives.csv")
 
 data.site$management <- NA
 
@@ -112,8 +112,8 @@ field_level_data_2015 <- field_level_data %>% filter(sampling_year==2015)
 field_level_data_2016 <- field_level_data %>% filter(sampling_year==2016)
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data_2015, "field_level_data_Amparo_Lázaro_Prunus_dulcis_Spain_2015.csv")
-write_csv(field_level_data_2016, "field_level_data_Amparo_Lázaro_Prunus_dulcis_Spain_2016.csv")
+write_csv(field_level_data_2015, "field_level_data_Amparo_LÃ¡zaro_Prunus_dulcis_Spain_2015.csv")
+write_csv(field_level_data_2016, "field_level_data_Amparo_LÃ¡zaro_Prunus_dulcis_Spain_2016.csv")
 setwd(dir_ini)
 
 # NOTES ABOUT HONEYBEE MANAGEMENT:
