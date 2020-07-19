@@ -96,7 +96,7 @@ data.site$country[4] <- "Germany"
 # Adding credit, Publication and contact
 
 data.site$Publication <- NA
-data.site$Credit  <- "Jeroen Scheper"
+data.site$Credit  <- "Jeroen Scheper, David Kleijn"
 data.site$Email_contact <- "jeroen.scheper@wur.nl"
 
 ###########################
@@ -146,10 +146,10 @@ insect_sampling <- tibble(
   guild = data_raw_gather$Guild,
   sampling_method = "transects",
   abundance = data_raw_gather$Abundance,
-  total_sampled_area = 2*150*1,
-  total_sampled_time = 2*3*5,
+  total_sampled_area = 2*2*150*1,
+  total_sampled_time = 2*2*3*5,
   total_sampled_flowers = NA,
-  Description = "Two 150 × 1 m transect per field, 15 min each"
+  Description = "Two rounds per field. Each sampling round consists in two 150 × 1 m transect (15 min each)"
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -277,8 +277,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = 2*150,
-  total_sampled_time = 2*15,
+  total_sampled_area = 2*2*150,
+  total_sampled_time = 2*2*15,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,
@@ -295,6 +295,10 @@ field_level_data <- tibble(
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
+
+# Adding Jeroen's corrections
+field_level_data_mod <- read_csv("Individual CSV/field_level_data_Jeroen_Scheper_Brassica_napus_several_countries_2012.csv")
+field_level_data$field_size <- field_level_data_mod$field_size
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Jeroen_Scheper_Brassica_napus_several_countries_2012.csv")
