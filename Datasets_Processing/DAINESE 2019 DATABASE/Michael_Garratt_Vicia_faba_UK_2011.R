@@ -10,6 +10,9 @@ dir_ini <- getwd()
 #Data: DAINESE, Garr01: garr03
 ##########################
 
+##########
+# CORRESPONDING AUTHOR SHOULD BE CHANGED -> MICHAEL G. -> SIMON POTTS
+##########
 
 data.site <- read.xlsx("DATASETS/Garr01_Datacollection_pollination.xlsx",
                           sheet = "SiteData", startRow = 2)
@@ -304,3 +307,6 @@ field_level_data <- tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Michael_Garratt_Vicia_faba_UK_2011.csv")
 setwd(dir_ini)
+##########
+# CORRESPONDING AUTHOR SHOULD BE CHANGED -> MICHAEL G. -> SIMON POTTS
+##########

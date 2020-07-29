@@ -1,6 +1,5 @@
 old_code,new_code,Additional_comments
 1_RiccardoBommarco_RedClover_2008,Riccardo_Bommarco_Trifolium_pratense_Sweden_2008,"- Information on the abundance of species in each field is missing. If possible, please provide it."
-14_MikeGarratt_FieldBean2005,Michael_Garratt_Vicia_faba_UK_2005,"- We found differences between this dataset (in Kleijn et al., 2015) and the one from Potts (in Dainese et al., 2019). Please, confirm that the referred datasets are different."
 2_3_RiccardoBommarco_RedClover_2009,Riccardo_Bommarco_Trifolium_pratense_Sweden_2009,"- Information on the abundance of species in each field is missing. If possible, please provide it."
 20_DavidKleijn_alliumporrum2012,David_Kleijn_Allium_porrum_Italy_2012,
 38_PisantyMandelik_Sunflower2010,Yael_Mandelik_Helianthus_annuus_Israel_2010,"- There are fields with two (25x25 m2) plots. Since we don't know their corresponding Ids, we set to NA the sampling parameters, namely: total sampling area and total sampling time"
@@ -134,7 +133,8 @@ stanley_stout_2dataset_2009,Dara_Stanley_Brassica_napus_Ireland_2009,
 Marcos_Miñarro_Malus_domestica_Spain_2015,Marcos_Miñarro_Malus_domestica_Spain_2015,
 Marcos_Miñarro_Malus_domestica_Spain_2016,Marcos_Miñarro_Malus_domestica_Spain_2016,
 Alejandro_Trillo_Fragaria_ananassa_Spain_2016,Alejandro_Trillo_Fragaria_ananassa_Spain_2016,
-Amparo_Lázaro_Prunus_dulcis_2015,Amparo_Lázaro_Prunus_dulcis_2015,
-Amparo_Lázaro_Prunus_dulcis_2016,Amparo_Lázaro_Prunus_dulcis_2016,
+Amparo_Lázaro_Prunus_dulcis_Spain_2015,Amparo_Lázaro_Prunus_dulcis_Spain_2015,
+Amparo_Lázaro_Prunus_dulcis_Spain_2016,Amparo_Lázaro_Prunus_dulcis_Spain_2016,
 Katrine_Hansen_Psidium_guajava_Thailand_several_years,Katrine_Hansen_Psidium_guajava_Thailand_several_years,"Visitation rates have been recalculated and they are in new units [visits per 100 flowers during 1 hour]. New values were estimated as follows: 100*60* abundance_guild_site/total_sampled_flowers/total_sampled_time. Please, check that new visitation rates are correct."
 Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,Charlie_Nicholson_Vaccinium_corymbosum_USA_several_years,"To estimate the (accumulated) richness and abundance per site and year, we used your insect_sampling data. Is it correct or should we use the abundance information that you sent us on 3/07/2020?"
+Bryony_Willcox_several_crops_Australia_several_years,Bryony_Willcox_several_crops_Australia_several_years,"We estimated the (accumulated) richness and abundance per site and year by using your insect_sampling data. To do so, we broke up your “flies” guild into “syrphids”, “humbleflies” and “other_flies”. Besides, we assigned Diptera morphospecies to “other_flies” guild. Is it correct? Finally, notice that site_id “mac_7” has no insect records. Therefore, no estimations can be performed. "

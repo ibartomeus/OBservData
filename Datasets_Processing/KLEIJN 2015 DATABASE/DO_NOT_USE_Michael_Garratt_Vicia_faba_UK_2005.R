@@ -12,6 +12,9 @@ dir_ini <- getwd()
 #Data: 14_MikeGarratt_FieldBean2005
 ##########################
 
+# ACCORDING TO MIKE, THIS STUDY IS THE ONE OF SIMON POTTS (IN DAINESE) 
+# -> SO DO NOT USE IT
+
 data_raw_transect <- read.xlsx("14_MikeGarratt_FieldBean2005/Field bean 2005 data for David.xlsx",
                        sheet = "1.Transect data")
 

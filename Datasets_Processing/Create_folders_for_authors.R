@@ -19,7 +19,7 @@ data.folders.old$Location[data.folders.old$old_code=="Burn01"] <- "Katherine_LW_
 data.folders.old$Location[data.folders.old$old_code=="hevi01"] <- "Violeta_Hevia_Helianthus_annuus_Spain_2017"
 data.folders.old$Location[data.folders.old$old_code=="knap01"] <- "Jessica_Knapp_Cucurbita_pepo_UK_2016"
 data.folders.old$Location[data.folders.old$old_code=="Lichtenberg_Crowder_canola"] <- "David_Crowder_Brassica_napus_USA_several_years"
-data.folders.old$Location[data.folders.old$old_code=="mont01"] <- "Ana_Montero_CastaÃ±o_Vaccinium_corymbosum_Canada_2018"
+data.folders.old$Location[data.folders.old$old_code=="mont01"] <- "Ana_Montero_Castaño_Vaccinium_corymbosum_Canada_2018"
 data.folders.old$Location[data.folders.old$old_code=="vere01"] <- "Nicolas_J_Vereecken_several_crops_several_countries_several_years"
 data.folders.old$Location[data.folders.old$old_code=="Szen01"] <- "Hajnalka_Szentgyorgyi_Fagopyrum_esculentum_Poland_2005"
 
@@ -73,6 +73,8 @@ for (i in 1:length(authors)){
   ######################
   # CREATE GENERAL REPORT
   ######################
+  
+  list.files(folder_procc_data)
   
   create_general_report(authors,i,studies,base_author_i,folder_procc_data)
   

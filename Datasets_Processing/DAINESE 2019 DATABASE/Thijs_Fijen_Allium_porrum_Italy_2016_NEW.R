@@ -138,28 +138,59 @@ data.species_01$total_sampled_time[data.species_01$sampling_method=="Transect"] 
 data.species_01$total_sampled_area[data.species_01$sampling_method=="Transect"] <- 150*data.species_01$Number.of.censuses[data.species_01$sampling_method=="Transect"]
 data.species_01$total_sampled_flowers[data.species_01$sampling_method=="Plant observations"] <- 2000*data.species_01$Number.of.censuses[data.species_01$sampling_method=="Plant observations"]
 
-data.species_01$Description[data.species_01$sampling_method=="Transect"] <- "3-5 transects (total abundance + species richness, 150m2 in three subtransects, each 5 minutes pure observation time) and plant observations (visitation rate; 40 minutes per female line per field) during flowering period of primary flower heads (approximately 3 weeks). Minimum of 4 days between observations (mean 5 days). Average number of flowers for an Allium Porrum plant: 2000"
+data.species_01$Description[data.species_01$sampling_method=="Transect"] <- "All female lines observed simultaneously. 3-5 transects (total abundance + species richness, 150m2 in three subtransects, each 5 minutes pure observation time) and plant observations (visitation rate; 40 minutes per female line per field) during flowering period of primary flower heads (approximately 3 weeks). Minimum of 4 days between observations (mean 5 days). Average number of flowers for an Allium Porrum plant: 2000"
 
-insect_sampling <- tibble(
+data.species_01_obs <- data.species_01 %>% filter(sampling_method=="Plant observations")
+data.species_01_trans <- data.species_01 %>% filter(sampling_method=="Transect")
+
+insect_sampling_obs <- tibble(
   study_id = "Thijs_Fijen_Allium_porrum_Italy_2016",
-  site_id = data.species_01$site_id,
-  pollinator = data.species_01$Organism_ID,
-  guild = data.species_01$Guild,
-  sampling_method = data.species_01$sampling_method,
-  abundance = data.species_01$abundance,
-  total_sampled_area = data.species_01$total_sampled_area,
-  total_sampled_time = data.species_01$total_sampled_time,
-  total_sampled_flowers = data.species_01$total_sampled_flowers,
-  Description = data.species_01$Description
+  site_id = paste(data.species_01_obs$site_id,data.species_01_obs$Line,sep = "_"),
+  pollinator = data.species_01_obs$Organism_ID,
+  guild = data.species_01_obs$Guild,
+  sampling_method = data.species_01_obs$sampling_method,
+  abundance = data.species_01_obs$abundance,
+  total_sampled_area = data.species_01_obs$total_sampled_area,
+  total_sampled_time = data.species_01_obs$total_sampled_time,
+  total_sampled_flowers = data.species_01_obs$total_sampled_flowers,
+  Description = data.species_01_obs$Description
 )
 
-setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_Thijs_Fijen_Allium_porrum_Italy_2016.csv")
+insect_sampling_trans <- NULL
+sites_lines <- c("B","C","D","E","F")
 
-setwd(dir_ini)
+for (i in 1:nrow(data.species_01_trans)){
+  
+  for (j in 1:length(sites_lines)){
+    
+    insect_sampling_trans_i <- tibble(
+      study_id = "Thijs_Fijen_Allium_porrum_Italy_2016",
+      site_id = paste(data.species_01_trans$site_id[i],sites_lines[j],sep = "_"),
+      pollinator = data.species_01_trans$Organism_ID[i],
+      guild = data.species_01_trans$Guild[i],
+      sampling_method = data.species_01_trans$sampling_method[i],
+      abundance = data.species_01_trans$abundance[i],
+      total_sampled_area = data.species_01_trans$total_sampled_area[i],
+      total_sampled_time = data.species_01_trans$total_sampled_time[i],
+      total_sampled_flowers = data.species_01_trans$total_sampled_flowers[i],
+      Description = data.species_01_trans$Description[i]
+    )
+    
+    insect_sampling_trans <- bind_rows(insect_sampling_trans,insect_sampling_trans_i)
+  }
+}
+
+insect_sampling <- bind_rows(insect_sampling_obs,insect_sampling_trans)
+
+
+# Some female lines are not present in every site. We filter insect_sampling once we got all the
+# site ID from the field_level_data dataframe
+
+# setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
+# write_csv(insect_sampling, "insect_sampling_Thijs_Fijen_Allium_porrum_Italy_2016.csv")
+# 
+# setwd(dir_ini)
                               
-
-
 
 #########################################
 #PROCESSING INSECT SAMPLING FOR FIELD DATA
@@ -359,7 +390,20 @@ field_level_data <- tibble(
   Credit=data.site$Credit,
   Email_contact=data.site$email
 )
+
+field_level_data$site_id <- paste(field_level_data$site_id,field_level_data$variety,sep = "_")
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Thijs_Fijen_Allium_porrum_Italy_2016.csv")
+setwd(dir_ini)
+
+# It seems that some female lines are not present in some fields (87 site_id < 5 fem lines*18 sites)
+# Consequently, we filter insect_sampling (because transect data were calculated assuming
+# that every line was included in each field)
+
+insect_sampling_real <- insect_sampling %>% filter(site_id %in% field_level_data$site_id)
+setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
+write_csv(insect_sampling_real, "insect_sampling_Thijs_Fijen_Allium_porrum_Italy_2016.csv")
 setwd(dir_ini)
 

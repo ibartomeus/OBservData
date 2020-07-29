@@ -62,9 +62,9 @@ data.site$seeds_per_fruit <- NA
 data.site$seeds_per_plant <- NA
 data.site$seed_weight <- NA
 
-data.site$Publication <- "10.1126/science.aac7287"
-data.site$Credit <- "Fabiana Oliveira da silva, Jeferson da Encarnação Coutinho"
-data.site$Email_contact <- "fabia714@gmail.com; jeferson.gabriel@gmail.com"
+data.site$Publication <- "10.1126/science.aac7287; 10.26786/1920-7603%282014%2926"
+data.site$Credit <- "Fabiana Oliveira da silva; Jeferson Gabriel da Encarnação Coutinho; Blandina Felipe Viana"
+data.site$Email_contact <- "fabia714@gmail.com; jeferson.gabriel@gmail.com; blande.viana@gmail.com "
 
 	
 
