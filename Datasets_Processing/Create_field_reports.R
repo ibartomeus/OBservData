@@ -94,7 +94,7 @@ for (i in 1:length(list_files_field_level)){
                      "Then send the edited 'Summary_report_and_queries' ",
                      "(with your comments) and your 'Data_ownership' (excel)",
                      "file to alfonso.allen.perkins+observdataset@gmail.com",
-                     "before the 20th of July.",
+                     "before the 15th of August.",
                      "======================================================","",
                      "- Please check that credit information is correct and add the corresponding affiliations and acknowledgements/funding information in your 'Data_ownership' (excel) file.","",
                      "- If your study is already published, please check that its DOI is correct.","")
