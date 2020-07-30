@@ -47,7 +47,7 @@ data.site <- data.site %>% filter(Sampling.Year==2010) %>%
 
 # We add data site ID
 
-data.site$study_id <- "Ruan_Veldtman_Allium_cepa_South_Africa_2010"
+data.site$study_id <- "Mariette_Brand_Allium_cepa_South_Africa_2010"
 data.site$crop <- "Allium cepa"
 data.site$management <- NA
 data.site$country <- "South Africa"
@@ -69,8 +69,8 @@ data.site$seeds_per_fruit <- NA
 data.site$seeds_per_plant <- NA
 data.site$seed_weight <- NA
 data.site$Publication <- "10.1038/ncomms8414"
-data.site$Credit <- "Mariëtte R. Brand"
-data.site$Email_contact <- "david.kleijn@wur.nl/veldtman@sun.ac.za"
+data.site$Credit <- "Mariëtte R. Brand; Ruan Veldtman"
+data.site$Email_contact <- "mariettebrand@gmail.com/veldtman@sun.ac.za"
 
 ###########################
 # SAMPLING DATA
@@ -137,7 +137,7 @@ data_obs_guild  <- data_obs_guild  %>% filter(abundance>0)
 
 
 insect_sampling <- tibble(
-  study_id = "Ruan_Veldtman_Allium_cepa_South_Africa_2010",
+  study_id = "Mariette_Brand_Allium_cepa_South_Africa_2010",
   site_id = data_obs_guild$site_id,
   pollinator = data_obs_guild$Organism_ID,
   guild = data_obs_guild$Guild,
@@ -150,7 +150,7 @@ insect_sampling <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_Ruan_Veldtman_Allium_cepa_South_Africa_2010.csv")
+write_csv(insect_sampling, "insect_sampling_Mariette_Brand_Allium_cepa_South_Africa_2010.csv")
 setwd(dir_ini)
 
 #######################################
@@ -292,7 +292,7 @@ field_level_data <- tibble(
 )
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_Ruan_Veldtman_Allium_cepa_South_Africa_2010.csv")
+write_csv(field_level_data, "field_level_data_Mariette_Brand_Allium_cepa_South_Africa_2010.csv")
 setwd(dir_ini)
 
 # NOTE: Records in "Bee Identifications_editted" (excel file) do not match bee
