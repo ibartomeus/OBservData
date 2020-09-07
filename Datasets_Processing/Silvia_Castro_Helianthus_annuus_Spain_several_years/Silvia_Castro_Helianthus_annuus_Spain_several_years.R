@@ -90,6 +90,11 @@ insect_sampling %>% group_by(guild) %>% count()
 insect_sampling <- insect_sampling %>% rename(Description=`Description_(fee_text)`)
 insect_sampling$Description[insect_sampling$sampling_method=="census"] <- insect_sampling$Column1[insect_sampling$sampling_method=="census"]
 
+# Modify pan trap sampling area + total sampling flowers
+
+insect_sampling$total_sampled_area[insect_sampling$sampling_method=="pan-traps"] <- NA
+insect_sampling$total_sampled_flowers[insect_sampling$sampling_method=="pan-traps"] <- NA
+
 # Save new insect sampling templates
 
 insect_sampling_2017 <- insect_sampling %>% 

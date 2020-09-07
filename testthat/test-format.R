@@ -32,7 +32,8 @@ context("checks that the values of field_level template meet our requirements")
 # Lepidoptera abun. format  (non-negative number or NA)
 # Non bee hymenoptera abun. format  (non-negative number or NA)
 # Others abun. format (non-negative number or NA)
-# Transect area format (non-negative number or NA)
+# Transect area format (if not a character description [A. Lázaro/A. Trillo],
+# non-negative number or NA)
 # Transect time format (non-negative number or NA)
 # Total vis. rate format (non-negative number or NA)
 # Honeybees vis. rate format (non-negative number or NA)
@@ -107,7 +108,7 @@ for (i in seq(length(list_files_field_level))) {
                               ab_syrphids = col_double(),ab_humbleflies = col_double(),
                               ab_other_flies = col_double(),ab_beetles = col_double(),
                               ab_lepidoptera = col_double(),ab_nonbee_hymenoptera = col_double(),
-                              ab_others = col_double(),total_sampled_area = col_double(),
+                              ab_others = col_double(),#total_sampled_area = col_double(),
                               total_sampled_time = col_double(),
                               visitation_rate_units = col_character(),
                               visitation_rate = col_double(),visit_honeybee = col_double(),
@@ -581,7 +582,13 @@ for (i in seq(length(list_files_field_level))) {
     NA_values <- is.na(field_level_i$total_sampled_area)
     if(all(NA_values) == FALSE){
       values_pos_i <- field_level_i$total_sampled_area[!NA_values]
-      expect_equal(all(0 <= values_pos_i), TRUE)
+      if (is.character(values_pos_i)==TRUE){
+        expect_equal(TRUE, TRUE)
+      }else{
+        expect_equal(all(0 <= values_pos_i), TRUE)
+      }
+      
+      
       
     }else{
       expect_equal(TRUE, TRUE)

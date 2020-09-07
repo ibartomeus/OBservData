@@ -57,6 +57,11 @@ insect_sampling <- insect_sampling %>% rename(Description=`Description_(fee_text
 insect_sampling$Description[insect_sampling$sampling_method=="census"] <- insect_sampling$...11[insect_sampling$sampling_method=="census"]
 insect_sampling$Description[insect_sampling$sampling_method!="census"] <- "3 sets of 3 colour plates each (within set, plates displayed in triangle 3m appart), sets displayed in transect in the middle of the orchard at 5, 35 and 65m from the field margin. Only pollinator groups were considered for the pan-traps."
 
+# Fix records for total_sampled_area and total_sampled_flowers 
+insect_sampling$total_sampled_area[insect_sampling$sampling_method=="pan-traps"] <- NA
+insect_sampling$total_sampled_flowers[insect_sampling$sampling_method=="pan-traps"] <- NA
+
+
 # Save new insect sampling templates
 
 insect_sampling_2018 <- insect_sampling %>% 
