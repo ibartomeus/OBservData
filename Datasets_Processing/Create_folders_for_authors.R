@@ -18,7 +18,8 @@ data.folders.old$Location[data.folders.old$old_code=="Bart01"] <- "Ignasi_Bartom
 data.folders.old$Location[data.folders.old$old_code=="Burn01"] <- "Katherine_LW_Burns_Malus_domestica_Ireland_2018"
 data.folders.old$Location[data.folders.old$old_code=="hevi01"] <- "Violeta_Hevia_Helianthus_annuus_Spain_2017"
 data.folders.old$Location[data.folders.old$old_code=="knap01"] <- "Jessica_Knapp_Cucurbita_pepo_UK_2016"
-data.folders.old$Location[data.folders.old$old_code=="Lichtenberg_Crowder_canola"] <- "David_Crowder_Brassica_napus_USA_several_years"
+data.folders.old$Location[data.folders.old$old_code=="Lichtenberg_Crowder_canola_2013"] <- "David_Crowder_Brassica_napus_USA_2013"
+data.folders.old$Location[data.folders.old$old_code=="Lichtenberg_Crowder_canola_2014"] <- "David_Crowder_Brassica_napus_USA_2014"
 data.folders.old$Location[data.folders.old$old_code=="mont01"] <- "Ana_Montero_Castaño_Vaccinium_corymbosum_Canada_2018"
 data.folders.old$Location[data.folders.old$old_code=="vere01"] <- "Nicolas_J_Vereecken_several_crops_several_countries_several_years"
 data.folders.old$Location[data.folders.old$old_code=="Szen01"] <- "Hajnalka_Szentgyorgyi_Fagopyrum_esculentum_Poland_2005"
@@ -47,6 +48,8 @@ excel_authors <- openxlsx::read.xlsx("Authors_Gdocs.xlsx", startRow = 1) %>%
 # List of authors
 
 authors <- unique(data.folders$author_folder)
+
+
 
 for (i in 1:length(authors)){
   
@@ -127,7 +130,7 @@ for (i in 1:length(authors)){
     (!studies$Location[j] %in% c("KLEIJN 2015 DATABASE",
                                   "GARIBALDI 2015 DATABASE",
                                   "GARIBALDI 2016 DATABASE")) &
-     (!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",authors[62],authors[63]))
+     (!authors[i] %in% c("David Crowder","Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",authors[62],authors[63]))
      ){
     
     additional_R_file <- paste0(folder_raw_data,"/","add_taxon_constraint_column_DAINESE_RADER_OTHER.R")
@@ -154,7 +157,7 @@ for (i in 1:length(authors)){
   # Copy Guild table
   ##################
   
-  if(!authors[i] %in% c("Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",
+  if(!authors[i] %in% c("David Crowder","Alejandro Trillo","Marcos Miñarro","Amparo Lázaro",
                         authors[62],authors[63])){
   
   thesaurus_file <- paste(folder_thesaurus,"Table_organism_guild_META.csv",sep = "/")

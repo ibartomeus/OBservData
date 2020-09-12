@@ -135,6 +135,14 @@ data.site <- data.site %>% left_join(sampling_aux, by = "site_id")
 ###############################################################
 ###############################################################
 
+sites_2013 <- data.site$site_id[data.site$sampling_year==2013]
+sites_2014 <- data.site$site_id[data.site$sampling_year==2014]
+
+# sanity_check
+
+sum(sites_2013 %in% sites_2014)
+sum(sites_2014 %in% sites_2013)
+
 insect_sampling <- tibble(
   study_id = "David_Crowder_Brassica_napus_USA_several_years",
   site_id = data.insect$site_id,
@@ -148,8 +156,15 @@ insect_sampling <- tibble(
   Description = paste0(data.insect$Description,". Organisms were sampled with sweep nets (100 sweeps) and traps (3 bee bowls and 2 pan traps per site)")
 )
 
+insect_sampling_2013 <- insect_sampling %>% filter(site_id %in% sites_2013)
+insect_sampling_2013$study_id <- "David_Crowder_Brassica_napus_USA_2013"
+
+insect_sampling_2014 <- insect_sampling %>% filter(site_id %in% sites_2014)
+insect_sampling_2014$study_id <- "David_Crowder_Brassica_napus_USA_2014"
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling, "insect_sampling_David_Crowder_Brassica_napus_USA_several_years.csv")
+write_csv(insect_sampling_2013, "insect_sampling_David_Crowder_Brassica_napus_USA_2013.csv")
+write_csv(insect_sampling_2014, "insect_sampling_David_Crowder_Brassica_napus_USA_2014.csv")
 setwd(dir_ini)
 
 ###############################################################
@@ -223,6 +238,14 @@ field_level_data <- tibble(
   Email_contact = data.site$email
 )
 
+field_level_data_2013 <- field_level_data %>% filter(site_id %in% sites_2013)
+field_level_data_2013$study_id <- "David_Crowder_Brassica_napus_USA_2013"
+
+field_level_data_2014 <- field_level_data %>% filter(site_id %in% sites_2014)
+field_level_data_2014$study_id <- "David_Crowder_Brassica_napus_USA_2014"
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_David_Crowder_Brassica_napus_USA_several_years.csv")
+write_csv(field_level_data_2013, "field_level_data_David_Crowder_Brassica_napus_USA_2013.csv")
+write_csv(field_level_data_2014, "field_level_data_David_Crowder_Brassica_napus_USA_2014.csv")
 setwd(dir_ini)
