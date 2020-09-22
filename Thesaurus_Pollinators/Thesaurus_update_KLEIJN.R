@@ -61,7 +61,10 @@ for (i in 1:nrow(taxons)){
   
   if(!is.na(ranks[taxons$matched_name[i]])){
     rank_i <- ranks[taxons$matched_name[i]]
-    taxons$Family[i] <- rank_i[[1]]$name[rank_i[[1]]$rank=="family"]
+    if(!identical(rank_i[[1]]$name[rank_i[[1]]$rank=="family"], character(0))){
+      
+      taxons$Family[i] <- rank_i[[1]]$name[rank_i[[1]]$rank=="family"]
+    }
   }
 }
 
@@ -186,3 +189,24 @@ thesaurus_updated %>% group_by(Guild)%>% count() #20 missing;
 
 # save list
 write_csv(thesaurus_updated,"Table_organism_guild_META_V0p2.csv")
+
+
+# # Fix Nomada marshamella
+# 
+# familias_list <- read_csv("Table_organism_guild_META_V0p2.csv")
+# familias_list$Guild[grepl("Nomada marshamella",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+# write_csv(familias_list,"Table_organism_guild_META_V0p2.csv")
+
+
+# # Apis nigrocinta binghami
+# 
+# familias_list <- read_csv("Table_organism_guild_META_V0p2.csv")
+# familias_list$Guild[grepl("Apis nigrocinta binghami",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+# write_csv(familias_list,"Table_organism_guild_META_V0p2.csv")
+
+
+# Hymenoptera_Nonbee_Aculeata
+
+# familias_list <- read_csv("Table_organism_guild_META_V0p2.csv")
+# familias_list$Guild[grepl("Hymenoptera_Nonbee_Aculeata",familias_list$Organism_ID,ignore.case = TRUE)] <- "non_bee_hymenoptera"
+# write_csv(familias_list,"Table_organism_guild_META_V0p2.csv")

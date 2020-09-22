@@ -3,6 +3,7 @@ library(tidyverse)
 library("iNEXT")
 library(openxlsx)
 library(rgdal)
+library(parzer)
 
 dir_ini <- getwd()
 options(digits=14)
@@ -51,6 +52,17 @@ spgeo <- spTransform(sputm, CRS("+proj=longlat +datum=WGS84"))
 data.site$longitude <- NA
 data.site$latitude <- NA
 data.site[,10:11] <- spgeo@coords
+
+
+correct_locations <- tibble(site_id=c("citrus salta","la toma","manero","penia colorada"),
+       longitude=c("W64°24’20.5”","W64°18’17.8”","W64°26’30.2”","W64°22’12.6”"),
+       latitude=c("S23°28’15.8”","S23°21’44.0”","S23°25’33.5”","S22°47’57.8”"))
+
+
+correct_locations$new_longitude <- parse_lon(correct_locations$longitude)
+correct_locations$new_latitude <- parse_lat(correct_locations$latitude)
+
+
 
 #####################################
 # YIELD

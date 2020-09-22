@@ -1,4 +1,4 @@
-﻿Organism_ID,Family,Guild
+Organism_ID,Family,Guild
 (Dialictus) sp. D,Halictidae,other_wild_bees
 “Lagria” cf. aeneipennis Fåhraeus,Tenebrionidae,beetles
 0,NA,NA
@@ -271,9 +271,9 @@ Aphididae,NA,other
 Aphids,NA,other
 Apionidae_sp1,Apionidae,beetles
 Apionidae_sp1,NA,beetles
-Apis cerana,Apidae,other_wild_bees
-Apis cerana,NA,other_wild_bees
-Apis cerana indica,Apidae,other_wild_bees
+Apis cerana,Apidae,honeybees
+Apis cerana,NA,honeybees
+Apis cerana indica,Apidae,honeybees
 Apis dorsata,Apidae,honeybees
 Apis florea,Apidae,honeybees
 Apis melifera,Apidae,honeybees
@@ -284,11 +284,11 @@ Apis mellifera L.,Apidae,honeybees
 apis.mellifera,NA,honeybees
 Apis.mellifera,NA,honeybees
 Apis_ mellifera,Apidae,honeybees
-Apis_cerana,Apidae,other_wild_bees
-Apis_cerana,NA,other_wild_bees
-Apis_dorsata,Apidae,other_wild_bees
-Apis_dorsata,NA,other_wild_bees
-Apis_florea,NA,other_wild_bees
+Apis_cerana,Apidae,honeybees
+Apis_cerana,NA,honeybees
+Apis_dorsata,Apidae,honeybees
+Apis_dorsata,NA,honeybees
+Apis_florea,NA,honeybees
 Apis_mellifera,Apidae,honeybees
 Apis_mellifera,NA,honeybees
 Apoica pallens,Vespidae,non_bee_hymenoptera
@@ -1131,7 +1131,7 @@ Hymenoptera sp 5,Unknown,non_bee_hymenoptera
 Hymenoptera sp 6,Unknown,non_bee_hymenoptera
 Hymenoptera sp 7,Unknown,non_bee_hymenoptera
 Hymenoptera sp 8,Unknown,non_bee_hymenoptera
-Hymenoptera_Nonbee_Aculeata,NA,other_wild_bees
+Hymenoptera_Nonbee_Aculeata,NA,non_bee_hymenoptera
 hymenoptera_sp.,NA,non_bee_hymenoptera
 Hypolimnas misippus,Nymphalidae,lepidoptera
 Hypolimnas_misippus,NA,lepidoptera
@@ -1494,11 +1494,11 @@ Melissoptila uncicornis,Apidae,other_wild_bees
 Melissoptila uncicornis,NA,other_wild_bees
 Melitoma aff. segmentaria,Apidae,other_wild_bees
 Melitoma marginella,Apidae,other_wild_bees
-Melitomella grisescens,Apidae,honeybees
-Melitomella murihirta,Apidae,honeybees
-Melitomella murihirta,NA,honeybees
+Melitomella grisescens,Apidae,other_wild_bees
+Melitomella murihirta,Apidae,other_wild_bees
+Melitomella murihirta,NA,other_wild_bees
 Melitta leporina,Melittidae,other_wild_bees
-Mellisodes sp.,NA,honeybees
+Mellisodes sp.,NA,other_wild_bees
 Melolonthidae,Melolonthidae,beetles
 Melyridae sp1,Melyridae,beetles
 Melyridae_sp1,NA,beetles
@@ -1581,8 +1581,8 @@ Nomada fucata,Apidae,other_wild_bees
 Nomada goodeniana,Apidae,other_wild_bees
 Nomada gracilis,Apidae,other_wild_bees
 Nomada luteoloides,Apidae,other_wild_bees
-Nomada marshamella,NA,honeybees
-Nomada marshamella,Apidae,honeybees
+Nomada marshamella,NA,other_wild_bees
+Nomada marshamella,Apidae,other_wild_bees
 Nomada melathoracica,Apidae,other_wild_bees
 Nomada meridionalis,Apidae,other_wild_bees
 Nomada parva,Apidae,other_wild_bees
@@ -1597,7 +1597,7 @@ Nomada versicolor,Apidae,other_wild_bees
 Nomada.flavoguttata,NA,other_wild_bees
 Nomada_fabriciana,NA,other_wild_bees
 Nomada_flava,NA,other_wild_bees
-Nomada_marshamella,NA,honeybees
+Nomada_marshamella,NA,other_wild_bees
 Nomada_ruficornis,NA,other_wild_bees
 Nomada_sp,NA,other_wild_bees
 Nomia sp.,NA,other_wild_bees
@@ -1605,7 +1605,7 @@ Nomia sp. 1,NA,other_wild_bees
 Nomia sp. 2,NA,other_wild_bees
 Nomia sp. 3,NA,other_wild_bees
 Nomia_irridiscens,NA,other_wild_bees
-Nomiapis bispinosa,Apidae,honeybees
+Nomiapis bispinosa,Apidae,other_wild_bees
 Nomiapis diversipes,Halictidae,other_wild_bees
 Non identified bee,Non identified,other_wild_bees
 Notiophilus.aestuans,NA,beetles
@@ -1741,7 +1741,7 @@ Pelopidas_mathias,NA,lepidoptera
 Pemphredon inornata,Crabronidae,non_bee_hymenoptera
 Pemphredon lethifer,Crabronidae,non_bee_hymenoptera
 Penthetria japonica,Bibionidae,other_flies
-Peponapis pruniosa,NA,honeybees
+Peponapis pruniosa,NA,other_wild_bees
 Pepsis sp.,Pompilidae,non_bee_hymenoptera
 Phasmatodea_sp.,NA,other
 Phoebis neocypris,Hesperiidae,lepidoptera

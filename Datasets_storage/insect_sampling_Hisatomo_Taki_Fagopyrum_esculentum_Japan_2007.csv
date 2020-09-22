@@ -1,5 +1,5 @@
 study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,1,Apis cerana,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,1,Apis cerana,honeybees,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,1,Apis mellifera,honeybees,netting form flower,14,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -21,7 +21,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,1,Phytomia zonata,syrphids,netting
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,1,Stomorhina obsoleta,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,2,Apis cerana,other_wild_bees,netting form flower,2,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,2,Apis cerana,honeybees,netting form flower,2,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,2,Apis mellifera,honeybees,netting form flower,15,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -47,7 +47,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,2,Phytomia zonata,syrphids,netting
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,2,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,3,Apis cerana,other_wild_bees,netting form flower,6,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,3,Apis cerana,honeybees,netting form flower,6,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,3,Apis mellifera,honeybees,netting form flower,15,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -67,7 +67,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,3,Stomorhina obsoleta,other_flies,
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,3,Xylocopa appendiculata circumvolans,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,4,Apis cerana,other_wild_bees,netting form flower,6,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,4,Apis cerana,honeybees,netting form flower,6,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,4,Apis mellifera,honeybees,netting form flower,9,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -131,7 +131,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,5,Sphaerophoria sp.,syrphids,netti
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,5,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,6,Apis cerana,other_wild_bees,netting form flower,10,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,6,Apis cerana,honeybees,netting form flower,10,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,6,Apis mellifera,honeybees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -155,7 +155,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,6,Phytomia zonata,syrphids,netting
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,6,Stomorhina obsoleta,other_flies,netting form flower,4,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,7,Apis cerana,other_wild_bees,netting form flower,25,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,7,Apis cerana,honeybees,netting form flower,25,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,7,Apis mellifera,honeybees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -181,7 +181,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,7,Parnara guttata,lepidoptera,nett
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,7,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,8,Apis cerana,other_wild_bees,netting form flower,15,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,8,Apis cerana,honeybees,netting form flower,15,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,8,Episyrphus balteatus,syrphids,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -205,7 +205,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,8,Phytomia zonata,syrphids,netting
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,8,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,9,Apis cerana,other_wild_bees,netting form flower,20,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,9,Apis cerana,honeybees,netting form flower,20,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,9,Apis mellifera,honeybees,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -231,7 +231,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,9,Stomorhina obsoleta,other_flies,
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Amobia sp,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Apis cerana,other_wild_bees,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Apis cerana,honeybees,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Apis mellifera,honeybees,netting form flower,11,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -265,7 +265,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Polistes snelleni,non_bee_hymen
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,10,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,11,Apis cerana,other_wild_bees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,11,Apis cerana,honeybees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,11,Apis mellifera,honeybees,netting form flower,12,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -295,7 +295,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,11,Sphaerophoria sp.,syrphids,nett
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,11,Stomorhina obsoleta,other_flies,netting form flower,2,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,12,Apis cerana,other_wild_bees,netting form flower,9,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,12,Apis cerana,honeybees,netting form flower,9,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,12,Apis mellifera,honeybees,netting form flower,8,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -325,7 +325,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,12,Tachytes fruticis,non_bee_hymen
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,12,Xylocopa appendiculata circumvolans,other_wild_bees,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,13,Apis cerana,other_wild_bees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,13,Apis cerana,honeybees,netting form flower,5,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,13,Apis mellifera,honeybees,netting form flower,6,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -367,7 +367,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,13,Sphaerophoria sp.,syrphids,nett
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,13,Stomorhina obsoleta,other_flies,netting form flower,3,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,14,Apis cerana,other_wild_bees,netting form flower,12,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,14,Apis cerana,honeybees,netting form flower,12,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,14,Apis mellifera,honeybees,netting form flower,16,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
@@ -383,7 +383,7 @@ Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,14,Sphaerophoria sp.,syrphids,nett
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,14,Stomorhina obsoleta,other_flies,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
-Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,15,Apis cerana,other_wild_bees,netting form flower,12,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
+Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,15,Apis cerana,honeybees,netting form flower,12,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "
 Hisatomo_Taki_Fagopyrum_esculentum_Japan_2007,15,Apis mellifera,honeybees,netting form flower,1,NA,NA,NA,"Measures per site: 10 plants, 3 sampling rounds in each year
 "

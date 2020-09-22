@@ -178,12 +178,12 @@ abundance_aux <- data_obs_guild_2 %>%
 
 names(abundance_aux)
 
-# There are ""other_wild_bees" "honeybees"
+# There are ""other_wild_bees"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,other_flies=0,
+abundance_aux <- abundance_aux %>% mutate(honeybees=0,lepidoptera=0,beetles=0,other_flies=0,
                                           syrphids=0,other=0,humbleflies=0,
                                           non_bee_hymenoptera=0,bumblebees=0,
                                           total=0)

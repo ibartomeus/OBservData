@@ -86,7 +86,7 @@ data.LandscapeData <- data.LandscapeData %>% select(SiteID,Field.size)%>%
 
 data.site <- data.site %>% left_join(data.LandscapeData, by = c("site_id"))
 data.site <- data.site %>% mutate(country="Japan",Publication="10.1111/j.1744-7348.2009.00326.x/10.1016/j.baae.2010.08.004",
-                                  Credit="Hisatomo Taki, Forestry and forest products research institute",
+                                  Credit="Hisatomo Taki, Forestry and Forest Products Research Institute",
                                   email="htaki@affrc.go.jp")
 
 ################################

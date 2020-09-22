@@ -120,9 +120,9 @@ list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% coun
 
 #library(taxize)
 
-#"Apis nigrocinta binghami" <- "other_wild_bees" (as in the case of Apis Cerana)
+#"Apis nigrocinta binghami" <- "honeybees" (as in the case of Apis Cerana)
 
-#list_organisms_guild$Guild[grepl("Chalicodoma",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+list_organisms_guild$Guild[grepl("Apis nigrocinta binghami",list_organisms_guild$Organism_ID,ignore.case = TRUE)] <- "honeybees"
 list_organisms_guild$Guild[is.na(list_organisms_guild$Guild)] <- "other_wild_bees"
 
 #Sanity Checks
@@ -305,4 +305,4 @@ setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Alexandra_Maria_Klein_Coffea_canephora_Indonesia_2000_2001.csv")
 setwd(dir_ini)
 
-# As in the case of Apis cerana, we assigned "Apis nigrocinta binghami" to "other_wild_bees" guild.
+# As in the case of Apis cerana, we assigned "Apis nigrocinta binghami" to "honeybees" guild.

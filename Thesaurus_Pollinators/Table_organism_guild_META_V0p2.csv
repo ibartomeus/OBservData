@@ -1,4 +1,4 @@
-﻿Organism_ID,Family,Guild,Data_version
+Organism_ID,Family,Guild,Data_version
 (Dialictus) sp. D,Halictidae,other_wild_bees,V0.1
 “Lagria” cf. aeneipennis Fåhraeus,Tenebrionidae,beetles,V0.1
 0,NA,NA,V0.1
@@ -271,9 +271,9 @@ Aphididae,NA,other,V0.1
 Aphids,NA,other,V0.1
 Apionidae_sp1,Apionidae,beetles,V0.1
 Apionidae_sp1,NA,beetles,V0.1
-Apis cerana,Apidae,other_wild_bees,V0.1
-Apis cerana,NA,other_wild_bees,V0.1
-Apis cerana indica,Apidae,other_wild_bees,V0.1
+Apis cerana,Apidae,honeybees,V0.1
+Apis cerana,NA,honeybees,V0.1
+Apis cerana indica,Apidae,honeybees,V0.1
 Apis dorsata,Apidae,honeybees,V0.1
 Apis florea,Apidae,honeybees,V0.1
 Apis melifera,Apidae,honeybees,V0.1
@@ -284,11 +284,11 @@ Apis mellifera L.,Apidae,honeybees,V0.1
 apis.mellifera,NA,honeybees,V0.1
 Apis.mellifera,NA,honeybees,V0.1
 Apis_ mellifera,Apidae,honeybees,V0.1
-Apis_cerana,Apidae,other_wild_bees,V0.1
-Apis_cerana,NA,other_wild_bees,V0.1
-Apis_dorsata,Apidae,other_wild_bees,V0.1
-Apis_dorsata,NA,other_wild_bees,V0.1
-Apis_florea,NA,other_wild_bees,V0.1
+Apis_cerana,Apidae,honeybees,V0.1
+Apis_cerana,NA,honeybees,V0.1
+Apis_dorsata,Apidae,honeybees,V0.1
+Apis_dorsata,NA,honeybees,V0.1
+Apis_florea,NA,honeybees,V0.1
 Apis_mellifera,Apidae,honeybees,V0.1
 Apis_mellifera,NA,honeybees,V0.1
 Apoica pallens,Vespidae,non_bee_hymenoptera,V0.1
@@ -1131,7 +1131,7 @@ Hymenoptera sp 5,Unknown,non_bee_hymenoptera,V0.1
 Hymenoptera sp 6,Unknown,non_bee_hymenoptera,V0.1
 Hymenoptera sp 7,Unknown,non_bee_hymenoptera,V0.1
 Hymenoptera sp 8,Unknown,non_bee_hymenoptera,V0.1
-Hymenoptera_Nonbee_Aculeata,NA,other_wild_bees,V0.1
+Hymenoptera_Nonbee_Aculeata,NA,non_bee_hymenoptera,V0.1
 hymenoptera_sp.,NA,non_bee_hymenoptera,V0.1
 Hypolimnas misippus,Nymphalidae,lepidoptera,V0.1
 Hypolimnas_misippus,NA,lepidoptera,V0.1
@@ -1494,11 +1494,11 @@ Melissoptila uncicornis,Apidae,other_wild_bees,V0.1
 Melissoptila uncicornis,NA,other_wild_bees,V0.1
 Melitoma aff. segmentaria,Apidae,other_wild_bees,V0.1
 Melitoma marginella,Apidae,other_wild_bees,V0.1
-Melitomella grisescens,Apidae,honeybees,V0.1
-Melitomella murihirta,Apidae,honeybees,V0.1
-Melitomella murihirta,NA,honeybees,V0.1
+Melitomella grisescens,Apidae,other_wild_bees,V0.1
+Melitomella murihirta,Apidae,other_wild_bees,V0.1
+Melitomella murihirta,NA,other_wild_bees,V0.1
 Melitta leporina,Melittidae,other_wild_bees,V0.1
-Mellisodes sp.,NA,honeybees,V0.1
+Mellisodes sp.,NA,other_wild_bees,V0.1
 Melolonthidae,Melolonthidae,beetles,V0.1
 Melyridae sp1,Melyridae,beetles,V0.1
 Melyridae_sp1,NA,beetles,V0.1
@@ -1581,8 +1581,8 @@ Nomada fucata,Apidae,other_wild_bees,V0.1
 Nomada goodeniana,Apidae,other_wild_bees,V0.1
 Nomada gracilis,Apidae,other_wild_bees,V0.1
 Nomada luteoloides,Apidae,other_wild_bees,V0.1
-Nomada marshamella,NA,honeybees,V0.1
-Nomada marshamella,Apidae,honeybees,V0.1
+Nomada marshamella,NA,other_wild_bees,V0.1
+Nomada marshamella,Apidae,other_wild_bees,V0.1
 Nomada melathoracica,Apidae,other_wild_bees,V0.1
 Nomada meridionalis,Apidae,other_wild_bees,V0.1
 Nomada parva,Apidae,other_wild_bees,V0.1
@@ -1597,7 +1597,7 @@ Nomada versicolor,Apidae,other_wild_bees,V0.1
 Nomada.flavoguttata,NA,other_wild_bees,V0.1
 Nomada_fabriciana,NA,other_wild_bees,V0.1
 Nomada_flava,NA,other_wild_bees,V0.1
-Nomada_marshamella,NA,honeybees,V0.1
+Nomada_marshamella,NA,other_wild_bees,V0.1
 Nomada_ruficornis,NA,other_wild_bees,V0.1
 Nomada_sp,NA,other_wild_bees,V0.1
 Nomia sp.,NA,other_wild_bees,V0.1
@@ -1605,7 +1605,7 @@ Nomia sp. 1,NA,other_wild_bees,V0.1
 Nomia sp. 2,NA,other_wild_bees,V0.1
 Nomia sp. 3,NA,other_wild_bees,V0.1
 Nomia_irridiscens,NA,other_wild_bees,V0.1
-Nomiapis bispinosa,Apidae,honeybees,V0.1
+Nomiapis bispinosa,Apidae,other_wild_bees,V0.1
 Nomiapis diversipes,Halictidae,other_wild_bees,V0.1
 Non identified bee,Non identified,other_wild_bees,V0.1
 Notiophilus.aestuans,NA,beetles,V0.1
@@ -1741,7 +1741,7 @@ Pelopidas_mathias,NA,lepidoptera,V0.1
 Pemphredon inornata,Crabronidae,non_bee_hymenoptera,V0.1
 Pemphredon lethifer,Crabronidae,non_bee_hymenoptera,V0.1
 Penthetria japonica,Bibionidae,other_flies,V0.1
-Peponapis pruniosa,NA,honeybees,V0.1
+Peponapis pruniosa,NA,other_wild_bees,V0.1
 Pepsis sp.,Pompilidae,non_bee_hymenoptera,V0.1
 Phasmatodea_sp.,NA,other,V0.1
 Phoebis neocypris,Hesperiidae,lepidoptera,V0.1
@@ -2236,261 +2236,19 @@ NA,Nymphalidae,lepidoptera,V0.1
 NA,Papilionidae,lepidoptera,V0.1
 NA,Pyralidae,lepidoptera,V0.1
 NA,Sphingidae,lepidoptera,V0.1
-Psithyrus rupestris,Apidae,bumblebees,Kleijn
-Psithyrus vestalis,Apidae,bumblebees,Kleijn
-Andrena_minutula-aggregate,Andrenidae,other_wild_bees,Kleijn
-Bombus_terrestris-aggregate,Apidae,bumblebees,Kleijn
-Bombus Sp.,Apidae,bumblebees,Kleijn
-UID Sp.,NA,NA,Kleijn
-Bombus lucorum/terrestris,Apidae,bumblebees,Kleijn
-Andrena sp. aff. minutula,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum Sp.,Halictidae,other_wild_bees,Kleijn
-Sphecodes Sp.,Halictidae,other_wild_bees,Kleijn
-Nomada Sp.,Apidae,other_wild_bees,Kleijn
-Andrena Sp.,Andrenidae,other_wild_bees,Kleijn
-Andrena nigoaenea,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum malachura,Halictidae,other_wild_bees,Kleijn
-Cheilosia albitarsis,Syrphidae,syrphids,Kleijn
-Coelioxys elongata,Megachilidae,other_wild_bees,Kleijn
-Lasioglossum semilucens,Halictidae,other_wild_bees,Kleijn
-Andrena scotica,Andrenidae,other_wild_bees,Kleijn
-Metasyrphus corollae,NA,syrphids,Kleijn
-Psithyrus campestris,Apidae,bumblebees,Kleijn
-Bombus cryptarum,Apidae,bumblebees,Kleijn
-Bombus soroëensis,Apidae,bumblebees,Kleijn
-unidentified solitary bee,NA,NA,Kleijn
-Hylaeus communis,Colletidae,other_wild_bees,Kleijn
-Hylaeus soror,Colletidae,other_wild_bees,Kleijn
-Megachile pilidens,Megachilidae,other_wild_bees,Kleijn
-Sphecodes gibbus,Halictidae,other_wild_bees,Kleijn
-wesp: cf. Allodynerus floricola,NA,non_bee_hymenoptera,Kleijn
-Colletes cunicularius,Colletidae,other_wild_bees,Kleijn
-Sphecodes croaticus,Halictidae,other_wild_bees,Kleijn
-bruin borststuk zwarte kont,NA,NA,Kleijn
-Lasioglossum (Evylaeus) sp.,Halictidae,other_wild_bees,Kleijn
-Tarsalia sp. 1,Apidae,other_wild_bees,Kleijn
-Andrena transitoria,Andrenidae,other_wild_bees,Kleijn
-Ceratina bifida,Apidae,other_wild_bees,Kleijn
-Colletes similis,Colletidae,other_wild_bees,Kleijn
-Eucera aeolopus,Apidae,other_wild_bees,Kleijn
-Eucera curvitarsis,Apidae,other_wild_bees,Kleijn
-Eucera paraclypeata,Apidae,other_wild_bees,Kleijn
-Eucera syriaca,Apidae,other_wild_bees,Kleijn
-Halictus resurgens,Halictidae,other_wild_bees,Kleijn
-Halictus tetrazonianellus,Halictidae,other_wild_bees,Kleijn
-Lasioglossum obscuratum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum politum atomarium,Halictidae,other_wild_bees,Kleijn
-Megachile albisecta,Megachilidae,other_wild_bees,Kleijn
-Osmia dives,Megachilidae,other_wild_bees,Kleijn
-Osmia signata,Megachilidae,other_wild_bees,Kleijn
-Halictini sp.,Halictidae,other_wild_bees,Kleijn
-Ceratina bispinosa,Apidae,other_wild_bees,Kleijn
-Ceratina mandibularis,Apidae,other_wild_bees,Kleijn
-Ceratina moricei,Apidae,other_wild_bees,Kleijn
-Ceratina schwarzi,Apidae,other_wild_bees,Kleijn
-Ceratina zandeni,Apidae,other_wild_bees,Kleijn
-Halictus cephalicus,Halictidae,other_wild_bees,Kleijn
-Halictus pollinosus,Halictidae,other_wild_bees,Kleijn
-Halictus smaragdulus,Halictidae,other_wild_bees,Kleijn
-Hylaeus intermedius,Colletidae,other_wild_bees,Kleijn
-Hylaeus kahri,Colletidae,other_wild_bees,Kleijn
-Hylaeus syriacus,Colletidae,other_wild_bees,Kleijn
-Hylaeus taeniolatus,Colletidae,other_wild_bees,Kleijn
-Lasioglossum aegyptiellum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum anellum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum callizionum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum clypeiferellum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum glabriusculum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum pseudosphecodimorphum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum truncaticolle,Halictidae,other_wild_bees,Kleijn
-Lithurgus tibialis,Megachilidae,other_wild_bees,Kleijn
-Nomada kohli,Apidae,other_wild_bees,Kleijn
-Nomioides sp. 1,Halictidae,other_wild_bees,Kleijn
-Nomioidinae sp.,Halictidae,other_wild_bees,Kleijn
-Hylaeus aff. dinkleri,Colletidae,other_wild_bees,Kleijn
-Lasioglossum aff. morio,Halictidae,other_wild_bees,Kleijn
-Megachile cf. fertoni,Megachilidae,other_wild_bees,Kleijn
-Ceratina dentiventris,Apidae,other_wild_bees,Kleijn
-Hylaeus albonotatus,Colletidae,other_wild_bees,Kleijn
-Hylaeus imparilis,Colletidae,other_wild_bees,Kleijn
-Hylaeus longimaculus,Colletidae,other_wild_bees,Kleijn
-Lasioglossum epipygiale,Halictidae,other_wild_bees,Kleijn
-Lasioglossum tadschicum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum vagans,Halictidae,other_wild_bees,Kleijn
-Megachile dorsalis,Megachilidae,other_wild_bees,Kleijn
-Ochreriades fasciatus,Megachilidae,other_wild_bees,Kleijn
-Andrena bisalicis,Andrenidae,other_wild_bees,Kleijn
-Andrena nuda,Andrenidae,other_wild_bees,Kleijn
-Bombus griseocollis,Apidae,bumblebees,Kleijn
-Bombus perplexus,Apidae,bumblebees,Kleijn
-Bombus sandersoni,Apidae,bumblebees,Kleijn
-Bombus ternarius,Apidae,bumblebees,Kleijn
-Lasioglossum laevissimum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum mitchelli,Halictidae,other_wild_bees,Kleijn
-Lasioglossum subviridatum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum truncatum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum versans,Halictidae,other_wild_bees,Kleijn
-Nomada dreisbachi,Apidae,other_wild_bees,Kleijn
-Nomada pygmaea,Apidae,other_wild_bees,Kleijn
-Sphecodes cressonii,Halictidae,other_wild_bees,Kleijn
-Andrena geranii,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum nymphaearum,Halictidae,other_wild_bees,Kleijn
-Andrena morrisonella,Andrenidae,other_wild_bees,Kleijn
-Bombus terricola,Apidae,bumblebees,Kleijn
-Lasioglossum nigroviride,Halictidae,other_wild_bees,Kleijn
-Lasioglossum planatum,Halictidae,other_wild_bees,Kleijn
-Sphecodes confertus,Halictidae,other_wild_bees,Kleijn
-Andrena_barbara,Andrenidae,other_wild_bees,Kleijn
-Andrena_bisalicis,Andrenidae,other_wild_bees,Kleijn
-Andrena_carlini,Andrenidae,other_wild_bees,Kleijn
-Andrena_dunningi,Andrenidae,other_wild_bees,Kleijn
-Andrena_erythronii,Andrenidae,other_wild_bees,Kleijn
-Andrena_forbesii,Andrenidae,other_wild_bees,Kleijn
-Andrena_hippotes,Andrenidae,other_wild_bees,Kleijn
-Andrena_imitatrix,Andrenidae,other_wild_bees,Kleijn
-Andrena_mandibularis,Andrenidae,other_wild_bees,Kleijn
-Andrena_milwaukeensis,Andrenidae,other_wild_bees,Kleijn
-Andrena_miserabilis,Andrenidae,other_wild_bees,Kleijn
-Andrena_morrisonella,Andrenidae,other_wild_bees,Kleijn
-Andrena_nasonii,Andrenidae,other_wild_bees,Kleijn
-Andrena_nuda,Andrenidae,other_wild_bees,Kleijn
-Andrena_perplexa,Andrenidae,other_wild_bees,Kleijn
-Andrena_pruni,Andrenidae,other_wild_bees,Kleijn
-Andrena_rugosa,Andrenidae,other_wild_bees,Kleijn
-Andrena_vicina,Andrenidae,other_wild_bees,Kleijn
-Augochora_pura,NA,other_wild_bees,Kleijn
-Bombus_bimaculatus,Apidae,bumblebees,Kleijn
-Bombus_impatiens,Apidae,bumblebees,Kleijn
-Bombus_perplexus,Apidae,bumblebees,Kleijn
-Ceratina_calcarata,Apidae,other_wild_bees,Kleijn
-Colletes_inaequalls,Colletidae,other_wild_bees,Kleijn
-Lasioglossum_foxii,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_mitchelli,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_oceanicum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_quebecense,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_versatum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_weemsi,Halictidae,other_wild_bees,Kleijn
-Osmia_cornifrons,Megachilidae,other_wild_bees,Kleijn
-Osmia_lignaria,Megachilidae,other_wild_bees,Kleijn
-Osmia_pumila,Megachilidae,other_wild_bees,Kleijn
-Augochlora_pura,Halictidae,other_wild_bees,Kleijn
-Augochlorella_aurata,Halictidae,other_wild_bees,Kleijn
-Bombus_fervidus,Apidae,bumblebees,Kleijn
-Halictus_confusus,Halictidae,other_wild_bees,Kleijn
-Hylaeus_mesillae,Colletidae,other_wild_bees,Kleijn
-Lasioglossum_admirandum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_albipenne,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_callidum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_imitatum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_nymphaearum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_paradmirandum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_pilosum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_tegulare,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_trigeminum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_viridatum,Halictidae,other_wild_bees,Kleijn
-Augochloropsis_metallica,Halictidae,other_wild_bees,Kleijn
-Bombus_griseocollis,Apidae,bumblebees,Kleijn
-Halictus_ligatus,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_ephialtum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_pectorale,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_zephyrum,Halictidae,other_wild_bees,Kleijn
-Megachile_gemula,Megachilidae,other_wild_bees,Kleijn
-Megachile_mendica,Megachilidae,other_wild_bees,Kleijn
-Melitta_americana,Melittidae,other_wild_bees,Kleijn
-Andrena_spiraeana,Andrenidae,other_wild_bees,Kleijn
-Halictus_rubicundus,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_coeruleum,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_fuscipenne,Halictidae,other_wild_bees,Kleijn
-Megachile_addenda,Megachilidae,other_wild_bees,Kleijn
-Nomada_rodecki,Apidae,other_wild_bees,Kleijn
-Osmia_inspergens,Megachilidae,other_wild_bees,Kleijn
-Osmia_virga,Megachilidae,other_wild_bees,Kleijn
-Panurginus_atramontensis,Andrenidae,other_wild_bees,Kleijn
-Xylocopa_virginica,Apidae,other_wild_bees,Kleijn
-Bombus_vagans,Apidae,bumblebees,Kleijn
-Coelioxys_sayi,Megachilidae,other_wild_bees,Kleijn
-Lasioglossum_planatum,Halictidae,other_wild_bees,Kleijn
-Andrena_cressonii,Andrenidae,other_wild_bees,Kleijn
-Bombus_citrinus,Apidae,bumblebees,Kleijn
-Coelioxys_immaculata,Megachilidae,other_wild_bees,Kleijn
-Lasioglossum_subviridatum,Halictidae,other_wild_bees,Kleijn
-Nomada_bella_lepida,Apidae,other_wild_bees,Kleijn
-Nomada_pygmaea,Apidae,other_wild_bees,Kleijn
-Sphecodes_aroniae,Halictidae,other_wild_bees,Kleijn
-Colletes_consors,Colletidae,other_wild_bees,Kleijn
-Lasioglossum_oblongum,Halictidae,other_wild_bees,Kleijn
-Coelioxys_porterae,Megachilidae,other_wild_bees,Kleijn
-Heriades_carinatus,Megachilidae,other_wild_bees,Kleijn
-Hoplitis_truncata,Megachilidae,other_wild_bees,Kleijn
-Agapostemon_splendens,Halictidae,other_wild_bees,Kleijn
-Bombus_sandersoni,Apidae,bumblebees,Kleijn
-Lasioglossum_georgeickworti,Halictidae,other_wild_bees,Kleijn
-Megachile_texana,Megachilidae,other_wild_bees,Kleijn
-Lasioglossum_lineatulum,Halictidae,other_wild_bees,Kleijn
-Augochloropsis_sumptuosa,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_apopkense,Halictidae,other_wild_bees,Kleijn
-Lasioglossum_creberrimum,Halictidae,other_wild_bees,Kleijn
-Sphecodes_fattigi,Halictidae,other_wild_bees,Kleijn
-Agapostemon_texanus,Halictidae,other_wild_bees,Kleijn
-Ceratina_calcarata_dupla,Apidae,other_wild_bees,Kleijn
-Megachile_rotundata,Megachilidae,other_wild_bees,Kleijn
-Melissodes_bimaculata,Apidae,other_wild_bees,Kleijn
-Peponapis_pruinosa,NA,other_wild_bees,Kleijn
-Triepeolus_remigatus,NA,other_wild_bees,Kleijn
-Andrena_bradleyi,Andrenidae,other_wild_bees,Kleijn
-Colletes_cressoni,Colletidae,other_wild_bees,Kleijn
-Colletes_inaequalis,Colletidae,other_wild_bees,Kleijn
-Habropoda_laboriosa,NA,other_wild_bees,Kleijn
-Colletes_validus,Colletidae,other_wild_bees,Kleijn
-Andrena_fenningeri,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum_leucocomum,Halictidae,other_wild_bees,Kleijn
-Andrena_cressoni,Andrenidae,other_wild_bees,Kleijn
-Colletes_thoracicus,Colletidae,other_wild_bees,Kleijn
-Andrena_carolina,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum_acuminatum,Halictidae,other_wild_bees,Kleijn
-Nomada_luteola,Apidae,other_wild_bees,Kleijn
-Andrena_banksi,Andrenidae,other_wild_bees,Kleijn
-Andrena_ilicis,Andrenidae,other_wild_bees,Kleijn
-Sphecodes_stygius,Halictidae,other_wild_bees,Kleijn
-Bombus perplexus,Apidae,other_wild_bees,Kleijn
-Bombus vagans vagans,Apidae,bumblebees,Kleijn
-Bombus affinis,Apidae,bumblebees,Kleijn
-Bombus griseollis,Apidae,other_wild_bees,Kleijn
-Megachile gemula,Megachilidae,other_wild_bees,Kleijn
-27 bees other than apidae,NA,other_wild_bees,Kleijn
-Sphecodes minor,Halictidae,other_wild_bees,Kleijn
-Megachile frigida,Megachilidae,other_wild_bees,Kleijn
-Melitta near americana,Melittidae,other_wild_bees,Kleijn
-Andrena carolina,Andrenidae,other_wild_bees,Kleijn
-Dialictus lineatulus,Halictidae,other_wild_bees,Kleijn
-Dialictus rohweri,Halictidae,other_wild_bees,Kleijn
-Evylaeus cinctipes,NA,other_wild_bees,Kleijn
-Auguchloropsis metallica,Halictidae,other_wild_bees,Kleijn
-Lasioglossum athabascense,Halictidae,other_wild_bees,Kleijn
-Lasioglossum acuminatum,Halictidae,other_wild_bees,Kleijn
-Ceratina dupla/calcarata,Apidae,other_wild_bees,Kleijn
-Dialictus admirandus,Halictidae,other_wild_bees,Kleijn
-Dialictus marinus,Halictidae,other_wild_bees,Kleijn
-Dialictus sp. 1,Halictidae,other_wild_bees,Kleijn
-Augochlorella striata,Halictidae,other_wild_bees,Kleijn
-Dialictus sp. C,Halictidae,other_wild_bees,Kleijn
-14 bees other than apidae,NA,other_wild_bees,Kleijn
-Dialictus pilosus,Halictidae,other_wild_bees,Kleijn
-Megachile texana,Megachilidae,other_wild_bees,Kleijn
-Panurginus gracilis,Andrenidae,other_wild_bees,Kleijn
-Lasioglossum Evylaeus sp. E,Halictidae,other_wild_bees,Kleijn
-Lasioglossum Evylaeus sp. F,Halictidae,other_wild_bees,Kleijn
-Andrena caerulea,Andrenidae,other_wild_bees,Kleijn
-Eucera lunata,Apidae,other_wild_bees,Kleijn
-Fruit fly,NA,other_flies,Kleijn
-Anthophora urbana,Apidae,other_wild_bees,Kleijn
-Dialictus,Halictidae,other_wild_bees,Kleijn
-Apis,Apidae,honeybees,Kleijn
+Bombus terrestris terrestris,Apidae,bumblebees,Kleijn
+Diptera sp2,NA,other_flies,Kleijn
+Diptera sp3,NA,other_flies,Kleijn
+Diptera sp4,NA,other_flies,Kleijn
+Wild bee sp1,NA,other_wild_bees,Kleijn
+Sphaerophoria rueppellii,Syrphidae,syrphids,Kleijn
+Sphaerophoria sp1,Syrphidae,syrphids,Kleijn
+Beetle sp1,NA,beetles,Kleijn
 Trigona (Lepidotrigona) terminata,Apidae,other_wild_bees,Kleijn
 "Trigona (Heterotrigona, Sulawesi) sp. 1",Apidae,other_wild_bees,Kleijn
 Trigona (Sulawesi) sp.,Apidae,other_wild_bees,Kleijn
 "Trigona (Heterotrigona, Sulawesi) sp. 2",Apidae,other_wild_bees,Kleijn
-Apis nigrocinta binghami,Apidae,other_wild_bees,Kleijn
+Apis nigrocinta binghami,Apidae,honeybees,Kleijn
 Heriades (Sulawesi) sp. 1,Megachilidae,other_wild_bees,Kleijn
 Xylocopa (Zonohirsuta) dejeanii,Apidae,other_wild_bees,Kleijn
 Xylocopa (Koptortosoma) smithii,Apidae,other_wild_bees,Kleijn
@@ -2517,47 +2275,299 @@ Amegilla (Sulawesi) sp. zonata-group,Apidae,other_wild_bees,Kleijn
 Chalicodoma (Callomegachile) incisum,Megachilidae,other_wild_bees,Kleijn
 Halictidae (Sulawesi) sp. 9,Halictidae,other_wild_bees,Kleijn
 Halictidae (Sulawesi) sp. 18,Halictidae,other_wild_bees,Kleijn
+Panurginus gracilis,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum Evylaeus sp. E,Halictidae,other_wild_bees,Kleijn
+Lasioglossum Evylaeus sp. F,Halictidae,other_wild_bees,Kleijn
+Andrena caerulea,Andrenidae,other_wild_bees,Kleijn
+Eucera lunata,Apidae,other_wild_bees,Kleijn
+Fruit fly,NA,other_flies,Kleijn
+Plebeia.nigriceps,Apidae,other_wild_bees,Kleijn
+Plebeia.emerina,Apidae,other_wild_bees,Kleijn
+Schwarziana.quadripunctata,Apidae,other_wild_bees,Kleijn
+Tetragonisca.fiebrigi,Apidae,other_wild_bees,Kleijn
+Trigona.spinipes,Apidae,other_wild_bees,Kleijn
+Bombus.pauloensis,Apidae,bumblebees,Kleijn
 Xylocopa.sp.,Apidae,other_wild_bees,Kleijn
-Honeybees,NA,honeybees,Kleijn
-Bee,NA,other_wild_bees,Kleijn
-Honeybee,NA,honeybees,Kleijn
-Nannotrigona mellaria,Apidae,other_wild_bees,Kleijn
-Partamona cupira / Trigona fussipennis / Trigona corvina,Apidae,other_wild_bees,Kleijn
-Plebeia jatiformis,Apidae,other_wild_bees,Kleijn
-Plebia frontalis,Apidae,other_wild_bees,Kleijn
-Trigona (Tetragona) clavipes,Apidae,other_wild_bees,Kleijn
-Trigona (tetragonisca) angustula,Apidae,other_wild_bees,Kleijn
-Trigona dorsalis,Apidae,other_wild_bees,Kleijn
-Trigona fulviventris,Apidae,other_wild_bees,Kleijn
-Trigonisca sp.,Apidae,other_wild_bees,Kleijn
-Native-summ,NA,other_wild_bees,Kleijn
-Melipona fasciata,Apidae,other_wild_bees,Kleijn
-Huge Black 2002,NA,NA,Kleijn
+Exomalopsis.spp.,Apidae,other_wild_bees,Kleijn
+Neocorynura.sp.,Halictidae,other_wild_bees,Kleijn
+Augochloropsis.spp.,Halictidae,other_wild_bees,Kleijn
+Augochlora.spp.,Halictidae,other_wild_bees,Kleijn
+Augochlorella.sp.,Halictidae,other_wild_bees,Kleijn
+Psaenythia.sp.,Andrenidae,other_wild_bees,Kleijn
+Other.Hymenoptera,NA,non_bee_hymenoptera,Kleijn
 Xylocopa spp.,Apidae,other_wild_bees,Kleijn
-Dialictus sp. 2,Halictidae,other_wild_bees,Kleijn
-Nanotrigona testaceicornis,Apidae,other_wild_bees,Kleijn
-Halictus hesperus,Halictidae,other_wild_bees,Kleijn
-Plebia sp. 2,Apidae,other_wild_bees,Kleijn
-Xylocopa tabaniformis,Apidae,other_wild_bees,Kleijn
-Ceratina eximia,Apidae,other_wild_bees,Kleijn
-Ceratina ignara,Apidae,other_wild_bees,Kleijn
-Augochlora aurifera,Halictidae,other_wild_bees,Kleijn
-Melipona beechiie,Apidae,other_wild_bees,Kleijn
-Euluema,NA,other_wild_bees,Kleijn
-Melipona beechiie (Bennett),Apidae,other_wild_bees,Kleijn
-Bombus lucorum agg,Apidae,bumblebees,Kleijn
-Lasioglossum sp1,Halictidae,wild_bees,Kleijn
-Vespula sp1,Vespidae,non_bee_hymenoptera,Kleijn
-Tipula sp1,Tipulidae,other_flies,Kleijn
-Sphecodes sp1,Halictidae,wild_bees,Kleijn
-Vanessa atalanta,Nymphalidae,lepidoptera,Kleijn
-Colletes succinctus,Colletidae,wild_bees,Kleijn
-Eristalis nemorum,Syrphidae,syrphids,Kleijn
-Parasyrphus punctulatus,Syrphidae,syrphids,Kleijn
-Mesembrina sp1,Muscidae,other_flies,Kleijn
-Melanostoma dubium,Syrphidae,syrphids,Kleijn
-Scathophaga sp1,Scathophagidae,other_flies,Kleijn
-Melanostoma millinum,Syrphidae,syrphids,Kleijn
+Coccinella sp1,Coccinellidae,beetles,Kleijn
+Lycid sp1,NA,beetles,Kleijn
+Lucilia sp1,Asteraceae,other_flies,Kleijn
+Sarcophaga sp1,Sarcophagidae,other_flies,Kleijn
+Helina sp1,Muscidae,other_flies,Kleijn
+Stomorhina discolor,Rhiniidae,other_flies,Kleijn
+Coccinella sp2,Coccinellidae,beetles,Kleijn
+Micraspis sp2,Phacidiaceae,beetles,Kleijn
+Coccinella sp4,Coccinellidae,beetles,Kleijn
+Micraspis sp1,Phacidiaceae,beetles,Kleijn
+Tetragonula sp1,Apidae,other_wild_bees,Kleijn
+Halmus chalybeus,Coccinellidae,beetles,Kleijn
+Chlororhinia exempta,Rhiniidae,other_flies,Kleijn
+Lauxaniidae spp,Lauxaniidae,other_flies,Kleijn
+Syrphidae spp,Syrphidae,syrphids,Kleijn
+Diptera sp6,NA,other_flies,Kleijn
+Diptera. sp7,NA,other_flies,Kleijn
+Wasp sp2,NA,non_bee_hymenoptera,Kleijn
+Chrysomya sp1,Calliphoridae,other_flies,Kleijn
+Diptera sp5,NA,other_flies,Kleijn
+Coleoptera sp6,NA,beetles,Kleijn
+Coleoptera sp7,NA,beetles,Kleijn
+Wasp sp4,NA,non_bee_hymenoptera,Kleijn
+Iridomyrmex purpureus,Formicidae,non_bee_hymenoptera,Kleijn
+Xylocopa sp1,Apidae,other_wild_bees,Kleijn
+Lassioglossum sp1,Halictidae,other_wild_bees,Kleijn
+Formicidae sp1,Formicidae,non_bee_hymenoptera,Kleijn
+Coleoptera sp2,NA,beetles,Kleijn
+Wasp sp1,NA,non_bee_hymenoptera,Kleijn
+Coleoptera sp3,NA,beetles,Kleijn
+Coleoptera sp4,NA,beetles,Kleijn
+Wasp sp3,NA,non_bee_hymenoptera,Kleijn
+Eristalinus spp,Syrphidae,syrphids,Kleijn
+Lepidoptera sp7,NA,lepidoptera,Kleijn
+Lepidoptera sp8,NA,lepidoptera,Kleijn
+Coleoptera sp11,NA,beetles,Kleijn
+Lepidoptera sp6,NA,lepidoptera,Kleijn
+Homalictus spp,Halictidae,other_wild_bees,Kleijn
+Cantharidae spp,Cantharidae,beetles,Kleijn
+Diptera sp13,NA,other_flies,Kleijn
+Coleoptera sp10,NA,beetles,Kleijn
+Wasp sp8,NA,non_bee_hymenoptera,Kleijn
+Bee sp3,NA,other_wild_bees,Kleijn
+Wasp sp9,NA,non_bee_hymenoptera,Kleijn
+Formicidae sp2,Formicidae,non_bee_hymenoptera,Kleijn
+Formicidae sp3,Formicidae,non_bee_hymenoptera,Kleijn
+Bombylidae spp,NA,humbleflies,Kleijn
+Wasp sp7,NA,non_bee_hymenoptera,Kleijn
+Diptera sp11,NA,other_flies,Kleijn
+Diptera sp15,NA,other_flies,Kleijn
+Wasp sp10,NA,non_bee_hymenoptera,Kleijn
+Wasp sp11,NA,non_bee_hymenoptera,Kleijn
+Syritta spp,Syrphidae,syrphids,Kleijn
+Euphorinae sp1,Braconidae,non_bee_hymenoptera,Kleijn
+Diptera sp22,NA,other_flies,Kleijn
+Wasp sp14,NA,non_bee_hymenoptera,Kleijn
+Sarcophaga spp,Sarcophagidae,other_flies,Kleijn
+Tabanidae spp,Tabanidae,other_flies,Kleijn
+Bee sp5,NA,other_wild_bees,Kleijn
+Bee sp6,NA,other_wild_bees,Kleijn
+Diptera sp21,NA,other_flies,Kleijn
+Wasp sp18,NA,non_bee_hymenoptera,Kleijn
+Wasp sp19,NA,non_bee_hymenoptera,Kleijn
+Wasp sp20,NA,non_bee_hymenoptera,Kleijn
+Meloidae sp,Meloidae,beetles,Kleijn
+Calliphora augur,Calliphoridae,other_flies,Kleijn
+Wasp sp6,NA,non_bee_hymenoptera,Kleijn
+Metallea sp1,Rhiniidae,other_flies,Kleijn
+Diptera sp27,NA,other_flies,Kleijn
+Lepidoptera sp10,NA,lepidoptera,Kleijn
+Wasp sp21,NA,non_bee_hymenoptera,Kleijn
+Formicidae sp5,Formicidae,non_bee_hymenoptera,Kleijn
+Metallea spp,Rhiniidae,other_flies,Kleijn
+Dirioxa pornis,Tephritidae,other_flies,Kleijn
+Lasioglossum_sp2,Halictidae,other_wild_bees,Kleijn
+Tachinid spp,NA,other_flies,Kleijn
+Ichneumonidae sp1,Ichneumonidae,non_bee_hymenoptera,Kleijn
+Diptera sp17,NA,other_flies,Kleijn
+Lepidoptera sp5,NA,lepidoptera,Kleijn
+Tiphiidae sp4,Tiphiidae,non_bee_hymenoptera,Kleijn
+Diptera sp8,NA,other_flies,Kleijn
+Meloidae sp1,Meloidae,beetles,Kleijn
+Xylocopa sp2,Apidae,other_wild_bees,Kleijn
+Rhytidoponera metallica,Formicidae,non_bee_hymenoptera,Kleijn
+Diptera sp18,NA,other_flies,Kleijn
+Bee sp1,NA,other_wild_bees,Kleijn
+Iridmomyrmex purpureus,Formicidae,non_bee_hymenoptera,Kleijn
+Coleoptera sp9,NA,beetles,Kleijn
+Wasp sp5,NA,non_bee_hymenoptera,Kleijn
+Coleoptera sp12,NA,beetles,Kleijn
+Syrrita spp,NA,other_flies,Kleijn
+Sapromyza spp,Lauxaniidae,other_flies,Kleijn
+Diptera sp9,NA,other_flies,Kleijn
+Bee sp2,NA,other_wild_bees,Kleijn
+Glycyphana stolata,Scarabaeidae,beetles,Kleijn
+Diptera sp10,NA,other_flies,Kleijn
+Diptera sp23,NA,other_flies,Kleijn
+Diptera sp24,NA,other_flies,Kleijn
+Wasp sp15,NA,non_bee_hymenoptera,Kleijn
+Diptera sp25,NA,other_flies,Kleijn
+Diptera sp26,NA,other_flies,Kleijn
+Diptera sp19,NA,other_flies,Kleijn
+Diptera sp20,NA,other_flies,Kleijn
+Wasp sp16,NA,non_bee_hymenoptera,Kleijn
+Bombus griseocollis,Apidae,bumblebees,Kleijn
+Bombus borealis,Apidae,bumblebees,Kleijn
+Bombus ternarius,Apidae,bumblebees,Kleijn
+Lasioglossum cressoni,Halictidae,other_wild_bees,Kleijn
+Andrena bradleyi,Andrenidae,other_wild_bees,Kleijn
+Bombus perplexus,Apidae,bumblebees,Kleijn
+Bombus sandersoni,Apidae,bumblebees,Kleijn
+Andrena carolina,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum heterognathum,Halictidae,other_wild_bees,Kleijn
+Nomada composita,Apidae,other_wild_bees,Kleijn
+Lasioglossum confusus,Halictidae,other_wild_bees,Kleijn
+Lasioglossum nigroviride,Halictidae,other_wild_bees,Kleijn
+Bombus terricola,Apidae,bumblebees,Kleijn
+Lasioglossum truncatum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum birkmanni,Halictidae,other_wild_bees,Kleijn
+Sphecodes ranunculi,Halictidae,other_wild_bees,Kleijn
+Andrena platyparia,Andrenidae,other_wild_bees,Kleijn
+Nomada pygmaea,Apidae,other_wild_bees,Kleijn
+Andrena spiraeana,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum planatum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum versans,Halictidae,other_wild_bees,Kleijn
+Nomada luteola,Apidae,other_wild_bees,Kleijn
+Andrena cressoni,Andrenidae,other_wild_bees,Kleijn
+Andrena brevipalpis,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum acuminatum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum subviridatum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum macoupinense,Halictidae,other_wild_bees,Kleijn
+Colletes simulans,Colletidae,other_wild_bees,Kleijn
+Nomada cuneata,Apidae,other_wild_bees,Kleijn
+Andrenidae.sp1,Andrenidae,other_wild_bees,Kleijn
+Colletidae.sp1,Colletidae,other_wild_bees,Kleijn
+Lasioglossum.sp4,Halictidae,other_wild_bees,Kleijn
+Agapostemon.sp1,Halictidae,other_wild_bees,Kleijn
+Agapostemon.virescens,Halictidae,other_wild_bees,Kleijn
+Apidae.sp1,Apidae,other_wild_bees,Kleijn
+Apidae.sp4,Apidae,other_wild_bees,Kleijn
+Halictini.sp3,Halictidae,other_wild_bees,Kleijn
+Megachilidae.sp10,Megachilidae,other_wild_bees,Kleijn
+Megachilidae.sp3,Megachilidae,other_wild_bees,Kleijn
+Bombus.nevadensis,Apidae,bumblebees,Kleijn
+Eucerini.sp6,Apidae,other_wild_bees,Kleijn
+Lasioglossum.sp2,Halictidae,other_wild_bees,Kleijn
+Bombus.fervidus,Apidae,bumblebees,Kleijn
+Bombus.rufocinctus,Apidae,bumblebees,Kleijn
+Eucerini.sp1,Apidae,other_wild_bees,Kleijn
+Eucerini.sp3,Apidae,other_wild_bees,Kleijn
+Eucerini.sp7,Apidae,other_wild_bees,Kleijn
+Eucerini.sp8,Apidae,other_wild_bees,Kleijn
+Andrenidae.sp2,Andrenidae,other_wild_bees,Kleijn
+Ceratina.sp1,Apidae,other_wild_bees,Kleijn
+Eucerini.sp4,Apidae,other_wild_bees,Kleijn
+Eucerini.sp5,Apidae,other_wild_bees,Kleijn
+Megachilidae.sp2,Megachilidae,other_wild_bees,Kleijn
+Megachilidae.sp5,Megachilidae,other_wild_bees,Kleijn
+Megachilidae.sp6,Megachilidae,other_wild_bees,Kleijn
+Ceratina.sp2,Apidae,other_wild_bees,Kleijn
+Eucerini.sp9,Apidae,other_wild_bees,Kleijn
+Megachilidae.sp9,Megachilidae,other_wild_bees,Kleijn
+Bombus.griseocollis,Apidae,bumblebees,Kleijn
+Bombus.appositus,Apidae,bumblebees,Kleijn
+Eucerini.sp10,Apidae,other_wild_bees,Kleijn
+Lasioglossum.sp3,Halictidae,other_wild_bees,Kleijn
+Megachilidae.sp1,Megachilidae,other_wild_bees,Kleijn
+Megachilidae.sp4,Megachilidae,other_wild_bees,Kleijn
+Bombus.bifarius,Apidae,bumblebees,Kleijn
+Bombus.centralis,Apidae,bumblebees,Kleijn
+Apidae.sp3,Apidae,other_wild_bees,Kleijn
+Eucerini.sp2,Apidae,other_wild_bees,Kleijn
+Bombus.insularis,Apidae,bumblebees,Kleijn
+Halictini.sp2,Halictidae,other_wild_bees,Kleijn
+Lasioglossum.sp1,Halictidae,other_wild_bees,Kleijn
+Apidae.sp2,Apidae,other_wild_bees,Kleijn
+Halictini.sp1,Halictidae,other_wild_bees,Kleijn
+Bombus.occidentalis,Apidae,bumblebees,Kleijn
+Bombus.mixtus,Apidae,bumblebees,Kleijn
+Eucerini.sp11,Apidae,other_wild_bees,Kleijn
+Megachilidae.sp7,Megachilidae,other_wild_bees,Kleijn
+Bombus.pensylvanicus,Apidae,bumblebees,Kleijn
+Megachilidae.sp8,Megachilidae,other_wild_bees,Kleijn
+Bombus.vagans,Apidae,bumblebees,Kleijn
+Bombus.fernaldae,Apidae,bumblebees,Kleijn
+Hylaeus communis,Colletidae,other_wild_bees,Kleijn
+Bombus lucorum/terrestris,Apidae,bumblebees,Kleijn
+Hylaeus soror,Colletidae,other_wild_bees,Kleijn
+Megachile pilidens,Megachilidae,other_wild_bees,Kleijn
+Sphecodes gibbus,Halictidae,other_wild_bees,Kleijn
+wesp: cf. Allodynerus floricola,NA,non_bee_hymenoptera,Kleijn
+Colletes cunicularius,Colletidae,other_wild_bees,Kleijn
+Sphecodes croaticus,Halictidae,other_wild_bees,Kleijn
+bruin borststuk zwarte kont,NA,NA,Kleijn
+Bombus perplexus,Apidae,other_wild_bees,Kleijn
+Bombus vagans vagans,Apidae,bumblebees,Kleijn
+Bombus affinis,Apidae,bumblebees,Kleijn
+Bombus griseollis,Apidae,other_wild_bees,Kleijn
+Megachile gemula,Megachilidae,other_wild_bees,Kleijn
+27 bees other than apidae,NA,other_wild_bees,Kleijn
+Sphecodes minor,Halictidae,other_wild_bees,Kleijn
+Megachile frigida,Megachilidae,other_wild_bees,Kleijn
+Melitta near americana,Melittidae,other_wild_bees,Kleijn
+Dialictus lineatulus,Halictidae,other_wild_bees,Kleijn
+Dialictus rohweri,Halictidae,other_wild_bees,Kleijn
+Evylaeus cinctipes,NA,other_wild_bees,Kleijn
+Auguchloropsis metallica,Halictidae,other_wild_bees,Kleijn
+Lasioglossum athabascense,Halictidae,other_wild_bees,Kleijn
+Ceratina dupla/calcarata,Apidae,other_wild_bees,Kleijn
+Dialictus admirandus,Halictidae,other_wild_bees,Kleijn
+Dialictus marinus,Halictidae,other_wild_bees,Kleijn
+Dialictus sp. 1,Halictidae,other_wild_bees,Kleijn
+Augochlorella striata,Halictidae,other_wild_bees,Kleijn
+Dialictus sp. C,Halictidae,other_wild_bees,Kleijn
+14 bees other than apidae,NA,other_wild_bees,Kleijn
+Dialictus pilosus,Halictidae,other_wild_bees,Kleijn
+Andrena nuda,Andrenidae,other_wild_bees,Kleijn
+Megachile texana,Megachilidae,other_wild_bees,Kleijn
+Dialictus sp2,Halictidae,other_wild_bees,Kleijn
+Exomalopsis analis...61,Apidae,other_wild_bees,Kleijn
+Geotrigona sp,Apidae,other_wild_bees,Kleijn
+Trigona spp..,Apidae,other_wild_bees,Kleijn
+Xylocopa,Apidae,other_wild_bees,Kleijn
+Melipona quadrifasciata anthidioides,Apidae,other_wild_bees,Kleijn
+Andrena distinguenda,Andrenidae,other_wild_bees,Kleijn
+Andrena gelriae,Andrenidae,other_wild_bees,Kleijn
+Andrena lagopus,Andrenidae,other_wild_bees,Kleijn
+Andrena minutula-aggregate,Andrenidae,other_wild_bees,Kleijn
+Bombus terrestris-aggregate,Apidae,bumblebees,Kleijn
+Hylaeus gredleri,Colletidae,other_wild_bees,Kleijn
+Hylaeus signatus,Colletidae,other_wild_bees,Kleijn
+Anasimyia lineata,Syrphidae,syrphids,Kleijn
+Melangyna cincta,Syrphidae,syrphids,Kleijn
+Melanostoma spec,Syrphidae,syrphids,Kleijn
+Sphaerophoria spec,Syrphidae,syrphids,Kleijn
+Tropidia scita,Syrphidae,syrphids,Kleijn
+Bombus_hortulanus,Apidae,bumblebees,Kleijn
+Bombus.atratus,Apidae,bumblebees,Kleijn
+Bombus.melaleucus,Apidae,bumblebees,Kleijn
+Thygater,Apidae,other_wild_bees,Kleijn
+Hymenoptera.(wasps),NA,non_bee_hymenoptera,Kleijn
+Bombus.hortulanus,Apidae,bumblebees,Kleijn
+Anthophora furcata,Apidae,other_wild_bees,Kleijn
+Dasypoda altercator,Melittidae,other_wild_bees,Kleijn
+Eristalis pertimax,Syrphidae,syrphids,Kleijn
+Tabanus bovine,NA,other_flies,Kleijn
+Atylotus rusticus,NA,other_flies,Kleijn
+Andrena coitana,Andrenidae,other_wild_bees,Kleijn
+Specodes reticulates,Halictidae,other_wild_bees,Kleijn
+Apidae,Apidae,other_wild_bees,Kleijn
+Hylaeus brevicornis,Colletidae,other_wild_bees,Kleijn
+Systoechus ctenopterus,NA,humbleflies,Kleijn
+Andrena nigriceps,Andrenidae,other_wild_bees,Kleijn
+Scathophaga stercoratia,Scathophagidae,other_flies,Kleijn
+Specodes puncticeps,Halictidae,other_wild_bees,Kleijn
+Gymnosoma sp.,Tachinidae,other_flies,Kleijn
+Helophillus trivittatus,Syrphidae,syrphids,Kleijn
+Rhagio tringarius,Rhagionidae,other_flies,Kleijn
+Evylaeus villosulus,NA,other_wild_bees,Kleijn
+Volucella pelluceris,Syrphidae,syrphids,Kleijn
+Evylaeus sextrigatus,Halictidae,other_wild_bees,Kleijn
+Haemmatopota plurails,NA,other_flies,Kleijn
+Talmerus atricapillus,Asilidae,other_flies,Kleijn
+Psithyrus silvestris,Apidae,bumblebees,Kleijn
+Psythirus bohemicus,NA,bumblebees,Kleijn
+Seladonia tumulorum,Halictidae,other_wild_bees,Kleijn
+Chrysotus sp.,Dolichopodidae,other_flies,Kleijn
+Myiatropa florea,NA,syrphids,Kleijn
+Rhangio tringarius,Rhagionidae,other_flies,Kleijn
+Bombus veteranus,Apidae,bumblebees,Kleijn
+Chloromyia fromosa,Stratiomyidae,other_flies,Kleijn
+Haematopora pluralis,Tabanidae,other_flies,Kleijn
 Anthomyiidae sp5,Anthomyiidae,non_bee_hymenoptera,Kleijn
 Bibionidae sp1,Bibionidae,other_flies,Kleijn
 Eristalis picea,Syrphidae,syrphids,Kleijn
@@ -2573,6 +2583,7 @@ Epistrophe grossulariae,Syrphidae,syrphids,Kleijn
 Muscidae sp2,Muscidae,other_flies,Kleijn
 Muscidae sp7,Muscidae,other_flies,Kleijn
 Pachyprotasis rapae,Tenthredinidae,non_bee_hymenoptera,Kleijn
+Scathophaga sp1,Scathophagidae,other_flies,Kleijn
 Rhagionidae sp1,Rhagionidae,other_flies,Kleijn
 Agromyzidae sp1,Agromyzidae,other_flies,Kleijn
 Anthomyiidae sp1,Anthomyiidae,non_bee_hymenoptera,Kleijn
@@ -2592,7 +2603,6 @@ Andrena sp2,Andrenidae,wild_bees,Kleijn
 Andrena sp6,Andrenidae,wild_bees,Kleijn
 Cantharis pellucida,Cantharidae,beetles,Kleijn
 Epistrophe nitidicollis,Syrphidae,syrphids,Kleijn
-Ichneumonidae sp1,Ichneumonidae,non_bee_hymenoptera,Kleijn
 Muscidae sp4,Muscidae,other_flies,Kleijn
 Rhagonycha limbata,NA,beetles,Kleijn
 Scathophaga sp2,Scathophagidae,other_flies,Kleijn
@@ -2603,12 +2613,13 @@ Eupeodes lundbecki,Syrphidae,syrphids,Kleijn
 Muscidae sp8,Muscidae,other_flies,Kleijn
 Bibionidae sp3,Bibionidae,other_flies,Kleijn
 Cantharis nigricans,Cantharidae,beetles,Kleijn
+Cheilosia albitarsis,Syrphidae,syrphids,Kleijn
 Scathophaga sp3,Scathophagidae,other_flies,Kleijn
 Bibionidae sp2,Bibionidae,other_flies,Kleijn
 Dolorus nitens,Tenthredinidae,non_bee_hymenoptera,Kleijn
-Heliophilus hybridus,Syrphidae,syrphids,Kleijn
+Heliophilus hybridus,NA,syrphids,Kleijn
 Calliphoridae sp1,Calliphoridae,other_flies,Kleijn
-Heliophilus trivatlatus,NA,syrphids,Kleijn
+Heliophilus trivatlatus,Syrphidae,syrphids,Kleijn
 Sphaerophoria virgata,Syrphidae,syrphids,Kleijn
 Andrena sp7,Andrenidae,wild_bees,Kleijn
 Dolores haematodes,NA,non_bee_hymenoptera,Kleijn
@@ -2620,6 +2631,135 @@ Andrena sp4,Andrenidae,wild_bees,Kleijn
 Cheilosia gigantea,Syrphidae,syrphids,Kleijn
 Cheilosia vicina,Syrphidae,syrphids,Kleijn
 Tachinidae sp2,Tachinidae,other_flies,Kleijn
+Bombus_bohemicus,Apidae,bumblebees,Kleijn
+Solitary_bee_spp.,NA,other_wild_bees,Kleijn
+Empididae_spp.,Empididae,other_flies,Kleijn
+Vespidae_spp.,Vespidae,non_bee_hymenoptera,Kleijn
+Parasyrphus_sp,Syrphidae,syrphids,Kleijn
+Platycheirus_jaerensis,Syrphidae,syrphids,Kleijn
+Chrysotoxum_fasciolatum,NA,syrphids,Kleijn
+Platycheirus_sp.,Syrphidae,syrphids,Kleijn
+Epistrophella_euchroma,Syrphidae,syrphids,Kleijn
+Leucozona_lucorum,NA,syrphids,Kleijn
+Parasyrphus_vittiger,Syrphidae,syrphids,Kleijn
+Syrphus_ribestri,NA,syrphids,Kleijn
+Meliscaeva_cinctella,NA,syrphids,Kleijn
+Syrphus_torvus,NA,syrphids,Kleijn
+Parasyrphus_lineolus,Syrphidae,syrphids,Kleijn
+Orthonevra_geniculata,NA,syrphids,Kleijn
+Chrysotoxum_arcuatum,NA,syrphids,Kleijn
+Platycheirus_nielseni_,Syrphidae,syrphids,Kleijn
+Melanogaster_sp.,Melanogastraceae,other_flies,Kleijn
+Epistrophe_sp.,Syrphidae,syrphids,Kleijn
+Syrphidae_sp.,Syrphidae,syrphids,Kleijn
+Syrphidae_spp.,Syrphidae,syrphids,Kleijn
+Other_Diptera_spp.,NA,other_flies,Kleijn
+Other_spp.,NA,unknown,Kleijn
+Megachilidae sp1,Megachilidae,other_wild_bees,Kleijn
+Halictidae sp1,Halictidae,other_wild_bees,Kleijn
+Trigonini,NA,other_wild_bees,Kleijn
+Coleoptera sp8,NA,beetles,Kleijn
+Vespidae sp5,Vespidae,non_bee_hymenoptera,Kleijn
+Pompilidae sp1,Pompilidae,non_bee_hymenoptera,Kleijn
+Polistes sp,Vespidae,non_bee_hymenoptera,Kleijn
+Vespidae spn,Vespidae,non_bee_hymenoptera,Kleijn
+Culicidae sp1,Culicidae,other_flies,Kleijn
+Culicidae sp2,Culicidae,other_flies,Kleijn
+Culicidae sp3,Culicidae,other_flies,Kleijn
+Culicidae sp4,Culicidae,other_flies,Kleijn
+Empididae sp,Empididae,other_flies,Kleijn
+Stratiomyoidae,Stratiomyidae,syrphids,Kleijn
+Syrphus sp,Syrphidae,syrphids,Kleijn
+Salpinigaster sp,NA,syrphids,Kleijn
+Tachinidae,Tachinidae,other_flies,Kleijn
+Tipulidaesp,NA,other_flies,Kleijn
+Chironomidae sp.,Chironomidae,other_flies,Kleijn
+Calliphoridae sp.,Calliphoridae,other_flies,Kleijn
+Bombus lucorum agg,Apidae,bumblebees,Kleijn
+Lasioglossum sp1,Halictidae,wild_bees,Kleijn
+Vespula sp1,Vespidae,non_bee_hymenoptera,Kleijn
+Tipula sp1,Tipulidae,other_flies,Kleijn
+Sphecodes sp1,Halictidae,wild_bees,Kleijn
+Vanessa atalanta,Nymphalidae,lepidoptera,Kleijn
+Colletes succinctus,Colletidae,wild_bees,Kleijn
+Eristalis nemorum,Syrphidae,syrphids,Kleijn
+Parasyrphus punctulatus,Syrphidae,syrphids,Kleijn
+Mesembrina sp1,Muscidae,other_flies,Kleijn
+Melanostoma dubium,Syrphidae,syrphids,Kleijn
+Melanostoma millinum,Syrphidae,syrphids,Kleijn
+Anthophila sp1,Choreutidae,other_wild_bees,Kleijn
+Nomia (Acunomia) strigata,NA,other_wild_bees,Kleijn
+Braunsapis cupulifera,NA,other_wild_bees,Kleijn
+Ceratina (ceratinidia) nigrolateralis,Apidae,other_wild_bees,Kleijn
+Xylocopa (Mesotrichia) latipes,Apidae,other_wild_bees,Kleijn
+Geniotrigona thoracica,Apidae,other_wild_bees,Kleijn
+Heterotrigona itama,Apidae,other_wild_bees,Kleijn
+Tetragonula (laeviceps gr.),Apidae,other_wild_bees,Kleijn
+Tetragonula (pagdeni gr.),Apidae,other_wild_bees,Kleijn
+Tetragonula sp.,Apidae,other_wild_bees,Kleijn
+Meliponines sp.,NA,other_wild_bees,Kleijn
+Vespa Affinis,NA,non_bee_hymenoptera,Kleijn
+Coleoptera sp. 1,NA,beetles,Kleijn
+Coleoptera sp. 2,NA,beetles,Kleijn
+Coleoptera sp. 3,NA,beetles,Kleijn
+Diptera sp. 1,NA,other_flies,Kleijn
+Diptera sp. 2,NA,other_flies,Kleijn
+Diptera sp. 3,NA,other_flies,Kleijn
+Diptera sp. 4,NA,other_flies,Kleijn
+Formicidae sp. 1,Formicidae,non_bee_hymenoptera,Kleijn
+Formicidae sp. 3,Formicidae,non_bee_hymenoptera,Kleijn
+Formicidae sp. 4,Formicidae,non_bee_hymenoptera,Kleijn
+Eristalis spp.,Syrphidae,syrphids,Kleijn
+Other coleopterans,NA,beetles,Kleijn
+Other dipterans,NA,other_flies,Kleijn
+Lepidopterans,NA,lepidoptera,Kleijn
+Wild bees,NA,other_wild_bees,Kleijn
+Andrena assimilis,Andrenidae,other_wild_bees,Kleijn
+Xanthandrus comtus,Syrphidae,syrphids,Kleijn
+Empis sp.,Empididae,other_flies,Kleijn
+Halictidae morpho 4,Halictidae,other_wild_bees,Kleijn
+Halictus crenicornis,Halictidae,other_wild_bees,Kleijn
+Meliscaeva auricollis,Syrphidae,syrphids,Kleijn
+Others,NA,others,Kleijn
+Halictidae morpho 1,Halictidae,other_wild_bees,Kleijn
+Nomada succinta,Apidae,other_wild_bees,Kleijn
+Oxythyrea funesta,Scarabaeidae,beetles,Kleijn
+Agrypnus murinus,Elateridae,beetles,Kleijn
+Sarcophaga sp.,Sarcophagidae,other_flies,Kleijn
+Symphita,NA,non_bee_hymenoptera,Kleijn
+Tenthredo koehleri,Tenthredinidae,non_bee_hymenoptera,Kleijn
+Oedemera sp.,Oedemeridae,beetles,Kleijn
+Panorpa sp,Panorpidae,others,Kleijn
+Parasitoide,NA,non_bee_hymenoptera,Kleijn
+Lasioglossum cf fulvicorne,Halictidae,other_wild_bees,Kleijn
+Andrena similis,Andrenidae,other_wild_bees,Kleijn
+Eucera sp.,Apidae,other_wild_bees,Kleijn
+Halictus (Seladonia) sp.,Halictidae,other_wild_bees,Kleijn
+Rhagonycha fulva,Cantharidae,beetles,Kleijn
+Andrena lathyri,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum limbellum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum lucidulum,Halictidae,other_wild_bees,Kleijn
+Stevenia deceptoria,Rhinophoridae,other_flies,Kleijn
+Zophomyia temula,Tachinidae,other_flies,Kleijn
+Halictidae morpho 8,Halictidae,other_wild_bees,Kleijn
+Volucella sp.,Syrphidae,other_flies,Kleijn
+Halictidae morpho 10,Halictidae,other_wild_bees,Kleijn
+Lasioglossum littorale,Halictidae,other_wild_bees,Kleijn
+Tropinota squalida,Scarabaeidae,beetles,Kleijn
+Bombylius sp,Bombyliidae,humbleflies,Kleijn
+Neomyia cornicina,Muscidae,other_flies,Kleijn
+Tricogena rubricosa,Rhinophoridae,other_flies,Kleijn
+Bee,NA,other_wild_bees,Kleijn
+Honeybee,NA,honeybees,Kleijn
+Andrena bisalicis,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum laevissimum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum mitchelli,Halictidae,other_wild_bees,Kleijn
+Nomada dreisbachi,Apidae,other_wild_bees,Kleijn
+Sphecodes cressonii,Halictidae,other_wild_bees,Kleijn
+Andrena geranii,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum nymphaearum,Halictidae,other_wild_bees,Kleijn
+Andrena morrisonella,Andrenidae,other_wild_bees,Kleijn
+Sphecodes confertus,Halictidae,other_wild_bees,Kleijn
 Chelostoma florisomne,Megachilidae,other wild bees,Kleijn
 Osmia caerulescens,Megachilidae,other wild bees,Kleijn
 Andrena scotica,Andrenidae,other wild bees,Kleijn
@@ -2639,3 +2779,528 @@ Megachile centuncularis,Megachilidae,other wild bees,Kleijn
 Nomada lathburiana,Apidae,other wild bees,Kleijn
 Osmia leaiana,Megachilidae,other wild bees,Kleijn
 Osmia niveata,Megachilidae,other wild bees,Kleijn
+Agapostemon_texanus,Halictidae,other_wild_bees,Kleijn
+Augochlora_pura,Halictidae,other_wild_bees,Kleijn
+Augochlorella_aurata,Halictidae,other_wild_bees,Kleijn
+Bombus_bimaculatus,Apidae,bumblebees,Kleijn
+Bombus_fervidus,Apidae,bumblebees,Kleijn
+Bombus_impatiens,Apidae,bumblebees,Kleijn
+Bombus_perplexus,Apidae,bumblebees,Kleijn
+Ceratina_calcarata_dupla,Apidae,other_wild_bees,Kleijn
+Halictus_confusus,Halictidae,other_wild_bees,Kleijn
+Halictus_ligatus,Halictidae,other_wild_bees,Kleijn
+Halictus_rubicundus,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_versatum,Halictidae,other_wild_bees,Kleijn
+Megachile_rotundata,Megachilidae,other_wild_bees,Kleijn
+Melissodes_bimaculata,Apidae,other_wild_bees,Kleijn
+Peponapis_pruinosa,NA,other_wild_bees,Kleijn
+Triepeolus_remigatus,NA,other_wild_bees,Kleijn
+Xylocopa_virginica,Apidae,other_wild_bees,Kleijn
+Andrena_barbara,Andrenidae,other_wild_bees,Kleijn
+Andrena_bisalicis,Andrenidae,other_wild_bees,Kleijn
+Andrena_carlini,Andrenidae,other_wild_bees,Kleijn
+Andrena_dunningi,Andrenidae,other_wild_bees,Kleijn
+Andrena_erythronii,Andrenidae,other_wild_bees,Kleijn
+Andrena_forbesii,Andrenidae,other_wild_bees,Kleijn
+Andrena_hippotes,Andrenidae,other_wild_bees,Kleijn
+Andrena_imitatrix,Andrenidae,other_wild_bees,Kleijn
+Andrena_mandibularis,Andrenidae,other_wild_bees,Kleijn
+Andrena_milwaukeensis,Andrenidae,other_wild_bees,Kleijn
+Andrena_miserabilis,Andrenidae,other_wild_bees,Kleijn
+Andrena_morrisonella,Andrenidae,other_wild_bees,Kleijn
+Andrena_nasonii,Andrenidae,other_wild_bees,Kleijn
+Andrena_nuda,Andrenidae,other_wild_bees,Kleijn
+Andrena_perplexa,Andrenidae,other_wild_bees,Kleijn
+Andrena_pruni,Andrenidae,other_wild_bees,Kleijn
+Andrena_rugosa,Andrenidae,other_wild_bees,Kleijn
+Andrena_vicina,Andrenidae,other_wild_bees,Kleijn
+Augochora_pura,NA,other_wild_bees,Kleijn
+Ceratina_calcarata,Apidae,other_wild_bees,Kleijn
+Colletes_inaequalls,Colletidae,other_wild_bees,Kleijn
+Lasioglossum_foxii,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_mitchelli,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_oceanicum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_quebecense,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_weemsi,Halictidae,other_wild_bees,Kleijn
+Osmia_cornifrons,Megachilidae,other_wild_bees,Kleijn
+Osmia_lignaria,Megachilidae,other_wild_bees,Kleijn
+Osmia_pumila,Megachilidae,other_wild_bees,Kleijn
+Hylaeus_mesillae,Colletidae,other_wild_bees,Kleijn
+Lasioglossum_admirandum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_albipenne,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_callidum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_imitatum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_nymphaearum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_paradmirandum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_pilosum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_tegulare,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_trigeminum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_viridatum,Halictidae,other_wild_bees,Kleijn
+Augochloropsis_metallica,Halictidae,other_wild_bees,Kleijn
+Bombus_griseocollis,Apidae,bumblebees,Kleijn
+Lasioglossum_ephialtum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_pectorale,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_zephyrum,Halictidae,other_wild_bees,Kleijn
+Andrena_bradleyi,Andrenidae,other_wild_bees,Kleijn
+Colletes_cressoni,Colletidae,other_wild_bees,Kleijn
+Colletes_inaequalis,Colletidae,other_wild_bees,Kleijn
+Habropoda_laboriosa,NA,other_wild_bees,Kleijn
+Colletes_validus,Colletidae,other_wild_bees,Kleijn
+Andrena_fenningeri,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum_leucocomum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_oblongum,Halictidae,other_wild_bees,Kleijn
+Andrena_cressoni,Andrenidae,other_wild_bees,Kleijn
+Colletes_thoracicus,Colletidae,other_wild_bees,Kleijn
+Andrena_carolina,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum_acuminatum,Halictidae,other_wild_bees,Kleijn
+Nomada_luteola,Apidae,other_wild_bees,Kleijn
+Lasioglossum_fuscipenne,Halictidae,other_wild_bees,Kleijn
+Andrena_banksi,Andrenidae,other_wild_bees,Kleijn
+Andrena_ilicis,Andrenidae,other_wild_bees,Kleijn
+Sphecodes_aroniae,Halictidae,other_wild_bees,Kleijn
+Sphecodes_stygius,Halictidae,other_wild_bees,Kleijn
+Megachile_gemula,Megachilidae,other_wild_bees,Kleijn
+Megachile_mendica,Megachilidae,other_wild_bees,Kleijn
+Melitta_americana,Melittidae,other_wild_bees,Kleijn
+Andrena_spiraeana,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum_coeruleum,Halictidae,other_wild_bees,Kleijn
+Megachile_addenda,Megachilidae,other_wild_bees,Kleijn
+Nomada_rodecki,Apidae,other_wild_bees,Kleijn
+Osmia_inspergens,Megachilidae,other_wild_bees,Kleijn
+Osmia_virga,Megachilidae,other_wild_bees,Kleijn
+Panurginus_atramontensis,Andrenidae,other_wild_bees,Kleijn
+Bombus_vagans,Apidae,bumblebees,Kleijn
+Coelioxys_sayi,Megachilidae,other_wild_bees,Kleijn
+Lasioglossum_planatum,Halictidae,other_wild_bees,Kleijn
+Andrena_cressonii,Andrenidae,other_wild_bees,Kleijn
+Bombus_citrinus,Apidae,bumblebees,Kleijn
+Coelioxys_immaculata,Megachilidae,other_wild_bees,Kleijn
+Lasioglossum_subviridatum,Halictidae,other_wild_bees,Kleijn
+Nomada_bella_lepida,Apidae,other_wild_bees,Kleijn
+Nomada_pygmaea,Apidae,other_wild_bees,Kleijn
+Colletes_consors,Colletidae,other_wild_bees,Kleijn
+Coelioxys_porterae,Megachilidae,other_wild_bees,Kleijn
+Heriades_carinatus,Megachilidae,other_wild_bees,Kleijn
+Hoplitis_truncata,Megachilidae,other_wild_bees,Kleijn
+Agapostemon_splendens,Halictidae,other_wild_bees,Kleijn
+Bombus_sandersoni,Apidae,bumblebees,Kleijn
+Lasioglossum_georgeickworti,Halictidae,other_wild_bees,Kleijn
+Megachile_texana,Megachilidae,other_wild_bees,Kleijn
+Lasioglossum_lineatulum,Halictidae,other_wild_bees,Kleijn
+Augochloropsis_sumptuosa,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_apopkense,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_creberrimum,Halictidae,other_wild_bees,Kleijn
+Sphecodes_fattigi,Halictidae,other_wild_bees,Kleijn
+Psithyrus rupestris,Apidae,bumblebees,Kleijn
+Psithyrus vestalis,Apidae,bumblebees,Kleijn
+Psithyrus campestris,Apidae,bumblebees,Kleijn
+Bombus cryptarum,Apidae,bumblebees,Kleijn
+Bombus soroëensis,Apidae,bumblebees,Kleijn
+unidentified solitary bee,NA,NA,Kleijn
+Apis_millifera_scutellata,NA,honeybees,Kleijn
+Lasioglossum_sp.1,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_sp.2,Halictidae,other_wild_bees,Kleijn
+Tetraloniella_braunsiana,NA,other_wild_bees,Kleijn
+Xylocopa_sp1.,Apidae,other_wild_bees,Kleijn
+Xylocopa_sp2.,Apidae,other_wild_bees,Kleijn
+Sphecidae_wasp_sp1.,Sphecidae,non_bee_hymenoptera,Kleijn
+small_hover_(Asarkina_sp1.),NA,syrphids,Kleijn
+large_hover_(Eristalis_sp1.),Syrphidae,syrphids,Kleijn
+Muscid_sp1.,NA,other_flies,Kleijn
+Hesperiidae_sp1.(brown_skipper),Hesperiidae,lepidoptera,Kleijn
+Acraea_horta,NA,lepidoptera,Kleijn
+Colotis_sp1._(white_b-fly),Pieridae,lepidoptera,Kleijn
+Danus_chrysippus_aegyptius,NA,lepidoptera,Kleijn
+Hypolimnas_misippus(black_and_white),Nymphalidae,lepidoptera,Kleijn
+Precis_oenone(blue_pansy),Nymphalidae,lepidoptera,Kleijn
+Lycaenidae_sp1.,Lycaenidae,lepidoptera,Kleijn
+Macroglossum_trochilus(hummingbird_hawkmoth),Sphingidae,lepidoptera,Kleijn
+Noctuidae_sp1.,Noctuidae,lepidoptera,Kleijn
+Astylus_atromaculatus,NA,beetles,Kleijn
+Tenebrionidae_sp1.,Tenebrionidae,beetles,Kleijn
+Lygus_sp1.(green_bug),Miridae,other,Kleijn
+bee.red.abdomen.sp1,NA,NA,Kleijn
+Xylocopa_sp2.(black_white),Apidae,other_wild_bees,Kleijn
+small_hover_(Asarkina_sp2.),NA,syrphids,Kleijn
+Sarcophagidae_sp1.,Sarcophagidae,other_flies,Kleijn
+Caliphoridae_sp1.,Calliphoridae,other_flies,Kleijn
+Coeliades_pisistratus(skipper),Hesperiidae,lepidoptera,Kleijn
+brown_skipper_sp1.,NA,lepidoptera,Kleijn
+Mylothris_sp1.,Pieridae,lepidoptera,Kleijn
+Colotis_sp2._(white_b-fly.orange.wing.tip),Pieridae,lepidoptera,Kleijn
+Colias_sp.1,Pieridae,lepidoptera,Kleijn
+Lycaenidae_sp2.,Lycaenidae,lepidoptera,Kleijn
+Fulgoridae_sp1.,Fulgoridae,other,Kleijn
+Lace_bug_sp1.,NA,other,Kleijn
+Cetoniidae_sp1.,NA,beetles,Kleijn
+ladybird_sp1.,NA,beetles,Kleijn
+Bombyliidae_sp.1,Bombyliidae,humbleflies,Kleijn
+Chrysoperla_sp1.(green_lacewing),Chrysopidae,other,Kleijn
+Cleridae_sp1.,Cleridae,beetles,Kleijn
+Chamaesphecia_anthraciformis,NA,lepidoptera,Kleijn
+Honeybees,NA,honeybees,Kleijn
+Anthophora urbana,Apidae,other_wild_bees,Kleijn
+Dialictus,Halictidae,other_wild_bees,Kleijn
+Apis,Apidae,honeybees,Kleijn
+Dialictus sp. 2,Halictidae,other_wild_bees,Kleijn
+Nanotrigona testaceicornis,Apidae,other_wild_bees,Kleijn
+Halictus hesperus,Halictidae,other_wild_bees,Kleijn
+Plebia sp. 2,Apidae,other_wild_bees,Kleijn
+Xylocopa tabaniformis,Apidae,other_wild_bees,Kleijn
+Trigona fulviventris,Apidae,other_wild_bees,Kleijn
+Ceratina eximia,Apidae,other_wild_bees,Kleijn
+Ceratina ignara,Apidae,other_wild_bees,Kleijn
+Augochlora aurifera,Halictidae,other_wild_bees,Kleijn
+Melipona beechiie,Apidae,other_wild_bees,Kleijn
+Euluema,NA,other_wild_bees,Kleijn
+Melipona beechiie (Bennett),Apidae,other_wild_bees,Kleijn
+Syrphus sp.,Syrphidae,syrphids,Kleijn
+Syrphus ribessi ou vitripennis,Syrphidae,syrphids,Kleijn
+Apidea,NA,other_wild_bees,Kleijn
+Stomorhina lunata,Rhiniidae,other_flies,Kleijn
+Syrrita pipiens,NA,syrphids,Kleijn
+Meliscaeva sp.,Syrphidae,syrphids,Kleijn
+Oedemera nobilis,Oedemeridae,beetles,Kleijn
+Cheilosia sp.,Syrphidae,syrphids,Kleijn
+Volucella zonaria,Syrphidae,syrphids,Kleijn
+Nitidulidae,Nitidulidae,beetles,Kleijn
+Cetonia aurata,Scarabaeidae,beetles,Kleijn
+Isopoda,NA,others,Kleijn
+Anthomyiidae,Anthomyiidae,other_flies,Kleijn
+Choromyia sp.,Tachinidae,other_flies,Kleijn
+Chrysanthia sp.,Oedemeridae,beetles,Kleijn
+Araneus angulatus,Araneidae,others,Kleijn
+Mycterus sp.,Mycteridae,beetles,Kleijn
+Melyridae,Melyridae,beetles,Kleijn
+Forficulidae,Forficulidae,others,Kleijn
+Scaeva sp.,Syrphidae,syrphids,Kleijn
+Chloromyia sp.,Stratiomyidae,other_flies,Kleijn
+Maniola jurtina,Nymphalidae,lepidoptera,Kleijn
+Andrena spreta,Andrenidae,other_wild_bees,Kleijn
+Pyropteron chrysidiforme,Sesiidae,lepidoptera,Kleijn
+Hylaeus confusus,Colletidae,other_wild_bees,Kleijn
+Sphecodes longulus,Halictidae,other_wild_bees,Kleijn
+Lasioglossum griseolum,Halictidae,other_wild_bees,Kleijn
+Ceratina albosticta,Apidae,other_wild_bees,Kleijn
+Nomada distinguenda,Apidae,other_wild_bees,Kleijn
+Halictus gemmeus,Halictidae,other_wild_bees,Kleijn
+Andrena rhenana,Andrenidae,other_wild_bees,Kleijn
+Sphecodes ruficrus,Halictidae,other_wild_bees,Kleijn
+Halictus smaragdulus,Halictidae,other_wild_bees,Kleijn
+Lasioglossum strictifrons,Halictidae,other_wild_bees,Kleijn
+Lasioglossum albocinctum,Halictidae,other_wild_bees,Kleijn
+Osmia caerulescens,Megachilidae,other_wild_bees,Kleijn
+Euphydryas aurinia,Nymphalidae,lepidoptera,Kleijn
+Leptotes pirithous,Lycaenidae,lepidoptera,Kleijn
+Heriades truncorum,Megachilidae,other_wild_bees,Kleijn
+Usia sp.,NA,humbleflies,Kleijn
+Aglais io,NA,lepidoptera,Kleijn
+Hoplitis sp.,Megachilidae,other_wild_bees,Kleijn
+Polyommatus icarus,Lycaenidae,lepidoptera,Kleijn
+Issoria lathonia,Nymphalidae,lepidoptera,Kleijn
+Hoplitis cadiza,Megachilidae,other_wild_bees,Kleijn
+Lasioglossum angusticeps,Halictidae,other_wild_bees,Kleijn
+Mantodea,NA,others,Kleijn
+Dasypoda sp.,Melittidae,other_wild_bees,Kleijn
+Closterotomus norwegicus,Miridae,others,Kleijn
+Arachnidae,NA,others,Kleijn
+Scarabaeidae,Scarabaeidae,beetles,Kleijn
+Chrysoperla cf. carnea,Chrysopidae,others,Kleijn
+Macroglossum sp.,Sphingidae,lepidoptera,Kleijn
+Megachile sp. 1,Megachilidae,other_wild_bees,Kleijn
+Megachile sp. 2,Megachilidae,other_wild_bees,Kleijn
+Megachile sp. 3,Megachilidae,other_wild_bees,Kleijn
+Lucilia sericata,Calliphoridae,other_flies,Kleijn
+Syrphid,NA,syrphids,Kleijn
+Pollenia sp.,Calliphoridae,other_flies,Kleijn
+Scaeva sp.,Syrphidae,other_flies,Kleijn
+Stevenia sp.,Rhinophoridae,other_flies,Kleijn
+unidentified,NA,others,Kleijn
+Megachile sp.,Megachilidae,other_wild_bees,Kleijn
+Sphex sp.,Sphecidae,non_bee_hymenoptera,Kleijn
+Amegilla sp.,Apidae,other_wild_bees,Kleijn
+Halictus fulvipes,Halictidae,other_wild_bees,Kleijn
+Pyronia sp.,Nymphalidae,lepidoptera,Kleijn
+Calocoris roseomaculatus,Miridae,others,Kleijn
+Eristalinus taniops,Syrphidae,syrphids,Kleijn
+Spilosthethus pandurus,Lygaeidae,others,Kleijn
+Orthoptera,NA,others,Kleijn
+Macroglossum stellatarum,Sphingidae,lepidoptera,Kleijn
+Protaetia sp.,Scarabaeidae,beetles,Kleijn
+Eilema sp.,Erebidae,lepidoptera,Kleijn
+Forficula auricularia,Forficulidae,others,Kleijn
+Seladonia smaragdula,Halictidae,other_wild_bees,Kleijn
+Xysticus sp.,Thomisidae,others,Kleijn
+Mylabris_quadripunctata_,NA,beetles,Kleijn
+Eupeodes_corollae_,Syrphidae,syrphids,Kleijn
+Scaeva_pyrastri_,NA,syrphids,Kleijn
+Tachina_magnicornis_,NA,other_flies,Kleijn
+Usia_sp nº 1_,NA,bombyliidae,Kleijn
+Andrena_flavipes_,Andrenidae,other_wild_bees,Kleijn
+Apis_mellifera_,NA,honeybees,Kleijn
+Athalia _sp._,Tenthredinidae,non_bee_hymenoptera,Kleijn
+Halictus_compressus,Halictidae,other_wild_bees,Kleijn
+Halictus_quadricinctus_,Halictidae,other_wild_bees,Kleijn
+Halictus_scabiosae_,Halictidae,other_wild_bees,Kleijn
+Halictus_sp._,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_bimaculatum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_discum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_glabriusculum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_interruptum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_leucozonium_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_malachurum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_sp._,Halictidae,other_wild_bees,Kleijn
+Microdiprion _pallipes_,Diprionidae,non_bee_hymenoptera,Kleijn
+Podalonia_cf. hirsuta_,NA,non_bee_hymenoptera,Kleijn
+Polistes_dominula_,NA,non_bee_hymenoptera,Kleijn
+Trypoxylon_sp._,Crabronidae,non_bee_hymenoptera,Kleijn
+Adonia_variegata_,NA,beetles,Kleijn
+Coccinella_septempunctata_,NA,beetles,Kleijn
+Halictus_patellatus_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_albocinctum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_corvinum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_perclavipes_,Halictidae,other_wild_bees,Kleijn
+Xylocopa_violacea_,Apidae,other_wild_bees,Kleijn
+Lagria_sp._,Tenebrionidae,beetles,Kleijn
+Diptera_sp nº 1,NA,other_flies,Kleijn
+Diptera_sp nº 2,NA,other_flies,Kleijn
+Eumerus_sp._,Syrphidae,syrphids,Kleijn
+Merodon _sp nº1_,Syrphidae,syrphids,Kleijn
+Ammophila_sabulosa_,NA,non_bee_hymenoptera,Kleijn
+Eucera_cineraria_,Apidae,other_wild_bees,Kleijn
+Hylaeus_sp._,Colletidae,other_wild_bees,Kleijn
+Hylaeus_variegatus_,Colletidae,other_wild_bees,Kleijn
+Hymenoptera_sp nº 2,NA,non_bee_hymenoptera,Kleijn
+Hymenoptera_sp nº 4,NA,non_bee_hymenoptera,Kleijn
+Hymenoptera_sp nº 5,NA,non_bee_hymenoptera,Kleijn
+Hymenoptera_sp nº 6,NA,non_bee_hymenoptera,Kleijn
+Icneumon_sp. nº1_,NA,non_bee_hymenoptera,Kleijn
+Panurgus_cephalotes_,NA,other_wild_bees,Kleijn
+Vespula_sp._,Vespidae,non_bee_hymenoptera,Kleijn
+Hesperia_comma_,NA,lepidoptera,Kleijn
+Hyperaea_femoralis_,NA,other_flies,Kleijn
+Melanostoma_mellinum_,NA,syrphids,Kleijn
+Sphaerophoria_scripta_,Syrphidae,syrphids,Kleijn
+Stomorhina_lunata_,NA,other_flies,Kleijn
+Andrena_albopunctata_melona,Andrenidae,other_wild_bees,Kleijn
+Halictus_smaragdulus_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_MORFO D_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_pauxillum_,Halictidae,other_wild_bees,Kleijn
+Megachile_pilidens_,Megachilidae,other_wild_bees,Kleijn
+Pimpla_sp._,Ichneumonidae,non_bee_hymenoptera,Kleijn
+Andrena_hispania_,Andrenidae,other_wild_bees,Kleijn
+Andrena_morio_,Andrenidae,other_wild_bees,Kleijn
+Andrena_sp._,Andrenidae,other_wild_bees,Kleijn
+Chrysis_sp._,Chrysididae,non_bee_hymenoptera,Kleijn
+Colpa_quinquecincta_occidentalis,NA,non_bee_hymenoptera,Kleijn
+Hymenoptera_sp nº 11,NA,non_bee_hymenoptera,Kleijn
+Oxybelus_sp._,Crabronidae,non_bee_hymenoptera,Kleijn
+Oxythyrea_funesta_,NA,beetles,Kleijn
+Stenopterus_sp._,Cerambycidae,beetles,Kleijn
+Diptera_sp nº3,NA,other_flies,Kleijn
+Eupeodes_sp._,Syrphidae,syrphids,Kleijn
+Syritta _pipiens_,Syrphidae,syrphids,Kleijn
+Hymenoptera_sp nº 7,NA,non_bee_hymenoptera,Kleijn
+Hymenoptera_sp nº 8,NA,non_bee_hymenoptera,Kleijn
+Melllina_arvensis_,NA,non_bee_hymenoptera,Kleijn
+Mutilla_sp._,Mutillidae,non_bee_hymenoptera,Kleijn
+Pseudapis_sp._,Halictidae,other_wild_bees,Kleijn
+Tytthaspis _sedecinguttata_,Coccinellidae,beetles,Kleijn
+Diptera_sp. nº1,NA,other_flies,Kleijn
+Diptera_sp. nº2,NA,other_flies,Kleijn
+Lucilia_sp._,Asteraceae,other_flies,Kleijn
+Musca_domestica_,NA,other_flies,Kleijn
+Amegilla_bimaculata_,Apidae,other_wild_bees,Kleijn
+Colpa_sexmaculata_,NA,non_bee_hymenoptera,Kleijn
+Rhagonycha _fulva_,Cantharidae,beetles,Kleijn
+Ammophila_sp._,Poaceae,non_bee_hymenoptera,Kleijn
+Andrena_ pilipes_,Andrenidae,other_wild_bees,Kleijn
+Anthidium _manicatum_,Megachilidae,other_wild_bees,Kleijn
+Anthophora_bimaculata_,Apidae,other_wild_bees,Kleijn
+Bombus_laessus_,Apidae,bumblebees,Kleijn
+Eumenes_sp._,Vespidae,non_bee_hymenoptera,Kleijn
+Lithurgus_cornuta_,NA,other_wild_bees,Kleijn
+Megachile_melanopyga_,Megachilidae,other_wild_bees,Kleijn
+Ophion_sp._,Ichneumonidae,non_bee_hymenoptera,Kleijn
+Polistes_sp._,Vespidae,non_bee_hymenoptera,Kleijn
+Colias_alfacariensis_,NA,lepidoptera,Kleijn
+Hyles_euphorbiae_,NA,lepidoptera,Kleijn
+Species no.1,NA,lepidoptera,Kleijn
+Dasypoda_altercator_,NA,other_wild_bees,Kleijn
+Lasioglossum_politum_,Halictidae,other_wild_bees,Kleijn
+Ceratina_chalcites_,Apidae,other_wild_bees,Kleijn
+Xylocopa_sp._,Apidae,other_wild_bees,Kleijn
+Melitaea_phoebe_,NA,lepidoptera,Kleijn
+Sp. 2,NA,lepidoptera,Kleijn
+Clanoptilus_cf. elegans_,NA,beetles,Kleijn
+Bombus_terrestris_,Apidae,bumblebees,Kleijn
+Halictus_sexcinctus_,Halictidae,other_wild_bees,Kleijn
+Chlorophorus_trifasciatus_,NA,beetles,Kleijn
+Potosia_oblonga_,NA,beetles,Kleijn
+Arge _sp._,Argidae,non_bee_hymenoptera,Kleijn
+Lasioglossum_MORFO A_,Halictidae,other_wild_bees,Kleijn
+Polistes_nympha_,NA,non_bee_hymenoptera,Kleijn
+Megachile_rotundata_,Megachilidae,other_wild_bees,Kleijn
+Amegilla_quadripunctata_,Apidae,other_wild_bees,Kleijn
+Eristalis_sp._,Syrphidae,syrphids,Kleijn
+Bombus_cullumanus_,Apidae,bumblebees,Kleijn
+Xylocopa_iris_,Apidae,other_wild_bees,Kleijn
+sp. 3,NA,lepidoptera,Kleijn
+Ceratina_cyanea_,Apidae,other_wild_bees,Kleijn
+Eucera_sp._,Apidae,other_wild_bees,Kleijn
+Nomada_sp._,Apidae,other_wild_bees,Kleijn
+Cerceris _sp._,Crabronidae,non_bee_hymenoptera,Kleijn
+Halictus_subauratus_,Halictidae,other_wild_bees,Kleijn
+Oedemera simplex,NA,beetles,Kleijn
+Panurgus siculus,NA,other_wild_bees,Kleijn
+Piezodorus lituratus,Pentatomidae,others,Kleijn
+Lucilia sp.,Asteraceae,other_flies,Kleijn
+Stelis breviuscula,Megachilidae,other_wild_bees,Kleijn
+Dolycoris baccarum,Pentatomidae,others,Kleijn
+Diptera sp7,NA,other_flies,Kleijn
+Brachymeria sp.,Chalcididae,non_bee_hymenoptera,Kleijn
+Chrysis ignita,Chrysididae,non_bee_hymenoptera,Kleijn
+Sphaerophoria cf. scripta,Syrphidae,syrphids,Kleijn
+Calocoris sp.,Miridae,others,Kleijn
+Neoscona adianta,Araneidae,others,Kleijn
+Lygus sp.,Miridae,others,Kleijn
+Lasioglossum fratellum,Halictidae,other_wild_bees,Kleijn
+Vanessa cardui,Nymphalidae,lepidoptera,Kleijn
+Bombus ruderatus,Apidae,bumblebees,Kleijn
+Lygaeus equestris,Lygaeidae,others,Kleijn
+Lagrtia_hirta_,NA,beetles,Kleijn
+Sitaris_muralis_,NA,beetles,Kleijn
+Episyrphus_balteatus_,NA,syrphids,Kleijn
+Phthiria_vagans_,NA,bombyliidae,Kleijn
+Arge _rosae_,Argidae,non_bee_hymenoptera,Kleijn
+Lasioglossum_costulatum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_puncticolle_,Halictidae,other_wild_bees,Kleijn
+Panurgus_calcaratus_,NA,other_wild_bees,Kleijn
+Vespula_germanica_,NA,non_bee_hymenoptera,Kleijn
+Thymelicus_lineola_,NA,lepidoptera,Kleijn
+Neomyia_cornicina_,NA,other_flies,Kleijn
+Trupanea_amoena_,NA,other_flies,Kleijn
+Anthophora_dispar_,Apidae,other_wild_bees,Kleijn
+Lasioglossum_pauperatum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_villosulum_,Halictidae,other_wild_bees,Kleijn
+Aplomya_confinis_,NA,other_flies,Kleijn
+Cylindromyia_bicolor_,NA,other_flies,Kleijn
+Andrena_ovatula_,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum_brevicorne_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_crassepunctatum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_griseolum_,Halictidae,other_wild_bees,Kleijn
+Taxonus _agrorum_,Tenthredinidae,non_bee_hymenoptera,Kleijn
+Vespula_vulgaris_,NA,non_bee_hymenoptera,Kleijn
+Megachile_albisecta_,Megachilidae,other_wild_bees,Kleijn
+Scolia _hirta_,Scoliidae,non_bee_hymenoptera,Kleijn
+Tropinota_squalida_,NA,beetles,Kleijn
+Elomya_lateralis_,NA,other_flies,Kleijn
+Pangonius_micans_,NA,other_flies,Kleijn
+Andrena_pilipes_,Andrenidae,other_wild_bees,Kleijn
+Panurginus_albopilosus_,Andrenidae,other_wild_bees,Kleijn
+Lampiris _noctiluca_,NA,beetles,Kleijn
+Eristalis_arbustorum_,Syrphidae,syrphids,Kleijn
+Hemipenthes_morio_,NA,bombyliidae,Kleijn
+Protocalliphora_azurea_,NA,other_flies,Kleijn
+Xylota_segnis_,NA,syrphids,Kleijn
+Lycaena _phlaeas_,Lycaenidae,lepidoptera,Kleijn
+Pieris _napi_,Ericaceae,lepidoptera,Kleijn
+Pyronia_bathseba_,NA,lepidoptera,Kleijn
+Trichodes_leucopsideus_,NA,beetles,Kleijn
+Eristalinus_aeneus_,NA,syrphids,Kleijn
+Musca_autumnalis_,NA,other_flies,Kleijn
+Trachusa_laeviventris_,NA,other_wild_bees,Kleijn
+Glaucopsyche_melanops_,NA,lepidoptera,Kleijn
+Pieris _rapae_,Ericaceae,lepidoptera,Kleijn
+Oedemera_nobilis_,NA,beetles,Kleijn
+Chelostoma_florisomme_,NA,other_wild_bees,Kleijn
+Autographa_gamma_,NA,lepidoptera,Kleijn
+Macroglossum_stellatarum_,NA,lepidoptera,Kleijn
+Halictus_simplex_,Halictidae,other_wild_bees,Kleijn
+Polyonmatus_icarus_,NA,lepidoptera,Kleijn
+Lema_melanopus_,NA,beetles,Kleijn
+Stenopterus_rufus_,NA,beetles,Kleijn
+Andrena_variabiis_,Andrenidae,other_wild_bees,Kleijn
+Lasioglossum_morio_,Halictidae,other_wild_bees,Kleijn
+Panurgus_banksianus_,NA,other_wild_bees,Kleijn
+Aricia_cramera_,NA,lepidoptera,Kleijn
+Brintesia_circe_,NA,lepidoptera,Kleijn
+Melanargia_galathea_,NA,lepidoptera,Kleijn
+Pararge_aegeria_,NA,lepidoptera,Kleijn
+Nowickia _ferox_,Tachinidae,other_flies,Kleijn
+Peleteria_rubescens_,NA,other_flies,Kleijn
+Thereva_spiloptera_,NA,other_flies,Kleijn
+Lasioglossum_laevigatum_,Halictidae,other_wild_bees,Kleijn
+Lasioglossum_subhirtum_,Halictidae,other_wild_bees,Kleijn
+Megachile_centuncularis_,Megachilidae,other_wild_bees,Kleijn
+Stenurella_melanura_,NA,beetles,Kleijn
+Kurzenkoiellus_dasypygus_,NA,other_flies,Kleijn
+Lomatia_tysiphone_,NA,bombyliidae,Kleijn
+Halictus_vestitus_,Halictidae,other_wild_bees,Kleijn
+Halictus_seladonius_,Halictidae,other_wild_bees,Kleijn
+Heliotaurus_ruficollis_,NA,beetles,Kleijn
+Anthrax_trifasciatus_,NA,bombyliidae,Kleijn
+Lucilia_caesar_,NA,other_flies,Kleijn
+Halictus_crenicornis_,Halictidae,other_wild_bees,Kleijn
+Nannotrigona mellaria,Apidae,other_wild_bees,Kleijn
+Partamona cupira / Trigona fussipennis / Trigona corvina,Apidae,other_wild_bees,Kleijn
+Plebeia jatiformis,Apidae,other_wild_bees,Kleijn
+Plebia frontalis,Apidae,other_wild_bees,Kleijn
+Trigona (Tetragona) clavipes,Apidae,other_wild_bees,Kleijn
+Trigona (tetragonisca) angustula,Apidae,other_wild_bees,Kleijn
+Trigona dorsalis,Apidae,other_wild_bees,Kleijn
+Trigonisca sp.,Apidae,other_wild_bees,Kleijn
+Native-summ,NA,other_wild_bees,Kleijn
+Melipona fasciata,Apidae,other_wild_bees,Kleijn
+Huge Black 2002,NA,NA,Kleijn
+Halictini sp.,Halictidae,other_wild_bees,Kleijn
+Lasioglossum (Evylaeus) sp.,Halictidae,other_wild_bees,Kleijn
+Ceratina bispinosa,Apidae,other_wild_bees,Kleijn
+Ceratina mandibularis,Apidae,other_wild_bees,Kleijn
+Ceratina moricei,Apidae,other_wild_bees,Kleijn
+Ceratina schwarzi,Apidae,other_wild_bees,Kleijn
+Ceratina zandeni,Apidae,other_wild_bees,Kleijn
+Halictus cephalicus,Halictidae,other_wild_bees,Kleijn
+Halictus pollinosus,Halictidae,other_wild_bees,Kleijn
+Halictus resurgens,Halictidae,other_wild_bees,Kleijn
+Halictus tetrazonianellus,Halictidae,other_wild_bees,Kleijn
+Hylaeus intermedius,Colletidae,other_wild_bees,Kleijn
+Hylaeus kahri,Colletidae,other_wild_bees,Kleijn
+Hylaeus syriacus,Colletidae,other_wild_bees,Kleijn
+Hylaeus taeniolatus,Colletidae,other_wild_bees,Kleijn
+Lasioglossum aegyptiellum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum anellum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum callizionum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum clypeiferellum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum glabriusculum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum politum atomarium,Halictidae,other_wild_bees,Kleijn
+Lasioglossum pseudosphecodimorphum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum truncaticolle,Halictidae,other_wild_bees,Kleijn
+Lithurgus tibialis,Megachilidae,other_wild_bees,Kleijn
+Nomada kohli,Apidae,other_wild_bees,Kleijn
+Nomioides sp. 1,Halictidae,other_wild_bees,Kleijn
+Nomioidinae sp.,Halictidae,other_wild_bees,Kleijn
+Tarsalia sp. 1,Apidae,other_wild_bees,Kleijn
+Hylaeus aff. dinkleri,Colletidae,other_wild_bees,Kleijn
+Lasioglossum aff. morio,Halictidae,other_wild_bees,Kleijn
+Megachile cf. fertoni,Megachilidae,other_wild_bees,Kleijn
+Ceratina dentiventris,Apidae,other_wild_bees,Kleijn
+Hylaeus albonotatus,Colletidae,other_wild_bees,Kleijn
+Hylaeus imparilis,Colletidae,other_wild_bees,Kleijn
+Hylaeus longimaculus,Colletidae,other_wild_bees,Kleijn
+Lasioglossum epipygiale,Halictidae,other_wild_bees,Kleijn
+Lasioglossum obscuratum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum tadschicum,Halictidae,other_wild_bees,Kleijn
+Lasioglossum vagans,Halictidae,other_wild_bees,Kleijn
+Megachile dorsalis,Megachilidae,other_wild_bees,Kleijn
+Ochreriades fasciatus,Megachilidae,other_wild_bees,Kleijn
+Osmia signata,Megachilidae,other_wild_bees,Kleijn
+Andrena transitoria,Andrenidae,other_wild_bees,Kleijn
+Ceratina bifida,Apidae,other_wild_bees,Kleijn
+Colletes similis,Colletidae,other_wild_bees,Kleijn
+Eucera aeolopus,Apidae,other_wild_bees,Kleijn
+Eucera curvitarsis,Apidae,other_wild_bees,Kleijn
+Eucera paraclypeata,Apidae,other_wild_bees,Kleijn
+Eucera syriaca,Apidae,other_wild_bees,Kleijn
+Megachile albisecta,Megachilidae,other_wild_bees,Kleijn
+Osmia dives,Megachilidae,other_wild_bees,Kleijn

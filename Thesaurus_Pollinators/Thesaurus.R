@@ -738,10 +738,10 @@ familias_list$Guild[grepl("Xylota_segnis",familias_list$Organism_ID,ignore.case 
 
 
 #other_wild_bees
-familias_list$Guild[grepl("Apis cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
-familias_list$Guild[grepl("Apis_cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
-familias_list$Guild[grepl("Apis_dorsata",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
-familias_list$Guild[grepl("Apis_florea",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+#familias_list$Guild[grepl("Apis cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+#familias_list$Guild[grepl("Apis_cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+#familias_list$Guild[grepl("Apis_dorsata",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+#familias_list$Guild[grepl("Apis_florea",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
 familias_list$Guild[grepl("Braunsapis sp.",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
 familias_list$Guild[grepl("Braunsapis_picitarsus",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
 familias_list$Guild[grepl("Ancyloscelis sp.2",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
@@ -837,9 +837,51 @@ familias_list$Guild[familias_list$Organism_ID=="Tineoidea_sp."] <- "lepidoptera"
 familias_list$Guild[familias_list$Organism_ID=="Zygoptera_sp."] <- "other"
 familias_list$Guild[grepl("Pseudophilanthus",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
 
+
+
+# These organisms are not honey bees:
+#Melitomella grisescens, Melitomella murihirta, Mellisodes sp.,	Nomada_marshamella,	Nomiapis bispinosa, Peponapis pruniosa
+
+familias_list$Guild[grepl("Melitomella",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+familias_list$Guild[grepl("Mellisodes sp.",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+familias_list$Guild[grepl("Nomada_marshamella",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+familias_list$Guild[grepl("Nomada marshamella",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+familias_list$Guild[grepl("Nomiapis bispinosa",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+familias_list$Guild[grepl("Peponapis pruniosa",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+
+# These organisms are honey bees:
+# Apis dorsata, apis florea, apis cerana
+
+familias_list$Guild[grepl("Apis cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+familias_list$Guild[grepl("Apis_cerana",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+familias_list$Guild[grepl("Apis_dorsata",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+familias_list$Guild[grepl("Apis_florea",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+familias_list$Guild[grepl("Apis nigrocinta binghami",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+
+
+# Other updates
+familias_list$Guild[grepl("Hymenoptera_Nonbee_Aculeata",familias_list$Organism_ID,ignore.case = TRUE)] <- "non_bee_hymenoptera"
+
 #recap----
-familias_list %>% group_by(Guild)%>% count() #48 missing; 
+familias_list %>% group_by(Guild)%>% count() #16 missing; 
 
 # save list
 write_csv(familias_list,"Table_organism_guild_META.csv")
 
+# # Fix Nomada marshamella
+# 
+# familias_list <- read_csv("Table_organism_guild_META.csv")
+# familias_list$Guild[grepl("Nomada marshamella",familias_list$Organism_ID,ignore.case = TRUE)] <- "other_wild_bees"
+# write_csv(familias_list,"Table_organism_guild_META.csv")
+
+# # Apis nigrocinta binghami
+#  
+# familias_list <- read_csv("Table_organism_guild_META.csv")
+# familias_list$Guild[grepl("Apis nigrocinta binghami",familias_list$Organism_ID,ignore.case = TRUE)] <- "honeybees"
+# write_csv(familias_list,"Table_organism_guild_META.csv")
+
+# # Hymenoptera_Nonbee_Aculeata
+# 
+# familias_list <- read_csv("Table_organism_guild_META.csv")
+# familias_list$Guild[grepl("Hymenoptera_Nonbee_Aculeata",familias_list$Organism_ID,ignore.case = TRUE)] <- "non_bee_hymenoptera"
+# write_csv(familias_list,"Table_organism_guild_META.csv")

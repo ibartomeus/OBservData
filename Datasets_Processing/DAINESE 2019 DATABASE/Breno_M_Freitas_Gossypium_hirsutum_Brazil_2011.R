@@ -127,12 +127,12 @@ abundance_aux <- data.species_03 %>% #filter(sampling_method=="transect") %>%
 
 names(abundance_aux)
 
-# There are "honeybees","other_wild_bees"
+# There are ""other_wild_bees"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,bumblebees=0,other=0,
+abundance_aux <- abundance_aux %>% mutate(honeybees=0,lepidoptera=0,beetles=0,bumblebees=0,other=0,
                                           humbleflies=0,non_bee_hymenoptera=0,other_flies=0,
                                           syrphids=0,total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
