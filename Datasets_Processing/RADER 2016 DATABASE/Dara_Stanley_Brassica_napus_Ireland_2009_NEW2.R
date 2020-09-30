@@ -79,6 +79,11 @@ data.site$Email_contact <- "stanleyd@tcd.ie"
 
 insect_sampling_dara <- read_csv("Individual CSV/insect_sampling_Dara_Stanley_Brassica_napus_Ireland_2009_update.csv") 
 
+insect_sampling_dara_aggregated <- insect_sampling_dara %>%
+  group_by(study_id,site_id,pollinator,guild,
+           total_sampled_area,total_sampled_time,total_sampled_flowers) %>%
+  count(wt=abundance) %>% rename(abundance=n)
+
 #######################
 # INSECT SAMPLING
 #######################
@@ -91,17 +96,18 @@ insect_sampling_dara <- read_csv("Individual CSV/insect_sampling_Dara_Stanley_Br
 
 insect_sampling <- tibble(
   study_id = "Dara_Stanley_Brassica_napus_Ireland_2009",
-  site_id = insect_sampling_dara$site_id,
-  pollinator = insect_sampling_dara$pollinator,
-  guild = insect_sampling_dara$guild,
+  site_id = insect_sampling_dara_aggregated$site_id,
+  pollinator = insect_sampling_dara_aggregated$pollinator,
+  guild = insect_sampling_dara_aggregated$guild,
   sampling_method = "transects",
-  abundance = insect_sampling_dara$abundance,
-  total_sampled_area = 4*3*100,
+  abundance = insect_sampling_dara_aggregated$abundance,
+  total_sampled_area = 4*3*100*2,
   total_sampled_time = 4*3*100/0.255/60, #0.255 is the approximated average velocity
   total_sampled_flowers = NA,
-  Description = paste("Specific location at ",insect_sampling_dara$site_id,
-                      ":",insect_sampling_dara$edcen,". Each field was visited three times and there were four 100 × 1 m transects walked on each sampling visit (two on the edge and two on the centre), at a slow, steady pace (0.07-0.44 m/s).")
+  Description = "Each field was visited three times and there were four 100 × 2 m transects walked on each sampling visit (two on the edge and two on the centre), at a slow, steady pace (0.07-0.44 m/s)."
 )
+
+
 
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")

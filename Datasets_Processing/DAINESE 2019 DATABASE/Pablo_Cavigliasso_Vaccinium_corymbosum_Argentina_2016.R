@@ -147,6 +147,12 @@ insect_sampling <- tibble(
   Description = data.species_01$Description
 )
 
+# Fix bombus belicosus
+
+insect_sampling$pollinator[insect_sampling$pollinator=="Bombus belicoso"] <- 
+  "Bombus bellicosus"
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016.csv")
 

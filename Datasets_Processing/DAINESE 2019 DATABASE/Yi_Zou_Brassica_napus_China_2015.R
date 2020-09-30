@@ -140,6 +140,15 @@ data.species_01 %>% filter(is.na(Guild)) %>% group_by(Organism_ID,Family) %>% co
 #NA appears in Guild due to spaces in the excel entries > FIX
 
 data.species_01$Guild[data.species_01$Organism_ID=="Lasioglossum kumejimense "] <- "other_wild_bees"
+data.species_01$Guild[data.species_01$Organism_ID=="Arctiidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Hesperidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Noctuidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Nymphalidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Papilionidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Pyralidae"] <- "lepidoptera"
+data.species_01$Guild[data.species_01$Organism_ID=="Sphingidae"] <- "lepidoptera"
+
+
 
 data.species_01 %>% filter(is.na(Guild)) %>% group_by(Organism_ID,Family) %>% count()
 

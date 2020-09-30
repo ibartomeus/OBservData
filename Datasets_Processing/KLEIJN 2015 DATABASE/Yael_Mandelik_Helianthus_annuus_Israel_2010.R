@@ -78,7 +78,7 @@ data.site$seeds_per_plant <- NA
 data.site$seed_weight <- NA
 data.site$Publication <- "10.1007/s13592-013-0242-5"
 data.site$Credit <- "Gideon Pisanty, Alexandra-Maria Klein, Yael Mandelik"
-data.site$Email_contact <- "gidpisa79@yahoo.com"
+data.site$Email_contact <- "gidpisa79@yahoo.com / Yael.mandelik@mail.huji.ac.il"
   
 data.site$sampling_start_month <- NA
 data.site$sampling_end_month <- NA
@@ -297,6 +297,27 @@ field_level_data <- tibble(
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
+
+##############
+# UPDATE
+# Variety
+# Sites 1, 2, 3, 4, 6, 7, 8, 9, 10, 12 – DY3
+# Sites 5, 11, 13 – Shemesh
+# Site 14 – DY3 + Shelly
+# Site 15 – Shelly
+
+
+field_level_data$variety[field_level_data$site_id %in%
+                           c(1, 2, 3, 4, 6, 7, 8, 9, 10, 12)] <- "DY3" 
+field_level_data$variety[field_level_data$site_id %in%
+                           c(5, 11, 13)] <- "Shemesh" 
+field_level_data$variety[field_level_data$site_id %in%
+                           c(14)] <- "DY3 + Shelly" 
+field_level_data$variety[field_level_data$site_id %in%
+                           c(15)] <- "Shelly" 
+field_level_data$management <- "conventional" 
+
+
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Yael_Mandelik_Helianthus_annuus_Israel_2010.csv")

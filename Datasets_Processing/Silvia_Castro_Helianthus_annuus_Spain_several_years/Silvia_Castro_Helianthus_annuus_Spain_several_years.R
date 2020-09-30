@@ -97,13 +97,42 @@ insect_sampling$total_sampled_flowers[insect_sampling$sampling_method=="pan-trap
 
 # Save new insect sampling templates
 
-insect_sampling_2017 <- insect_sampling %>% 
+insect_sampling_2017_aux <- insect_sampling %>% 
   filter(study_id=="Silvia_Castro_Helianthus_annuus_Spain_2017",
          !is.na(abundance), abundance>0) %>% select(-Column1)
+
+# Add a missing raw 4 honeybees at site PRE-NGI2_2017
+
+new_row <- tibble(
+  study_id="Silvia_Castro_Helianthus_annuus_Spain_2017",
+  site_id="PRE-NGI2_2017",
+  pollinator="Apis mellifera",
+  guild="honeybees",
+  sampling_method="census",
+  abundance=4,
+  total_sampled_area=711,
+  total_sampled_time=316,
+  total_sampled_flowers=2526,
+  Description="census of 1 min, within the field each in areas of aprox. 1.5x1.5m"
+)
+
+# Add the new column to the total insect sampling data and 2017 data
+insect_sampling_2017_aux$total_sampled_area <- as.numeric(insect_sampling_2017_aux$total_sampled_area)
+insect_sampling_2017_aux$total_sampled_flowers <- as.numeric(insect_sampling_2017_aux$total_sampled_flowers)
+insect_sampling_2017 <- bind_rows(insect_sampling_2017_aux,new_row)
+
+insect_sampling$total_sampled_area <- as.numeric(insect_sampling$total_sampled_area)
+insect_sampling$total_sampled_flowers <- as.numeric(insect_sampling$total_sampled_flowers)
+
+insect_sampling <- bind_rows(insect_sampling,new_row)
 
 insect_sampling_2018 <- insect_sampling %>% 
   filter(study_id=="Silvia_Castro_Helianthus_annuus_Spain_2018",
          !is.na(abundance), abundance>0) %>% select(-Column1)
+
+insect_sampling_2018$total_sampled_area <- as.numeric(insect_sampling_2018$total_sampled_area)
+insect_sampling_2018$total_sampled_flowers <- as.numeric(insect_sampling_2018$total_sampled_flowers)
+
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling_2017, "insect_sampling_Silvia_Castro_Helianthus_annuus_Spain_2017.csv")

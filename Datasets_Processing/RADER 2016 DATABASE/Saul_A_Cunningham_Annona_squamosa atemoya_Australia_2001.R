@@ -300,6 +300,14 @@ field_level_data <- tibble(
   Email_contact = data.site$Email_contact
 )
 
+# Updated template
+
+new_field_level <- openxlsx::read.xlsx("Individual CSV/field_level_data_Saul_A_Cunningham_Annona_squamosa atemoya_Australia_2001.xlsx")
+
+field_level_data$variety <- new_field_level$variety
+field_level_data$observed_pollinator_richness <- new_field_level$observed_pollinator_richness
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Saul_A_Cunningham_Annona_squamosa atemoya_Australia_2001.csv")
 setwd(dir_ini)

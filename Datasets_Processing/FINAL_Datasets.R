@@ -12,7 +12,7 @@ files_base <- list.files(folder_base)
 
 
 #Date: 11/05/2020 -> Version: 0.1
-#Date: 06/09/2020 -> Version: 0.2
+#Date: 24/09/2020 -> Version: 0.2
 
 ##############################
 # MERGE FIELD_LEVEL DATA
@@ -176,3 +176,4 @@ FINAL_sampling_data %>% group_by(guild) %>% count()
 # Save "FINAL_sampling_data" file
 
 write_csv(FINAL_sampling_data, "../Final_Data/FINAL_sampling_data_V0p2.csv")
+

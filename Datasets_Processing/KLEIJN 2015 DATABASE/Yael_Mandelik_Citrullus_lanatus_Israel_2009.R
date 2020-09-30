@@ -78,7 +78,7 @@ data.site$seeds_per_plant <- NA
 data.site$seed_weight <- NA
 data.site$Publication <- "10.1890/14-0910.1"
 data.site$Credit <- "Gideon Pisanty, Yael Mandelik"
-data.site$Email_contact <- "gidpisa79@yahoo.com"
+data.site$Email_contact <- "gidpisa79@yahoo.com / Yael.mandelik@mail.huji.ac.il"
   
 data.site$sampling_start_month <- NA
 data.site$sampling_end_month <- NA
@@ -297,6 +297,12 @@ field_level_data <- tibble(
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
+
+
+##############
+# UPDATE
+field_level_data$variety <- "Malali" 
+field_level_data$management <- "conventional" 
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Yael_Mandelik_Citrullus_lanatus_Israel_2009.csv")

@@ -1,7 +1,7 @@
 study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
 Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Apis mellifera,honeybees,Census of 5 minutes,63,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
 Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Bombus atratus,bumblebees,Census of 5 minutes,5,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
-Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Bombus belicoso,bumblebees,Census of 5 minutes,1,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
+Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Bombus bellicosus,bumblebees,Census of 5 minutes,1,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
 Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Vespidae sp2,non_bee_hymenoptera,Census of 5 minutes,3,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
 Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Allograpta sp1,syrphids,Census of 5 minutes,6,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
 Pablo_Cavigliasso_Vaccinium_corymbosum_Argentina_2016,AB,Allograpta sp2,syrphids,Census of 5 minutes,1,NA,150,NA,"Observation: 5 minutes per plant, 6 plant observations  per site, and	5 rounds per site in season"
