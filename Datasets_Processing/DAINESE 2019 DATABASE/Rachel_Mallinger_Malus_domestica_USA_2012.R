@@ -144,7 +144,8 @@ setwd(dir_ini)
 #########################################
 
 
-abundance_aux <- data.species_01 %>% group_by(site_id,Guild) %>% count(wt=abundance) %>% 
+abundance_aux <- data.species_01 %>% group_by(site_id,Guild) %>%
+  count(wt=abundance) %>% 
   spread(key=Guild, value=n)
 
 names(abundance_aux)
@@ -230,10 +231,11 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
-  abundance=0, #DATOS CON PANTRAP
-  ab_honeybee=0,
-  ab_bombus=0,
-  ab_wildbees=0,
+  richness_restriction = "only bees. Data was obtained by using pantraps",
+  abundance=data.site$total, #DATOS CON PANTRAP
+  ab_honeybee=data.site$honeybees,
+  ab_bombus=data.site$bumblebees,
+  ab_wildbees=data.site$other_wild_bees,
   ab_syrphids=data.site$syrphids,
   ab_humbleflies=data.site$humbleflies,
   ab_other_flies=data.site$other_flies,

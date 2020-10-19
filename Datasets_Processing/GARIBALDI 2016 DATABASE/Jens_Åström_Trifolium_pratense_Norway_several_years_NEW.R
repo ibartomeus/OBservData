@@ -60,7 +60,7 @@ field_level_data <- tibble(
   yield_treatments_pollen_supplement2=NA,
   fruits_per_plant=NA,
   fruit_weight= NA,
-  plant_density=10000*data_raw$Number_plants_ha,
+  plant_density=data_raw$Number_plants_ha/10000,
   seeds_per_fruit=NA,
   seeds_per_plant=NA,
   seed_weight=NA,
@@ -117,3 +117,4 @@ setwd(dir_ini)
 # increased the number of flowers in case of low visitation rates. The point is to not have zero visitation records due to
 # counting to few flowers. These numbers where then rescaled to represent visitations per 100 observed flowers in Lucas
 # dataset in the combined international analysis.
+

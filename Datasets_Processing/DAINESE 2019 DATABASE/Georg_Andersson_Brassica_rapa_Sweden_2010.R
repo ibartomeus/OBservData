@@ -67,7 +67,7 @@ data.site <- data.site %>% left_join(yield_aux, by = c("site_id","sampling_year"
 data.site$field_size <- NA
 data.site <- data.site %>% mutate(country="Sweden",Publication=NA,
                                   Credit="Georg Andersson (Lund University), Project MULTIFUNC",
-                                  email="gandersson@unrn.edu.ar")
+                                  email="georg.andersson@cec.lu.se")
 
 ################################
 #COLLECTING INSECT SAMPLING DATA
@@ -212,9 +212,84 @@ if (percentage_species_morphos<0.8){
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 ###############################################################
 ###############################################################
-###############################################################
-###############################################################
+# VISITATION RATE
 
+raw_visits <- read_csv("DATASETS/rybsObs.csv") %>% 
+  filter(!is.na(Time),!is.na(observationtime_min)) %>%
+  mutate(syrphids=Syrphids_hairy+Syrphids_bald,
+         bumblebees=`Bumblebees_Long-toungued`+`Bumblebees_short-toungued`) %>%
+  rename(site_id=Landscape_ID)
+
+raw_visits %>% group_by(Landskap) %>% count()
+  
+# sanity check
+
+raw_visits$site_id[!raw_visits$site_id %in% data.site$site_id] %>% unique()
+
+raw_visits$site_id[raw_visits$site_id=="2.42"] <- "2.4.2"
+raw_visits$site_id[raw_visits$site_id=="4.01"] <- "4.1"
+raw_visits$site_id[raw_visits$site_id=="2.01"] <- "2.0.1"
+raw_visits$site_id[raw_visits$site_id=="4.12"] <- "4.1.2"
+raw_visits$site_id[raw_visits$site_id=="5.01"] <- "5.0.1"
+raw_visits$site_id[raw_visits$site_id=="2.02"] <- "2.0.2"
+
+raw_visits$site_id[!raw_visits$site_id %in% data.site$site_id] %>% unique()
+  
+visits_aux <- raw_visits %>% select(site_id,observationtime_min,Number_flowers,
+                      Honeybees,bumblebees,Wild_bees,
+                      syrphids,Other_diptera,Other_Hymenoptera,total_visits) %>%
+  group_by(site_id) %>% summarise_all(sum,na.rm = TRUE)
+
+visits_final <- visits_aux %>%
+  mutate(visitation_rate=60*100*total_visits/observationtime_min/Number_flowers,
+         visit_honeybee=60*100*Honeybees/observationtime_min/Number_flowers,
+         visit_bombus=60*100*bumblebees/observationtime_min/Number_flowers,
+         visit_wildbees=60*100*Wild_bees/observationtime_min/Number_flowers,
+         visit_syrphids=60*100*syrphids/observationtime_min/Number_flowers,
+         visit_humbleflies=0,
+         visit_other_flies=60*100*Other_diptera/observationtime_min/Number_flowers,
+         visit_beetles=0,
+         visit_lepidoptera=0,
+         visit_nonbee_hymenoptera=60*100*Other_Hymenoptera/observationtime_min/Number_flowers,
+         visit_others=0) %>%
+  select(site_id,observationtime_min,
+    visitation_rate,visit_honeybee,visit_bombus,
+         visit_wildbees,visit_syrphids,visit_humbleflies,
+         visit_other_flies,visit_beetles,visit_lepidoptera,
+         visit_nonbee_hymenoptera,visit_others)
+
+data.site <- data.site %>% left_join(visits_final,by="site_id")
+
+###############################################################
+###############################################################
+# EXTRA YIELD INFO
+library("readxl")
+
+extra_info <- read_excel("DATASETS/Obs_Seedset_Insects_per_hour.xls") %>%
+  rename(site_id=Landscape_ID,seeds_per_fruit=Nr_seeds,
+         seed_weight=Weight_1000_seeds_gr) %>%
+  select(site_id,seeds_per_fruit,seed_weight) %>%
+  mutate(seed_weight=seed_weight/10) %>% group_by(site_id) %>%
+  summarise_all(mean)
+
+# sanity check
+
+extra_info$site_id[!extra_info$site_id %in% data.site$site_id] %>% unique()
+
+extra_info$site_id[extra_info$site_id=="2.42"] <- "2.4.2"
+extra_info$site_id[extra_info$site_id=="4.01"] <- "4.1"
+extra_info$site_id[extra_info$site_id=="2.01"] <- "2.0.1"
+extra_info$site_id[extra_info$site_id=="4.12"] <- "4.1.2"
+extra_info$site_id[extra_info$site_id=="5.01"] <- "5.0.1"
+extra_info$site_id[extra_info$site_id=="2.02"] <- "2.0.2"
+
+extra_info$site_id[!extra_info$site_id %in% data.site$site_id] %>% unique()
+
+data.site <- data.site %>% left_join(extra_info,by="site_id")
+
+###############################################################
+###############################################################
+###############################################################
 
 field_level_data <- tibble(
   study_id=data.site$study_id,
@@ -228,8 +303,8 @@ field_level_data <- tibble(
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month=NA,
-  sampling_end_month=NA,
+  sampling_start_month=6,
+  sampling_end_month=8,
   sampling_year=data.site$sampling_year,
   field_size=data.site$field_size,
   yield=data.site$yield,
@@ -243,12 +318,13 @@ field_level_data <- tibble(
   fruits_per_plant=NA,
   fruit_weight=NA,
   plant_density=NA,
-  seeds_per_fruit=NA,
+  seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=NA,
-  seed_weight=NA,
+  seed_weight=data.site$seed_weight,
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction=NA,
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,
@@ -261,22 +337,22 @@ field_level_data <- tibble(
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others=data.site$other,
   total_sampled_area=NA,
-  total_sampled_time=NA,
-  visitation_rate_units=NA,
-  visitation_rate=NA,
-  visit_honeybee=NA,
-  visit_bombus=NA,
-  visit_wildbees=NA,
-  visit_syrphids=NA,
-  visit_humbleflies=NA,
-  visit_other_flies=NA,
-  visit_beetles=NA,
-  visit_lepidoptera=NA,
-  visit_nonbee_hymenoptera=NA,
-  visit_others=NA,
+  total_sampled_time=data.site$observationtime_min,
+  visitation_rate_units="visits per 100 flowers and hour",
+  visitation_rate=data.site$visitation_rate,
+  visit_honeybee=data.site$visit_honeybee,
+  visit_bombus=data.site$visit_bombus,
+  visit_wildbees=data.site$visit_wildbees,
+  visit_syrphids=data.site$visit_syrphids,
+  visit_humbleflies=data.site$visit_humbleflies,
+  visit_other_flies=data.site$visit_other_flies,
+  visit_beetles=data.site$visit_beetles,
+  visit_lepidoptera=data.site$visit_lepidoptera,
+  visit_nonbee_hymenoptera=data.site$visit_nonbee_hymenoptera,
+  visit_others=data.site$visit_others,
   Publication=data.site$Publication,
   Credit=data.site$Credit,
-  Email_contact=data.site$email
+  Email_contact= "georg.andersson@cec.lu.se"
 )
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Georg_Andersson_Brassica_rapa_Sweden_2010.csv")

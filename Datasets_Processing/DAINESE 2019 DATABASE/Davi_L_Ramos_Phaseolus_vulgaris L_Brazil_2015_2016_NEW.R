@@ -18,7 +18,13 @@ field_level_aux <- read_csv2("DATASETS/field_level_data_Davi_L_Ramos_Phaseolus_v
 
 field_level_aux$Publication <- "10.1371/journal.pone.0204460"
 
+# Fix latitude and longitude
 
+field_level_aux$latitude <- field_level_aux$latitude/1000000
+field_level_aux$latitude[c(8,31,32)] <- field_level_aux$latitude[c(8,31,32)]*10
+
+field_level_aux$longitude <- field_level_aux$longitude/1000000
+field_level_aux$longitude[c(5,6,17,27,34)] <- field_level_aux$longitude[c(5,6,17,27,34)]*10
 ###################
 # INSECT SAMPLING
 ###################
@@ -56,10 +62,9 @@ insect_sampling$Description[insect_sampling$pollinator %in%
                               "Pepsis sp.","Allograpta exotica cf.")] <- 
   paste0("These organisms were classified as biocontrol agents. However, since they were also registered as floral visitors, they may be potential pollinators as well. ",insect_sampling$Description[insect_sampling$pollinator %in%
                                                                                                                                                                                                          c("Polybia ignobilis",
-                                                                                                                                                                                                           "Brachygastra lecheguana","Polybia dimidiata",
-                                                                                                                                                                                                           "Polybia ignobilis",
+                                                                                                                                                                                                           "Brachygastra lecheguana","Polybia dimidiata",                                                                                                                                                                                                         "Polybia ignobilis",
                                                                                                                                                                                                            "Pepsis sp.","Allograpta exotica cf.")])
-
+insect_sampling$study_id <- "Davi_L_Ramos_Phaseolus_vulgaris L_Brazil_2015_2016"
 
 # Save insect_sampling file
 
@@ -215,3 +220,4 @@ field_level_data <-   tibble(
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Davi_L_Ramos_Phaseolus_vulgaris L_Brazil_2015_2016.csv")
 setwd(dir_ini)
+

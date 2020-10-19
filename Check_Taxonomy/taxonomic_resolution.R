@@ -22,7 +22,7 @@ other_taxon <- read_csv("taxon_other_studies.csv")
 insect_sampling <- read_csv("../Final_Data/FINAL_sampling_data_V0p2.csv")
 
 insect_sampling %>% filter(study_id %in% 
-                             c(dainese_taxon$study_id)) #16,839 entries
+                             c(dainese_taxon$study_id)) #16,791 entries
 
 
 add_dainese <- insect_sampling %>%
@@ -34,7 +34,7 @@ add_dainese$rank[add_dainese$study_id=="Yi_Zou_Brassica_napus_China_2015" &
                    is.na(add_dainese$rank)] <- "family"
 
 
-add_dainese %>% filter(is.na(rank)) #28,359 entries need resolution
+add_dainese %>% filter(is.na(rank)) #28,752 entries need resolution
 
 
 add_dainese_rader <- add_dainese %>%
@@ -51,9 +51,7 @@ add_dainese_rader <- add_dainese %>%
          notes = coalesce(notes.x, notes.y)) %>%
   dplyr::select(-rank.x, -rank.y,-notes.x, -notes.y)
 
-
-x <- add_dainese_rader %>% filter(is.na(rank))
-
+x <- add_dainese_rader %>% filter(is.na(rank)) %>% select(pollinator) %>% unique()
 
 add_Silvia <- insect_sampling %>%
   filter(study_id %in% 
@@ -96,6 +94,24 @@ for (i in 1:nrow(silvia_correction)){
 thesaurus_taxon_guild <- bind_rows(add_dainese_rader,add_Silvia) %>%
   select(study_id, site_id, sampling_method,pollinator, guild, rank,notes) %>%
   rename(identified_to=rank) %>% unique()
+
+thesaurus_taxon_guild %>% select(study_id) %>% unique()
+thesaurus_taxon_guild %>% select(site_id) %>% unique()
+thesaurus_taxon_guild %>% select(sampling_method) %>% unique()
+thesaurus_taxon_guild %>% select(pollinator) %>% unique()
+thesaurus_taxon_guild %>% select(identified_to) %>% unique()
+insect_sampling %>% select(abundance) %>% unique()
+insect_sampling %>% select(total_sampled_area) %>% unique()
+insect_sampling %>% filter(!is.na(total_sampled_area)) %>%
+  select(total_sampled_area)%>% min()
+insect_sampling %>% select(total_sampled_time) %>% unique()
+insect_sampling %>% filter(!is.na(total_sampled_time)) %>%
+  select(total_sampled_time)%>% min()
+insect_sampling %>% select(total_sampled_flowers) %>% unique()
+insect_sampling %>% filter(!is.na(total_sampled_flowers)) %>%
+  select(total_sampled_flowers)%>% min()
+insect_sampling %>% select(Description) %>% unique()
+insect_sampling$Description[grep("within one",insect_sampling$Description,ignore.case = T)]
 
 # write_csv(thesaurus_taxon_guild,"thesaurus_taxon_guild.csv")
 

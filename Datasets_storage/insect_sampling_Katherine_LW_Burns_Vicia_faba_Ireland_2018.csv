@@ -1,0 +1,12 @@
+study_id,site_id,pollinator,guild,sampling_method,abundance,total_sampled_area,total_sampled_time,total_sampled_flowers,Description
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.C,Bombus hortorum,bumblebees,plant observations,1,10,150,579,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.C,Bombus lapidarius,bumblebees,plant observations,3,10,150,579,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.C,Bombus lucorum agg,bumblebees,plant observations,1,10,150,579,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.C,Apis mellifera,honeybees,plant observations,2,10,150,579,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.C,Muscidae sp1,other_flies,plant observations,1,10,150,579,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.E,Bombus hortorum,bumblebees,plant observations,3,10,150,549,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.E,Bombus lapidarius,bumblebees,plant observations,2,10,150,549,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.E,Bombus lucorum agg,bumblebees,plant observations,1,10,150,549,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,BDF.18.E,Bombus pascuorum,bumblebees,plant observations,1,10,150,549,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,SBF.18.C,Apis mellifera,honeybees,plant observations,10,10,150,512,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit
+Katherine_LW_Burns_Vicia_faba_Ireland_2018,SBF.18.E,Apis mellifera,honeybees,plant observations,10,10,150,686,5 sampling rounds in one season; two 1m2 focal plant observations per plot per visit

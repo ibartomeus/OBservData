@@ -57,6 +57,11 @@ insect_sampling_new <- insect_sampling %>%
 
 insect_sampling_new$Description[insect_sampling_new$Description=="NA .  NA"] <- NA
 
+insect_sampling_new$total_sampled_flowers <- 3*insect_sampling_new$total_sampled_flowers
+
+insect_sampling_new$study_id <- "Christof_Schüepps_Prunus_avium_Switzerland_2011"
+
+field_level_data$study_id %>% unique()
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling_new, "insect_sampling_Christof_Schüepps_Prunus_avium_Switzerland_2011.csv")
 setwd(dir_ini)

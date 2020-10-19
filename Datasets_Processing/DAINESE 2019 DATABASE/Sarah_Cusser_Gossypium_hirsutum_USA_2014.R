@@ -283,6 +283,12 @@ field_level_data <- tibble(
   Credit=data.site$Credit,
   Email_contact=data.site$email
 )
+
+#Sarah's Update: She only added sampling months
+
+update <- read_csv("DATASETS/field_level_data_Sarah_Cusser_Gossypium_hirsutum_USA_2014.csv")
+
+
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_Sarah_Cusser_Gossypium_hirsutum_USA_2014.csv")
+write_csv(update, "field_level_data_Sarah_Cusser_Gossypium_hirsutum_USA_2014.csv")
 setwd(dir_ini)

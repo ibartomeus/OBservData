@@ -73,9 +73,9 @@ data.site <- data.site %>% left_join(yield_aux, by = c("site_id","sampling_year"
 # Adding  Field_size
 
 data.site$field_size <- NA
-data.site <- data.site %>% mutate(country="Sweden",Publication=NA,
+data.site <- data.site %>% mutate(country="Sweden",Publication="10.1371/journal.pone.0031599",
                                   Credit="Georg Andersson (Lund University), Project MULTIFUNC",
-                                  email="gandersson@unrn.edu.ar")
+                                  email=" georg.andersson@cec.lu.se")
 
 ################################
 #COLLECTING INSECT SAMPLING DATA
@@ -221,7 +221,7 @@ field_level_data <- tibble(
   study_id=data.site$study_id,
   site_id=data.site$site_id,
   crop=data.site$crop,
-  variety=NA,
+  variety="Honeoye",
   management=data.site$management,
   country=data.site$country,
   latitude=data.site$latitude,
@@ -229,8 +229,8 @@ field_level_data <- tibble(
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,
-  sampling_start_month=NA,
-  sampling_end_month=NA,
+  sampling_start_month=6,
+  sampling_end_month=8,
   sampling_year=data.site$sampling_year,
   field_size=data.site$field_size,
   yield=data.site$yield,
@@ -250,6 +250,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction="bees+hoverflies",
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,

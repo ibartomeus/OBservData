@@ -18,6 +18,12 @@ data.insect <- read.xlsx("Observ_TW.xlsx",
                          sheet = "insect_sampling", startRow = 1)
 data.insect <- as_tibble(data.insect)
 
+data.insect %>% group_by(Guild) %>% count()
+data.insect %>% group_by(Sampling.method) %>% count()
+
+#Sanity checks sites:
+data.insect$site_id[!data.insect$site_id %in% data.site$site_id]
+data.site$site_id[!data.site$site_id %in% data.insect$site_id]
 
 #Fixing months' format
 months_id <- c("March" = "3", "April" = "4", "May" = "5", "June" = "6", "July" = "7",
@@ -46,7 +52,9 @@ studies.data <- data.site %>% group_by(study_id,crop,country,sampling_year) %>% 
 
 for (i in 1:nrow(studies.data)){
 
-new_study_name <- paste("Nicolas_J_Vereecken_several_crops_several_countries_several_years_",i,sep = "")
+new_study_name <- paste(
+  "Nicolas_J_Vereecken",str_replace_all(studies.data$crop[i]," ","_"),
+  studies.data$country[i],studies.data$sampling_year[i],sep = "_")
 
 data.site_i <- data.site %>% filter(study_id==studies.data$study_id[i],
                                     crop==studies.data$crop[i],

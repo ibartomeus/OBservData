@@ -12,7 +12,7 @@ files_base <- list.files(folder_base)
 
 
 #Date: 11/05/2020 -> Version: 0.1
-#Date: 24/09/2020 -> Version: 0.2
+#Date: 11/10/2020 -> Version: 0.2
 
 ##############################
 # MERGE FIELD_LEVEL DATA
@@ -111,6 +111,26 @@ for (i in seq(length(list_files_field_level))) {
 
 FINAL_field_level_data$crop[FINAL_field_level_data$crop=="Malus Domestica"] <- "Malus domestica"
 FINAL_field_level_data$crop[FINAL_field_level_data$crop=="Fragaria × ananassa"] <- "Fragaria x ananassa"
+
+# Fix country:
+FINAL_field_level_data$country[FINAL_field_level_data$country=="United States"] <- "USA"
+FINAL_field_level_data$country %>% unique() %>% sort()
+
+# Fix variety:
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Koipesol Oleko"] <- "Koipesol OLEKO"
+FINAL_field_level_data$variety %>% unique() %>% sort()
+
+# Fix pollinator restriction
+
+FINAL_field_level_data$richness_restriction[is.na(FINAL_field_level_data$richness_restriction)] <- "none"
+FINAL_field_level_data$richness_restriction[is.na(FINAL_field_level_data$observed_pollinator_richness)&
+                                              is.na(FINAL_field_level_data$other_pollinator_richness)&
+                                              is.na(FINAL_field_level_data$other_richness_estimator_method)] <- NA
+
+
+#Fix other_richness_estimator_method
+
+FINAL_field_level_data$other_richness_estimator_method[FINAL_field_level_data$other_richness_estimator_method=="Chao1"] <- "Chao 1"
 
 
 # Save "total_field_level_data" file

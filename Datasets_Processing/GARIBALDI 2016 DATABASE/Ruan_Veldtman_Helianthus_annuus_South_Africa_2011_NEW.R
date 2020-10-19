@@ -421,7 +421,7 @@ field_level_data <- tibble(
   yield_treatments_pollen_supplement2=data.site$yield_treatments_pollen_supplement2,
   fruits_per_plant=data.site$fruits_per_plant,
   fruit_weight= data.site$fruit_weight,
-  plant_density=data.site$plant_density,
+  plant_density=data.site$plant_density/10000,
   seeds_per_fruit=data.site$seeds_per_fruit,
   seeds_per_plant=data.site$seeds_per_plant,
   seed_weight=data.site$seed_weight,

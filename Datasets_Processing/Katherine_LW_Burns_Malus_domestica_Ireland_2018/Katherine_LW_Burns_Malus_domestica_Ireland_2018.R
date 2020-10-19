@@ -5,7 +5,7 @@ library("iNEXT")
 
 dir_ini <- getwd()
 
-data.site <- read.xlsx("globalcrop.APPLE.BurnsStanley.xlsx",
+data.site <- read.xlsx("globalcrop.APPLE.BurnsStanley_REVISED.xlsx",
                           sheet = "field_level_data", startRow = 1)
 data.site <- as_tibble(data.site)
 
@@ -18,12 +18,13 @@ data.site$Credit <- data.site$Credit[1]
 data.site$email <- data.site$email[1]
 
 # Sanity check names
-data.site %>% group_by(site_id) %>% count() #All site_id are unique
+data.site %>% group_by(site_id) %>% count() %>%
+  filter(n>1)#All site_id are unique
 
  
 
 
-data.insect <- read.xlsx("globalcrop.APPLE.BurnsStanley.xlsx",
+data.insect <- read.xlsx("globalcrop.APPLE.BurnsStanley_REVISED.xlsx",
                        sheet = "insect_sampling", startRow = 1)
 data.insect <- as_tibble(data.insect)
 
@@ -38,6 +39,8 @@ data.insect <- data.insect %>% rename(
                                       total_sampled_flowers = total.sampled.flowers,
                                       Description = `Description.(Fee.text)`
                                     )
+
+data.insect %>% group_by(guild) %>% count()
 
 data.insect$guild[data.insect$guild == "non-bee hymenoptera"]  <- "non_bee_hymenoptera" 
 data.insect$guild[data.insect$guild == "other flies"]  <- "other_flies"
@@ -191,6 +194,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction = NA,
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,
