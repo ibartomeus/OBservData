@@ -88,7 +88,11 @@ data.site$vist_other_flies <- NA
 data.site$vist_beetles <- NA
 data.site$vist_lepidoptera <- NA
 data.site$vist_non_bee_hymenoptera <- data.site$wasp/data.site$number_of_flowers_mean
-data.site$vist_others <- NA
+
+# Comment raised by James about Prunus cerasus
+# 1) you can put the "other insects" into the "visits_others" category. 
+# These were apparently not flies, beetles, or wasps.
+data.site$vist_others <- data.site$other_insect/data.site$number_of_flowers_mean
 
 ################################
 # FIELD LEVEL DATA

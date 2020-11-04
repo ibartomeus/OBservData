@@ -38,7 +38,8 @@ field_level_data$latitude <- parse_lat(field_level_data$latitude)
 field_level_data$longitude <- parse_lon(field_level_data$longitude)
 
 # Fix richness abundances
-
+field_level_data$X_UTM <- NA
+field_level_data$Y_UTM <- NA
 
 
 

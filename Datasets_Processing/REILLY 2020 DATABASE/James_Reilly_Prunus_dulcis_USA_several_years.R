@@ -13,7 +13,7 @@ dir_ini <- getwd()
 
 # Load data
 
-data.site <- read_csv("datasets/almond_ca_dataset.csv")
+data.site <- read_csv("datasets/almond_ca_dataset_separate_flies.csv")
 
 # New site_id
 
@@ -53,6 +53,11 @@ data.site$seed_weight <- NA
 ##############################
 # PREPARE VISITATION RATES
 ##############################
+
+# Comments raised by James on Prunus dulcis data:
+# 1) "other insects" were a mixture of ants and non-syrphid flies.  
+# I separated them for you in a new version of this dataset.
+
 names(data.site)
 
 data.site$other_wild_bees <- data.site$blue_orchard_bee + data.site$other_bee
@@ -69,16 +74,17 @@ data.site$visitation_rate_units <- "visits per flower"
 
 data.site$vist_total <- (data.site$all_bees+
                            data.site$syrphid+
-                           data.site$other_insect)/data.site$number_of_flowers_mean
+                           data.site$other_flies+
+                           data.site$ant)/data.site$number_of_flowers_mean
 data.site$vist_honeybees <- data.site$honey_bee/data.site$number_of_flowers_mean
 data.site$vist_bumblebees <- data.site$bumble_bee/data.site$number_of_flowers_mean
 data.site$vist_other_wild_bees <- data.site$other_wild_bees/data.site$number_of_flowers_mean
 data.site$vist_syrphids <- data.site$syrphid/data.site$number_of_flowers_mean
 data.site$vist_humbleflies <- NA
-data.site$vist_other_flies <- NA 
+data.site$vist_other_flies <- data.site$other_flies /data.site$number_of_flowers_mean
 data.site$vist_beetles <- NA
 data.site$vist_lepidoptera <- NA
-data.site$vist_non_bee_hymenoptera <- NA
+data.site$vist_non_bee_hymenoptera <- data.site$ant/data.site$number_of_flowers_mean
 data.site$vist_others <- NA
 
 ################################

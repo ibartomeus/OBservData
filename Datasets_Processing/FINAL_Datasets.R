@@ -12,7 +12,7 @@ files_base <- list.files(folder_base)
 
 
 #Date: 11/05/2020 -> Version: 0.1
-#Date: 11/10/2020 -> Version: 0.2
+#Date: 27/10/2020 -> Version: 0.2
 
 ##############################
 # MERGE FIELD_LEVEL DATA
@@ -76,7 +76,7 @@ extract_template_i <- function(file_name){
 
 #Test data files and save the results
 
-test_file("../testthat/test-format.R", reporter = "summary") #Visualize testing
+test_file("../testthat/test-format-field_level.R", reporter = "summary") #Visualize testing
 options(testthat.output_file = "../testthat/test_out_Create_Dataset.txt")
 # test_file("../testthat/test-format.R", reporter = "summary")
 
@@ -164,6 +164,24 @@ extract_sampling_i <- function(file_name){
                               ))
   sampling_i
 }
+
+#Test data files and save the results
+
+test_file("../testthat/test-format-insect_sampling.R", reporter = "summary") #Visualize testing
+options(testthat.output_file = "../testthat/test_out_Create_Dataset_I.txt")
+# test_file("../testthat/test-format.R", reporter = "summary")
+
+# Extract the names of the files which contain failures
+
+report <- readLines("../testthat/test_out_Create_Dataset_I.txt")
+
+file.failures <- str_match(report, "insect_sampling_(.*?)csv")
+file.failures <- file.failures[!is.na(file.failures[,1]),1]
+file.failures <- file.failures[!duplicated(file.failures)]
+
+# Merge the files without failures
+
+list_files_insect_sampling <- list_files_insect_sampling[!list_files_insect_sampling %in% file.failures]
 
 
 for (i in seq(length(list_files_insect_sampling))) {

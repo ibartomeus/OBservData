@@ -150,7 +150,6 @@ list_organisms_guild %>% filter(is.na(Guild)) %>% group_by(Organism_ID) %>% coun
 data_obs_guild <- data_raw_obs %>% left_join(list_organisms_guild, by = "Organism_ID")
 
 
-
 ############################
 # INSECT SAMPLING TRANSECTS
 ############################
@@ -234,7 +233,7 @@ list_organisms_guild_ob$Guild[grepl("Tetraloniella_braunsiana",list_organisms_gu
 list_organisms_guild_ob$Guild[grepl("Xylocopa",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "other_wild_bees"
 list_organisms_guild_ob$Guild[grepl("Danus_chrysippus_aegyptius",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "lepidoptera"
 
-list_organisms_guild_ob$Guild[grepl("bee.red.abdomen.sp1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- NA
+list_organisms_guild_ob$Guild[grepl("bee.red.abdomen.sp1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "other_wild_bees"
 list_organisms_guild_ob$Guild[grepl("Bombyliidae_sp.1",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "humbleflies"
 list_organisms_guild_ob$Guild[grepl("brown_skipper_sp1.",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "lepidoptera"
 list_organisms_guild_ob$Guild[grepl("Caliphoridae",list_organisms_guild_ob$Organism_ID,ignore.case = T)] <- "other_flies"

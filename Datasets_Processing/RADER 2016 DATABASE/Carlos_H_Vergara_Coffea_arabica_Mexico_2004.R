@@ -311,6 +311,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction = NA,
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,
@@ -340,6 +341,67 @@ field_level_data <- tibble(
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
 )
+
+# UPDATE CARLOS
+missing_area <- bind_rows(
+tibble(site_id="MIR1",field_size= 0.7),
+tibble(site_id="MIR2",field_size= 1.53),
+tibble(site_id="MIR3",field_size= 2.6),
+tibble(site_id="MIR4",field_size= 6.65),
+tibble(site_id="ORD1",field_size= 4.88),
+tibble(site_id="ORD2",field_size= 4.88),
+tibble(site_id="ORD3",field_size= 18.29),
+tibble(site_id="ORD4",field_size= 7.2),
+tibble(site_id="SOL1",field_size= 0.1925),
+tibble(site_id="SOL2",field_size= 0.4446),
+tibble(site_id="SOL3",field_size= 3.738),
+tibble(site_id="SOL4",field_size= 3.2),
+tibble(site_id="VSE1",field_size= 1.53),
+tibble(site_id="VSE2",field_size= 0.513),
+tibble(site_id="VSE3",field_size= 4),
+tibble(site_id="VSE4",field_size= 0.8)
+)
+
+missing_variety <- bind_rows(
+tibble(site_id="MIR1", crop="Coffea arabica", variety="Typica, Bourbon, Mundo Novo and Caturra"),
+tibble(site_id="MIR2", crop=" Coffea arabica", variety=" Typica, Bourbon, Mundo Novo and Caturra"),
+tibble(site_id="MIR3", crop=" Coffea arabica", variety=" Typica, Bourbon, Mundo Novo and Caturra"),
+tibble(site_id="MIR4", crop=" Coffea arabica", variety=" Typica, Bourbon, Mundo Novo and Caturra"),
+tibble(site_id="ORD1", crop=" Coffea arabica", variety=" Garnica"),
+tibble(site_id="ORD2", crop=" Coffea arabica", variety=" Garnica"),
+tibble(site_id="ORD3", crop=" Coffea arabica", variety=" Garnica"),
+tibble(site_id="ORD4", crop=" Coffea arabica", variety=" Garnica"),
+tibble(site_id="SOL1", crop=" Coffea arabica", variety=" Caturra"),
+tibble(site_id="SOL2", crop=" Coffea arabica", variety=" Caturra"),
+tibble(site_id="SOL3", crop=" Coffea arabica", variety=" Caturra"),
+tibble(site_id="SOL4", crop=" Coffea arabica", variety=" Caturra"),
+tibble(site_id="VSE1", crop=" Coffea arabica", variety=" Catimor CR-95"),
+tibble(site_id="VSE2", crop=" Coffea arabica", variety=" Catimor CR-95"),
+tibble(site_id="VSE3", crop=" Coffea arabica", variety=" Catimor CR-95"),
+tibble(site_id="VSE4", crop=" Coffea arabica", variety=" Catimor CR-95"))
+
+missing_coordinates <- bind_rows(
+tibble(site_id="MIR1", latitude=19.2110667, longitude=-96.8997333),
+tibble(site_id="MIR2", latitude=19.2135333, longitude=-96.8995167),
+tibble(site_id="MIR3", latitude=19.2098833, longitude=-96.8965),
+tibble(site_id="MIR4", latitude=19.2101167, longitude=-96.8876667),
+tibble(site_id="ORD1", latitude=19.2055833, longitude=-96.8977333),
+tibble(site_id="ORD2", latitude=19.20565, longitude=-96.89855),
+tibble(site_id="ORD3", latitude=19.2070167, longitude=-96.8843),
+tibble(site_id="ORD4", latitude=19.2063, longitude=-96.8850667),
+tibble(site_id="SOL1", latitude=19.3756833, longitude=-96.98785),
+tibble(site_id="SOL2", latitude=19.4815667, longitude=-96.991),
+tibble(site_id="SOL3", latitude=19.3808, longitude=-96.989),
+tibble(site_id="SOL4", latitude=19.38185, longitude=-96.9887833),
+tibble(site_id="VSE1", latitude=19.4726667, longitude=-96.9256333),
+tibble(site_id="VSE2", latitude=19.4724667, longitude=-96.9286167),
+tibble(site_id="VSE3", latitude=19.4715833, longitude=-96.92925),
+tibble(site_id="VSE4", latitude=19.4649667, longitude=-96.9343))
+
+field_level_data$variety <- missing_variety$variety
+field_level_data$latitude <- missing_coordinates$latitude
+field_level_data$longitude <- missing_coordinates$longitude
+field_level_data$field_size <- missing_area$field_size
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "field_level_data_Carlos_H_Vergara_Coffea_arabica_Mexico_2004.csv")

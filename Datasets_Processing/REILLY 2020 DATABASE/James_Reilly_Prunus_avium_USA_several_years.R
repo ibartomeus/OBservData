@@ -13,7 +13,7 @@ dir_ini <- getwd()
 
 # Load data
 
-data.site <- read_csv("datasets/sweet_cherry_wa_dataset.csv")
+data.site <- read_csv("datasets/sweet_cherry_wa_dataset_separate_flies.csv")
 
 # New site_id
 
@@ -65,17 +65,23 @@ data.site$all_bees==(data.site$other_wild_bees +
 
 # Estimating visitation rates
 
+# Comments raised by James on Prunus avium data.
+# 1) "flies" in the data I sent turns out to be a mixture of syrphids and other flies
+# (primarily chironomids).  I separated them for you in a new version of this dataset.
+# 2) "other insects" here can go into the "visits_beetles" category--they were weevils
+
 data.site$visitation_rate_units <- "visits"
 
 data.site$vist_total <- (data.site$all_bees +
-                           data.site$fly)#/data.site$number_of_flowers_mean
+                           data.site$syrphid +
+                           data.site$other_flies)#/data.site$number_of_flowers_mean
 
 data.site$vist_honeybees <- data.site$honey_bee#/data.site$number_of_flowers_mean
 data.site$vist_bumblebees <- data.site$bumble_bee#/data.site$number_of_flowers_mean
 data.site$vist_other_wild_bees <- data.site$other_wild_bees#/data.site$number_of_flowers_mean
-data.site$vist_syrphids <- NA
+data.site$vist_syrphids <- data.site$syrphid
 data.site$vist_humbleflies <- NA
-data.site$vist_other_flies <-  data.site$fly
+data.site$vist_other_flies <-  data.site$other_flies
 data.site$vist_beetles <- NA
 data.site$vist_lepidoptera <- NA
 data.site$vist_non_bee_hymenoptera <- NA

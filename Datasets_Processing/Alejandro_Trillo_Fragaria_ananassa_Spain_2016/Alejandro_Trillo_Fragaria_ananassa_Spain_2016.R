@@ -49,6 +49,12 @@ insect_sampling %>% group_by(guild) %>% count()
 insect_sampling <- insect_sampling %>% rename(Description=`Description_(fee_text)`)
 insect_sampling$Description <- "Data is pooled from 4 sampling rounds performed in winter and in spring. Note that bumblebees and honeybees are managed species but there were not colonies within our sampling plots"
 
+insect_sampling[,c(4,3)] <- insect_sampling[,3:4]
+names(insect_sampling) <- c("study_id","site_id","pollinator","guild",
+                            "sampling_method","abundance",
+                            "total_sampled_area","total_sampled_time",
+                            "total_sampled_flowers","Description")
+
 # Save new insect sampling templates
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")

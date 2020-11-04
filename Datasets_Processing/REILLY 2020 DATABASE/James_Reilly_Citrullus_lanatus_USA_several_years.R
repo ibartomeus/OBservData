@@ -74,6 +74,10 @@ round(data.site$all_bees,5)==round(data.site$other_wild_bees +
 
 data.site$visitation_rate_units <- "visits"
 
+# Comment raised by James about Citrullus lanatus
+# 1) move all "flies" or visits_other_flies to visits_syrphids
+# (I looked back at the raw data and that's what they all were)
+
 data.site <- data.site %>% rowwise() %>%
   mutate(vist_total = sum(all_bees,
                           fly,
@@ -81,14 +85,19 @@ data.site <- data.site %>% rowwise() %>%
                           bombyliidae,
                           wasp,
                           lepidoptera,
-                          na.rm = T))
+                          na.rm = T),
+         vist_total_syrphids = sum(
+                          fly,
+                          syrphid,
+                          na.rm = T)
+         )
 
 data.site$vist_honeybees <- data.site$honey_bee
 data.site$vist_bumblebees <- data.site$bumble_bee
 data.site$vist_other_wild_bees <- data.site$other_wild_bees
-data.site$vist_syrphids <- data.site$syrphid
+data.site$vist_syrphids <- data.site$vist_total_syrphids
 data.site$vist_humbleflies <- data.site$bombyliidae
-data.site$vist_other_flies <- data.site$fly
+data.site$vist_other_flies <- NA
 data.site$vist_beetles <- NA
 data.site$vist_lepidoptera <- data.site$lepidoptera
 data.site$vist_non_bee_hymenoptera <- data.site$wasp

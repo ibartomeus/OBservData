@@ -12,7 +12,11 @@ options(digits=14)
 
 # Load new field_level_data provided by Davi and Felipe
 
-field_level_aux <- read_csv2("DATASETS/field_level_data_Davi_L_Ramos_Phaseolus_vulgaris L_Brazil_2015_2016.csv")
+field_level_aux <- read.csv2("DATASETS/field_level_data_Davi_L_Ramos_Phaseolus_vulgaris L_Brazil_2015_2016.csv",dec = ".",
+                             stringsAsFactors = F)
+
+field_level_aux <- as_tibble(field_level_aux)
+
 
 # Adapt DOI
 
@@ -20,11 +24,11 @@ field_level_aux$Publication <- "10.1371/journal.pone.0204460"
 
 # Fix latitude and longitude
 
-field_level_aux$latitude <- field_level_aux$latitude/1000000
-field_level_aux$latitude[c(8,31,32)] <- field_level_aux$latitude[c(8,31,32)]*10
-
-field_level_aux$longitude <- field_level_aux$longitude/1000000
-field_level_aux$longitude[c(5,6,17,27,34)] <- field_level_aux$longitude[c(5,6,17,27,34)]*10
+# field_level_aux$latitude <- field_level_aux$latitude/1000000
+# field_level_aux$latitude[c(8,31,32)] <- field_level_aux$latitude[c(8,31,32)]*10
+# 
+# field_level_aux$longitude <- field_level_aux$longitude/1000000
+# field_level_aux$longitude[c(5,6,17,27,34)] <- field_level_aux$longitude[c(5,6,17,27,34)]*10
 ###################
 # INSECT SAMPLING
 ###################

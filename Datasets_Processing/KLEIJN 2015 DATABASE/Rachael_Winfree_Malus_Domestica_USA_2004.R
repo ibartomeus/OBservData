@@ -13,7 +13,7 @@ dir_ini <- getwd()
 ##########################
 
 data_raw <- read.xlsx("45_RachaelWinfree_Apple_2004/STEP4_winfree_apple.xlsx",
-                       sheet = "apple2004.csv")
+                       sheet = "apple2004.csv (2)")
 data_raw <- as_tibble(data_raw)
 
 # Tranforms date to proper units
@@ -144,6 +144,8 @@ insect_sampling <- tibble(
   total_sampled_flowers = NA,
   Description = "At each site, the data collector walked through the orchard, collecting all non-Apis bees visiting apple flowers with a net. One data collection day was conducted per orchard."
 )
+
+insect_sampling$site_id %>% unique() %>% sort()
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_Rachael_Winfree_Malus_Domestica_USA_2004.csv")

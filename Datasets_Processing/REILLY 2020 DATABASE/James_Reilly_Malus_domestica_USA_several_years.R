@@ -80,7 +80,12 @@ data.site$vist_bumblebees <- data.site$bumble_bee/data.site$number_of_flowers_me
 data.site$vist_other_wild_bees <- data.site$other_wild_bees/data.site$number_of_flowers_mean
 data.site$vist_syrphids <- data.site$syrphid/data.site$number_of_flowers_mean
 data.site$vist_humbleflies <- NA
-data.site$vist_other_flies <- NA 
+
+# Comment raised by James about Malus pumila
+# 1) you can put the "other insects" into the "other flies" category. 
+# They were flies but not syrphids.
+
+data.site$vist_other_flies <- data.site$other_insect/data.site$number_of_flowers_mean
 data.site$vist_beetles <- NA
 data.site$vist_lepidoptera <- NA
 data.site$vist_non_bee_hymenoptera <- data.site$wasp/data.site$number_of_flowers_mean

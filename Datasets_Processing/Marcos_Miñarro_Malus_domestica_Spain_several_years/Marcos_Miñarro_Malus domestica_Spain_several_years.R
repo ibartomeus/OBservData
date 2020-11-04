@@ -67,6 +67,13 @@ data.site$total_sampled_time <- 75
 insect_sampling <- insect_sampling %>% rename(Description=`Description_(fee_text)`)
 insect_sampling$Description <- "Each orchard was surveyed three times. Each survey was the observation of 5 trees * 5 minutes (25 min). In each tree, we observed an area of about 1m of radius in which number of flowers was counted. When possible, insects were identified to species or caught for a posterior identificaction. An additional capture (10 minutes at each survey) of pollinators visiting apple flowers was made for identification in the lab of species not identifyied in the field sampling. This info was not used for abundance (that is why we only considered plant observaction as sasmpling method) but just to assign relative abundances to specific species from general groups (e.g. wild bees). This is why in some cases total abundances have decimal values. An example: we counted 1 wild bee during surveys but we could not identify the species on the wing. Then we captured 2 wild bees that were identified as L. pauxilium and L. zonulum. Then we assigned abundance 0,5 to each species (1 wild bee/ 2 species)."
 
+
+insect_sampling[,c(6,5)] <- insect_sampling[,5:6]
+names(insect_sampling) <- c("study_id","site_id","pollinator","guild",
+                            "sampling_method","abundance",
+                            "total_sampled_area","total_sampled_time",
+                            "total_sampled_flowers","Description")
+
 # Save new insect sampling templates
 
 insect_sampling_2015 <- insect_sampling %>% filter(study_id=="Marcos_Miñarro_Malus_domestica_Spain_2015")
