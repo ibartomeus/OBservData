@@ -155,10 +155,71 @@ FINAL_field_level_data$Publication %>% unique()
 
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication==":10.1016/j.agee.2008.08.001"] <- "10.1016/j.agee.2008.08.001"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="https://doi.org/10.1038/s41598-019-49535-w; yield data unpublished"] <- "10.1038/s41598-019-49535-w; yield data unpublished"
-FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="Trillo, A., Herrera, J. M., & Vilà, M. (2018). Managed bumble bees increase flower visitation but not fruit weight in polytunnel strawberry crops. Basic and Applied Ecology, 30, 32-40."] <- "10.1016/j.baae.2018.05.008"
+FINAL_field_level_data$Publication[FINAL_field_level_data$study_id=="Alejandro_Trillo_Fragaria_ananassa_Spain_2016"] <- "10.1016/j.baae.2018.05.008"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="none - writing in progress"] <- "In preparation"
 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="Carvalheiro et al. 2011. Ecology Letters"] <- "10.1111/j.1461-0248.2010.01579.x"                                                                                                                                                
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="Carvalheiro et al. 2010. Journal of applied ecology"] <-  "10.1111/j.1365-2664.2010.01829.x"                                                                                                                                        
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="Carvalheiro et al 2012 Journal of Applied Ecology"] <- "10.1111/j.1365-2664.2012.02217.x"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="https://doi.org/10.1038/s41598-019-49535-w; yield data unpublished"] <- "10.1038/s41598-019-49535-w; yield data unpublished"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="J. Pollinat. Ecol., 12 (2014), pp. 15-21"] <- "10.1590/1519-6984.02213"
 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication==":10.1016/j.agee.2008.08.001"] <- "10.1016/j.agee.2008.08.001"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="?10.3390/d12060259"] <- "10.3390/d12060259"
+
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.001"] <-  "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                         
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.002"] <-   "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                          
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.003"] <- "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                               
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.004"] <- "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                               
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.005"] <- "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                               
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.006"] <-  "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                                
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.007"] <-  "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                                
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.008"] <-  "unpublished, 10.1016/j.biocon.2013.11.001"                                                                                                                
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, O'Connor et al. 2019 https://doi.org/10.1111/2041-210X.13292"] <-  "unpublished, 10.1111/2041-210X.13292"                                                                                                                    
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2016 https://doi.org/10.1371/journal.pone.0153889, Garratt et al. 2014 DOI:10.26786/1920-7603(2014)8, O'Connor et al. 2019 https://doi.org/10.1111/2041-210X.13292"] <- "unpublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8,10.1111/2041-210X.13292"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.001, O'Connor et al 2019 https://doi.org/10.1111/2041-210X.13292"] <-"unpublished, 10.1016/j.biocon.2013.11.001, 10.1111/2041-210X.13292"                                        
+
+
+
+FINAL_field_level_data$Publication %>% unique()
+
+####################
+# Fix Sampling years
+
+FINAL_field_level_data$sampling_year %>% unique()
+FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2016/2017"] <- "2016-2017"
+FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2015/2016"] <- "2015-2016"
+
+FINAL_field_level_data$sampling_year %>% unique()
+
+##################
+FINAL_field_level_data$study_id[grep("Christof_Sch",FINAL_field_level_data$study_id)] <- 
+  "Christof_Schüepps_Prunus_avium_Switzerland_2011"
+
+
+#################
+# Fix total_sampled_area and time
+
+FINAL_field_level_data$total_sampled_area %>% unique()
+
+
+FINAL_field_level_data$notes <- NA
+
+FINAL_field_level_data$notes[grep("Alejandro_Trillo_",
+  FINAL_field_level_data$study_id)] <- "total_sampled_area: 800 m2 for honeybees and bumblebees, otherwise 400 m2"
+FINAL_field_level_data$notes[grep("Amparo",
+                                         FINAL_field_level_data$study_id)] <- "total_sampled_area: 20 almond individuals; 5-10  meters separation between individuals"
+FINAL_field_level_data$total_sampled_area[grep("Amparo",
+                                               FINAL_field_level_data$study_id)] <- NA
+
+FINAL_field_level_data$total_sampled_area[grep("Alejandro_Trillo_",
+                                               FINAL_field_level_data$study_id)] <- 800
+
+FINAL_field_level_data$notes[grep("Rachel_Mallinger",
+                                         FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from bee bowl records"
+
+FINAL_field_level_data$total_sampled_area <- as.numeric(FINAL_field_level_data$total_sampled_area)
 ####################
 # Select verified studies
 

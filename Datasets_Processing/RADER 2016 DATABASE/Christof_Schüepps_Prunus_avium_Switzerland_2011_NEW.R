@@ -31,9 +31,12 @@ latlong2country <- function(pointsDF) {
 # LOAD DATA
 ################
 
-field_level_data <- read_csv("Individual CSV/field_level_data_Christof_Schüepps_Prunus_avium_Switzerland_2011_expanded.csv")
+field_level_data <- read_csv("Individual CSV/field_level_data_Christof_SchÃ¼epps_Prunus_avium_Switzerland_2011_expanded.csv")
 
-insect_sampling <- read_csv("Individual CSV/insect_sampling_Christof_Schüepps_Prunus_avium_Switzerland_2011_expandedd.csv")
+field_level_data$Credit <- "Christof SchÃ¼epp, Felix Herzog and Martin H. Entling"
+field_level_data$Publication <- "10.1098/rspb.2013.2667"
+
+insect_sampling <- read_csv("Individual CSV/insect_sampling_Christof_SchÃ¼epps_Prunus_avium_Switzerland_2011_expandedd.csv")
 
 #################
 # INSECT SAMPLING
@@ -59,11 +62,11 @@ insect_sampling_new$Description[insect_sampling_new$Description=="NA .  NA"] <- 
 
 insect_sampling_new$total_sampled_flowers <- 3*insect_sampling_new$total_sampled_flowers
 
-insect_sampling_new$study_id <- "Christof_Schüepps_Prunus_avium_Switzerland_2011"
+insect_sampling_new$study_id <- "Christof_SchÃ¼epps_Prunus_avium_Switzerland_2011"
 
 field_level_data$study_id %>% unique()
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(insect_sampling_new, "insect_sampling_Christof_Schüepps_Prunus_avium_Switzerland_2011.csv")
+write.csv(insect_sampling_new, "insect_sampling_Christof_SchÃ¼epps_Prunus_avium_Switzerland_2011.csv",row.names = F)
 setwd(dir_ini)
 
 
@@ -98,5 +101,5 @@ field_level_data$sampling_end_month <- 5
 field_level_data$total_sampled_area <- NA
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_Christof_Schüepps_Prunus_avium_Switzerland_2011.csv")
+write.csv(field_level_data, "field_level_data_Christof_SchÃ¼epps_Prunus_avium_Switzerland_2011.csv",row.names = F)
 setwd(dir_ini)
