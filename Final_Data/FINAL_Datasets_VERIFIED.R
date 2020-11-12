@@ -193,8 +193,27 @@ FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2015
 FINAL_field_level_data$sampling_year %>% unique()
 
 ##################
+# Fix studies IDs
 FINAL_field_level_data$study_id[grep("Christof_Sch",FINAL_field_level_data$study_id)] <- 
   "Christof_Schüepps_Prunus_avium_Switzerland_2011"
+
+
+FINAL_field_level_data$study_id[grep("several",FINAL_field_level_data$study_id)] %>%
+  unique()
+
+FINAL_field_level_data %>% filter(study_id=="Jens_Åström_Trifolium_pratense_Norway_several_years") %>%
+  select(sampling_year) %>% unique()
+
+FINAL_field_level_data$study_id[(FINAL_field_level_data$study_id==
+                                   "Jens_Åström_Trifolium_pratense_Norway_several_years") &
+                                  (FINAL_field_level_data$sampling_year==2013)] <- 
+  "Jens_Åström_Trifolium_pratense_Norway_2013"
+
+FINAL_field_level_data$study_id[(FINAL_field_level_data$study_id==
+                                   "Jens_Åström_Trifolium_pratense_Norway_several_years") &
+                                  (FINAL_field_level_data$sampling_year==2014)] <- 
+  "Jens_Åström_Trifolium_pratense_Norway_2014"
+
 
 
 #################
@@ -220,11 +239,82 @@ FINAL_field_level_data$notes[grep("Rachel_Mallinger",
   "Information on floral visitors was obtained from bee bowl records"
 
 FINAL_field_level_data$total_sampled_area <- as.numeric(FINAL_field_level_data$total_sampled_area)
+
+#####################
+# Fix yield units
+
+x <- FINAL_field_level_data %>% select(yield, yield_units) %>% group_by(yield_units) %>%
+  summarise(yield=mean(yield,na.rm=T))
+
+
+
+x$yield_units
+
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% fruit set"] <- "fruit set (%)"                                                                                                                                                                                                                                                                               
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% fruit set per flowers"] <- "fruit set (%) per flowers"                                                                                                                                                                                                                                                                
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% fruit set per plant"] <-    "fruit set (%) per plant"                                                                                                                                                                                                                                                                    
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% pod set"] <- "pod set (%)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="early fruit set" ] <-    "early fruit set (%)"                                                                                                                                                                                                                                                                         
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="final fruitset % (100*#fruits/#flowers)"] <- "final fruit set (%): 100*#fruits/#flowers"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="final fruitset (%)"] <- "final fruit set (%)"                                                                                                                                                                                                                                                                          
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="final seedset: percentage of ovules that developed into seeds at harvest"] <- "final seed set (%): ovules that developed into seeds at harvest"                                                                                                                                                                                                                    
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit-set (% of flowers setting fruits at harvest.)"] <- "fruit set (%): flowers setting fruits at harvest.)"                                                                                                                                                                                                                                         
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit set %"] <-    "fruit set (%)"                                                                                                                                                                                                                                                                           
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="fruit set (%)"] <-"fruit set (%)"                                                                                                                                                                                                                                                                                
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit set (%)"] <- "fruit set (%)"                                                                                                                                                                                                                                                                               
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit Set (%)"] <- "fruit set (%)"                                                                                                                                                                                                                                                                               
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit set (%): initial number of floral buds in the respective branch and the number of developing fruits"] <-  "fruit set (%): initial number of floral buds in the respective branch and the number of developing fruits"                                                                                                                                                                                  
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit set (%): percentage of intact marked flowers (not damaged by herbivores) that developed into swollen green fruits approximately three weeks after pollination per site"] <-"fruit set (%): percentage of intact marked flowers (not damaged by herbivores) that developed into swollen green fruits approximately three weeks after pollination per site"                                                                                                              
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Fruit weight per plant"] <-  "fruit weight per plant"                                                                                                                                                                                                                                                                     
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="fruitset (%)"] <-  "fruit set (%)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/field"] <-  "kg per field"                                                                                                                                                                                                                                                                                   
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/ha"] <-  "kg per hectare"                                                                                                                                                                                                                                                                                      
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/ha (dried and hulled beans)"] <- "kg per ha (dried and hulled beans)"                                                                                                                                                                                                                                                              
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/hectare"] <-    "kg per hectare"                                                                                                                                                                                                                                                                               
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/shrub"] <-  "kg per shrub" 
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="t/ha"] <-     "tonne per hectare"                                                                                                                                                                                                                                                                                    
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="tonne/acre" ] <- "tonne per acre"                                                                                                                                                                                                                                                                                 
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="tonnes/ha"] <-  "tonne per hectare"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="bags/hectare"] <- "bags per hectare" 
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="g" ] <- "grams"                                                                                                                                                                                                                                                                                           
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="g per fruit"] <- "grams per fruit" 
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="seed/plant"] <-  "seeds per plant"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary fruit weight [g]"] <- "Primary fruit weight (grams)"
+
+# Fix yield units
+
+x <- FINAL_field_level_data %>% select(yield2, yield2_units) %>% group_by(yield2_units) %>%
+  summarise(yield2=mean(yield2,na.rm=T))
+
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Seed per pod"] <- "seeds per pod"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Seed set"] <- "seed set"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="number of fruits per_flower"] <- "number of fruits per flower"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="mean_marketability"] <- "mean marketability"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Mean weight per apple (g per apple)"] <- "mean weight per apple (grams per apple)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Mean weight per bean pod (g)"] <- "mean weight per bean pod (grams)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Individual fruit weight (gr)"] <- "individual fruit weight (grams)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Fruit set (% of flowers producing a berry)"] <- "fruit set (%): flowers producing a berry)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/ha (dried berries)"] <- "kg per hectare (dried berries)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/m2"] <- "kg per square meter (dried berries)"
+
+########################
+# Fix management
+
+FINAL_field_level_data %>% group_by(management) %>% count()
+
+FINAL_field_level_data$management[FINAL_field_level_data$management %in%
+                                    c("3","conv","Conventional",
+                                      "conventional agriculture")] <- "conventional"
+FINAL_field_level_data$management[FINAL_field_level_data$management %in%
+                                    c("org","Organic")] <- "organic"
+
 ####################
 # Select verified studies
 
 FINAL_field_level_data_filt <- FINAL_field_level_data %>% filter(study_id %in%
-                                  verified_studies$study_id)
+                                  c(verified_studies$study_id,
+                                    "Jens_Åström_Trifolium_pratense_Norway_2013",
+                                    "Jens_Åström_Trifolium_pratense_Norway_2014"))
 
 FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_filt$Credit)] <- "Christof Schüepps, Felix Herzog and Martin H. Entling"
 
@@ -307,14 +397,23 @@ FINAL_sampling_data$guild[FINAL_sampling_data$guild=="others"] <- "other"
 FINAL_sampling_data %>% group_by(guild) %>% count()
 
 
+# Sanity check
+FINAL_sampling_data$study_id[grep("several",FINAL_sampling_data$study_id)] %>%
+  unique() #"Jeroen_Scheper_Brassica_napus_several_countries_2012"
+
+
 # Select verified studies
 
 FINAL_sampling_data_filt <- FINAL_sampling_data %>% filter(study_id %in%
-                                                                   verified_studies$study_id)
-
+                                                                   c(verified_studies$study_id,
+                                                                     "Jens_Åström_Trifolium_pratense_Norway_2013",
+                                                                     "Jens_Åström_Trifolium_pratense_Norway_2014"))
 # Sanity check: All the studies are in field level data
+FINAL_sampling_data_filt$study_id %>% unique()
+FINAL_field_level_data_filt$study_id %>% unique()
+
 FINAL_sampling_data_filt$study_id[!FINAL_sampling_data_filt$study_id %in%
-                                    FINAL_field_level_data$study_id]
+                                    FINAL_field_level_data_filt$study_id]
 
 
 ##############################
@@ -353,7 +452,7 @@ add_dainese$rank[add_dainese$study_id=="Yi_Zou_Brassica_napus_China_2015" &
                    is.na(add_dainese$rank)] <- "family"
 
 
-add_dainese %>% filter(is.na(rank)) #28,057 entries need resolution
+add_dainese %>% filter(is.na(rank)) #27,994 entries need resolution
 
 
 add_dainese_rader <- add_dainese %>%
@@ -414,7 +513,7 @@ insect_sampling_taxa <- bind_rows(add_dainese_rader,add_Silvia) %>%
   select(study_id, site_id, sampling_method,pollinator, rank, guild, 
          sampling_method,abundance,total_sampled_area,total_sampled_time,
          total_sampled_flowers,Description,notes) %>%
-  rename(identified_to=rank,description=Description) %>% unique()
+  rename(identified_to=rank,description=Description)
 
 
 # Save "FINAL_sampling_data" file

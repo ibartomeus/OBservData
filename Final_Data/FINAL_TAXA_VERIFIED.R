@@ -156,7 +156,7 @@ insect_sampling_full$rank[insect_sampling_full$rank=="species or morphospecies" 
                             c("Apis mellifera L.",
                               "Astylus atromaculatus Blanchard *",
                               "Dioxyna sororcula",
-                              "“Lagria” cf. aeneipennis Fåhraeus",
+                              "?Lagria? cf. aeneipennis F?hraeus",
                               "Hypolimnas misippus",
                               "Baris cf. atrocoerulea (Boheman, 1844)",
                               "Junonia oenone",
@@ -254,7 +254,10 @@ insect_sampling_full$rank[insect_sampling_full$rank %in%
 insect_sampling_full$rank[is.na(insect_sampling_full$rank)] <- "other/unknown"
 
 # Results 
-insect_sampling_full %>% group_by(rank) %>% count()
+ranks <- insect_sampling_full %>% group_by(rank) %>% count() %>%
+  mutate(percen=100*n/sum(ranks$n))
+
+
 
 # Results 
 insect_sampling_full %>% group_by(guild) %>% count()
