@@ -32,7 +32,7 @@ context("checks that the values in field_level template meet our requirements")
 # Lepidoptera abun. format  (non-negative number or NA)
 # Non bee hymenoptera abun. format  (non-negative number or NA)
 # Others abun. format (non-negative number or NA)
-# Transect area format (if not a character description [A. Lázaro/A. Trillo],
+# Transect area format (if not a character description [A. L?zaro/A. Trillo],
 # non-negative number or NA)
 # Transect time format (non-negative number or NA)
 # Total vis. rate format (non-negative number or NA)

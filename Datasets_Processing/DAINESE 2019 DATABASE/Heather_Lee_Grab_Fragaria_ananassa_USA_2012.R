@@ -145,18 +145,18 @@ setwd(dir_ini)
 #########################################
 data.species_01 %>% group_by(sampling_method) %>% count()
 
-abundance_aux <- data.species_01 %>% filter(sampling_method=="sweep netting") %>% 
+abundance_aux <- data.species_01 %>% #filter(sampling_method=="sweep netting") %>% 
   group_by(site_id,Guild) %>% count(wt=abundance) %>% 
   spread(key=Guild, value=n)
 
 names(abundance_aux)
 
-# There are "honeybees","other_wild_bees"
+# There are "honeybees","other_wild_bees", "bumblebees"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(beetles=0,bumblebees=0,lepidoptera=0,other_flies=0,
+abundance_aux <- abundance_aux %>% mutate(beetles=0,lepidoptera=0,other_flies=0,
                                           non_bee_hymenoptera=0,other=0,humbleflies=0,syrphids=0,
                                           total=0)
 abundance_aux[is.na(abundance_aux)] <- 0
@@ -170,7 +170,7 @@ data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
 
 # Para estimar la riqueza (CHAO) y la abundancia solo vamos a utilizar los transectos
 
-abundace_field <- data.species_01 %>% filter(sampling_method=="sweep netting") %>%
+abundace_field <- data.species_01 %>% #filter(sampling_method=="sweep netting") %>%
   select(site_id,Organism_ID,abundance)%>%
   group_by(site_id,Organism_ID) %>% count(wt=abundance)
 

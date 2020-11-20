@@ -13,7 +13,7 @@ dir_ini <- getwd()
 
 # Load data
 
-data.site <- read_csv("datasets/almond_ca_dataset_separate_flies.csv")
+data.site <- read_csv("datasets/almond_ca_dataset_separate_flies_fixed_site_names.csv")
 
 # New site_id
 
@@ -21,6 +21,18 @@ data.site$site_id <- paste0(data.site$crop,"_",
                             data.site$state,"_",
                             data.site$site,"_",
                             data.site$transect) 
+
+# Add latitude and longitude
+coordinates <- read_csv("datasets/ICP_sites_with_latlong_for_observ.csv") %>%
+  rename(site=site_id)
+
+data.site$crop_id <- paste0(data.site$crop,"_",
+                            data.site$state)
+
+
+data.site <- data.site %>% left_join(coordinates,by=c("crop_id","site")) %>%
+  rename(latitude=lat,longitude=long)
+
 
 # New study_id
 data.site$study_id <- paste0("James_Reilly_Prunus_dulcis_USA_",data.site$year)
@@ -99,8 +111,8 @@ field_level_data <- tibble(
   variety = NA,
   management = NA,
   country = "USA",
-  latitude = NA,
-  longitude = NA,
+  latitude = data.site$latitude,
+  longitude = data.site$longitude,
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,

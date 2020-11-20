@@ -48,7 +48,7 @@ data.site$management <- NA
 data.site$country <- "USA"
 data.site$X_UTM <- NA
 data.site$Y_UTM <- NA
-data.site$zone_UTM <- NA
+data.site$zone_UTM <- 10
 data.site$sampling_year <- 2009
 data.site$field_size <- NA
 data.site$yield <- NA

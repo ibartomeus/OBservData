@@ -14,7 +14,7 @@ field_level_data <- read_csv("DATASETS/field 2013 NEW.csv")
 insect_sampling <- read_csv("DATASETS/IS 2013.csv")
 
 # Update credit and contact info
-field_level_data$Credit <- "Rachel Mallinger, University of Florida" 
+field_level_data$Credit <- "Rachel Mallinger, University of Florida" 
 field_level_data$Email_contact <- "rachel.mallinger@ufl.edu"
 
 
@@ -36,7 +36,11 @@ UTM_15$longitude <- NA
 UTM_15$latitude <- NA
 UTM_15[,3:4] <- spgeo@coords
 
+# Richness with beebowls
 
+field_level_data$observed_pollinator_richness <- NA
+field_level_data$other_pollinator_richness <- NA
+field_level_data$other_richness_estimator_method <- NA
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(insect_sampling, "insect_sampling_Rachel_Mallinger_Malus_domestica_USA_2013.csv")

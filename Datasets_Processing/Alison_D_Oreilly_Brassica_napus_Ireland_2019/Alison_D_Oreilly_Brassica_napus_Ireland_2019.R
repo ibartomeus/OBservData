@@ -26,7 +26,7 @@ data.site <- data.site %>%
 data.site$yield_units <- "tonne/acre"
 
 data.site$email <- "alison.oreilly@ucdconnect.ie/dara.stanley@ucd.ie"
-data.site$visitation_rate_units <- "flowers_visited/min"
+data.site$visitation_rate_units <- "flowers visited per hour" #"flowers_visited/min"
 
 ###############################
 # FIELD LEVEL DATA
@@ -81,17 +81,17 @@ field_level_data <- tibble(
   total_sampled_area = data.site$total_sampled_area,
   total_sampled_time = data.site$total_sampled_time,
   visitation_rate_units = data.site$visitation_rate_units,
-  visitation_rate = data.site$visitation_rate,
-  visit_honeybee = data.site$visit_honeybee,
-  visit_bombus = data.site$visit_bombus,
-  visit_wildbees = data.site$visit_wildbees,
-  visit_syrphids = data.site$visit_syrphids,
-  visit_humbleflies = data.site$visit_humbleflies,
-  visit_other_flies = data.site$visit_other_flies,
-  visit_beetles = data.site$visit_beetles,
-  visit_lepidoptera = data.site$visit_lepidoptera,
-  visit_nonbee_hymenoptera = data.site$visit_nonbee_hymenoptera,
-  visit_others = data.site$visit_others,
+  visitation_rate = 60*data.site$visitation_rate,
+  visit_honeybee = 60*data.site$visit_honeybee,
+  visit_bombus = 60*data.site$visit_bombus,
+  visit_wildbees = 60*data.site$visit_wildbees,
+  visit_syrphids = 60*data.site$visit_syrphids,
+  visit_humbleflies = 60*data.site$visit_humbleflies,
+  visit_other_flies = 60*data.site$visit_other_flies,
+  visit_beetles = 60*data.site$visit_beetles,
+  visit_lepidoptera = 60*data.site$visit_lepidoptera,
+  visit_nonbee_hymenoptera = 60*data.site$visit_nonbee_hymenoptera,
+  visit_others = 60*data.site$visit_others,
   Publication = data.site$Publication,
   Credit = data.site$Credit,
   Email_contact = data.site$email

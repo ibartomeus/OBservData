@@ -15,7 +15,11 @@ dir_ini <- getwd()
 
 data.site_fl <- read_csv("datasets/blueberry_fl_dataset.csv")
 data.site_mi_bc_or <- read_csv("datasets/blueberry_mi_bc_or_dataset.csv") #%>% rename(wild_bee=wild_bees)  
-  
+
+# Fix error in mi
+
+data.site_mi_bc_or$site[data.site_mi_bc_or$state=="mi" & data.site_mi_bc_or$site==14] <- 24
+
 data.site <- bind_rows(data.site_fl,data.site_mi_bc_or)
 
 # New site_id
@@ -24,6 +28,19 @@ data.site$site_id <- paste0(data.site$crop,"_",
                             data.site$state,"_",
                             data.site$site,"_",
                             data.site$transect) 
+
+# Add latitude and longitude
+coordinates <- read_csv("datasets/ICP_sites_with_latlong_for_observ.csv") %>%
+  rename(site=site_id)
+
+data.site$crop_id <- paste0(data.site$crop,"_",
+                            data.site$state)
+
+
+data.site <- data.site %>% left_join(coordinates,by=c("crop_id","site")) %>%
+  rename(latitude=lat,longitude=long)
+
+
 
 # New study_id
 data.site$study_id <- paste0("James_Reilly_Vaccinium_corymbosum_USA_",data.site$year)
@@ -108,8 +125,8 @@ field_level_data <- tibble(
   variety = NA,
   management = NA,
   country = "USA",
-  latitude = NA,
-  longitude = NA,
+  latitude = data.site$latitude,
+  longitude = data.site$longitude,
   X_UTM=NA,
   Y_UTM=NA,
   zone_UTM=NA,

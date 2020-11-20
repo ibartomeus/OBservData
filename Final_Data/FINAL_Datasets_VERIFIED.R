@@ -11,7 +11,7 @@ folder_base <- "../Datasets_storage"
 
 files_base <- list.files(folder_base)
 
-#Date: 27/10/2020 -> Version: 0.2
+#Date: 20/11/2020 -> Version: 0.1
 
 ##############################
 # VERIFIED DATASETS
@@ -19,7 +19,13 @@ files_base <- list.files(folder_base)
 
 verified <- openxlsx:::read.xlsx("C:/Users/USUARIO/Desktop/Folders for authors/FINAL_Data ownership.xlsx")
 verified_studies <- verified %>% select(study_id) %>% unique()
-  
+
+##############################
+# NON-ASCII CHARACTERS
+##############################
+
+
+
 ##############################
 # MERGE FIELD_LEVEL DATA
 ##############################
@@ -113,7 +119,7 @@ for (i in seq(length(list_files_field_level))) {
 }
 
 # Fix crop names:
-
+FINAL_field_level_data$crop %>% unique() %>% sort()
 
 FINAL_field_level_data$crop[FINAL_field_level_data$crop=="Malus Domestica"] <- "Malus domestica"
 FINAL_field_level_data$crop[FINAL_field_level_data$crop=="Fragaria × ananassa"] <- "Fragaria x ananassa"
@@ -142,6 +148,25 @@ FINAL_field_level_data$richness_restriction[
   FINAL_field_level_data$richness_restriction=="none"] <- "all visitors considered"
 FINAL_field_level_data$richness_restriction[
   FINAL_field_level_data$richness_restriction=="bees+hoverflies"] <- "bees and hoverflies"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="Bees, including honeybees; butterflies and diurnal moths"] <- "bees (including honeybees) and lepidoptera"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="Bees, syrphids and wasps"] <- "bees, syrphids and wasps"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="Honeybees are not included in richness metrics"] <- "honeybees are not included in richness metrics"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="only honey bees and bombus sp."] <- "only bees (honey bees and bumblebees)"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="only non-Apis bees"] <- "only bees (non-Apis bees)"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="only non-managed bees"] <- "only bees (non-managed bees)"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="only bumblebees"] <- "only bees (bumblebees)"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$richness_restriction=="bombus and other wild bees"] <- "only bees (bumblebees and other wild bees)"
+
+
+
 
 FINAL_field_level_data$richness_restriction %>% unique() %>% sort()
 
@@ -178,7 +203,7 @@ FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublis
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, O'Connor et al. 2019 https://doi.org/10.1111/2041-210X.13292"] <-  "unpublished, 10.1111/2041-210X.13292"                                                                                                                    
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2016 https://doi.org/10.1371/journal.pone.0153889, Garratt et al. 2014 DOI:10.26786/1920-7603(2014)8, O'Connor et al. 2019 https://doi.org/10.1111/2041-210X.13292"] <- "unpublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8,10.1111/2041-210X.13292"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.001, O'Connor et al 2019 https://doi.org/10.1111/2041-210X.13292"] <-"unpublished, 10.1016/j.biocon.2013.11.001, 10.1111/2041-210X.13292"                                        
-
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1098/rspb.2013.3148, http://dx.doi.org/10.5281/zenodo.12540"] <-  "10.1098/rspb.2013.3148, 10.5281/zenodo.12540" 
 
 
 FINAL_field_level_data$Publication %>% unique()
@@ -187,6 +212,7 @@ FINAL_field_level_data$Publication %>% unique()
 # Fix Sampling years
 
 FINAL_field_level_data$sampling_year %>% unique()
+FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2000/2001"] <- "2000-2001"
 FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2016/2017"] <- "2016-2017"
 FINAL_field_level_data$sampling_year[FINAL_field_level_data$sampling_year=="2015/2016"] <- "2015-2016"
 
@@ -234,9 +260,22 @@ FINAL_field_level_data$total_sampled_area[grep("Amparo",
 FINAL_field_level_data$total_sampled_area[grep("Alejandro_Trillo_",
                                                FINAL_field_level_data$study_id)] <- 800
 
+# Notes on richness
 FINAL_field_level_data$notes[grep("Rachel_Mallinger",
                                          FINAL_field_level_data$study_id)] <- 
-  "Information on floral visitors was obtained from bee bowl records"
+  "Information on floral visitors was obtained from bee bowl records. Richness can be calculated by using the sampling records for this study_id."
+
+FINAL_field_level_data$notes[grep("Heather",
+                                  FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from bee bowl records. Richness can be calculated by using the sampling records for this study_id."
+
+FINAL_field_level_data$notes[grep("Heather",
+                                  FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from bee bowl records. Richness can be calculated by using the sampling records for this study_id."
+
+FINAL_field_level_data$notes[grep("Yi_Zou",
+                                  FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from bee bowl records. Richness can be calculated by using the sampling records for this study_id."
 
 FINAL_field_level_data$total_sampled_area <- as.numeric(FINAL_field_level_data$total_sampled_area)
 
@@ -280,6 +319,17 @@ FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="g" ] <- 
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="g per fruit"] <- "grams per fruit" 
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="seed/plant"] <-  "seeds per plant"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary fruit weight [g]"] <- "Primary fruit weight (grams)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="mean_berry_weight"] <- "mean berry weight"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="grams (mean fruit weight for 10 fruits per field)"] <- "mean fruit weight for 10 fruits per field (grams)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="grams (average fruit weight)"] <- "average fruit weight (grams)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="final fruit set (%): 100*#fruits/#flowers"] <- "fruit set (%): 100 number of fruits/number of open flowers"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="percentage fruit set (100 number of fruits/number of open flowers)"] <- "fruit set (%): 100 number of fruits/number of open flowers"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="mean_berry_weight"] <- "mean berry weight"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary fruit weight (grams)"] <- "primary fruit weight (grams)"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Insect Pollination = Open pollination [control] - Self-pollination [Tulle bags]"] <- "Insect Pollination: Open pollination [control] - Self-pollination [Tulle bags]"
+
+
+FINAL_field_level_data$yield_units %>% unique()
 
 # Fix yield units
 
@@ -296,7 +346,12 @@ FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Indivi
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Fruit set (% of flowers producing a berry)"] <- "fruit set (%): flowers producing a berry)"
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/ha (dried berries)"] <- "kg per hectare (dried berries)"
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/m2"] <- "kg per square meter (dried berries)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Fruit number on fixed branch length per tree"] <- "number of fruits on fixed branch length per tree"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="final fruitset: percentage of flowers that developed into mature fruits at harvest"] <- "final fruitset (%): flowers that developed into mature fruits at harvest"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="mean weight per apple (grams per apple)"] <- "mean weight per apple (grams)"
 
+
+FINAL_field_level_data$yield2_units %>% unique()
 ########################
 # Fix management
 
@@ -308,6 +363,69 @@ FINAL_field_level_data$management[FINAL_field_level_data$management %in%
 FINAL_field_level_data$management[FINAL_field_level_data$management %in%
                                     c("org","Organic")] <- "organic"
 
+
+########################
+# Fix visitation rate units
+
+FINAL_field_level_data$visitation_rate_units %>% unique()
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "flower visits per plant and hour"] <- "visits per plant and hour"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "flowers_visited/min"] <- "flowers_visited per min"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "flower visits/m^2/10 mins"] <- "visits per m^2 and 10 mins"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits in 100 flowers during one hour"] <- "visits per 100 flowers and one hour"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per 100 flowers during 1 hour"] <- "visits per 100 flowers and 1 hour"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "Visits per 10 minute"] <- "Visits per 10 minutes"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per hour and plant"] <- "visits per plant and hour"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits to flowers per hour"] <- "visits per hour"
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "no. visits in 100 inflorescences per 1h"] <- "visits per 100 inflorescences and hour"
+
+
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per hour and bush"] <- "visits per bush and hour"
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per 100 flowers and one hour"] <- "visits per 100 flowers and hour"
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per 100 flowers and 1 hour"] <- "visits per 100 flowers and hour"
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "flowers_visited per min"] <- "flowers visited per min"
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
+    "visited flowers per hour"] <- "flowers visited per hour"
+
+
+FINAL_field_level_data$study_id[
+  FINAL_field_level_data$visitation_rate_units==
+    "visits per m^2 and 10 mins"] %>% unique()
+
+FINAL_field_level_data$visitation_rate_units %>% unique() %>% sort()
+
 ####################
 # Select verified studies
 
@@ -318,6 +436,26 @@ FINAL_field_level_data_filt <- FINAL_field_level_data %>% filter(study_id %in%
 
 FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_filt$Credit)] <- "Christof Schüepps, Felix Herzog and Martin H. Entling"
 
+####################
+# Remove accents from study_ids
+df <- FINAL_field_level_data_filt %>% select(study_id,site_id,Credit)
+for (r in 1:nrow(df)) {
+  df[r,1]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×", "aeiounuAoacaAENOax",df[r,1])
+  df[r,2]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×", "aeiounuAoacaAENOax",df[r,2])
+  df[r,3]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×", "aeiounuAoacaAENOax",df[r,3])
+  } 
+
+
+
+df$Credit[grep("Hajnalka",df$Credit)] <- "Hajnalka Szentgyorgyi, Michal Woyciechowski"
+
+tools::showNonASCII(df$study_id) %>% unique()
+tools::showNonASCII(df$site_id) %>% unique()
+tools::showNonASCII(df$Credit) %>% unique()
+
+FINAL_field_level_data_filt$study_id <- df$study_id 
+FINAL_field_level_data_filt$site_id <- df$site_id 
+FINAL_field_level_data_filt$Credit <- df$Credit 
 # Save "total_field_level_data" file
 
 write.csv(FINAL_field_level_data_filt, "../Final_Data/CropPol_field_level_data.csv",row.names = F)
@@ -412,6 +550,42 @@ FINAL_sampling_data_filt <- FINAL_sampling_data %>% filter(study_id %in%
 FINAL_sampling_data_filt$study_id %>% unique()
 FINAL_field_level_data_filt$study_id %>% unique()
 
+
+
+# Replace diacritic characters
+
+####################
+# Remove accents from study_ids
+df <- FINAL_sampling_data_filt %>% select(study_id,site_id,pollinator,Description,sampling_method)
+for (r in 1:nrow(df)) {
+  df[r,1]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,1])
+  df[r,2]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,2])
+  df[r,3]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,3])
+  df[r,4]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,4])
+  df[r,5]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,5])
+} 
+
+df$pollinator <- gsub("“", "", df$pollinator)
+df$pollinator <- gsub("”", "", df$pollinator)
+df$pollinator <- gsub("\u00A0", " ", df$pollinator, fixed = TRUE)
+df$pollinator <- gsub("\u3000"," ", df$pollinator)
+df$pollinator <- gsub(" nº","", df$pollinator)
+df$Description <- gsub("±","+-", df$Description)
+ 
+
+tools::showNonASCII(df$study_id) %>% unique()
+tools::showNonASCII(df$site_id) %>% unique()
+tools::showNonASCII(df$pollinator) %>% unique()
+tools::showNonASCII(df$Description) %>% unique()
+tools::showNonASCII(df$sampling_method) %>% unique()
+
+FINAL_sampling_data_filt$study_id <- df$study_id
+FINAL_sampling_data_filt$site_id <- df$site_id
+FINAL_sampling_data_filt$Description <- df$Description
+FINAL_sampling_data_filt$sampling_method <- df$sampling_method
+FINAL_sampling_data_filt$pollinator <- df$pollinator
+
+# Sanity check: All study_ids in insect sampling are in field level
 FINAL_sampling_data_filt$study_id[!FINAL_sampling_data_filt$study_id %in%
                                     FINAL_field_level_data_filt$study_id]
 
@@ -424,23 +598,84 @@ FINAL_sampling_data_filt$study_id[!FINAL_sampling_data_filt$study_id %in%
 dainese_taxon <- read_csv("Taxon_info/taxon_DAINESE_corrected.csv") %>% unique() %>%
   rename(pollinator=Organism_ID)
 
+
+df <- dainese_taxon %>% select(study_id,sampling_method,pollinator,rank)
+for (r in 1:nrow(df)) {
+  df[r,1]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,1])
+  df[r,2]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,2])
+  df[r,3]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,3])
+  df[r,4]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,4])
+} 
+
+df$pollinator <- gsub("“", "", df$pollinator)
+df$pollinator <- gsub("”", "", df$pollinator)
+df$pollinator <- gsub("\u00A0", " ", df$pollinator, fixed = TRUE)
+df$pollinator <- gsub("\u3000"," ", df$pollinator)
+df$pollinator <- gsub(" nº","", df$pollinator)
+df$sampling_method <- gsub("\u00A0", " ", df$sampling_method, fixed = TRUE)
+df$rank <- gsub("\u00A0", " ", df$rank, fixed = TRUE)
+
+tools::showNonASCII(df$study_id) %>% unique()
+tools::showNonASCII(df$pollinator) %>% unique()
+tools::showNonASCII(df$sampling_method) %>% unique()
+tools::showNonASCII(df$rank) %>% unique()
+
+dainese_taxon$study_id <- df$study_id
+dainese_taxon$pollinator <- df$pollinator
+dainese_taxon$sampling_method <- df$sampling_method
+dainese_taxon$rank <- df$rank
+
 # Load taxon Rader
 rader_taxon <- read_csv("Taxon_info/taxon_table_Rader.csv") %>%
   dplyr::select(-matched_name)
 
+tools::showNonASCII(rader_taxon$rank) %>% unique()
+tools::showNonASCII(rader_taxon$pollinator) %>% unique()
+
 # Load taxon Silvia
 silvia_taxon <- read_csv("Taxon_info/taxon_Silvia_simple.csv")
+
+df <- silvia_taxon %>% select(study_id,pollinator,rank,notes)
+for (r in 1:nrow(df)) {
+  df[r,1]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,1])
+  df[r,2]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,2])
+  df[r,3]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,3])
+  df[r,4]<-chartr("áéíóúñüÅöàçãÁÉÑÖå×ë²", "aeiounuAoacaAENOaxe2",df[r,4])
+} 
+
+df$pollinator <- gsub("“", "", df$pollinator)
+df$pollinator <- gsub("”", "", df$pollinator)
+df$pollinator <- gsub("\u00A0", " ", df$pollinator, fixed = TRUE)
+df$pollinator <- gsub("\u3000"," ", df$pollinator)
+df$pollinator <- gsub(" nº","", df$pollinator)
+df$rank <- gsub("\u00A0", " ", df$rank, fixed = TRUE)
+
+tools::showNonASCII(df$study_id) %>% unique()
+tools::showNonASCII(df$pollinator) %>% unique()
+tools::showNonASCII(df$rank) %>% unique()
+tools::showNonASCII(df$notes) %>% unique()
+
+silvia_taxon$study_id <- df$study_id
+silvia_taxon$pollinator <- df$pollinator
+silvia_taxon$rank <- df$rank
+silvia_taxon$notes <- df$notes
 
 # Load other taxon 
 
 other_taxon <- read_csv("Taxon_info/taxon_other_studies.csv")
+other_taxon$pollinator <- gsub("ë", "e", other_taxon$pollinator)
+other_taxon$notes <- gsub("“", "", other_taxon$notes)
+other_taxon$notes <- gsub("”", "", other_taxon$notes)
 
+tools::showNonASCII(other_taxon$pollinator) %>% unique()
+tools::showNonASCII(other_taxon$rank) %>% unique()
+tools::showNonASCII(other_taxon$notes) %>% unique()
 
 # Load final insect sampling
 insect_sampling <- FINAL_sampling_data_filt
 
 insect_sampling %>% filter(study_id %in% 
-                             c(dainese_taxon$study_id)) #12,042 entries
+                             c(dainese_taxon$study_id)) #13,557 entries
 
 
 add_dainese <- insect_sampling %>%
@@ -452,7 +687,7 @@ add_dainese$rank[add_dainese$study_id=="Yi_Zou_Brassica_napus_China_2015" &
                    is.na(add_dainese$rank)] <- "family"
 
 
-add_dainese %>% filter(is.na(rank)) #27,994 entries need resolution
+add_dainese %>% filter(is.na(rank)) #30,099 entries need resolution
 
 
 add_dainese_rader <- add_dainese %>%
@@ -468,6 +703,8 @@ add_dainese_rader <- add_dainese %>%
   mutate(rank = coalesce(rank.x, rank.y),
          notes = coalesce(notes.x, notes.y)) %>%
   dplyr::select(-rank.x, -rank.y,-notes.x, -notes.y)
+
+add_dainese_rader %>% filter(is.na(rank)) %>% select(study_id) %>% unique()
 
 x <- add_dainese_rader %>% filter(is.na(rank)) %>% select(pollinator) %>% unique()
 
@@ -521,4 +758,10 @@ insect_sampling_taxa <- bind_rows(add_dainese_rader,add_Silvia) %>%
 write.csv(insect_sampling_taxa, "../Final_Data/CropPol_sampling_data.csv",row.names = F
 )
 
-
+library(tools)
+showNonASCII(insect_sampling_taxa$study_id) %>% unique()
+showNonASCII(insect_sampling_taxa$description) %>% unique()
+showNonASCII(insect_sampling_taxa$pollinator)%>% unique()
+showNonASCII(insect_sampling_taxa$study_id)%>% unique()
+showNonASCII(insect_sampling_taxa$study_id)%>% unique()
+showNonASCII(insect_sampling_taxa$notes)%>% unique()

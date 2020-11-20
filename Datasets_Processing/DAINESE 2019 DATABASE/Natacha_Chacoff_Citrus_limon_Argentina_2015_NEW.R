@@ -91,7 +91,7 @@ data.species <- as_tibble(data.species)
 
 data.species <- data.species %>% filter(Year.of.sampling==2015)
 
-# Be careful !! Abundance is given in counts, not no. visits × 15 min???1 × flower!!!
+# Be careful !! Abundance is given in counts, not no. visits ? 15 min???1 ? flower!!!
 # No information about flower has been provided
 
 # Evaluate the percentage of species + morphospecies
@@ -318,9 +318,9 @@ field_level_data$sampling_start_month <- field_level_data_aux$sampling_start_mon
 field_level_data$sampling_end_month <- field_level_data_aux$sampling_end_month
 
 # Update visitation rate info
-field_level_data$visitation_rate_units <- field_level_data_aux$visitation_rate_units
-field_level_data$visitation_rate <- field_level_data_aux$visitation_rate
-field_level_data$visit_honeybee <- field_level_data_aux$visit_honeybee
+field_level_data$visitation_rate_units <- "visits per 100 flowers and hour"
+field_level_data$visitation_rate <- 1200*field_level_data_aux$visitation_rate #visits per flower in 5 min
+field_level_data$visit_honeybee <- 1200*field_level_data_aux$visit_honeybee #visits per flower in 5 min
 
 
 setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
