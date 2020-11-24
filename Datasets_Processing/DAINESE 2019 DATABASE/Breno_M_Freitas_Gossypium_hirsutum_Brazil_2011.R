@@ -138,6 +138,8 @@ abundance_aux <- abundance_aux %>% mutate(honeybees=0,lepidoptera=0,beetles=0,bu
 abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
 
+data.site <- data.site %>% left_join(abundance_aux,by="site_id")
+
 ######################################################
 # ESTIMATING CHAO INDEX
 ######################################################
@@ -169,6 +171,10 @@ if (percentage_species_morphos<0.8){
   richness_aux[,2:ncol(richness_aux)] <- NA
 }
 
+richness_aux$observed_pollinator_richness <- NA
+richness_aux$other_pollinator_richness <- NA
+
+data.site <- data.site %>% left_join(richness_aux,by="site_id")
 
 
 ###############################################################
@@ -209,6 +215,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=richness_aux$observed_pollinator_richness,
   other_pollinator_richness=richness_aux$other_pollinator_richness,
   other_richness_estimator_method=richness_aux$other_richness_estimator_method,
+  richness_restriction = "only other wild bees",
   abundance=abundance_aux$total,
   ab_honeybee=abundance_aux$honeybees,
   ab_bombus=abundance_aux$bumblebees,

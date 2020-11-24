@@ -204,6 +204,7 @@ FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublis
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2016 https://doi.org/10.1371/journal.pone.0153889, Garratt et al. 2014 DOI:10.26786/1920-7603(2014)8, O'Connor et al. 2019 https://doi.org/10.1111/2041-210X.13292"] <- "unpublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8,10.1111/2041-210X.13292"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.001, O'Connor et al 2019 https://doi.org/10.1111/2041-210X.13292"] <-"unpublished, 10.1016/j.biocon.2013.11.001, 10.1111/2041-210X.13292"                                        
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1098/rspb.2013.3148, http://dx.doi.org/10.5281/zenodo.12540"] <-  "10.1098/rspb.2013.3148, 10.5281/zenodo.12540" 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="j.agee.2016.04.020"] <-  "10.1016/j.agee.2016.04.020" 
 
 
 FINAL_field_level_data$Publication %>% unique()
@@ -260,6 +261,9 @@ FINAL_field_level_data$total_sampled_area[grep("Amparo",
 FINAL_field_level_data$total_sampled_area[grep("Alejandro_Trillo_",
                                                FINAL_field_level_data$study_id)] <- 800
 
+
+FINAL_field_level_data$total_sampled_area <- as.numeric(FINAL_field_level_data$total_sampled_area)
+
 # Notes on richness
 FINAL_field_level_data$notes[grep("Rachel_Mallinger",
                                          FINAL_field_level_data$study_id)] <- 
@@ -277,7 +281,14 @@ FINAL_field_level_data$notes[grep("Yi_Zou",
                                   FINAL_field_level_data$study_id)] <- 
   "Information on floral visitors was obtained from bee bowl records. Richness can be calculated by using the sampling records for this study_id."
 
-FINAL_field_level_data$total_sampled_area <- as.numeric(FINAL_field_level_data$total_sampled_area)
+FINAL_field_level_data$notes[grep("Georg_Andersson_Fragaria_ananassa",
+                                  FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from pan-trap records. Richness can be calculated by using the sampling records for this study_id."
+
+FINAL_field_level_data$notes[grep("Breno_M_Freitas_Gossypium_hirsutum_Brazil_2011",
+                                  FINAL_field_level_data$study_id)] <- 
+  "Information on floral visitors was obtained from pan-trap records. Richness can be calculated by using the sampling records for this study_id."
+
 
 #####################
 # Fix yield units
@@ -327,6 +338,7 @@ FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="percenta
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="mean_berry_weight"] <- "mean berry weight"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary fruit weight (grams)"] <- "primary fruit weight (grams)"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Insect Pollination = Open pollination [control] - Self-pollination [Tulle bags]"] <- "Insect Pollination: Open pollination [control] - Self-pollination [Tulle bags]"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="dry weight; mean kgs per tree"] <- "dry weight: mean kgs per tree"
 
 
 FINAL_field_level_data$yield_units %>% unique()
@@ -348,7 +360,7 @@ FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/ha 
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="kg/m2"] <- "kg per square meter (dried berries)"
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="Fruit number on fixed branch length per tree"] <- "number of fruits on fixed branch length per tree"
 FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="final fruitset: percentage of flowers that developed into mature fruits at harvest"] <- "final fruitset (%): flowers that developed into mature fruits at harvest"
-FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="mean weight per apple (grams per apple)"] <- "mean weight per apple (grams)"
+FINAL_field_level_data$yield2_units[FINAL_field_level_data$yield2_units=="seedset (number of seeds per pod)"] <- "seeds per pod"
 
 
 FINAL_field_level_data$yield2_units %>% unique()
@@ -436,6 +448,91 @@ FINAL_field_level_data_filt <- FINAL_field_level_data %>% filter(study_id %in%
 
 FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_filt$Credit)] <- "Christof Schüepps, Felix Herzog and Martin H. Entling"
 
+
+####################
+# Add the 3 new variables
+
+sampling_methods <- read_csv("Sampling_methods/table_sampling_methods_Filled.csv") %>%
+  select(study_id,sampling_richness,sampling_abundance,sampling_visitation)
+
+FINAL_field_level_data_filt <- FINAL_field_level_data_filt %>%
+  left_join(sampling_methods,by="study_id")
+
+FINAL_field_level_data_filt$sampling_richness %>% unique() %>% sort()
+
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Beebowl"] <- "pan trap, bee bowl, blue vane trap, pitfall"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Focal"] <- "focal observations"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Net"] <- "sweep net"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Net+Beebowl"] <- "sweep net + pan trap, bee bowl, blue vane trap, pitfall"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Net+Focal"] <- "sweep net + focal observations"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="Net+other"] <- "sweep net + other"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="transect"] <- "transects"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="transect+focal"] <- "transects + focal observations"
+FINAL_field_level_data_filt$sampling_richness[
+  FINAL_field_level_data_filt$sampling_richness=="transect+pantrap"] <- "transects + pan trap, bee bowl, blue vane trap, pitfall"
+
+FINAL_field_level_data_filt$sampling_richness %>% unique() %>% sort()
+
+FINAL_field_level_data_filt$sampling_abundance %>% unique() %>% sort()
+
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Beebowl"] <- "pan trap, bee bowl, blue vane trap, pitfall"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Focal"] <- "focal observations"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Net"] <- "sweep net"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Net+Beebowl"] <- "sweep net + pan trap, bee bowl, blue vane trap, pitfall"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Net+Focal"] <- "sweep net + focal observations"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="Net+other"] <- "sweep net + other"
+FINAL_field_level_data_filt$sampling_abundance[
+  FINAL_field_level_data_filt$sampling_abundance=="transect"] <- "transects"
+
+FINAL_field_level_data_filt$sampling_abundance %>% unique() %>% sort()
+
+FINAL_field_level_data_filt$sampling_visitation %>% unique() %>% sort()
+
+FINAL_field_level_data_filt$sampling_visitation[
+  FINAL_field_level_data_filt$sampling_visitation=="Focal"] <- "focal observations"
+FINAL_field_level_data_filt$sampling_visitation[
+  FINAL_field_level_data_filt$sampling_visitation=="Net"] <- "sweep net"
+FINAL_field_level_data_filt$sampling_visitation[
+  FINAL_field_level_data_filt$sampling_visitation=="transect"] <- "transects"
+
+FINAL_field_level_data_filt$sampling_visitation %>% unique() %>% sort()
+
+
+# Reorder columns by name
+FINAL_field_level_data_filt <- FINAL_field_level_data_filt[c(
+"study_id","site_id","crop","variety" ,"management","country",
+"latitude","longitude","X_UTM","Y_UTM","zone_UTM","sampling_start_month",
+"sampling_end_month","sampling_year","field_size","yield","yield_units","yield2",
+"yield2_units","yield_treatments_no_pollinators",
+"yield_treatments_pollen_supplement","yield_treatments_no_pollinators2",
+"yield_treatments_pollen_supplement2","fruits_per_plant","fruit_weight","plant_density",
+"seeds_per_fruit","seeds_per_plant",
+"seed_weight","sampling_richness","observed_pollinator_richness",
+"other_pollinator_richness","other_richness_estimator_method",
+"richness_restriction","sampling_abundance","abundance","ab_honeybee",
+"ab_bombus","ab_wildbees","ab_syrphids","ab_humbleflies","ab_other_flies",
+"ab_beetles","ab_lepidoptera","ab_nonbee_hymenoptera","ab_others",
+"total_sampled_area","total_sampled_time","sampling_visitation",
+"visitation_rate_units","visitation_rate","visit_honeybee","visit_bombus",
+"visit_wildbees","visit_syrphids","visit_humbleflies","visit_other_flies",
+"visit_beetles","visit_lepidoptera","visit_nonbee_hymenoptera",
+"visit_others","Publication","Credit","Email_contact","notes")]
+
+
 ####################
 # Remove accents from study_ids
 df <- FINAL_field_level_data_filt %>% select(study_id,site_id,Credit)
@@ -456,8 +553,9 @@ tools::showNonASCII(df$Credit) %>% unique()
 FINAL_field_level_data_filt$study_id <- df$study_id 
 FINAL_field_level_data_filt$site_id <- df$site_id 
 FINAL_field_level_data_filt$Credit <- df$Credit 
-# Save "total_field_level_data" file
 
+
+# Save "total_field_level_data" file
 write.csv(FINAL_field_level_data_filt, "../Final_Data/CropPol_field_level_data.csv",row.names = F)
 
 
@@ -675,7 +773,7 @@ tools::showNonASCII(other_taxon$notes) %>% unique()
 insect_sampling <- FINAL_sampling_data_filt
 
 insect_sampling %>% filter(study_id %in% 
-                             c(dainese_taxon$study_id)) #13,557 entries
+                             c(dainese_taxon$study_id)) #15,253 entries
 
 
 add_dainese <- insect_sampling %>%
@@ -687,7 +785,7 @@ add_dainese$rank[add_dainese$study_id=="Yi_Zou_Brassica_napus_China_2015" &
                    is.na(add_dainese$rank)] <- "family"
 
 
-add_dainese %>% filter(is.na(rank)) #30,099 entries need resolution
+add_dainese %>% filter(is.na(rank)) #31,514 entries need resolution
 
 
 add_dainese_rader <- add_dainese %>%

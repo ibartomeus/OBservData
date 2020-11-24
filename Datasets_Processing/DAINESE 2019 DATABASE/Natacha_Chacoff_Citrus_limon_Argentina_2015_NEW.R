@@ -273,6 +273,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction = NA,
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,

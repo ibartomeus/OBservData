@@ -26,11 +26,11 @@ sampling_data %>% filter(is.na(sampling_method)) %>% select(study_id) %>% unique
 
 sampling_data$sampling_method[grep("censuses of 15 minutes observation",
                                    sampling_data$sampling_method,
-                                   ignore.case = T)] <- "observation"
+                                   ignore.case = T)] <- "focal observations"
 
 sampling_data$sampling_method[grep("minutes observation to a flowering branch",
                                    sampling_data$sampling_method,
-                                   ignore.case = T)] <- "observation"
+                                   ignore.case = T)] <- "focal observations"
 
 
 sampling_data$sampling_method[sampling_data$sampling_method %in%
@@ -40,7 +40,8 @@ sampling_data$sampling_method[sampling_data$sampling_method %in%
                                   "sweep","sweep net","sweep net along a transect",
                                   "sweep net, note that flower abundance (hence sampling effort) varied between sites",
                                   "sweep_net","sweepnet","sweepnet","sweep netting",
-                                  "flower visiting individuals only","Sweepnets"
+                                  "flower visiting individuals only","Sweepnets",
+                                  "sweepnet, flower visiting individuals only"
                                   )] <- "Net, sweep net"
 
 
@@ -51,18 +52,18 @@ sampling_data$sampling_method[sampling_data$sampling_method %in%
                                   "Direct ocular observations",
                                   "5 minute focal observation",
                                   "observations (15min/observation, simulatenous)",
-                                  "census","Census of 5 minutes")] <- "observation"
+                                  "census","Census of 5 minutes")] <- "focal observations"
 
 sampling_data$sampling_method[sampling_data$sampling_method %in%
-                                c("pan-traps","Pan-traps",
+                                c("pan-traps","Pan-traps","Pan traps",
                                   "pan trap","Pantrap","pantraps",
                                   "bee_bowl","blue_vane","blue_vane_trap",
                                   "pitfall","Plan traps")] <- "pan trap, bee bowl, blue vane trap, pitfall"
 
-sampling_data$sampling_method[sampling_data$sampling_method %in%
-                                c("sample of female flowers",
-                                  "samples of flower visitors",
-                                  "individual collection")] <- "samples of flower visitors"
+# sampling_data$sampling_method[sampling_data$sampling_method %in%
+#                                 c("sample of female flowers",
+#                                   "samples of flower visitors",
+#                                   "individual collection")] <- "samples of flower visitors"
 
 # survey means: standardized transect walks with an aerial net (Riccardo_Bommarco_Brassica_napus_Sweden_2005)
 sampling_data$sampling_method[sampling_data$sampling_method %in%
@@ -98,5 +99,58 @@ sampling_data$sampling_method[sampling_data$sampling_method %in%
                                 c("individual collection")] <- "Net, sweep net"
 
 
+###################################
+# CREATING NEW VARIABLES
+
+
 sampling_data$sampling_method %>% unique()
+x <- sampling_data %>% unique() %>% group_by(study_id) %>% count() %>% filter(n>1)
+
+list_studies <- sampling_data %>% select(study_id) %>% unique()
+
+list_studies$Net <- NA
+list_studies$Focal <- NA
+list_studies$Beebowl <- NA
+list_studies$other <- NA
+list_studies$transect <- NA
+list_studies$total_methods <- NA 
+
+which(list_studies$study_id=="Katherine_LW_Burns_Malus_domestica_Ireland_2018")
+
+for (i in 1:nrow(list_studies)){
+  
+  sampling_i <- sampling_data %>% filter(study_id==list_studies$study_id[i]) %>% 
+    unique() %>% select(sampling_method) %>% pull()
+  
+  if("transect" %in% sampling_i){list_studies$transect[i] <- T}else{list_studies$transect[i] <- F}
+  if("focal observations" %in% sampling_i){list_studies$Focal[i] <- T}else{list_studies$Focal[i] <- F}
+  if("Net, sweep net" %in% sampling_i){list_studies$Net[i] <- T}else{list_studies$Net[i] <- F}
+  if("pan trap, bee bowl, blue vane trap, pitfall" %in%
+     sampling_i){list_studies$Beebowl[i] <- T}else{list_studies$Beebowl[i] <- F}
+  if("other" %in% sampling_i){list_studies$other[i] <- T}else{list_studies$other[i] <- F}
+  list_studies$total_methods[i] <- length(sampling_i)-(NA %in% sampling_i)
+}
+
+##########
+# Load field_level_data
+
+final_field_level <- 
+  "C:/Users/USUARIO/Desktop/OBservData/Final_Data/CropPol_field_level_data.csv"
+
+final_field_level_data <- read.csv(final_field_level,encoding = "WINDOWS-1252",stringsAsFactors = F)
+
+final_field_level_data %>% filter(study_id=="Davi_L_Ramos_Phaseolus_vulgaris L_Brazil_2015_2016")
+
+final_field_level_data <- as_tibble(final_field_level_data) %>% select(study_id,observed_pollinator_richness,abundance,visitation_rate) %>%
+  group_by(study_id) %>% summarise_all(funs(sum(., na.rm = TRUE)))
+
+final_field_level_data[final_field_level_data==0] <- NA
+
+methods <- final_field_level_data %>% left_join(list_studies, by="study_id")
+
+methods$sampling_richness <- NA
+methods$sampling_abundance <- NA
+methods$sampling_visitation <- NA
+
+write_csv(methods,"table_sampling_methods.csv")
 

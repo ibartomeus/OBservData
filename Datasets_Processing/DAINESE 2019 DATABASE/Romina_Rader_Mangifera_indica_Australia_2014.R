@@ -73,7 +73,7 @@ data.site <- data.site %>% left_join(yield_aux, by = c("site_id","sampling_year"
 data.site$field_size <- NA 
 
 data.site <- data.site %>% mutate(country="Australia",Publication=NA,
-                                  Credit="Dr Romina Rader (The University of New England)",
+                                  Credit="Romina Rader and Bryony Willcox",
                                   email="rrader@une.edu.au")
 
 ################################
@@ -237,6 +237,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness,
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
+  richness_restriction=NA,
   abundance=data.site$total,
   ab_honeybee=data.site$honeybees,
   ab_bombus=data.site$bumblebees,

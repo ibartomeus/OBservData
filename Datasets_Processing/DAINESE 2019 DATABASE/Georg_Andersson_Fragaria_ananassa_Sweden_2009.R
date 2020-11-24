@@ -158,7 +158,7 @@ setwd(dir_ini)
 #########################################
 
 
-abundance_aux <- data.species_01 %>% filter(!sampling_method=="Pan-traps") %>% 
+abundance_aux <- data.species_01 %>% #filter(!sampling_method=="Pan-traps") %>% 
   group_by(site_id,Guild) %>% count(wt=abundance) %>% 
   spread(key=Guild, value=n)
 
@@ -169,12 +169,11 @@ names(abundance_aux)
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-abundance_aux <- abundance_aux %>% mutate(beetles=NA,lepidoptera=NA,other=NA, humbleflies=NA,
-                                          bumblebees=NA,honeybees=NA,non_bee_hymenoptera=NA,
-                                          other_flies=NA, other_wild_bees=NA,syrphids=NA,
-                                          total=NA)
-#abundance_aux[is.na(abundance_aux)] <- 0
+abundance_aux <- abundance_aux %>% mutate(beetles=0,lepidoptera=0,other=0, humbleflies=0,
+                                          total=0)
+abundance_aux[is.na(abundance_aux)] <- 0
 abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))])
+
 
 data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
 
@@ -209,6 +208,10 @@ richness_aux <- richness_aux %>% rename(observed_pollinator_richness=r_obser,
 if (percentage_species_morphos<0.8){
   richness_aux[,2:ncol(richness_aux)] <- NA
 }
+
+#Datos obtained from pan-traps
+richness_aux$observed_pollinator_richness <- NA
+richness_aux$other_pollinator_richness <- NA
 
 data.site <- data.site %>% left_join(richness_aux, by = "site_id")
 ###############################################################

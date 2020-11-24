@@ -104,7 +104,7 @@ data.LandscapeData <- unique(data.LandscapeData)
 data.site <- data.site %>% left_join(data.LandscapeData, by = c("site_id"))
 
 data.site <- data.site %>% mutate(country="China",Publication="10.1186/s12898-017-0116-1",
-                                  Credit="Wageningen University",
+                                  Credit="Yi Zou and Felix J. J. A. Bianchi",
                                   email="yi.zou.1@hotmail.com")
 
 ################################
