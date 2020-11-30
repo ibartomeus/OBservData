@@ -120,7 +120,7 @@ for (i in seq(length(list_files_field_level))) {
                               Publication = col_character(),
                               Credit = col_character(),Email_contact = col_character()))
 
-  test_name_i <- paste("Right labels:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Right labels:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -131,7 +131,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Study identified:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Study identified:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -140,7 +140,7 @@ for (i in seq(length(list_files_field_level))) {
     expect_equal(studyID_i, FALSE)
   })
 
-  test_name_i <- paste("All sites are identified:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("All sites are identified:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -148,7 +148,7 @@ for (i in seq(length(list_files_field_level))) {
     expect_equal(fieldID_i, FALSE)
   })
 
-  test_name_i <- paste("Single study-site IDs (per year of sampling):", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Single study-site IDs (per year of sampling):", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -156,7 +156,7 @@ for (i in seq(length(list_files_field_level))) {
     expect_equal(any(duplicated(ID_i)), FALSE)
   })
 
-  test_name_i <- paste("Start month format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Start month format:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -171,7 +171,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("End month format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("End month format:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -189,7 +189,7 @@ for (i in seq(length(list_files_field_level))) {
 
   # There are datasets whose year reads "2011-2012" (such as clas01)
 
-  #test_name_i <- paste("Year format:", list_files_field_level[i], sep = " ")
+  #test_name_i <- paste("Year format:", paste0("file_",i,".csv"), sep = " ")
 
   #test_that(test_name_i,{
 
@@ -203,7 +203,7 @@ for (i in seq(length(list_files_field_level))) {
   #  }
   #})
 
-  #test_name_i <- paste("0 <= Yield :", list_files_field_level[i], sep = " ")
+  #test_name_i <- paste("0 <= Yield :", paste0("file_",i,".csv"), sep = " ")
 
   #test_that(test_name_i,{
 
@@ -217,7 +217,7 @@ for (i in seq(length(list_files_field_level))) {
   #  }
   #})
 
-  #test_name_i <- paste("0 <= Yield2 :", list_files_field_level[i], sep = " ")
+  #test_name_i <- paste("0 <= Yield2 :", paste0("file_",i,".csv"), sep = " ")
 
   #test_that(test_name_i,{
 
@@ -232,7 +232,7 @@ for (i in seq(length(list_files_field_level))) {
   #})
 
 
-  # test_name_i <- paste("0 <= yield_treatments_no_pollinators :", list_files_field_level[i], sep = " ")
+  # test_name_i <- paste("0 <= yield_treatments_no_pollinators :", paste0("file_",i,".csv"), sep = " ")
   #
   # test_that(test_name_i,{
   #
@@ -247,7 +247,7 @@ for (i in seq(length(list_files_field_level))) {
   # })
 
 
-  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement :", list_files_field_level[i], sep = " ")
+  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement :", paste0("file_",i,".csv"), sep = " ")
   #
   # test_that(test_name_i,{
   #
@@ -262,7 +262,7 @@ for (i in seq(length(list_files_field_level))) {
   # })
   #
   #
-  # test_name_i <- paste("0 <= yield_treatments_no_pollinators2 :", list_files_field_level[i], sep = " ")
+  # test_name_i <- paste("0 <= yield_treatments_no_pollinators2 :", paste0("file_",i,".csv"), sep = " ")
   #
   # test_that(test_name_i,{
   #
@@ -278,7 +278,7 @@ for (i in seq(length(list_files_field_level))) {
   #
   #
   #
-  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement2 :", list_files_field_level[i], sep = " ")
+  # test_name_i <- paste("0 <= yield_treatments_pollen_supplement2 :", paste0("file_",i,".csv"), sep = " ")
   #
   # test_that(test_name_i,{
   #
@@ -293,7 +293,7 @@ for (i in seq(length(list_files_field_level))) {
   # })
 
 
-  test_name_i <- paste("Mean fruits per plant format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Mean fruits per plant format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$fruits_per_plant)
@@ -307,7 +307,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Fruit weight format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Fruit weight format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$fruit_weight)
@@ -321,7 +321,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Plant density format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Plant density format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$plant_density)
@@ -336,7 +336,7 @@ for (i in seq(length(list_files_field_level))) {
 
 
 
-  test_name_i <- paste("seeds_per_fruit format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("seeds_per_fruit format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$seeds_per_fruit)
@@ -349,7 +349,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("seeds_per_plant format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("seeds_per_plant format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$seeds_per_plant)
@@ -362,7 +362,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("seed_weight:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("seed_weight:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$seed_weight)
@@ -376,7 +376,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Field size format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Field size format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$field_size)
@@ -391,7 +391,7 @@ for (i in seq(length(list_files_field_level))) {
 
 
 
-  test_name_i <- paste("Pollinator richness format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Pollinator richness format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$observed_pollinator_richness)
@@ -404,7 +404,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Other pollinator richness format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Other pollinator richness format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$other_pollinator_richness)
@@ -420,7 +420,7 @@ for (i in seq(length(list_files_field_level))) {
   ################
 
 
-  test_name_i <- paste("Abundance format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Abundance format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$abundance)
@@ -435,7 +435,7 @@ for (i in seq(length(list_files_field_level))) {
 
 
 
-  test_name_i <- paste("Honeybees abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Honeybees abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_honeybee)
@@ -449,7 +449,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Bombus abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Bombus abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_bombus)
@@ -464,7 +464,7 @@ for (i in seq(length(list_files_field_level))) {
 
 
 
-  test_name_i <- paste("Wild bees abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Wild bees abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_wildbees)
@@ -477,7 +477,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Syrphids abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Syrphids abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_syrphids)
@@ -491,7 +491,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Others abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Others abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_others)
@@ -504,7 +504,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Humbleflies abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Humbleflies abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_humbleflies)
@@ -518,7 +518,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Other flies abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Other flies abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_other_flies)
@@ -532,7 +532,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Beetles abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Beetles abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_beetles)
@@ -546,7 +546,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Lepidoptera abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Lepidoptera abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_lepidoptera)
@@ -560,7 +560,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Non-bee hymenoptera abun. format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Non-bee hymenoptera abun. format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$ab_nonbee_hymenoptera)
@@ -576,7 +576,7 @@ for (i in seq(length(list_files_field_level))) {
 
   #########
 
-  test_name_i <- paste("Total sampled area format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Total sampled area format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$total_sampled_area)
@@ -595,7 +595,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Total sampled time format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Total sampled time format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$total_sampled_time)
@@ -611,7 +611,7 @@ for (i in seq(length(list_files_field_level))) {
   ##################
 
 
-  test_name_i <- paste("Vis. rate format:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Vis. rate format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visitation_rate)
@@ -624,7 +624,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Honeybees vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Honeybees vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_honeybee)
@@ -637,7 +637,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Bombus vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Bombus vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_bombus)
@@ -651,7 +651,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Wild bees vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Wild bees vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_wildbees)
@@ -665,7 +665,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Syrphids vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Syrphids vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_syrphids)
@@ -679,7 +679,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Humbleflies vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Humbleflies vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_humbleflies)
@@ -693,7 +693,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Other flies vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Other flies vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_other_flies)
@@ -707,7 +707,7 @@ for (i in seq(length(list_files_field_level))) {
   })
 
 
-  test_name_i <- paste("Beetles vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Beetles vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_beetles)
@@ -720,7 +720,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Lepidoptera vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Lepidoptera vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_lepidoptera)
@@ -733,7 +733,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Non bee hymenoptera vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Non bee hymenoptera vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_nonbee_hymenoptera)
@@ -746,7 +746,7 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
-  test_name_i <- paste("Others vis. rate:", list_files_field_level[i], sep = " ")
+  test_name_i <- paste("Others vis. rate:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$visit_others)

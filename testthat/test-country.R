@@ -52,7 +52,8 @@ for (i in seq(length(list_files_field_level))) {
 
   if(all(NA_values) == FALSE){
 
-    test_name_i <- paste("Right country:", list_files_field_level[i], sep = " ")
+    #test_name_i <- paste("Right country:", list_files_field_level[i], sep = " ")
+    test_name_i <- paste("Right country:", paste0("file_",i,".csv"), sep = " ")
 
     test_that(test_name_i,{
 
