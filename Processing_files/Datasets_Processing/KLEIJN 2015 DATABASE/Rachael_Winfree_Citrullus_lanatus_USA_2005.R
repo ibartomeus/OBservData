@@ -37,8 +37,7 @@ data_raw$month_of_study <- as.numeric(format(as.Date(data_raw$date, format="%Y/%
 
 data.site <- data_raw %>% select(farmcode,latitude,longitude) %>%
   group_by(farmcode,latitude,longitude) %>% count() %>% select(-n) %>%
-  rename(site_id=farmcode,longitude1=latitude,latitude1=longitude)%>%
-  rename(longitude=longitude1,latitude=latitude1)
+  rename(site_id=farmcode)
 
 
 # We add data site ID
@@ -328,6 +327,6 @@ field_level_data <- tibble(
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "field_level_data_Rachael_Winfree_Citrullus_lanatus_USA_2005.csv")
+write_csv(field_level_data, "Processing_files/Datasets_storage/field_level_data_Rachael_Winfree_Citrullus_lanatus_USA_2005.csv")
 #setwd(dir_ini)
 

@@ -2,12 +2,31 @@
 
 # load libraries
 library(tidyverse)
-#library("iNEXT")
-#library(parzer)
-#library(readxl)
-#library(openxlsx)
+library(sp)
+library(maps)
+library(maptools)
 
-dir_ini <- getwd()
+# Function latlong2country: Transforms lat-long to country
+latlong2country <- function(pointsDF) {
+  # Prepare SpatialPolygons object with one SpatialPolygon
+  # per state (plus DC, minus HI & AK)
+  states <- map('world', fill=TRUE, col="transparent", plot=FALSE)
+  IDs <- sapply(strsplit(states$names, ":"), function(x) x[1])
+  states_sp <- map2SpatialPolygons(states, IDs=IDs,
+                                   proj4string=CRS("+proj=longlat +datum=WGS84"))
+
+  # Convert pointsDF to a SpatialPoints object
+  pointsSP <- SpatialPoints(pointsDF,
+                            proj4string=CRS("+proj=longlat +datum=WGS84"))
+
+  # Use 'over' to get _indices_ of the Polygons object containing each point
+  indices <- over(pointsSP, states_sp)
+
+  # Return the state names of the Polygons object containing each point
+  stateNames <- sapply(states_sp@polygons, function(x) x@ID)
+  stateNames[indices]
+}
+
 
 # Imput file: almond_ca_dataset
 
@@ -182,8 +201,19 @@ field_level_data <- tibble(
   Email_contact = "jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
 )
 
+# Fix country: Some sites are in Canada
 
-field_level_data$study_id %>% unique()
+geo_data <- field_level_data %>% ungroup() %>%
+  filter(!is.na(longitude),!is.na(latitude)) %>%
+  select(x=longitude,y=latitude,site_id)
+
+expected_country_i=latlong2country(geo_data[,1:2])
+expected_country <- tibble(expected_country=expected_country_i,
+                           site_id = geo_data$site_id)
+
+canada <- expected_country %>% filter(expected_country=="Canada")
+
+field_level_data$country[field_level_data$site_id %in% canada$site_id] <- "Canada"
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
 write_csv(field_level_data, "Processing_files/Datasets_storage/field_level_data_James_Reilly_Vaccinium_corymbosum_USA_2013-14-15.csv")

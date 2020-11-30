@@ -44,7 +44,7 @@ for (i in seq(length(list_files_insect_sampling))) {
                               total_sampled_flowers = col_double(),
                               Description = col_character()))
 
-  test_name_i <- paste("Right labels:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("Right labels:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -55,7 +55,7 @@ for (i in seq(length(list_files_insect_sampling))) {
   })
 
 
-  test_name_i <- paste("Study identified:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("Study identified:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -64,7 +64,7 @@ for (i in seq(length(list_files_insect_sampling))) {
     expect_equal(studyID_i, FALSE)
   })
 
-  test_name_i <- paste("All sites are identified:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("All sites are identified:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -73,7 +73,7 @@ for (i in seq(length(list_files_insect_sampling))) {
   })
 
 
-  test_name_i <- paste("abundance format:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("abundance format:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -87,7 +87,7 @@ for (i in seq(length(list_files_insect_sampling))) {
     }
   })
 
-  test_name_i <- paste("total_sampled_area format:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("total_sampled_area format:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
 
@@ -102,7 +102,7 @@ for (i in seq(length(list_files_insect_sampling))) {
   })
 
 
-  test_name_i <- paste("total_sampled_time format:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("total_sampled_time format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(insect_sampling_i$total_sampled_time)
@@ -116,7 +116,7 @@ for (i in seq(length(list_files_insect_sampling))) {
   })
 
 
-  test_name_i <- paste("total_sampled_flowers format:", list_files_insect_sampling[i], sep = " ")
+  test_name_i <- paste("total_sampled_flowers format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(insect_sampling_i$total_sampled_flowers)

@@ -1,0 +1,33 @@
+
+# Merge individual "field_level_data" and "insect_sampling_data"  files, respectively,
+# if the corresponding files tests are OK and if the files have been checked by
+# their corresponding authors.
+
+library(tidyverse)
+library(testthat) # for data tests
+library(openxlsx)
+library(tools) # for removing non-ASCII characters
+
+
+# Update the field_level_data csv files without richness_restriction variable
+# (Files extracted from Dainese and Rader meta-analyses, and other data sources)
+source("Final_Data/Supporting_R_scripts/add_taxon_constraint_column_DAINESE_RADER_OTHER.R",
+       encoding="utf-8")
+
+# Processing field_level_data files with only 61 variables
+source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_61_variables.R",
+       encoding="utf-8")
+
+# Save "total_field_level_data" file
+write.csv(FINAL_field_level_data_filt, "Final_Data/CropPol_field_level_data.csv",
+          row.names = F)
+
+# Processing insect_sampling files with only 10 variables
+# NOTE: Cleaning diacritic (non-ASCII) characters takes a while
+source("Final_Data/Supporting_R_scripts/cleaning_sampling_files_with_10_variables.R",
+       encoding="utf-8")
+
+# Save "FINAL_sampling_data" file
+write.csv(insect_sampling_taxa, "Final_Data/CropPol_sampling_data.csv",
+          row.names = F)
+
