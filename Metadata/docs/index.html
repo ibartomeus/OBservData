@@ -42,7 +42,7 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "study_id",
-      "description": "identification code for a given study: Author name+crop name+country+year"
+      "description": "identification code for a given study: Author‚Äôs name+crop name+country+year"
     },
     {
       "type": "PropertyValue",
@@ -66,7 +66,7 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "management",
-      "description": "management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and (3) Other Conventional Practices"
+      "description": "management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and(3) Other Conventional Practices, (4) unmanaged"
     },
     {
       "type": "PropertyValue",
@@ -78,13 +78,13 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "latitude",
-      "description": "latitude (WGS84) of a given field expressed in degrees"
+      "description": "latitude (WGS84) of a given field expressed in degrees [¬∞]"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "longitude",
-      "description": "longitude (WGS84) of a given field expressed in degrees"
+      "description": "longitude (WGS84) of a given field expressed in degrees [¬∞]"
     },
     {
       "type": "PropertyValue",
@@ -125,7 +125,7 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "field_size",
+      "name": "field size",
       "description": "area of the field [hectare]"
     },
     {
@@ -215,6 +215,12 @@
     {
       "type": "PropertyValue",
       "unitText": null,
+      "name": "sampling_richness",
+      "description": "method to survey organisms that is used to estimate richness."
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
       "name": "observed_pollinator_richness",
       "description": "number of different pollinator species observed [counts]"
     },
@@ -228,13 +234,19 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "other_richness_estimator_method",
-      "description": "method used for estimating other_pollinator_richness, preferably Chao1."
+      "description": "method used for estimating ‚Äúother_pollinator_richness‚Äù, preferably Chao1."
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "richness_restriction",
-      "description": "free text to describe constraints on richness/abundance measurements, such as only bees, only non-managed bees, etc."
+      "description": "free text to describe constraints on richness/abundance measurements, such as ‚Äúonly bees‚Äù, ‚Äúonly non-managed bees‚Äù, etc."
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "sampling_abundance",
+      "description": "method to survey organisms that is used to estimate abundance."
     },
     {
       "type": "PropertyValue",
@@ -306,13 +318,19 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "total_sampled_area",
-      "description": "area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas."
+      "description": "area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases¬† in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas."
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "total_sampled_time",
       "description": "time spent sampling [minutes] each field. In the case in which sites were surveyed multiple times, this variable reflects the sum of their respective durations."
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "sampling_visitation",
+      "description": "method to survey organisms that is used to estimate visitation rates."
     },
     {
       "type": "PropertyValue",
@@ -413,13 +431,13 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "sampling_method",
+      "name": "pollinator",
       "description": "name of the organism recorded"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "pollinator",
+      "name": "guild",
       "description": "guild of the pollinator"
     },
     {
@@ -431,20 +449,20 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "guild",
+      "name": "sampling_method",
       "description": "method to survey organisms. If multiple methods were used per organism, one independent row is added for each method."
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "abundance",
-      "description": "number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in description (variable), the values may refer to visitation rates."
+      "description": "number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in ‚Äúdescription‚Äù, the values may refer to visitation rates."
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "total_sampled_flowers",
-      "description": "number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed, this variable reflects the sum of the respective counts."
+      "description": "number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed,¬† this variable reflects the sum of the respective counts."
     },
     {
       "type": "PropertyValue",
@@ -587,7 +605,7 @@
         <tbody>
           <tr>
             <td>study_id</td>
-            <td>identification code for a given study: Author name+crop name+country+year</td>
+            <td>identification code for a given study: Authorís name+crop name+country+year</td>
             <td></td>
           </tr>
           <tr>
@@ -607,7 +625,7 @@
           </tr>
           <tr>
             <td>management</td>
-            <td>management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and (3) Other Conventional Practices</td>
+            <td>management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and(3) Other Conventional Practices, (4) unmanaged</td>
             <td></td>
           </tr>
           <tr>
@@ -617,12 +635,12 @@
           </tr>
           <tr>
             <td>latitude</td>
-            <td>latitude (WGS84) of a given field expressed in degrees</td>
+            <td>latitude (WGS84) of a given field expressed in degrees [∞]</td>
             <td></td>
           </tr>
           <tr>
             <td>longitude</td>
-            <td>longitude (WGS84) of a given field expressed in degrees</td>
+            <td>longitude (WGS84) of a given field expressed in degrees [∞]</td>
             <td></td>
           </tr>
           <tr>
@@ -656,7 +674,7 @@
             <td></td>
           </tr>
           <tr>
-            <td>field_size</td>
+            <td>field size</td>
             <td>area of the field [hectare]</td>
             <td></td>
           </tr>
@@ -731,6 +749,11 @@
             <td></td>
           </tr>
           <tr>
+            <td>sampling_richness</td>
+            <td>method to survey organisms that is used to estimate richness.</td>
+            <td></td>
+          </tr>
+          <tr>
             <td>observed_pollinator_richness</td>
             <td>number of different pollinator species observed [counts]</td>
             <td></td>
@@ -742,12 +765,17 @@
           </tr>
           <tr>
             <td>other_richness_estimator_method</td>
-            <td>method used for estimating other_pollinator_richness, preferably Chao1.</td>
+            <td>method used for estimating ìother_pollinator_richnessî, preferably Chao1.</td>
             <td></td>
           </tr>
           <tr>
             <td>richness_restriction</td>
-            <td>free text to describe constraints on richness/abundance measurements, such as only bees, only non-managed bees, etc.</td>
+            <td>free text to describe constraints on richness/abundance measurements, such as ìonly beesî, ìonly non-managed beesî, etc.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>sampling_abundance</td>
+            <td>method to survey organisms that is used to estimate abundance.</td>
             <td></td>
           </tr>
           <tr>
@@ -807,12 +835,17 @@
           </tr>
           <tr>
             <td>total_sampled_area</td>
-            <td>area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.</td>
+            <td>area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases† in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.</td>
             <td></td>
           </tr>
           <tr>
             <td>total_sampled_time</td>
             <td>time spent sampling [minutes] each field. In the case in which sites were surveyed multiple times, this variable reflects the sum of their respective durations.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>sampling_visitation</td>
+            <td>method to survey organisms that is used to estimate visitation rates.</td>
             <td></td>
           </tr>
           <tr>
@@ -896,12 +929,12 @@
             <td></td>
           </tr>
           <tr>
-            <td>sampling_method</td>
+            <td>pollinator</td>
             <td>name of the organism recorded</td>
             <td></td>
           </tr>
           <tr>
-            <td>pollinator</td>
+            <td>guild</td>
             <td>guild of the pollinator</td>
             <td></td>
           </tr>
@@ -911,18 +944,18 @@
             <td></td>
           </tr>
           <tr>
-            <td>guild</td>
+            <td>sampling_method</td>
             <td>method to survey organisms. If multiple methods were used per organism, one independent row is added for each method.</td>
             <td></td>
           </tr>
           <tr>
             <td>abundance</td>
-            <td>number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in description (variable), the values may refer to visitation rates.</td>
+            <td>number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in ìdescriptionî, the values may refer to visitation rates.</td>
             <td></td>
           </tr>
           <tr>
             <td>total_sampled_flowers</td>
-            <td>number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed, this variable reflects the sum of the respective counts.</td>
+            <td>number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed,† this variable reflects the sum of the respective counts.</td>
             <td></td>
           </tr>
           <tr>

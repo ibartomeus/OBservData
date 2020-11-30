@@ -1,19 +1,19 @@
 fileName,variableName,description,unitText
-CropPol_field_level_data.csv,study_id,identification code for a given study: Author name+crop name+country+year,NA
+CropPol_field_level_data.csv,study_id,identification code for a given study: Author’s name+crop name+country+year,NA
 CropPol_field_level_data.csv,site_id,identification code for a site within a study,NA
 CropPol_field_level_data.csv,crop,crop latin name,NA
 CropPol_field_level_data.csv,variety,crop variety name,NA
-CropPol_field_level_data.csv,management,"management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and (3) Other Conventional Practices",NA
+CropPol_field_level_data.csv,management,"management system implemented in the field: (1) Organic Agriculture, (2) Integrated pest management, and(3) Other Conventional Practices, (4) unmanaged",NA
 CropPol_field_level_data.csv,country,country where the crop field is located,NA
-CropPol_field_level_data.csv,latitude,latitude (WGS84) of a given field expressed in degrees,NA
-CropPol_field_level_data.csv,longitude,longitude (WGS84) of a given field expressed in degrees,NA
+CropPol_field_level_data.csv,latitude,latitude (WGS84) of a given field expressed in degrees [°],NA
+CropPol_field_level_data.csv,longitude,longitude (WGS84) of a given field expressed in degrees [°],NA
 CropPol_field_level_data.csv,X_UTM,Easting planar coordinate of a given field expressed in meters,NA
 CropPol_field_level_data.csv,Y_UTM,Northing planar coordinate of a given field expressed in meters,NA
 CropPol_field_level_data.csv,zone_UTM,the UTM zone number of a given field.,NA
 CropPol_field_level_data.csv,sampling_start_month,"month of the year at the beginning of the sampling period (for example, 1 for January, 2 for February and so on)",NA
 CropPol_field_level_data.csv,sampling_end_month,month of the year at the end of the sampling period (see description for sampling_start_month),NA
 CropPol_field_level_data.csv,sampling_year,year in which the sampling was carried out,NA
-CropPol_field_level_data.csv,field_size,area of the field [hectare],NA
+CropPol_field_level_data.csv,field size,area of the field [hectare],NA
 CropPol_field_level_data.csv,yield,yield value of a given field,NA
 CropPol_field_level_data.csv,yield_units,yield units,NA
 CropPol_field_level_data.csv,yield2,secondary yield value,NA
@@ -28,10 +28,12 @@ CropPol_field_level_data.csv,plant_density,amount of crop plants per unit area o
 CropPol_field_level_data.csv,seeds_per_fruit,average number of seeds per fruit [count per fruit],NA
 CropPol_field_level_data.csv,seeds_per_plant,average number of seeds per plant or pod [count per plant],NA
 CropPol_field_level_data.csv,seed_weight,average seed weight [grams per 100 seeds],NA
+CropPol_field_level_data.csv,sampling_richness,method to survey organisms that is used to estimate richness.,NA
 CropPol_field_level_data.csv,observed_pollinator_richness,number of different pollinator species observed [counts],NA
 CropPol_field_level_data.csv,other_pollinator_richness,estimated number of different species [counts],NA
-CropPol_field_level_data.csv,other_richness_estimator_method,"method used for estimating other_pollinator_richness, preferably Chao1.",NA
-CropPol_field_level_data.csv,richness_restriction,"free text to describe constraints on richness/abundance measurements, such as only bees, only non-managed bees, etc.",NA
+CropPol_field_level_data.csv,other_richness_estimator_method,"method used for estimating “other_pollinator_richness”, preferably Chao1.",NA
+CropPol_field_level_data.csv,richness_restriction,"free text to describe constraints on richness/abundance measurements, such as “only bees”, “only non-managed bees”, etc.",NA
+CropPol_field_level_data.csv,sampling_abundance,method to survey organisms that is used to estimate abundance.,NA
 CropPol_field_level_data.csv,abundance,"total amount of counts along transect lines [counts]. In the case of performing several transect walks,we indicate the sum of the individuals collected.",NA
 CropPol_field_level_data.csv,ab_honeybee,total amount of transect counts for honey bees [counts],NA
 CropPol_field_level_data.csv,ab_bombus,total amount of transect counts for bumble bees [counts],NA
@@ -43,8 +45,9 @@ CropPol_field_level_data.csv,ab_beetles,total amount of transect counts for cole
 CropPol_field_level_data.csv,ab_lepidoptera,total amount of transect counts for lepidoptera (butterflies and moths) [counts],NA
 CropPol_field_level_data.csv,ab_nonbee_hymenoptera,"total amount of transect counts for nonbee hymenoptera (sawflies, wasps, ants, etc.) [counts]",NA
 CropPol_field_level_data.csv,ab_others,total amount of transect counts that were not included in the previous categories [counts],NA
-CropPol_field_level_data.csv,total_sampled_area,"area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.",NA
+CropPol_field_level_data.csv,total_sampled_area,"area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases  in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.",NA
 CropPol_field_level_data.csv,total_sampled_time,"time spent sampling [minutes] each field. In the case in which sites were surveyed multiple times, this variable reflects the sum of their respective durations.",NA
+CropPol_field_level_data.csv,sampling_visitation,method to survey organisms that is used to estimate visitation rates.,NA
 CropPol_field_level_data.csv,visitation_rate_units,"number of legitimate visits (i.e. contacting reproductive structures) to crop units (flowers, branches,etc.), per unit time. Preferred units: [visits per 100 flowers during one hour].",NA
 CropPol_field_level_data.csv,visitation_rate,"total visitation rate to crop units (flowers, branches,etc.) [in the visitation_rate_units].",NA
 CropPol_field_level_data.csv,visit_honeybee,"guild (honey bees) visitation rate to crop units (flowers, branches,etc.) [in the visitation_rate_units].",NA
@@ -61,15 +64,15 @@ CropPol_field_level_data.csv,Publication,"If published, DOI of the publication (
 CropPol_field_level_data.csv,Credit,list with all authors who need to be given credit,NA
 CropPol_field_level_data.csv,Email_contact,email for contacting purposes.,NA
 CropPol_field_level_data.csv,notes,comments or clarifications on the values of a given variable,NA
-CropPol_sampling_data.csv,study_id,identification code for a given study: Author name+crop name+country+year,NA
+CropPol_sampling_data.csv,study_id,identification code for a given study: Author’s name+crop name+country+year,NA
 CropPol_sampling_data.csv,site_id,identification code for a site within a study,NA
-CropPol_sampling_data.csv,sampling_method,name of the organism recorded,NA
-CropPol_sampling_data.csv,pollinator,guild of the pollinator,NA
+CropPol_sampling_data.csv,pollinator,name of the organism recorded,NA
+CropPol_sampling_data.csv,guild,guild of the pollinator,NA
 CropPol_sampling_data.csv,identified_to,"taxonomic resolution of the pollinator (whether identification is at the level of species, morphospecies, genera, etc).",NA
-CropPol_sampling_data.csv,guild,"method to survey organisms. If multiple methods were used per organism, one independent row is added for each method.",NA
-CropPol_sampling_data.csv,abundance,"number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in description (variable), the values may refer to visitation rates.",NA
-CropPol_sampling_data.csv,total_sampled_area,"area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.",NA
+CropPol_sampling_data.csv,sampling_method,"method to survey organisms. If multiple methods were used per organism, one independent row is added for each method.",NA
+CropPol_sampling_data.csv,abundance,"number of individuals observed/collected. In the case of performing several censuses (transect walks/plant observations), this field reflects the sum of the individuals collected. When specified in “description”, the values may refer to visitation rates.",NA
+CropPol_sampling_data.csv,total_sampled_area,"area sampled during each census at each of the sites (e.g. area covered by one transect) in [square meters]. In the cases  in which there was more than one sampling area within a site, this variable reflects the sum of their respective areas.",NA
 CropPol_sampling_data.csv,total_sampled_time,"time spent sampling [minutes] each field. In the case in which sites were surveyed multiple times, this variable reflects the sum of their respective durations.",NA
-CropPol_sampling_data.csv,total_sampled_flowers,"number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed, this variable reflects the sum of the respective counts.",NA
+CropPol_sampling_data.csv,total_sampled_flowers,"number of flowers surveyed at each census (e.g., transect) per site.In the cases in which several censuses were performed,  this variable reflects the sum of the respective counts.",NA
 CropPol_sampling_data.csv,description,"free text to describe the overall methodology, including the number of temporal replicates per site and what a spatial replicate means in the corresponding study.",NA
 CropPol_sampling_data.csv,notes,free text to add comments on the taxa resolution or any other variables,NA

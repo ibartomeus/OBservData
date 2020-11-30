@@ -130,6 +130,41 @@ FINAL_field_level_data$country %>% unique() %>% sort()
 
 # Fix variety:
 FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Koipesol Oleko"] <- "Koipesol OLEKO"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="dk exclaim, dk exsenntial"] <- "DK Exclaim, DK Exsenntial"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="elgar"] <- "Elgar"
+
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="keitt"] <- "Keitt"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="KEITT"] <- "Keitt"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="KENT"] <- "Kent"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="kerbel"] <- "Kerbel"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="mixed"] <- "Mixed"
+
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="NP, Butte, Padre?"] <- "NP, Butte, Padre"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Over 60 varieties"] <- "Mixed (over 60 varieties)"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="phoenix"] <- "Phoenix"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="pinks mammoth"] <- "Pinks mammoth"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Unknown -Brreeding Plot"] <- "Unknown -Breeding Plot"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="varied"] <- "Mixed"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="wild"] <- "Wild"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="wild form"] <- "Wild"
+
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Conference & Comice"] <- "Conference, Comice"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Conference & Gieser Wildeman"] <- "Conference, Gieser Wildeman"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="DY3 + Shelly"] <- "DY3, Shelly"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Elstar& Jonagold"] <- "Elstar, Jonagold"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="K & L*"] <- "K, L*"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Medium term variety_6 months"] <- "Medium term variety (6 months)"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="Monterey + Nonpareil + Peerless"] <- "Monterey, Nonpareil, Peerless"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="old trees: Price, Peerless, NP, younger trees:IXL, Drake, Mission, NP"] <- "Old trees: Price, Peerless, NP, younger trees:IXL, Drake, Mission, NP"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="picto"] <- "Picto"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="unknown"] <- "Unknown"
+FINAL_field_level_data$variety[FINAL_field_level_data$variety=="B & C*"] <- "B, C*"
+
+
+FINAL_field_level_data$variety <- gsub("é","e",FINAL_field_level_data$variety)
+FINAL_field_level_data$variety <- gsub("è","e",FINAL_field_level_data$variety)
+FINAL_field_level_data$variety <- gsub("ó","o",FINAL_field_level_data$variety)
+
 FINAL_field_level_data$variety %>% unique() %>% sort()
 
 # Fix pollinator restriction
@@ -205,6 +240,16 @@ FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublis
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="unpublished, Garratt et al. 2014 https://doi.org/10.1016/j.biocon.2013.11.001, O'Connor et al 2019 https://doi.org/10.1111/2041-210X.13292"] <-"unpublished, 10.1016/j.biocon.2013.11.001, 10.1111/2041-210X.13292"                                        
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1098/rspb.2013.3148, http://dx.doi.org/10.5281/zenodo.12540"] <-  "10.1098/rspb.2013.3148, 10.5281/zenodo.12540" 
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="j.agee.2016.04.020"] <-  "10.1016/j.agee.2016.04.020" 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1111/j.1744-7348.2009.00326.x/10.1016/j.baae.2010.08.004"] <-  "10.1111/j.1744-7348.2009.00326.x, 10.1016/j.baae.2010.08.004" 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1126/science.aac7287; 10.26786/1920-7603%282014%2926"] <-  "10.1126/science.aac7287, 10.26786/1920-7603%282014%2926"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1016/j.agee.2018.10.018; 10.1016/j.agee.2017.08.030"] <-  "10.1016/j.agee.2018.10.018, 10.1016/j.agee.2017.08.030" 
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1038/s41598-019-49535-w; yield data unpublished"] <-  "10.1038/s41598-019-49535-w, yield data unpublished"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1016/j.agee.2018.05.004; 10.1016/j.agee.2019.02.009"] <-  "10.1016/j.agee.2018.05.004, 10.1016/j.agee.2019.02.009"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1111/j.1365-2664.2005.01116.x,10.1098/rspb.2007.1547"] <-  "10.1111/j.1365-2664.2005.01116.x, 10.1098/rspb.2007.1547"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1073/pnas.0405147101,10.1111/j.1523-1739.2004.00227.x"] <-  "10.1073/pnas.0405147101, 10.1111/j.1523-1739.2004.00227.x"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1007/s13593-016-0377-7,10.1016/j.agee.2012.05.003,10.1073/pnas.1210590110"] <-  "10.1007/s13593-016-0377-7, 10.1016/j.agee.2012.05.003, 10.1073/pnas.1210590110"
+FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="npublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8,10.1111/2041-210X.13292"] <-  "npublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8, 10.1111/2041-210X.13292"
+
 
 
 FINAL_field_level_data$Publication %>% unique()
@@ -339,9 +384,10 @@ FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="mean_ber
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary fruit weight (grams)"] <- "primary fruit weight (grams)"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Insect Pollination = Open pollination [control] - Self-pollination [Tulle bags]"] <- "Insect Pollination: Open pollination [control] - Self-pollination [Tulle bags]"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="dry weight; mean kgs per tree"] <- "dry weight: mean kgs per tree"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="fruit set (weight in g of 100 randomly selected seeds)"] <- "fruit set: weight in g of 100 randomly selected seeds"
 
 
-FINAL_field_level_data$yield_units %>% unique()
+FINAL_field_level_data$yield_units %>% unique() %>% sort()
 
 # Fix yield units
 
@@ -429,12 +475,12 @@ FINAL_field_level_data$visitation_rate_units[
 
 FINAL_field_level_data$visitation_rate_units[
   FINAL_field_level_data$visitation_rate_units==
+    "visits per m^2 and hour"] <- "visits per hour and m2"
+
+FINAL_field_level_data$visitation_rate_units[
+  FINAL_field_level_data$visitation_rate_units==
     "visited flowers per hour"] <- "flowers visited per hour"
 
-
-FINAL_field_level_data$study_id[
-  FINAL_field_level_data$visitation_rate_units==
-    "visits per m^2 and 10 mins"] %>% unique()
 
 FINAL_field_level_data$visitation_rate_units %>% unique() %>% sort()
 
@@ -785,7 +831,7 @@ add_dainese$rank[add_dainese$study_id=="Yi_Zou_Brassica_napus_China_2015" &
                    is.na(add_dainese$rank)] <- "family"
 
 
-add_dainese %>% filter(is.na(rank)) #31,514 entries need resolution
+add_dainese %>% filter(is.na(rank)) #31,619 entries need resolution
 
 
 add_dainese_rader <- add_dainese %>%
@@ -863,3 +909,4 @@ showNonASCII(insect_sampling_taxa$pollinator)%>% unique()
 showNonASCII(insect_sampling_taxa$study_id)%>% unique()
 showNonASCII(insect_sampling_taxa$study_id)%>% unique()
 showNonASCII(insect_sampling_taxa$notes)%>% unique()
+
