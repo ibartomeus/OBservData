@@ -44,6 +44,8 @@ for (i in seq(length(list_files_insect_sampling))) {
                               total_sampled_flowers = col_double(),
                               Description = col_character()))
 
+  if(ncol(insect_sampling_i) < 12){
+
   test_name_i <- paste("Right labels:", paste0("file_",i,".csv"), sep = " ")
 
   test_that(test_name_i,{
@@ -129,6 +131,6 @@ for (i in seq(length(list_files_insect_sampling))) {
     }
   })
 
-
+}
 
 }

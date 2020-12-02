@@ -2,7 +2,9 @@ library(testthat)
 library(tidyverse)
 library(readr)
 
-context("checks that the values in field_level template meet our requirements")
+
+
+context("Verification that the values in field_level_data files with 65 variables meet our requirements")
 
 
 # Test the features of datasets
@@ -46,7 +48,7 @@ context("checks that the values in field_level template meet our requirements")
 # Lepidoptera vis. rate format  (non-negative number or NA)
 # Non bee hymenoptera abun. format  (non-negative number or NA)
 # Others vis. rate format (non-negative number or NA)
-
+# Only ASCII characters are allowed
 
 labels_OK <- c("study_id","site_id","crop","variety","management","country","latitude",
                "longitude","X_UTM","Y_UTM","zone_UTM","sampling_start_month",
@@ -55,15 +57,18 @@ labels_OK <- c("study_id","site_id","crop","variety","management","country","lat
                "yield_treatments_pollen_supplement","yield_treatments_no_pollinators2",
                "yield_treatments_pollen_supplement2","fruits_per_plant","fruit_weight",
                "plant_density","seeds_per_fruit","seeds_per_plant","seed_weight",
+               "sampling_richness",
                "observed_pollinator_richness","other_pollinator_richness",
-               "other_richness_estimator_method","richness_restriction","abundance",
+               "other_richness_estimator_method","richness_restriction",
+               "sampling_abundance","abundance",
                "ab_honeybee","ab_bombus","ab_wildbees","ab_syrphids","ab_humbleflies",
                "ab_other_flies","ab_beetles","ab_lepidoptera","ab_nonbee_hymenoptera",
-               "ab_others","total_sampled_area","total_sampled_time","visitation_rate_units",
+               "ab_others","total_sampled_area","total_sampled_time",
+               "sampling_visitation","visitation_rate_units",
                "visitation_rate","visit_honeybee","visit_bombus","visit_wildbees",
                "visit_syrphids","visit_humbleflies","visit_other_flies","visit_beetles",
                "visit_lepidoptera","visit_nonbee_hymenoptera","visit_others","Publication",
-               "Credit","Email_contact")
+               "Credit","Email_contact","notes")
 
 
 
@@ -85,10 +90,10 @@ for (i in seq(length(list_files_field_level))) {
                               variety = col_character(),management = col_character(),
                               country = col_character(),latitude = col_double(),
                               longitude = col_double(),X_UTM = col_double(),
-                              Y_UTM = col_double(),#zone_UTM = col_double(),
+                              Y_UTM = col_double(),zone_UTM = col_character(),
                               sampling_start_month = col_double(),
                               sampling_end_month = col_double(),
-                              field_size = col_double(),#sampling_year = col_double(),
+                              field_size = col_double(),sampling_year = col_character(),
                               yield = col_double(),
                               yield_units = col_character(),
                               yield2 = col_double(),yield2_units = col_character(),
@@ -99,17 +104,21 @@ for (i in seq(length(list_files_field_level))) {
                               fruits_per_plant = col_double(),fruit_weight = col_double(),
                               plant_density = col_double(),seeds_per_fruit = col_double(),
                               seeds_per_plant = col_double(),seed_weight = col_double(),
+                              sampling_richness = col_character(),
                               observed_pollinator_richness = col_double(),
                               other_pollinator_richness = col_double(),
                               other_richness_estimator_method = col_character(),
                               richness_restriction = col_character(),
+                              sampling_abundance = col_character(),
                               abundance = col_double(),ab_honeybee = col_double(),
                               ab_bombus = col_double(),ab_wildbees = col_double(),
                               ab_syrphids = col_double(),ab_humbleflies = col_double(),
                               ab_other_flies = col_double(),ab_beetles = col_double(),
                               ab_lepidoptera = col_double(),ab_nonbee_hymenoptera = col_double(),
-                              ab_others = col_double(),#total_sampled_area = col_double(),
+                              ab_others = col_double(),
+                              total_sampled_area = col_character(),
                               total_sampled_time = col_double(),
+                              sampling_visitation = col_character(),
                               visitation_rate_units = col_character(),
                               visitation_rate = col_double(),visit_honeybee = col_double(),
                               visit_bombus = col_double(),visit_wildbees = col_double(),
@@ -118,9 +127,10 @@ for (i in seq(length(list_files_field_level))) {
                               visit_lepidoptera = col_double(),visit_nonbee_hymenoptera = col_double(),
                               visit_others = col_double(),
                               Publication = col_character(),
-                              Credit = col_character(),Email_contact = col_character()))
+                              Credit = col_character(),Email_contact = col_character(),
+                              notes = col_character() ))
 
-  if(ncol(field_level_i)<65){
+  if(ncol(field_level_i)==65){
 
   test_name_i <- paste("Right labels:", paste0("file_",i,".csv"), sep = " ")
 
@@ -295,7 +305,7 @@ for (i in seq(length(list_files_field_level))) {
   # })
 
 
-  test_name_i <- paste("Mean fruits per plant format:", paste0("file_",i,".csv"), sep = " ")
+  test_name_i <- paste("Fruits per plant format:", paste0("file_",i,".csv"), sep = " ")
   test_that(test_name_i,{
 
     NA_values <- is.na(field_level_i$fruits_per_plant)
@@ -760,6 +770,19 @@ for (i in seq(length(list_files_field_level))) {
       expect_equal(TRUE, TRUE)
     }
   })
+
+  test_name_i <- paste("Only ASCII characters:", paste0("file_",i,".csv"), sep = " ")
+  test_that(test_name_i,{
+
+    any.non.ascii <- any(grepl("I_WAS_NOT_ASCII", iconv(field_level_i,
+                                                    "", "ASCII",
+                                                    sub="I_WAS_NOT_ASCII")))
+
+
+    expect_equal(any.non.ascii, FALSE)
+
+  })
+
 
 }
 }

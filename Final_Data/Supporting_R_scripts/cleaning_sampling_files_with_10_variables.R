@@ -41,7 +41,24 @@ files_base <- list.files(folder_base)
 # List of files (in our data repository folder) whose name begins with
 # "insect_sampling"
 
-list_files_insect_sampling <- files_base[grepl("insect_sampling", files_base)]
+list_all_files_insect_sampling <- files_base[grepl("insect_sampling", files_base)]
+list_files_insect_sampling <- NULL
+list_files_insect_sampling_12 <- NULL
+
+for(i in 1:length(list_all_files_insect_sampling)){
+
+  file_i <- paste(folder_base, list_all_files_insect_sampling[i], sep = "/")
+  csv_i <- read_csv(file_i)
+
+  if(ncol(csv_i) < 12){
+    list_files_insect_sampling <- c(list_files_insect_sampling,
+                                    list_all_files_insect_sampling[i])
+  }else{
+    list_files_insect_sampling_12 <- c(list_files_insect_sampling_12,
+                                       llist_all_files_insect_sampling[i])
+  }
+
+}
 
 
 ############################################
@@ -55,7 +72,7 @@ report <- capture_output_lines({
 # Extract the names of the files which contain failures
 
 file.failures <- str_match(report, "file_(.*?).csv")
-file.failures <- list_files_insect_sampling[
+file.failures <- list_all_files_insect_sampling[
   as.numeric(file.failures[!is.na(file.failures[,1]),2])]
 file.failures <- file.failures[!duplicated(file.failures)]
 
@@ -110,7 +127,7 @@ FINAL_sampling_data$study_id[grep("several",FINAL_sampling_data$study_id)] %>%
 
 # List of verified datasets with 61 variables
 
-verified <- openxlsx:::read.xlsx("Final_Data/Supporting_files/Verified_studies/FINAL_Data ownership.xlsx")
+verified <- read_excel("Final_Data/Supporting_files/Verified_studies/FINAL_Data ownership.xlsx")
 verified_studies <- verified %>% select(study_id) %>% unique()
 
 # Select verified studies----

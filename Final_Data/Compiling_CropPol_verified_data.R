@@ -1,11 +1,12 @@
 
-# Merge individual "field_level_data" and "insect_sampling_data"  files, respectively,
+# Merge individual "field_level_data" and "insect_sampling_data"  files
+# that are in Processing_files/Data_sets_storage, respectively, if and only
 # if the corresponding files tests are OK and if the files have been checked by
 # their corresponding authors.
 
 library(tidyverse)
 library(testthat) # for data tests
-library(openxlsx)
+library(readxl)
 library(tools) # for removing non-ASCII characters
 
 
@@ -18,6 +19,10 @@ source("Final_Data/Supporting_R_scripts/add_taxon_constraint_column_DAINESE_RADE
 source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_61_variables.R",
        encoding="utf-8")
 
+# Processing field_level_data files with 65 variables
+source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_65_variables.R",
+       encoding="utf-8")
+
 # Save "total_field_level_data" file
 write.csv(FINAL_field_level_data_filt, "Final_Data/CropPol_field_level_data.csv",
           row.names = F)
@@ -25,6 +30,10 @@ write.csv(FINAL_field_level_data_filt, "Final_Data/CropPol_field_level_data.csv"
 # Processing insect_sampling files with only 10 variables
 # NOTE: Cleaning diacritic (non-ASCII) characters takes a while
 source("Final_Data/Supporting_R_scripts/cleaning_sampling_files_with_10_variables.R",
+       encoding="utf-8")
+
+# Processing insect_sampling files with 12 variables
+source("Final_Data/Supporting_R_scripts/cleaning_sampling_files_with_12_variables.R",
        encoding="utf-8")
 
 # Save "FINAL_sampling_data" file

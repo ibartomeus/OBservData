@@ -293,7 +293,18 @@ field_level_data <- tibble(
   Email_contact = data.site$Email_contact
 )
 
+
+###################
+# Update of Blande
+###################
+
+field_level_data_rev <- read_csv("Processing_files/Datasets_processing/KLEIJN 2015 DATABASE/89_BlandeViana_PassionFruit2005/ok_field_level_data_Blande_Viana_Passiflora_edulis_Brazil_2005.csv") %>%
+  rename(field_size = `field_size (ha)`)
+field_level_data_rev$management <- "conventional"
+field_level_data_rev$richness_restriction <- "only bees"
+field_level_data_rev$Credit <- "Blandina Felipe Viana and Fabiana Oliveira da Silva"
+
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
-write_csv(field_level_data, "Processing_files/Datasets_storage/field_level_data_Blande_Viana_Passiflora_edulis_Brazil_2005.csv")
+write_csv(field_level_data_rev, "Processing_files/Datasets_storage/field_level_data_Blande_Viana_Passiflora_edulis_Brazil_2005.csv")
 #setwd(dir_ini)
 

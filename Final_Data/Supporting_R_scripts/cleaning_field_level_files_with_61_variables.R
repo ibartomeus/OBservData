@@ -69,9 +69,24 @@ folder_base <- "Processing_files/Datasets_storage"
 files_base <- list.files(folder_base)
 
 # List of files (in our data repository folder) whose name begins with
-# "field_level_data"
+# "field_level_data" and have less than 65 columns
 
-list_files_field_level <- files_base[grepl("field_level_data", files_base)]
+list_all_files_field_level <- files_base[grepl("field_level_data", files_base)]
+list_files_field_level <- NULL
+list_files_field_level_65 <- NULL
+
+for(i in 1:length(list_all_files_field_level)){
+
+  file_i <- paste(folder_base, list_all_files_field_level[i], sep = "/")
+  csv_i <- read_csv(file_i)
+
+  if(ncol(csv_i) < 65){
+    list_files_field_level <- c(list_files_field_level,list_all_files_field_level[i])
+  }else{
+    list_files_field_level_65 <- c(list_files_field_level_65,list_all_files_field_level[i])
+  }
+
+}
 
 ##########################################
 # 1 Test data files and save the results
@@ -83,7 +98,7 @@ report <- capture_output_lines({
 })
 
 file.failures <- str_match(report, "file_(.*?).csv")
-file.failures <- list_files_field_level[
+file.failures <- list_all_files_field_level[
   as.numeric(file.failures[!is.na(file.failures[,1]),2])]
 file.failures <- file.failures[!duplicated(file.failures)]
 
@@ -497,7 +512,7 @@ FINAL_field_level_data$visitation_rate_units %>% unique() %>% sort()
 
 # List of verified datasets with 61 variables
 
-verified <- openxlsx:::read.xlsx("Final_Data/Supporting_files/Verified_studies/FINAL_Data ownership.xlsx")
+verified <- read_excel("Final_Data/Supporting_files/Verified_studies/FINAL_Data ownership.xlsx")
 verified_studies <- verified %>% select(study_id) %>% unique()
 
 # Select only verified studies
