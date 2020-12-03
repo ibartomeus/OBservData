@@ -9,6 +9,8 @@
 # 4) Save the processed csv files:
 # Processing_files/Datasets_storage/
 # 5) Update CropPol
+# 6) Update version history
+
 
 ##########################################
 # LOAD DATA
@@ -122,5 +124,11 @@ write_csv(data.insect, insect_path)
 ################################
 
 source("Final_Data/Compiling_CropPol_verified_data.R")
+
+################################
+# 6 Update New
+################################
+
+source("Final_Data/update_new.R")
 
 }
