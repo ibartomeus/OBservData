@@ -34,3 +34,6 @@ vignettes/*.pdf
 
 #Custom view
 .DS_Store
+
+#Embargo Folder
+Processing_files/Datasets_Processing/Embargo/
