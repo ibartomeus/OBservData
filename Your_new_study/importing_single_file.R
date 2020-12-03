@@ -14,6 +14,9 @@
 # Processing_files/Datasets_storage/
 #
 # 5) Update CropPol
+#
+# 6) Update version history
+
 
 #########################
 # require/load libraries
