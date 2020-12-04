@@ -80,13 +80,13 @@ if(length(methods_richness)>0){
 
 if(length(excel_file)>0){
 
-  file <- excel_file
+  file_OK <- excel_file
   file_path <- paste0("Your_new_study/",excel_file)
   new_file_path <- paste0(
     "Processing_files/Datasets_Processing/Templates processed automatically/",excel_file)
 
 }else{
-  file <- ods_file
+  file_OK <- ods_file
   file_path <- paste0("Your_new_study/",ods_file)
   new_file_path <- paste0(
     "Processing_files/Datasets_Processing/Templates processed automatically/",ods_file)
@@ -111,10 +111,10 @@ if (file.exists("Your_new_study/Test_Report.pdf")) {
 # 4 Save csv files
 ###############################
 
-file_name <- (strsplit(file, ".", fixed = TRUE))[[1]][1]
+file_name_OK <- (strsplit(file_OK, ".", fixed = TRUE))[[1]][1]
 
-field_path <- paste0("Processing_files/Datasets_storage/field_level_data_",file_name,".csv")
-insect_path <- paste0("Processing_files/Datasets_storage/insect_sampling_",file_name,".csv")
+field_path <- paste0("Processing_files/Datasets_storage/field_level_data_",file_name_OK,".csv")
+insect_path <- paste0("Processing_files/Datasets_storage/insect_sampling_",file_name_OK,".csv")
 
 write_csv(data.site, field_path)
 write_csv(data.insect, insect_path)
