@@ -1,13 +1,16 @@
 # THIS SCRIPT PREPARE METADATA WITH DATASPICE
 
 library(dataspice)
+library(tidyverse)
 
 
 #create_spice() # Creates metadata templates for us # Commented for security reasons!!!!
 
-data_files <- list.files("C:/Users/USUARIO/Desktop/OBservData/Final_Data/",
+data_files <- list.files("Final_Data/",
                          pattern = "CropPol",
                          full.names = TRUE)
+
+setwd("Metadata/")
 
 attributes_path <- file.path("data", "metadata", "attributes.csv")
 
