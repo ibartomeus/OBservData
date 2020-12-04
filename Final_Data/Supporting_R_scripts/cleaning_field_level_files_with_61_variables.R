@@ -269,6 +269,7 @@ FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1111/
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1073/pnas.0405147101,10.1111/j.1523-1739.2004.00227.x"] <-  "10.1073/pnas.0405147101, 10.1111/j.1523-1739.2004.00227.x"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="10.1007/s13593-016-0377-7,10.1016/j.agee.2012.05.003,10.1073/pnas.1210590110"] <-  "10.1007/s13593-016-0377-7, 10.1016/j.agee.2012.05.003, 10.1073/pnas.1210590110"
 FINAL_field_level_data$Publication[FINAL_field_level_data$Publication=="npublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8,10.1111/2041-210X.13292"] <-  "npublished, 10.1371/journal.pone.0153889, 10.26786/1920-7603(2014)8, 10.1111/2041-210X.13292"
+FINAL_field_level_data$Publication[FINAL_field_level_data$study_id=="Breno_M_Freitas_Bixa_orellana_Brazil_2007"] <-  "10.1126/sciadv.aax0121"
 
 
 
