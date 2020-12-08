@@ -54,26 +54,29 @@ git2r::commit(repo, message = commit_message)
 
 # Create a new release to trigger Zenodo archiving
 
-github_token = Sys.getenv("GITHUB_TOKEN")
-pull_request = Sys.getenv("TRAVIS_PULL_REQUEST")
-branch = Sys.getenv("TRAVIS_BRANCH")
+# We want to do this only for Major releases.
+# Ideally this should populate news when [new data]?
 
-# If the version has been incremented, this is not a pull request,
-# and it is the master branch of the repo, then push the updated data,
-# create a new tag, push the tag and trigger a release.
-if (new_ver > current_ver & branch == 'master' & pull_request == 'false'){
-  git2r::push(repo,
-              name = "deploy",
-              refspec = "refs/heads/master",
-              credentials = cred)
-  git2r::tag(repo, as.character(new_ver), paste("v", new_ver, sep=""))
-  git2r::push(repo,
-              name = "deploy",
-              refspec = paste("refs/tags/", new_ver, sep=""),
-              credentials = cred)
-  api_release_url = paste("https://api.github.com/repos/", config$repo, "/releases", sep = "")
-  httr::POST(url = api_release_url,
-             httr::content_type_json(),
-             httr::add_headers(Authorization = paste("token", github_token)),
-             body = paste('{"tag_name":"', new_ver, '"}', sep=''))
-}
+# github_token = Sys.getenv("GITHUB_TOKEN")
+# pull_request = Sys.getenv("TRAVIS_PULL_REQUEST")
+# branch = Sys.getenv("TRAVIS_BRANCH")
+# 
+# # If the version has been incremented, this is not a pull request,
+# # and it is the master branch of the repo, then push the updated data,
+# # create a new tag, push the tag and trigger a release.
+# if (new_ver > current_ver & branch == 'master' & pull_request == 'false'){
+#   git2r::push(repo,
+#               name = "deploy",
+#               refspec = "refs/heads/master",
+#               credentials = cred)
+#   git2r::tag(repo, as.character(new_ver), paste("v", new_ver, sep=""))
+#   git2r::push(repo,
+#               name = "deploy",
+#               refspec = paste("refs/tags/", new_ver, sep=""),
+#               credentials = cred)
+#   api_release_url = paste("https://api.github.com/repos/", config$repo, "/releases", sep = "")
+#   httr::POST(url = api_release_url,
+#              httr::content_type_json(),
+#              httr::add_headers(Authorization = paste("token", github_token)),
+#              body = paste('{"tag_name":"', new_ver, '"}', sep=''))
+# }
