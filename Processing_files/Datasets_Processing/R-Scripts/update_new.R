@@ -10,4 +10,3 @@ news_lines <- c(news_lines,
                 "`: Addtion of ",file_OK," (",Sys.Date(),")"))
 
 write_lines(news_lines,"News.MD")
-write_lines(as.character(last_version+0.01),"version.txt")
