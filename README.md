@@ -1,33 +1,37 @@
-[![Build Status](https://travis-ci.org/weecology/livedat.svg?branch=master)](https://travis-ci.org/weecology/livedat)
-[![License](http://i.creativecommons.org/p/zero/1.0/88x31.png)](https://raw.githubusercontent.com/weecology/livedat/master/LICENSE)
+
+# Crop Pollination Database
+
+## How to use the database:
+
+The database is stored as two `.csv` files you can find in `Final_Data` folder. Here you will find the latest version (See `News.md`). Stable releases can be found in Zenodo: [Link](https://zenodo.org/account/settings/github/repository/ibartomeus/OBservData)
+
+- `CropPol_field_level_data.csv` contains one row per field and study system with summary values per field incuding field coordinates, pollintor richness, yield, etc...
+- `CropPol_sampling_data.csv` contains pollinator sampling data on which pollinators where collected per field. 
+
+Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/ibartomeus/OBservData/blob/master/Metadata/docs/index.html) and understand the data limitations by reading the data paper: Allen-Perkins et al. (2020) CropPol: a dynamic, open and global database on crop pollination. (In review) [Link to preprint?]()
+
+If you want to dig into raw data files, all reproducible data and code to build the database is under the `Processing_files` folder.
+
+## How to contribute?
+
+We encourage you to add new data to this database. If you are github user, just clone the repo, and follow the instrucions in `Your_new_study` folder. When ready, make us a pull request and we will add the new data.
+
+If you are not familiar with github, [download the template](https://github.com/ibartomeus/OBservData/raw/master/Template/Template_example_V9.ods), fill it up and let us know in the [issues](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=New+data&template=new-data.md&title=%5Bdata%5D)
+
+This is the workflow:
+
+![](Your_new_study/workflow.jpeg)
 
 
-# Ideal process:  
+## Spoted any error? 
 
-0- Use secret folder to preprocess not publicable data.  
-1- Creat a tesaurus for especies taxonomy.  
-1.1- Also for crops.  
-2- For each study, read, clean and summarize data -> Upload to MASTER.   
-3- Authors should review and complete their data: Data - R - SPECIFIC QUESTIONS - decisions. NOTE ALL CHANGES.  
-4- Redo 1 and 2.  
-5- Create a MASTER insect sampling with all insect crop interactions.  
+Please let us know in an [issue](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=bug&template=bug_report.md&title=%5Bbug%5D)
 
-# To Do:  
-Now:  
-[ ] Add process to this repo.  
-[ ] Add tests: e.g. lat long in country. Outlyers.  
-Next:   
-[ ] Analysis preliminar... analysis.   
-[ ] Add Rader, Garibaldi, Kleijn... :deadline summer.  
-Future:    
-[ ] Data corrections by Authors: In Original.  
+## Credit:
 
+Please cite this data paper when the data are used in bulk in publications and cite individual studies when pertinent. 
 
-## Thanks to:  
+### Thanks to:  
 
-We used livedat **Template Repo** designed to assist in setting up a repository for regularly-updated data 
-(new data are regularly added and need cleaning and curating). Details in [this PLOS Biology paper](https://doi.org/10.1371/journal.pbio.3000125). Instructions for creating an updating data workflow can be found at our companion website: [UpdatingData.org](https://www.updatingdata.org/).  
+We started using livedat **Template Repo** designed to assist in setting up a repository for regularly-updated data. Details in [this PLOS Biology paper](https://doi.org/10.1371/journal.pbio.3000125). Instructions for creating an updating data workflow can be found at this companion website: [UpdatingData.org](https://www.updatingdata.org/).  
 
-## Some Thoughts on Security
-
-The Personal Access Token from GitHub provides full access to your entire account. It is equivalent to having your username and password. Travis and other CI companies are very serious about security, but there is always some risk when using credentials like this. To mitigate security issues you can set up a separate account purely for deploying your data and only give it access to the repositories that require it. Then use that account's Personal Access Token instead of the one for you primary account.
