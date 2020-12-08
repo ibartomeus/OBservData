@@ -1,9 +1,10 @@
+[![DOI](https://zenodo.org/badge/240485535.svg)](https://zenodo.org/badge/latestdoi/240485535)
 
 # Crop Pollination Database
 
 ## How to use the database:
 
-The database is stored as two `.csv` files you can find in `Final_Data` folder. Here you will find the latest version (See `News.md`). Stable releases can be found in Zenodo: [Link](https://zenodo.org/account/settings/github/repository/ibartomeus/OBservData)
+The database is stored as two `.csv` files you can find in `Final_Data` folder. Here you will find the latest version (See `News.md`). Stable releases can be found in Zenodo: DOI: [10.5281/zenodo.4311291](https://zenodo.org/badge/latestdoi/240485535)
 
 - `CropPol_field_level_data.csv` contains one row per field and study system with summary values per field incuding field coordinates, pollintor richness, yield, etc...
 - `CropPol_sampling_data.csv` contains pollinator sampling data on which pollinators where collected per field. 
