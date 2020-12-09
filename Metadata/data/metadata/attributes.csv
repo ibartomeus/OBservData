@@ -64,7 +64,7 @@ CropPol_field_level_data.csv,Publication,"If published, DOI of the publication (
 CropPol_field_level_data.csv,Credit,list with all authors who need to be given credit,NA
 CropPol_field_level_data.csv,Email_contact,email for contacting purposes.,NA
 CropPol_field_level_data.csv,notes,comments or clarifications on the values of a given variable,NA
-CropPol_sampling_data.csv,study_id,identification code for a given study: Author’s name+crop name+country+year,NA
+CropPol_sampling_data.csv,study_id,identification code for a given study: Name of the leading author+crop name+country+year,NA
 CropPol_sampling_data.csv,site_id,identification code for a site within a study,NA
 CropPol_sampling_data.csv,pollinator,name of the organism recorded,NA
 CropPol_sampling_data.csv,guild,guild of the pollinator,NA

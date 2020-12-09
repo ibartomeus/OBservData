@@ -426,12 +426,6 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "study_id",
-      "description": "identification code for a given study: Author’s name+crop name+country+year"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
       "name": "pollinator",
       "description": "name of the organism recorded"
     },
@@ -482,13 +476,13 @@
     {
       "type": "DataDownload",
       "name": "field level data",
-      "contentUrl": null,
+      "contentUrl": "https://zenodo.org/record/4311292#.X8-hIFVKjIU",
       "encodingFormat": "CSV"
     },
     {
       "type": "DataDownload",
       "name": "insect sampling data",
-      "contentUrl": null,
+      "contentUrl": "https://zenodo.org/record/4311292#.X8-hIFVKjIU",
       "encodingFormat": "CSV"
     }
   ]
