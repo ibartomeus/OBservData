@@ -8,8 +8,9 @@ The database is stored as two `.csv` files you can find in `Final_Data` folder. 
 
 - `CropPol_field_level_data.csv` contains one row per field and study system with summary values per field incuding field coordinates, pollintor richness, yield, etc...
 - `CropPol_sampling_data.csv` contains pollinator sampling data on which pollinators where collected per field. 
+- `CropPol_data_ownership.csv` contains information on data authors, affiliations and funding.
 
-Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/ibartomeus/OBservData/blob/master/Metadata/docs/index.html) and understand the data limitations by reading the data paper: Allen-Perkins et al. (2020) CropPol: a dynamic, open and global database on crop pollination. (In review) [Link to preprint?]()
+Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/ibartomeus/OBservData/blob/master/Metadata/docs/index_Rev.html) and understand the data limitations by reading the data paper: Allen-Perkins et al. (2020) CropPol: a dynamic, open and global database on crop pollination. (In review) [Link to preprint?]()
 
 If you want to dig into raw data files, all reproducible data and code to build the database is under the `Processing_files` folder.
 
