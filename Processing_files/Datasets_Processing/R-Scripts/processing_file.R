@@ -26,9 +26,14 @@ ods_file <- files[grep(".ods",files)]
 
 if(length(excel_file)>0){
 
-  data.site <- read_excel(paste0("Your_new_study/",excel_file), sheet = "field_level_data")
-  data.insect <- read_excel(paste0("Your_new_study/",excel_file), sheet = "insect_sampling")
-  data.sampling <- read_excel(paste0("Your_new_study/",excel_file), sheet = "sampling_method")
+  data.site <- read_excel(paste0("Your_new_study/",excel_file),
+                          sheet = "field_level_data")
+  data.insect <- read_excel(paste0("Your_new_study/",excel_file),
+                            sheet = "insect_sampling")
+  data.sampling <- read_excel(paste0("Your_new_study/",excel_file),
+                              sheet = "sampling_method")
+  data.ownership <- read_excel(paste0("Your_new_study/",excel_file),
+                               sheet = "ownership")
 
 
 }else{
@@ -39,6 +44,8 @@ if(length(excel_file)>0){
                           sheet = "insect_sampling") %>% as_tibble()
   data.sampling <- read_ods(paste0("Your_new_study/",ods_file),
                             sheet = "sampling_method") %>% as_tibble()
+  data.ownership <- read_ods(paste0("Your_new_study/",ods_file),
+                            sheet = "ownership") %>% as_tibble()
 }
 
 
@@ -115,9 +122,11 @@ file_name_OK <- (strsplit(file_OK, ".", fixed = TRUE))[[1]][1]
 
 field_path <- paste0("Processing_files/Datasets_storage/field_level_data_",file_name_OK,".csv")
 insect_path <- paste0("Processing_files/Datasets_storage/insect_sampling_",file_name_OK,".csv")
+ownership_path <- paste0("Processing_files/Datasets_storage/data_ownership_",file_name_OK,".csv")
 
 write_csv(data.site, field_path)
 write_csv(data.insect, insect_path)
+write_csv(data.ownership, ownership_path)
 
 ################################
 # 5 Update CropPol

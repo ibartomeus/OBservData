@@ -4,9 +4,9 @@ report_lines <- c("================","Automatic report","================","")
 
 if (nrow(data.insect) > 0){
   report_lines <- c(report_lines,"  \n",report1,"  \n",report2,
-                    "  \n",report3,"  \n",report4)
+                    "  \n",report3,"  \n",report4,"  \n",report5)
 }else{
-  report_lines <- c(report_lines,"  \n,",report1,"  \n",report2)
+  report_lines <- c(report_lines,"  \n,",report1,"  \n",report2,"  \n",report5)
   }
 
 
