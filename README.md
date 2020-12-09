@@ -17,7 +17,7 @@ If you want to dig into raw data files, all reproducible data and code to build 
 
 We encourage you to add new data to this database. If you are github user, just clone the repo, and follow the instrucions in `Your_new_study` folder. When ready, make us a pull request and we will add the new data.
 
-If you are not familiar with github, don't worry, just [download the template](https://github.com/ibartomeus/OBservData/raw/master/Template/Template_example_V9.ods), fill it up and open an [issues](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=New+data&template=new-data.md&title=%5Bdata%5D) to let us know ehere we can access the template.
+If you are not familiar with github, don't worry, just [download the template](https://github.com/ibartomeus/OBservData/raw/master/Template/Template_example_V9.ods), fill it up and open an [issues](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=New+data&template=new-data.md&title=%5Bdata%5D) to let us know where we can access the template.
 
 This is the workflow for github users (A) and non-users (B). 
 
