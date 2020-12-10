@@ -25,7 +25,7 @@ This is the workflow for github users (A) and non-users (B).
 ![](Your_new_study/workflow.jpeg)
 
 
-## spotted any error?
+## Spotted any error?
 
 Please let us know in an [issue](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=bug&template=bug_report.md&title=%5Bbug%5D)
 
