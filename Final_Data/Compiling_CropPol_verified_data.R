@@ -40,3 +40,10 @@ source("Final_Data/Supporting_R_scripts/cleaning_sampling_files_with_12_variable
 write.csv(insect_sampling_taxa, "Final_Data/CropPol_sampling_data.csv",
           row.names = F)
 
+# Processing insect_sampling files with 12 variables
+source("Final_Data/Supporting_R_scripts/cleaning_data_ownership.R",
+       encoding="utf-8")
+
+# Save " FINAL_ownership_data" file
+write.csv(FINAL_ownership_data, "Final_Data/CropPol_data_ownership.csv",
+          row.names = F)
