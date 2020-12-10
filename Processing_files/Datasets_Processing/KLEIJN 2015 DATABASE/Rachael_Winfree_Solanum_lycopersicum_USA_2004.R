@@ -121,9 +121,9 @@ insect_sampling <- tibble(
   sampling_method = "transect",
   abundance = data_obs_guild$abundance,
   total_sampled_area = 50,
-  total_sampled_time = NA,
+  total_sampled_time = 30,
   total_sampled_flowers = NA,
-  Description = "50 meter transect per farm. One sample day per farm."
+  Description = "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited once."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -250,7 +250,7 @@ field_level_data <- tibble(
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
   total_sampled_area = 50,
-  total_sampled_time = NA,
+  total_sampled_time = 30,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,

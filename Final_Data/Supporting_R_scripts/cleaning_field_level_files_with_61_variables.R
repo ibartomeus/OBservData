@@ -356,7 +356,44 @@ FINAL_field_level_data$notes[grep("Breno_M_Freitas_Gossypium_hirsutum_Brazil_201
                                   FINAL_field_level_data$study_id)] <-
   "Information on floral visitors was obtained from pan-trap records. Richness can be calculated by using the sampling records for this study_id."
 
+# Add notes on sampling methodology-----
 
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Capsicum_annuum_USA_2004",
+                                  FINAL_field_level_data$study_id)] <-
+  "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited once."
+
+FINAL_field_level_data$notes[FINAL_field_level_data$study_id %in%
+                               c("Rachael_Winfree_Citrullus_lanatus_USA_2004",
+                                 "Rachael_Winfree_Citrullus_lanatus_USA_2005",
+                                 "Rachael_Winfree_Citrullus_lanatus_USA_2007")] <-
+  "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited only once in 2004 and 2007, but 2 times in 2005."
+
+FINAL_field_level_data$notes[FINAL_field_level_data$study_id %in%
+                               c("Rachael_Winfree_Citrullus_lanatus_USA_2008",
+                                 "Rachael_Winfree_Citrullus_lanatus_USA_2010",
+                                 "Rachael_Winfree_Citrullus_lanatus_USA_2011",
+                                 "Rachael_Winfree_Citrullus_lanatus_USA_2012")] <-
+  "Pollinators were observed for a total of 30 minutes along a 50-m transect of crop row (within each transect, 40 equally spaced points were scanned for 45-s each).  Each transect was censused 3 times per day.  Sites were visited only once per year in 2008, but 3 times per year in 2010-2012.  Visits were divided by the number of flowers to calculate visitation rates."
+
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Cucumis_melo",
+                                  FINAL_field_level_data$study_id)] <-
+  "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited once."
+
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Solanum_lycopersicum",
+                                  FINAL_field_level_data$study_id)] <-
+  "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited once."
+
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Vaccinium_corymbosum",
+                                  FINAL_field_level_data$study_id)] <-
+  "In each year, each site was visited on three separate days during the bloom period.  Within each site, we established a single transect consisting of two 50-m sections of crop row (total 100-m). Note that the distance walked is actually 200-m since the observer walks up one side of the row of bushes and down the other to fully sample the row. On each day, data were collected three times, in temporally stratiﬁed sampling periods. During each sample, observers walked along the transect at a standard pace for 20 min, and all pollinators observed visiting ﬂowers in the transect were collected by hand net, with time stopped to allow processing of specimens."
+
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Vaccinium_macrocarpon_USA",
+                                  FINAL_field_level_data$study_id)] <-
+  "The 16 cranberry sites were sampled on two different days in each of 2009 and 2010 for a total of 64 data collection days. Two 60-m transects were delineated at each cranberry site with one paralleling the edge of a bog and near natural habitat and a second situated in an interior of the bog. On each sample date, any bees visiting flowers were collected for 30 min in the morning and 30 min in the afternoon for a total of 60 min of data collection per day per transect and 120 min per day per site."
+
+FINAL_field_level_data$notes[grep("Rachael_Winfree_Malus_Domestica_USA_2004",
+                                  FINAL_field_level_data$study_id)] <-
+  "At each site, the data collector walked through the orchard, collecting all non-Apis bees visiting apple flowers with a net. One data collection day was conducted per orchard."
 
 # Fix yield units-----
 

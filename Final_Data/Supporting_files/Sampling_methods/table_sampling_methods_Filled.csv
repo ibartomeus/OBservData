@@ -134,8 +134,8 @@ Rachael_Winfree_Cucumis_melo_USA_2004,46,116,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,t
 Rachael_Winfree_Malus_Domestica_USA_2004,67,119,NA,TRUE,FALSE,FALSE,FALSE,FALSE,1,Net,Net,NA
 Rachael_Winfree_Solanum_lycopersicum_USA_2004,58,119,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
 Rachael_Winfree_Solanum_lycopersicum_USA_2005,50,86,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
-Rachael_Winfree_Vaccinium_corymbosum_USA_2010,81,233,NA,TRUE,FALSE,FALSE,FALSE,FALSE,1,Net,Net,NA
-Rachael_Winfree_Vaccinium_corymbosum_USA_2011,107,396,NA,TRUE,FALSE,FALSE,FALSE,FALSE,1,Net,Net,NA
+Rachael_Winfree_Vaccinium_corymbosum_USA_2010,81,233,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
+Rachael_Winfree_Vaccinium_corymbosum_USA_2011,107,396,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
 Rachael_Winfree_Vaccinium_macrocarpon_USA_2009,202,1226,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
 Rachael_Winfree_Vaccinium_macrocarpon_USA_2010,201,1753,NA,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA
 Rachel_Mallinger_Malus_domestica_USA_2012,NA,1237,NA,FALSE,FALSE,TRUE,FALSE,FALSE,1,Beebowl,Beebowl,NA
@@ -183,4 +183,4 @@ Breno_M_Freitas_Annona_squamosa_Brazil_2013,343,343,NA,TRUE,FALSE,FALSE,TRUE,FAL
 Breno_M_Freitas_Annona_muricata_Brazil_2013,343,343,NA,FALSE,FALSE,FALSE,TRUE,FALSE,1,other,other,NA
 Breno_M_Freitas_Anacardium_occidentale_Brazil_2012,343,343,NA,TRUE,FALSE,FALSE,FALSE,FALSE,1,Net,Net,NA
 Breno_M_Freitas_Gossypium_hirsutum_Brazil_NA,343,NA,343,FALSE,TRUE,FALSE,FALSE,FALSE,1,Focal,NA,Focal
-Rachael_Winfree_Capsicum_annuum_USA_2004,,,,FALSE,TRUE,FALSE,FALSE,FALSE,1,Focal,NA,Focal
+Rachael_Winfree_Capsicum_annuum_USA_2004,,,,FALSE,FALSE,FALSE,FALSE,TRUE,1,transect,transect,NA

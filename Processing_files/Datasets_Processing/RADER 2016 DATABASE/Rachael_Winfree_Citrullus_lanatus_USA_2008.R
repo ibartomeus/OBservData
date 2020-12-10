@@ -137,10 +137,10 @@ insect_sampling <- tibble(
   guild = data_raw_gather$Guild,
   sampling_method = "transect observations",
   abundance = data_raw_gather$Abundance,
-  total_sampled_area = data_raw_gather$total_area,
+  total_sampled_area = 150,
   total_sampled_time = data_raw_gather$total_time,
   total_sampled_flowers = NA,
-  Description = "visitation rate to flowers. Each transect was censused three times per day. 40 equally spaced points along each transect were scanned during 45-s each"
+  Description = "Pollinators were observed for a total of 30 minutes along a 50-m transect of crop row (within each transect, 40 equally spaced points were scanned for 45-s each).  Each transect was censused 3 times per day.  Sites were visited only once per year in 2008, but 3 times per year in 2010-2012.  Visits were divided by the number of flowers to calculate visitation rates."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -280,9 +280,9 @@ field_level_data <- tibble(
   ab_lepidoptera = NA,
   ab_nonbee_hymenoptera=NA,
   ab_others = NA,
-  total_sampled_area = data.site$total_area,
+  total_sampled_area = 150,
   total_sampled_time = data.site$total_time,
-  visitation_rate_units = "visits per flower per time",
+  visitation_rate_units = "visits per flower per 45-s observation period",
   visitation_rate = data.site$total,
   visit_honeybee = data.site$honeybees,
   visit_bombus = data.site$bumblebees,

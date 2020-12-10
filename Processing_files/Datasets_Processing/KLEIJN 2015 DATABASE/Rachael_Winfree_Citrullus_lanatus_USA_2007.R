@@ -181,7 +181,7 @@ insect_sampling <- tibble(
   total_sampled_area = 50,
   total_sampled_time = NA,
   total_sampled_flowers = NA,
-  Description = "50 meter transect per farm. One sample day per farm."
+  Description = "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited only once in 2004 and 2007, but 2 times in 2005."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")

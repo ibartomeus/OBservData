@@ -147,10 +147,10 @@ insect_sampling <- tibble(
   guild = data_obs_guild$Guild,
   sampling_method = "transect",
   abundance = data_obs_guild$abundance,
-  total_sampled_area = 240,
+  total_sampled_area = 480,
   total_sampled_time = 240,
   total_sampled_flowers = NA,
-  Description = "Within each farm two 60 m transects were located. Two sample days per farm were conducted per year, and within each day data sampling was conducted once in the morning and once in the afternoon. All wild bees visiting cranberry flowers within the transect were collected for a total of 60 minutes per collection day"
+  Description = "The 16 cranberry sites were sampled on two different days in each of 2009 and 2010 for a total of 64 data collection days. Two 60-m transects were delineated at each cranberry site with one paralleling the edge of a bog and near natural habitat and a second situated in an interior of the bog. On each sample date, any bees visiting flowers were collected for 30 min in the morning and 30 min in the afternoon for a total of 60 min of data collection per day per transect and 120 min per day per site."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -276,7 +276,7 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = 240,
+  total_sampled_area = 480,
   total_sampled_time = 240,
   visitation_rate_units = NA,
   visitation_rate = NA,

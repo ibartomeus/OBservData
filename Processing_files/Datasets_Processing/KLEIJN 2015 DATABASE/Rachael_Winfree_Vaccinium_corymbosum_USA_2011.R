@@ -147,10 +147,10 @@ insect_sampling <- tibble(
   guild = data_obs_guild$Guild,
   sampling_method = "netting/observation",
   abundance = data_obs_guild$abundance,
-  total_sampled_area = 200*3*3,
-  total_sampled_time = 3*60*2, #netting+observations
+  total_sampled_area = 100*3*3,
+  total_sampled_time = 180, #netting+observations
   total_sampled_flowers = NA,
-  Description = "On each site-day, a 200 m transect was sampled three times, with 3 site-days per year. Each data collection event included 20 minutes of observation and 20 minutes of netting, for a total of 1 hour each of observation and netting per site-day."
+  Description = "In each year, each site was visited on three separate days during the bloom period.  Within each site, we established a single transect consisting of two 50-m sections of crop row (total 100-m). Note that the distance walked is actually 200-m since the observer walks up one side of the row of bushes and down the other to fully sample the row. On each day, data were collected three times, in temporally stratiﬁed sampling periods. During each sample, observers walked along the transect at a standard pace for 20 min, and all pollinators observed visiting ﬂowers in the transect were collected by hand net, with time stopped to allow processing of specimens."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -276,8 +276,8 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = 200*3*3,
-  total_sampled_time = 60*3*2,
+  total_sampled_area = 100*3*3,
+  total_sampled_time = 180,
   visitation_rate_units = NA,
   visitation_rate = NA,
   visit_honeybee = NA,

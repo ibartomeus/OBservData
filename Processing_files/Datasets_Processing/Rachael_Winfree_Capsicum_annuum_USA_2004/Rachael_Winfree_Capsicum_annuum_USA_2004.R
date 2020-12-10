@@ -114,12 +114,12 @@ insect_sampling <- tibble(
   site_id = data_obs_guild$site_id,
   pollinator = data_obs_guild$Organism_ID,
   guild = data_obs_guild$Guild,
-  sampling_method = "focal observation",
+  sampling_method = "transects",
   abundance = data_obs_guild$abundance,
-  total_sampled_area = 40*1,
+  total_sampled_area = 50,
   total_sampled_time = 45*40/60,
   total_sampled_flowers = NA,
-  Description = "each farm was visited only once. All data were collected in a 50-m transect of crop row. Pollinator visitation rate to flowers was measured during 45-s scans of flowers at 40 equally spaced points along the transect. We counted and then observed visits to as many flowers as we could view simultaneously within an approximately 1 x 1-m area"
+  Description = "Pollinators were netted for a total of 30 minutes along a 50-m transect of crop row. One transect was sampled at each farm.  Each farm was visited once."
 )
 
 #setwd("C:/Users/USUARIO/Desktop/OBservData/Datasets_storage")
@@ -127,7 +127,7 @@ write_csv(insect_sampling, "Processing_files/Datasets_storage/insect_sampling_Ra
 #setwd(dir_ini)
 
 #######################################
-# VISITATION RATE
+# ABUNDANCE
 #######################################
 
 # Add site observations
@@ -136,29 +136,29 @@ data_obs_guild_2 <-  data_obs_guild %>%
   group_by(site_id,Organism_ID,Guild) %>% summarise_all(sum,na.rm=TRUE)
 
 
-visit_aux <- data_obs_guild_2 %>%
+abundance_aux <- data_obs_guild_2 %>%
   group_by(site_id,Guild) %>% count(wt=abundance) %>%
   spread(key=Guild, value=n)
 
 
 
-names(visit_aux)
+names(abundance_aux)
 
 # There are "bumblebees" "other_wild_bees"
 
 # GUILDS:honeybees, bumblebees, other wild bees, syrphids, humbleflies,
 # other flies, beetles, non-bee hymenoptera, lepidoptera, and other
 
-visit_aux <- visit_aux %>% mutate(lepidoptera=0,beetles=0,other_flies=0,
+abundance_aux <- abundance_aux %>% mutate(lepidoptera=0,beetles=0,other_flies=0,
                                           syrphids=0,other=0,humbleflies=0,
                                           honeybees=0,non_bee_hymenoptera=0,
                                           total=0)
-visit_aux[is.na(visit_aux)] <- 0
-visit_aux$total <- rowSums(visit_aux[,c(2:ncol(visit_aux))]) #visits per 30min and 40m2
+abundance_aux[is.na(abundance_aux)] <- 0
+abundance_aux$total <- rowSums(abundance_aux[,c(2:ncol(abundance_aux))]) #visits per 30min and 40m2
 
-visit_aux[,2:ncol(visit_aux)] <- visit_aux[,2:ncol(visit_aux)]/20
+abundance_aux[,2:ncol(abundance_aux)] <- abundance_aux[,2:ncol(abundance_aux)]/20
 
-data.site <- data.site %>% left_join(visit_aux, by = "site_id")
+data.site <- data.site %>% left_join(abundance_aux, by = "site_id")
 
 ######################################################
 # ESTIMATING CHAO INDEX
@@ -236,31 +236,31 @@ field_level_data <- tibble(
   other_pollinator_richness=data.site$other_pollinator_richness,
   other_richness_estimator_method=data.site$other_richness_estimator_method,
   richness_restriction = data.site$richness_restriction,
-  abundance = NA,
-  ab_honeybee = NA,
-  ab_bombus = NA,
-  ab_wildbees = NA,
-  ab_syrphids = NA,
-  ab_humbleflies= NA,
-  ab_other_flies= NA,
-  ab_beetles=NA,
-  ab_lepidoptera=NA,
-  ab_nonbee_hymenoptera=NA,
-  ab_others = NA,
-  total_sampled_area = 40,
+  abundance = data.site$total,
+  ab_honeybee = data.site$honeybees,
+  ab_bombus = data.site$bumblebees,
+  ab_wildbees = data.site$other_wild_bees,
+  ab_syrphids = data.site$syrphids,
+  ab_humbleflies= data.site$humbleflies,
+  ab_other_flies= data.site$other_flies,
+  ab_beetles=data.site$beetles,
+  ab_lepidoptera=data.site$lepidoptera,
+  ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
+  ab_others = data.site$other,
+  total_sampled_area = 50,
   total_sampled_time = 30,
-  visitation_rate_units = "visits per hour and m2",
-  visitation_rate = data.site$total,
-  visit_honeybee = data.site$honeybees,
-  visit_bombus = data.site$bumblebees,
-  visit_wildbees = data.site$other_wild_bees,
-  visit_syrphids = data.site$syrphids,
-  visit_humbleflies = data.site$humbleflies,
-  visit_other_flies = data.site$other_flies,
-  visit_beetles = data.site$beetles,
-  visit_lepidoptera = data.site$lepidoptera,
-  visit_nonbee_hymenoptera = data.site$non_bee_hymenoptera,
-  visit_others = data.site$other,
+  visitation_rate_units = NA,
+  visitation_rate = NA,
+  visit_honeybee = NA,
+  visit_bombus = NA,
+  visit_wildbees = NA,
+  visit_syrphids = NA,
+  visit_humbleflies = NA,
+  visit_other_flies = NA,
+  visit_beetles = NA,
+  visit_lepidoptera = NA,
+  visit_nonbee_hymenoptera = NA,
+  visit_others = NA,
   Publication = data.site$Publication,
   Credit = data.site$Credit,
   Email_contact = data.site$Email_contact
