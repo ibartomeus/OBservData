@@ -145,7 +145,7 @@ insect_sampling <- tibble(
   site_id = data_obs_guild$site_id,
   pollinator = data_obs_guild$Organism_ID,
   guild = data_obs_guild$Guild,
-  sampling_method = "netting/observation",
+  sampling_method = "transects",
   abundance = data_obs_guild$abundance,
   total_sampled_area = 100*3*3,
   total_sampled_time = 180, #netting+observations
