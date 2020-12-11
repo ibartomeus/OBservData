@@ -84,9 +84,24 @@ data_ownership$role[data_ownership$role=="Project principal investigator"] <- "C
 data_ownership$role[data_ownership$role=="Co-author/PI"] <- "Co-author/Co-owner"
 data_ownership$role[data_ownership$role=="Sandra.Lindstrom@hushallningssallskapet.se"] <- "Lead author/Corresponding author"
 data_ownership$role[data_ownership$role=="Coauthor"] <- "Co-author/Co-owner"
+data_ownership$role[data_ownership$role=="Lead author/Project coordinator"] <- "Lead author/Corresponding author"
 
 
 data_ownership$role %>% unique() #OK
+
+######
+# Update Jens A Trif. Prat.
+
+data_jens <- data_ownership %>% filter(study_id==
+                                         "Jens_Astrom_Trifolium_pratense_Norway_several_years")
+
+data_jens <- bind_rows(data_jens,data_jens) %>% mutate(study_id=
+                                                         c("Jens_Astrom_Trifolium_pratense_Norway_2013",
+                                                           "Jens_Astrom_Trifolium_pratense_Norway_2014"))
+
+data_ownership <- data_ownership %>% filter(study_id!=
+                                              "Jens_Astrom_Trifolium_pratense_Norway_several_years") %>%
+  bind_rows(data_jens)
 
 ######
 # Save data ownership info
