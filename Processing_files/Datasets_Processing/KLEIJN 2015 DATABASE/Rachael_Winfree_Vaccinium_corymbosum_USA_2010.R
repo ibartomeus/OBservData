@@ -151,7 +151,7 @@ insect_sampling <- tibble(
   guild = data_obs_guild$Guild,
   sampling_method = "transects",
   abundance = data_obs_guild$abundance,
-  total_sampled_area = 900,
+  total_sampled_area = 200*3*3,
   total_sampled_time = 180, #netting+observations
   total_sampled_flowers = NA,
   Description = "In each year, each site was visited on three separate days during the bloom period.  Within each site, we established a single transect consisting of two 50-m sections of crop row (total 100-m). Note that the distance walked is actually 200-m since the observer walks up one side of the row of bushes and down the other to fully sample the row. On each day, data were collected three times, in temporally stratiﬁed sampling periods. During each sample, observers walked along the transect at a standard pace for 20 min, and all pollinators observed visiting ﬂowers in the transect were collected by hand net, with time stopped to allow processing of specimens."
@@ -280,7 +280,7 @@ field_level_data <- tibble(
   ab_lepidoptera=data.site$lepidoptera,
   ab_nonbee_hymenoptera=data.site$non_bee_hymenoptera,
   ab_others = data.site$other,
-  total_sampled_area = 900,
+  total_sampled_area = 200*3*3,
   total_sampled_time = 180,
   visitation_rate_units = NA,
   visitation_rate = NA,

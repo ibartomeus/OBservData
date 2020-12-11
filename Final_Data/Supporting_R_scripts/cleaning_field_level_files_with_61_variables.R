@@ -385,7 +385,7 @@ FINAL_field_level_data$notes[grep("Rachael_Winfree_Solanum_lycopersicum",
 
 FINAL_field_level_data$notes[grep("Rachael_Winfree_Vaccinium_corymbosum",
                                   FINAL_field_level_data$study_id)] <-
-  "Each site was visited on three separate days. Within each site, we established a single 100 m transect, but the distance walked was actually 200 m. On each day, data were collected three times. During each sample, observers walked along the transect for 20 min, and all pollinators observed visiting flowers in the transect were collected by hand net."
+  "In each year, each site was visited on three separate days during the bloom period.  Within each site, we established a single transect consisting of two 50-m sections of crop row (total 100-m). Note that the distance walked is actually 200-m since the observer walks up one side of the row of bushes and down the other to fully sample the row. On each day, data were collected three times, in temporally stratified sampling periods. During each sample, observers walked along the transect at a standard pace for 20 min, and all pollinators observed visiting flowers in the transect were collected by hand net, with time stopped to allow processing of specimens."
 
 FINAL_field_level_data$notes[grep("Rachael_Winfree_Vaccinium_macrocarpon_USA",
                                   FINAL_field_level_data$study_id)] <-
