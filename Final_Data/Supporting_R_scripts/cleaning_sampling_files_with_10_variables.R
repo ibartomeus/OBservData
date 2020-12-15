@@ -129,6 +129,13 @@ FINAL_sampling_data$study_id[grep("several",FINAL_sampling_data$study_id)] %>%
 
 verified <- read_excel("Final_Data/Supporting_files/Verified_studies/FINAL_Data ownership.xlsx")
 verified_studies <- verified %>% select(study_id) %>% unique()
+verified_studies$study_id %>% unique() %>% sort()
+
+# Fix Cristof Schüepp study id: "Christof_Sch\xfcepps_Prunus_avium_Switzerland_2011"
+
+FINAL_sampling_data$study_id[
+  grep("Christof_Sch",FINAL_sampling_data$study_id)] <-
+  "Christof_Schüepps_Prunus_avium_Switzerland_2011"
 
 # Select verified studies----
 
@@ -140,6 +147,11 @@ FINAL_sampling_data_filt <- FINAL_sampling_data %>% filter(study_id %in%
 FINAL_sampling_data_filt$study_id %>% unique()
 FINAL_field_level_data_filt$study_id %>% unique()
 
+# # Fix Schüepps -> Schüepp (study_id)
+
+FINAL_sampling_data_filt$study_id[
+  grep("Christof_Sch",FINAL_sampling_data_filt$study_id)] <-
+  "Christof_Schüepp_Prunus_avium_Switzerland_2011"
 
 
 ###############################

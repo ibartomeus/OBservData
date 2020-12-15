@@ -560,7 +560,7 @@ FINAL_field_level_data_filt <- FINAL_field_level_data %>% filter(study_id %in%
                                                                      "Jens_Åström_Trifolium_pratense_Norway_2013",
                                                                      "Jens_Åström_Trifolium_pratense_Norway_2014"))
 
-FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_filt$Credit)] <- "Christof Schüepps, Felix Herzog and Martin H. Entling"
+FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_filt$Credit)] <- "Christof Schüepp, Felix Herzog and Martin H. Entling"
 
 
 ###########################
@@ -647,6 +647,14 @@ FINAL_field_level_data_filt <- FINAL_field_level_data_filt[c(
   "visit_wildbees","visit_syrphids","visit_humbleflies","visit_other_flies",
   "visit_beetles","visit_lepidoptera","visit_nonbee_hymenoptera",
   "visit_others","Publication","Credit","Email_contact","notes")]
+
+
+# Fix Schüepps -> Schüepp (study_id)
+
+FINAL_field_level_data_filt$study_id[
+  grep("Christof_Sch",FINAL_field_level_data_filt$study_id)] <-
+  "Christof_Schüepp_Prunus_avium_Switzerland_2011"
+
 
 ###############################
 # 6 Remove non-ascii characters

@@ -73,3 +73,7 @@ for (i in seq(length(list_files_ownership))) {
 
 }
 
+# Fix study_id Schüepps -> Schüepps
+
+FINAL_ownership_data$study_id[grep("Christof_Sch",FINAL_ownership_data$study_id)] <-
+  "Christof_Schuepp_Prunus_avium_Switzerland_2011"
