@@ -55,7 +55,7 @@ for(i in 1:length(list_all_files_insect_sampling)){
                                     list_all_files_insect_sampling[i])
   }else{
     list_files_insect_sampling_12 <- c(list_files_insect_sampling_12,
-                                       llist_all_files_insect_sampling[i])
+                                       list_all_files_insect_sampling[i])
   }
 
 }
