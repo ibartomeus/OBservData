@@ -47,7 +47,7 @@ extract_template_i_65 <- function(file_name){
                               ab_other_flies = col_double(),ab_beetles = col_double(),
                               ab_lepidoptera = col_double(),ab_nonbee_hymenoptera = col_double(),
                               ab_others = col_double(),
-                              total_sampled_area = col_character(),
+                              total_sampled_area = col_double(),
                               total_sampled_time = col_double(),
                               sampling_visitation = col_character(),
                               visitation_rate_units = col_character(),
