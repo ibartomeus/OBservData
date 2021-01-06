@@ -34,7 +34,7 @@ extract_sampling_i_12 <- function(file_name){
 
 
 ############################################
-# 1 Test for sampling files with 10 variables
+# 1 Test for sampling files with 12 variables
 ############################################
 
 report <- capture_output_lines({
