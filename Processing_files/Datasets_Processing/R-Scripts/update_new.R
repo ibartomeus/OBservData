@@ -6,12 +6,15 @@
 # NOTE: last digit in version refers only to updates in software
 
 news_lines <- readLines("News.md")
-last_version <- str_match(news_lines[length(news_lines)], "`\\s*(.*?)\\s*`")
+header <- news_lines[1:2]
+old_body <- news_lines[3:length(news_lines)]
+last_version <- str_match(old_body[1], "`\\s*(.*?)\\s*`")
 last_version <- strsplit(last_version[2],".", fixed = TRUE)
 last_version <- as.numeric(last_version[[1]])
-news_lines <- c(news_lines,
+news_lines <- c(header,
                 paste0("* version `",last_version[1],".",(last_version[2]+1),".",
                 last_version[3],
-                "`: Addtion of ",file_OK," (",Sys.Date(),")"))
+                "`: Addtion of ",file_OK," (",Sys.Date(),")"),
+                old_body)
 
 write_lines(news_lines,"News.MD")
