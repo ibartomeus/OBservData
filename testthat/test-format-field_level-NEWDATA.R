@@ -168,6 +168,20 @@ for (i in seq(length(list_files_field_level))) {
     }
   })
 
+  test_name_i <- paste("Management categories:", list_files_field_level[i], sep = " ")
+
+  test_that(test_name_i,{
+
+    NA_values <- is.na(field_level_i$management)
+    if(all(NA_values) == FALSE){
+      management_i <- field_level_i$management[!NA_values]
+      expect_equal(all(management_i %in% c("conventional","organic",
+                                           "IPM","unmanaged")), TRUE)
+
+    }else{
+      expect_equal(TRUE, TRUE)
+    }
+  })
 
   # There are datasets whose year reads "2011-2012" (such as clas01)
 
