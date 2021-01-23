@@ -3,6 +3,7 @@ library(tidyverse)
 library("iNEXT")
 library(openxlsx)
 library(rgdal)
+library(parzer)
 
 dir_ini <- getwd()
 options(digits=14)
