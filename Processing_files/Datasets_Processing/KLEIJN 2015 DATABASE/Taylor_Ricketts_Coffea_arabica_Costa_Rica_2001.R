@@ -355,6 +355,12 @@ data_raw$visit_wildbees <- (3)*abundance_visits$`native visitation rate`
 
 data_raw$total_sampled_time <- 10*abundance_visits$SAMPLES
 
+# Harmonize yield units
+
+data_raw$yield <- 100*data_raw$yield
+#data_raw$yield_treatments_no_pollinators <- 100*data_raw$yield_treatments_no_pollinators
+data_raw$yield_treatments_pollen_supplement <- 100*data_raw$yield_treatments_pollen_supplement
+
 ###############################
 # FIELD LEVEL DATA
 ###############################

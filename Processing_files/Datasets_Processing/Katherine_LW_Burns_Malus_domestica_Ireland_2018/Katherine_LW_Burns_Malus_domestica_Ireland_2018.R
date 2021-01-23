@@ -95,7 +95,7 @@ for (i in 1:nrow(abundace_field)) {
 
 # Load our estimation for taxonomic resolution
 
-tax_res <- read_csv("taxon_table_burn01.csv")
+tax_res <- read_csv("Processing_files/Datasets_Processing/Katherine_LW_Burns_Malus_domestica_Ireland_2018/taxon_table_burn01.csv")
 #Mutate pollinator labels to match those of taxon table
 tax_estimation <- data.insect %>%
   left_join(tax_res, by="pollinator")
@@ -177,12 +177,12 @@ field_level_data <- tibble(
   sampling_end_month=data.site$sampling_end_month,
   sampling_year=data.site$sampling_year,
   field_size=data.site$field_size,
-  yield=data.site$yield,
+  yield=100*data.site$yield,
   yield_units=data.site$yield_units,
   yield2=data.site$yield2,
   yield2_units=data.site$yield2_units,
-  yield_treatments_no_pollinators=data.site$yield_treatments_no_pollinators,
-  yield_treatments_pollen_supplement=data.site$yield_treatments_pollen_supplement,
+  yield_treatments_no_pollinators=100*data.site$yield_treatments_no_pollinators,
+  yield_treatments_pollen_supplement=100*data.site$yield_treatments_pollen_supplement,
   yield_treatments_no_pollinators2=data.site$yield_treatments_no_pollinators2,
   yield_treatments_pollen_supplement2=data.site$yield_treatments_pollen_supplement2,
   fruits_per_plant=data.site$mean_fruits_per_plant,
