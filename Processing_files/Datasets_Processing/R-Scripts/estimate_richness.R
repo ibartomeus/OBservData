@@ -3,14 +3,19 @@
 
 # We only use pantraps if there are no other alternative methods
 
-if("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_richness){
+if("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_richness_type){
 
-  if(length(methods_richness==1)){
+  if(length(methods_richness_type==1)){
     only_pantraps <- T
   }else{
     only_pantraps <- F
-    methods_richness <-
-      methods_richness[methods_richness !="pan trap, bee bowl, blue vane trap, pitfall"]
+
+    index_pantraps_r <- which(methods_richness == "pan trap, bee bowl, blue vane trap, pitfall")
+
+    methods_richness <- methods_richness[-index_pantraps_r]
+
+    methods_richness_type <- methods_richness_type[-index_pantraps_r]
+
   }
 
 }else{
@@ -70,9 +75,11 @@ if (percentage_species_morphos < 0.75 | only_pantraps==TRUE ){
 }
 
 data.site <- data.site %>% left_join(richness_aux,by=c("study_id","site_id")) %>%
-  mutate(observed_pollinator_richness=r_obser,
-         other_pollinator_richness=r_chao,
-         other_richness_estimator_method=other_richness_estimator_method_aux) %>%
+  mutate(
+    sampling_richness = paste0(methods_richness_type,collapse = "+"),
+    observed_pollinator_richness=r_obser,
+    other_pollinator_richness=r_chao,
+    other_richness_estimator_method=other_richness_estimator_method_aux) %>%
   select(-r_obser,-r_chao,-other_richness_estimator_method_aux)
 
 if(only_pantraps==TRUE){

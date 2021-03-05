@@ -65,6 +65,9 @@ source("Processing_files/Datasets_Processing/R-Scripts/run_tests.R")
 methods_abundance <- data.sampling %>% filter(sampling_abundance==1) %>%
   select(sampling_method) %>% unique() %>% pull()
 
+methods_abundance_type <- data.sampling %>% filter(sampling_abundance==1) %>%
+    select(type) %>% unique() %>% pull()
+
 if(length(methods_abundance)>0){
   source("Processing_files/Datasets_Processing/R-Scripts/estimate_abundace.R")
 }
@@ -76,6 +79,9 @@ if(length(methods_abundance)>0){
 
 methods_richness <- data.sampling %>% filter(sampling_richness==1) %>%
   select(sampling_method) %>% unique() %>% pull()
+
+methods_richness_type <- data.sampling %>% filter(sampling_richness==1) %>%
+  select(type) %>% unique() %>% pull()
 
 if(length(methods_richness)>0){
   source("Processing_files/Datasets_Processing/R-Scripts/estimate_richness.R")

@@ -4,12 +4,15 @@
 
 # We only use pantraps if there are no other alternative methods
 
-if(("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_abundance) &
+if(("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_abundance_type) &
    (length(methods_abundance > 1))){
 
-    methods_abundance <-
-      methods_abundance[methods_abundance !=
-                          "pan trap, bee bowl, blue vane trap, pitfall"]
+
+  index_pantraps <- which(methods_abundance_type == "pan trap, bee bowl, blue vane trap, pitfall")
+
+  methods_abundance <- methods_abundance[-index_pantraps]
+
+  methods_abundance_type <- methods_abundance_type[-index_pantraps]
   }
 
 
@@ -49,7 +52,7 @@ data.site <- data.site %>% left_join(abundance_aux, by = c("study_id","site_id")
 data.site <- data.site %>% left_join(sampling_aux, by = c("study_id","site_id"))
 
 data.site <- data.site %>% mutate(
-  sampling_abundance = paste0(methods_abundance,collapse = "+"),
+  sampling_abundance = paste0(methods_abundance_type,collapse = "+"),
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,
