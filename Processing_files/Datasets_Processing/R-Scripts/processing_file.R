@@ -4,6 +4,7 @@
 # 1) Run test. Only those files without error
 # will be used in the next steps.
 # 2) If needed, richness and abundance are estimated
+# (records where guild is equal to NA will not be considered)
 # 3) Move the verified template to:
 # Processing_files/Datasets_Processing/Templates processed automatically/
 # 4) Save the processed csv files:

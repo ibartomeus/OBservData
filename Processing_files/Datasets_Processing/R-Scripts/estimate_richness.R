@@ -26,7 +26,8 @@ if("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_richness_type){
 # Estimating abundance with the methods in the variable "methods_richness"
 
 abundance_field <- data.insect %>%
-  filter(sampling_method %in% methods_richness) %>%
+  filter(sampling_method %in% methods_richness,
+         !is.na(guild)) %>%
   select(study_id, site_id,pollinator,abundance) %>%
   group_by(study_id,site_id,pollinator) %>% count(wt=abundance)
 

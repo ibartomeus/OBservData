@@ -18,7 +18,8 @@ if(("pan trap, bee bowl, blue vane trap, pitfall" %in% methods_abundance_type) &
 
 # Estimating abundance with the methods in the variable "methods_abundance"
 
-abundance_aux <- data.insect %>% filter(sampling_method %in% methods_abundance) %>%
+abundance_aux <- data.insect %>% filter(sampling_method %in% methods_abundance,
+                                        !is.na(guild)) %>%
   select(study_id,site_id,guild,abundance) %>%
   group_by(study_id,site_id,guild) %>% count(wt=abundance) %>%
   spread(key=guild, value=n)
@@ -41,7 +42,8 @@ abundance_aux$total <- rowSums(abundance_aux[,c(3:ncol(abundance_aux))])
 
 # Estimating sampling effort
 
-sampling_aux <- data.insect %>% filter(sampling_method %in% methods_abundance) %>%
+sampling_aux <- data.insect %>% filter(sampling_method %in% methods_abundance,
+                                       !is.na(guild)) %>%
   select(study_id,site_id,total_sampled_area,total_sampled_time) %>%
   group_by(study_id,site_id) %>% summarise_all(mean) %>%
   rename(area = total_sampled_area, time = total_sampled_time)
