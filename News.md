@@ -1,5 +1,7 @@
 # Version History of "CropPol" database
 
+* version `1.5.2`: Addtion of Carlos_Zaragoza_Trello_Vicia_faba_Ecuador_2017_CZ_REV.ods (2021-03-13)
+* version `1.4.2`: Remove guilds that are equal to NA when processing sampling_richness and sampling_abundance (2021-03-13)
 * version `1.4.1`: Addtion of Ariza_etal_SweetCherry_Apple_Belgium_REV.xlsx (2021-03-05)
 * version `1.3.1`: Fix bug in sampling_richness and sampling_abundance processing (2021-03-05)
 * version `1.3.0`: Addtion of Dupont_red_clover_Denmark_2008-2009_REV.ods (2021-02-09)
