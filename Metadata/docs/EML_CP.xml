@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="19fc8374-9141-11eb-858d-8d45ef14e92d" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <dataset>
+    <title>CropPol: a dynamic, open and global database on crop pollination</title>
+    <creator>
+      <individualName>
+        <givenName>Ignasi</givenName>
+        <surName>Bartomeus</surName>
+      </individualName>
+      <electronicMailAddress>nacho.bartomeus@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2021</pubDate>
+    <abstract>
+      <para>
+  Seventy five percent of the world's food crops benefit from insect
+  pollination. Hence, there has been increased interest in how global
+  change drivers impact this critical ecosystem service. Because
+  standardized data on crop pollination are rarely available, we are
+  limited in our capacity to understand the variation in pollination
+  benefits to crop yield, as well as to anticipate changes in this
+  service, develop predictions, and inform management actions. Here, we
+  present CropPol, a dynamic, open and global database on crop
+  pollination. It contains measurements recorded from 202 crop studies,
+  covering 3,394 field observations, 2,552 yield measurements (i.e.
+  berry weight, number of fruits and kg per hectare, among others), and
+  47,752 insect records from 49 commercial crops distributed around the
+  globe. CropPol comprises 32 of the 87 leading global crops and
+  commodities that are pollinator dependent. Malus domestica is the most
+  represented crop (29 studies), followed by Brassica napus (22
+  studies), Vaccinium corymbosum (13 studies), and Citrullus lanatus (12
+  studies). The most abundant pollinator guilds recorded are honey bees
+  (34.22% counts), bumblebees (19.19%), flies other than Syrphidae and
+  Bombyliidae (13.18%), other wild bees (13.13%), beetles (10.97%),
+  Syrphidae (4.87%), and Bombyliidae (0.05%). Locations comprise 34
+  countries distributed among European (76 studies), Northern America
+  (63), Latin America and the Caribbean (29), Asia (22), Oceania (10),
+  and Africa (7). Sampling spans three decades and is concentrated on
+  2001-05 (21 studies), 2006-10 (40), 2011-15 (88), 2016-20 (50). This
+  is the most comprehensive open global data set on measurements of crop
+  flower visitors, crop pollinators and pollination to date and we
+  encourage researchers to add more datasets to this database in the
+  future. This data set is released for non-commercial use only. Credits
+  should be given to this paper (i.e., proper citation), and the
+  products generated with this database should be shared under the same
+  license terms (CC BY-NC-SA).
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Pollination</keyword>
+      <keyword>Crop production</keyword>
+      <keyword>Agricultural management</keyword>
+      <keyword>Pollinator</keyword>
+      <keyword>Biodiversity</keyword>
+      <keyword>Bees</keyword>
+      <keyword>Flower visiting insects</keyword>
+      <keywordThesaurus>Selected by authors</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>CC-by</intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-123.1979</westBoundingCoordinate>
+          <eastBoundingCoordinate>176.3204</eastBoundingCoordinate>
+          <northBoundingCoordinate>-42.1277</northBoundingCoordinate>
+          <southBoundingCoordinate>59.8653</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Ignasi</givenName>
+        <surName>Bartomeus</surName>
+      </individualName>
+      <organizationName>Estación Biológica de Doñana, Consejo Superior de Investigaciones Científicas</organizationName>
+      <address>
+        <deliveryPoint>Estación Biológica de Doñana</deliveryPoint>
+        <city>Seville</city>
+        <administrativeArea>Seville</administrativeArea>
+        <postalCode>41092</postalCode>
+        <country>Spain</country>
+      </address>
+      <electronicMailAddress>nacho.bartomeus@gmail.com</electronicMailAddress>
+    </contact>
+  </dataset>
+</eml:eml>
