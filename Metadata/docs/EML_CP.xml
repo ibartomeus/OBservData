@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="19fc8374-9141-11eb-858d-8d45ef14e92d" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="48f47376-915f-11eb-a527-276505c9f560" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <dataset>
     <title>CropPol: a dynamic, open and global database on crop pollination</title>
     <creator>
@@ -33,7 +33,7 @@
   Bombyliidae (13.18%), other wild bees (13.13%), beetles (10.97%),
   Syrphidae (4.87%), and Bombyliidae (0.05%). Locations comprise 34
   countries distributed among European (76 studies), Northern America
-  (63), Latin America and the Caribbean (29), Asia (22), Oceania (10),
+  (60), Latin America and the Caribbean (29), Asia (20), Oceania (10),
   and Africa (7). Sampling spans three decades and is concentrated on
   2001-05 (21 studies), 2006-10 (40), 2011-15 (88), 2016-20 (50). This
   is the most comprehensive open global data set on measurements of crop
