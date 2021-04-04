@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="48f47376-915f-11eb-a527-276505c9f560" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="f82ed86e-955f-11eb-923e-3f520ffa2566" system="uuid" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <dataset>
     <title>CropPol: a dynamic, open and global database on crop pollination</title>
     <creator>
@@ -23,10 +23,10 @@
   pollination. It contains measurements recorded from 202 crop studies,
   covering 3,394 field observations, 2,552 yield measurements (i.e.
   berry weight, number of fruits and kg per hectare, among others), and
-  47,752 insect records from 49 commercial crops distributed around the
+  47,752 insect records from 48 commercial crops distributed around the
   globe. CropPol comprises 32 of the 87 leading global crops and
   commodities that are pollinator dependent. Malus domestica is the most
-  represented crop (29 studies), followed by Brassica napus (22
+  represented crop (32 studies), followed by Brassica napus (22
   studies), Vaccinium corymbosum (13 studies), and Citrullus lanatus (12
   studies). The most abundant pollinator guilds recorded are honey bees
   (34.22% counts), bumblebees (19.19%), flies other than Syrphidae and
