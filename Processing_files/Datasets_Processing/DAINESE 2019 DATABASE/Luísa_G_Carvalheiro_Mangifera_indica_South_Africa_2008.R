@@ -58,6 +58,10 @@ data.Functioning <- data.Functioning %>% select(-Notes) %>%
          yield_units=Type.of.function,yield_treatments_no_pollinators=all_visitors_excluded,
          yield_treatments_pollen_supplement=ants_excluded)
 
+# Ants excluded is not a proper treatment of pollen supplement
+
+data.Functioning$yield_treatments_pollen_supplement <- NA
+
 data.site <- data.site %>% left_join(data.Functioning,by=c("site_id","sampling_year"))
 
 ###########################
