@@ -1,5 +1,6 @@
 # Version History of "CropPol" database
 
+* version `1.7.4`: Fix a bug on Compiling_CropPol_verified_data.R to update several values of sampling_richness, sampling_abundance and sampling_visitation in CropPol_field_level_data.csv (2021-07-23)
 * version `1.7.3`: Fix the guild of Eupeodes luniger in Maxime_Eeraerts_Prunus_avium_Belgium_2017_2019 (2021-06-22)
 * version `1.7.2`: Addtion of Leah_Blechschmidt_Malus_domestica_Canada_2018_19_REV.ods (2021-03-29)
 * version `1.6.2`: Addtion of Willis_Chan_Raine_Cucurbita_pepo_Canada_2017_18_REV.ods (2021-03-27)

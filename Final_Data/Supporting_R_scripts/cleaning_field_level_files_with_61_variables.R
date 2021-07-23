@@ -567,8 +567,11 @@ FINAL_field_level_data_filt$Credit[grep("Christof Sch",FINAL_field_level_data_fi
 # 5 Add the 3 new variables
 ###########################
 
-sampling_methods <- read_csv("Final_Data/Supporting_files/Sampling_methods/table_sampling_methods_Filled.csv") %>%
+sampling_methods <- read_csv("Final_Data/Supporting_files/Sampling_methods/table_sampling_methods_Filled_Accents.csv") %>%
   select(study_id,sampling_richness,sampling_abundance,sampling_visitation)
+
+FINAL_field_level_data_filt$study_id[
+  !FINAL_field_level_data_filt$study_id %in% sampling_methods$study_id] %>% unique()
 
 FINAL_field_level_data_filt <- FINAL_field_level_data_filt %>%
   left_join(sampling_methods,by="study_id")
