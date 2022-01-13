@@ -14,6 +14,14 @@ Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/i
 
 If you want to dig into raw data files, all reproducible data and code to build the database is under the `Processing_files` folder.
 
+## How to cite the database:
+
+Please cite CropPol database when the data are used in bulk in publications and cite individual studies when pertinent. 
+
+- Version 1.0 is published as a Data Paper in Ecology: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614).  
+
+- You can cite newer versions with updated data and contributing authors as: TBA
+
 ## How to contribute?
 
 We encourage you to add new data to this database. If you are github user, just clone the repo, and follow the instrucions in `Your_new_study` folder. When ready, make us a pull request and we will add the new data.
@@ -28,10 +36,6 @@ This is the workflow for github users (A) and non-users (B).
 ## Spotted any error?
 
 Please let us know in an [issue](https://github.com/ibartomeus/OBservData/issues/new?assignees=AlfonsoAllen&labels=bug&template=bug_report.md&title=%5Bbug%5D)
-
-## Credit:
-
-Please cite this data paper when the data are used in bulk in publications and cite individual studies when pertinent. 
 
 ### Thanks to:  
 
