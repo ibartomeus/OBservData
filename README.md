@@ -20,7 +20,7 @@ Please cite CropPol database when the data are used in bulk in publications and 
 
 - Version 1.0 is published as a Data Paper in Ecology: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614).  
 
-- You can cite newer versions with updated data and contributing authors as: TBA
+- You can see how to cite more recent versions with updated data and contributing authors in: https://github.com/ibartomeus/OBservData/releases
 
 ## How to contribute?
 
