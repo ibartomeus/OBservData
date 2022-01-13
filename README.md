@@ -18,9 +18,9 @@ If you want to dig into raw data files, all reproducible data and code to build 
 
 Please cite CropPol database when the data are used in bulk in publications and cite individual studies when pertinent. 
 
-- Version 1.0 is published as a Data Paper in Ecology: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614).  
+- Version 1.1.1 is published as a Data Paper in Ecology: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614).  
 
-- You can see how to cite more recent versions with updated data and contributing authors in: https://github.com/ibartomeus/OBservData/releases
+- Bugs are updated in the third digit (e.g. v1.0.1), new datasets in the second digit (e.g. v1.1.0) and major upgrades in the first digit (e.g. v2.0.0). You can see how to cite more recent versions with updated data and contributing authors in: https://github.com/ibartomeus/OBservData/releases and in Zenodo.
 
 ## How to contribute?
 
