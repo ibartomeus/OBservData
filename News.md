@@ -1,5 +1,7 @@
 # Version History of "CropPol" database
 
+* version `1.7.6`: Fix a bug on James_Reilly_Vaccinium_corymbosum_USA_several_years.R to avoid overwriting yield_treatments_pollen_supplement data by yield_treatments_no_pollinators data in CropPol_field_level_data.csv (2022-03-04)
+* version `1.7.5`: Fix a bug on Guiomar_Nates_Parra_Vaccinium_meridionale_Colombia_2013.R and Carlos_H_Vergara_Coffea_arabica_Mexico_2004.R to set the values of yield_treatments_pollen_supplement to NA in CropPol_field_level_data.csv (2022-03-04)
 * version `1.7.4`: Fix a bug on Compiling_CropPol_verified_data.R to update several values of sampling_richness, sampling_abundance and sampling_visitation in CropPol_field_level_data.csv (2021-07-23)
 * version `1.7.3`: Fix the guild of Eupeodes luniger in Maxime_Eeraerts_Prunus_avium_Belgium_2017_2019 (2021-06-22)
 * version `1.7.2`: Addtion of Leah_Blechschmidt_Malus_domestica_Canada_2018_19_REV.ods (2021-03-29)

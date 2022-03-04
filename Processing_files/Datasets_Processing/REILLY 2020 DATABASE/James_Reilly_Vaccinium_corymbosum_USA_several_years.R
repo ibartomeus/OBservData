@@ -79,7 +79,7 @@ data.site$yield2_units <- "fruit set"
 
 
 data.site$yield_treatments_no_pollinators <- data.site$mean_berry_wt_bagged
-data.site$yield_treatments_pollen_supplement <- data.site$mean_berry_wt_bagged
+data.site$yield_treatments_pollen_supplement <- data.site$mean_berry_wt_hand
 data.site$yield_treatments_no_pollinators2 <- data.site$fruit_set_bagged
 data.site$yield_treatments_pollen_supplement2 <- data.site$fruit_set_hand
 data.site$mean_fruits_per_plant <- NA
@@ -98,9 +98,9 @@ data.site$other_wild_bees <- round(data.site$all_bees - data.site$honey_bee - da
 
 # sanity check
 
-round(data.site$all_bees,5)==round(data.site$other_wild_bees +
+round(data.site$all_bees,3)==round(data.site$other_wild_bees +
                        data.site$honey_bee +
-                       data.site$bumble_bee,5) # Row 16 is false
+                       data.site$bumble_bee,3) # Row 16 is false
 
 # Checking Row 16
 data.site$all_bees[16]

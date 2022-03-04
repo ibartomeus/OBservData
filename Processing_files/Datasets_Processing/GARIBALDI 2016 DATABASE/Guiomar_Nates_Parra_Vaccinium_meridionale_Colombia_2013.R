@@ -369,7 +369,7 @@ field_level_data <- tibble(
   yield2=data.site$yield2,
   yield2_units=data.site$yield2_units,
   yield_treatments_no_pollinators=data.site$yield_treatments_no_pollinators,
-  yield_treatments_pollen_supplement=data.site$yield_treatments_no_pollinators,
+  yield_treatments_pollen_supplement=data.site$yield_treatments_pollen_supplement,
   yield_treatments_no_pollinators2=data.site$yield_treatments_no_pollinators2,
   yield_treatments_pollen_supplement2=data.site$yield_treatments_pollen_supplement2,
   fruits_per_plant=data.site$fruits_per_plant,
