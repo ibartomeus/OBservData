@@ -10,7 +10,7 @@ The database is stored as three `.csv` files you can find in `Final_Data` folder
 - `CropPol_sampling_data.csv` contains pollinator sampling data on which pollinators where collected per field. 
 - `CropPol_data_ownership.csv` contains information on data authors, affiliations and funding.
 
-Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/ibartomeus/OBservData/blob/master/Metadata/docs/index_Rev.html) and understand the data limitations by reading the data paper: Allen-Perkins et al. (2020) CropPol: a dynamic, open and global database on crop pollination. (In review) [Link to preprint TBA]()
+Please, check Metadata [here](http://htmlpreview.github.io/?https://github.com/ibartomeus/OBservData/blob/master/Metadata/docs/index_Rev.html) and understand the data limitations [here](https://github.com/ibartomeus/OBservData/blob/master/Manuscript/OBSerData_Final.pdf)
 
 If you want to dig into raw data files, all reproducible data and code to build the database is under the `Processing_files` folder.
 
@@ -18,7 +18,7 @@ If you want to dig into raw data files, all reproducible data and code to build 
 
 Please cite CropPol database when the data are used in bulk in publications and cite individual studies when pertinent. 
 
-- Version 1.1.1 is published as a Data Paper in Ecology: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3614).  
+- Version 1.1.1 is published as a Data Paper in Ecology: Allen-Perkins et al. 2022. CropPol: A Dynamic, Open and Global Database on Crop Pollination. Ecology 103(3):e3614. https://doi.org/10.1002/ecy.3614
 
 - Bugs are updated in the third digit (e.g. v1.0.1), new datasets in the second digit (e.g. v1.1.0) and major upgrades in the first digit (e.g. v2.0.0). You can see how to cite more recent versions with updated data and contributing authors in: https://github.com/ibartomeus/OBservData/releases and in Zenodo.
 
