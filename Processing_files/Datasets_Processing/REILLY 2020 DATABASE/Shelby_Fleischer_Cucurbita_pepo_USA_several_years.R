@@ -161,7 +161,7 @@ field_level_data <- tibble(
   visit_others = data.site$vist_others,
   Publication = "10.1098/rspb.2020.0922",
   Credit = "Shelby Fleischer and all the co-authors in the referred publication",
-  Email_contact = "jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
+  Email_contact = "sjf4@psu.edu/jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
 )
 
 

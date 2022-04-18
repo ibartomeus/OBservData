@@ -198,7 +198,7 @@ field_level_data <- tibble(
   visit_others = data.site$vist_others,
   Publication = "10.1098/rspb.2020.0922",
   Credit = "Sujaya Rao and all the co-authors in the referred publication",
-  Email_contact = "jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
+  Email_contact = "sujaya@umn.edu/jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
 )
 
 # Fix country: Some sites are in Canada

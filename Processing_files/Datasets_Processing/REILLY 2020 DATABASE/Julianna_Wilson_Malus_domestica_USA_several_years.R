@@ -169,8 +169,8 @@ field_level_data <- tibble(
   visit_nonbee_hymenoptera = data.site$vist_non_bee_hymenoptera,
   visit_others = data.site$vist_others,
   Publication = "10.1098/rspb.2020.0922",
-  Credit = "Julianna Wilson and all the co-authors in the referred publication",
-  Email_contact = "jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
+  Credit = "Julianna K. Wilson and all the co-authors in the referred publication",
+  Email_contact = "jkwilson@msu.edu/jreilly45@gmail.com/rwinfree@rutgers.edu/isaacsr@msu.edu"
 )
 
 
