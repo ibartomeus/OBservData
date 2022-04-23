@@ -106,7 +106,7 @@ field_level_data <- tibble(
   visit_lepidoptera = NA,
   visit_nonbee_hymenoptera = NA,
   visit_others = NA,
-  Publication = "10.1016/j.agee.2021.107697",
+  Publication = "10.1016/j.agee.2021.107697, 10.1016/j.ecolind.2022.108880",
   Credit = "Timothy Weekers, Jordi Bosch, Diego Cejas, Bianca Drepper, Michael Garratt, Louise Hutchinson, Nicolas Leclercq, Patrick Lhomme, Leon Marshall, Denis Michez, Jean-Marc Molenberg, Stuart Roberts, Laura Roquer-Beni, Guy Smagghe, Peter Vandamme, Nicolas J. Vereecken, Thomas J. Wood",
   Email_contact = "Timothy.weekers@ulb.be, Nicolas.Vereecken@ulb.be",
   notes = NA
