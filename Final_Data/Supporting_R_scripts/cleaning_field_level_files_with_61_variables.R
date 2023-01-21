@@ -74,6 +74,7 @@ files_base <- list.files(folder_base)
 list_all_files_field_level <- files_base[grepl("field_level_data", files_base)]
 list_files_field_level <- NULL
 list_files_field_level_65 <- NULL
+list_files_field_level_68 <- NULL
 
 for(i in 1:length(list_all_files_field_level)){
 
@@ -82,8 +83,10 @@ for(i in 1:length(list_all_files_field_level)){
 
   if(ncol(csv_i) < 65){
     list_files_field_level <- c(list_files_field_level,list_all_files_field_level[i])
-  }else{
+  }else if(ncol(csv_i) < 68){
     list_files_field_level_65 <- c(list_files_field_level_65,list_all_files_field_level[i])
+  }else{
+    list_files_field_level_68 <- c(list_files_field_level_68,list_all_files_field_level[i])
   }
 
 }
