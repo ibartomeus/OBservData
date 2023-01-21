@@ -24,8 +24,10 @@ source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_65_varia
        encoding="utf-8")
 
 # Add the dynamic paper variables to field_level_data files with 65 variables
+source("Final_Data/Supporting_R_scripts/add_dynamic_paper_variables_to_field_data_with_65_variables.R",
+       encoding="utf-8")
 
-# Processing field_level_data files with 65 variables
+# Processing field_level_data files with 68 variables
 source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_68_variables.R",
        encoding="utf-8")
 
