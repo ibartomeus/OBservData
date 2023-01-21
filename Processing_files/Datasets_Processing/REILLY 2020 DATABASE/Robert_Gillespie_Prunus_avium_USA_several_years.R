@@ -46,8 +46,8 @@ data.site$crop <- "Prunus avium"
 # Transpose yield and functioning metrics
 ##############################
 
-data.site$yield <- data.site$number_of_fruit_mean
-data.site$yield_units <- "number of fruits"
+data.site$yield <- data.site$fruit_wt_mean
+data.site$yield_units <- "fruit weight per branch"
 data.site$yield2 <- data.site$number_fruit_per_flower_mean
 data.site$yield2_units <- "number of fruits per_flower"
 
@@ -57,7 +57,7 @@ data.site$yield_treatments_pollen_supplement <- NA
 data.site$yield_treatments_no_pollinators2 <- NA
 data.site$yield_treatments_pollen_supplement2 <- NA
 data.site$mean_fruits_per_plant <- NA
-data.site$fruit_weight <- data.site$fruit_wt_mean
+data.site$fruit_weight <- data.site$number_of_fruit_mean
 data.site$plant_density <- NA
 data.site$seeds_per_fruit <- NA
 data.site$seeds_per_plant <- NA
