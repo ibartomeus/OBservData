@@ -39,11 +39,11 @@ data.site <- data.site %>% left_join(coordinates,by=c("crop_id","site")) %>%
 
 
 # New study_id
-data.site$study_id <- paste0("David_Biddinger_Malus_pumila_USA_",data.site$year)
+data.site$study_id <- paste0("David_Biddinger_Malus_domestica_USA_",data.site$year)
 
 
 # Crop latin name
-data.site$crop <- "Malus pumila"
+data.site$crop <- "Malus domestica"
 
 ##############################
 # Transpose yield and functioning metrics
