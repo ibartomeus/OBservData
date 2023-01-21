@@ -220,7 +220,10 @@ FINAL_field_level_data$richness_restriction[
 FINAL_field_level_data$richness_restriction[
   FINAL_field_level_data$richness_restriction=="bombus and other wild bees"] <- "only bees (bumblebees and other wild bees)"
 
-
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$study_id=="Blande_Viana_Passiflora_edulis_Brazil_2005"] <- "only bees"
+FINAL_field_level_data$richness_restriction[
+  FINAL_field_level_data$study_id=="Saul_A_Cunningham_Brassica_napus_Australia_2006"] <- "bees and syrphids"
 
 
 FINAL_field_level_data$richness_restriction %>% unique() %>% sort()
@@ -402,7 +405,7 @@ x <- FINAL_field_level_data %>% select(yield, yield_units) %>% group_by(yield_un
 
 
 
-x$yield_units
+# x$yield_units %>% sort()
 
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% fruit set"] <- "fruit set (%)"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="% fruit set per flowers"] <- "fruit set (%) per flowers"
@@ -444,7 +447,16 @@ FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Primary 
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="Insect Pollination = Open pollination [control] - Self-pollination [Tulle bags]"] <- "Insect Pollination: Open pollination [control] - Self-pollination [Tulle bags]"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="dry weight; mean kgs per tree"] <- "dry weight: mean kgs per tree"
 FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="fruit set (weight in g of 100 randomly selected seeds)"] <- "fruit set: weight in g of 100 randomly selected seeds"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$yield_units=="kg/m2"] <- "kg per square meter (dried berries)"
 
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Jamie_Ellis_Citrullus_lanatus_USA_2013"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Jamie_Ellis_Citrullus_lanatus_USA_2015"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Neal_Williams_Citrullus_lanatus_USA_2013"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Neal_Williams_Citrullus_lanatus_USA_2014"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Neal_Williams_Citrullus_lanatus_USA_2015"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Shelby_Fleischer_Cucurbita_pepo_USA_2013"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Shelby_Fleischer_Cucurbita_pepo_USA_2014"] <- "kg per square meter"
+FINAL_field_level_data$yield_units[FINAL_field_level_data$study_id=="Shelby_Fleischer_Cucurbita_pepo_USA_2015"] <- "kg per square meter"
 
 FINAL_field_level_data$yield_units %>% unique() %>% sort()
 
