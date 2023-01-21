@@ -23,8 +23,14 @@ source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_61_varia
 source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_65_variables.R",
        encoding="utf-8")
 
+# Add the dynamic paper variables to field_level_data files with 65 variables
+
+# Processing field_level_data files with 65 variables
+source("Final_Data/Supporting_R_scripts/cleaning_field_level_files_with_68_variables.R",
+       encoding="utf-8")
+
 # Save "total_field_level_data" file
-write.csv(FINAL_field_level_data_filt, "Final_Data/CropPol_field_level_data.csv",
+write.csv(FINAL_field_level_data_for_dynamic_web_reordered, "Final_Data/CropPol_field_level_data.csv",
           row.names = F)
 
 # Processing insect_sampling files with only 10 variables
