@@ -45,10 +45,10 @@ data.site$crop <- "Prunus dulcis"
 # Transpose yield and functioning metrics
 ##############################
 
-data.site$yield <- data.site$number_of_fruit_mean
-data.site$yield_units <- "number of fruits"
-data.site$yield2 <- data.site$number_fruit_per_flower_mean
-data.site$yield2_units <- "number of fruits per_flower"
+data.site$yield2 <- data.site$number_of_fruit_mean
+data.site$yield2_units <- "number of fruits"
+data.site$yield <- data.site$number_fruit_per_flower_mean
+data.site$yield_units <- "number of fruits per_flower"
 
 
 data.site$yield_treatments_no_pollinators <- NA

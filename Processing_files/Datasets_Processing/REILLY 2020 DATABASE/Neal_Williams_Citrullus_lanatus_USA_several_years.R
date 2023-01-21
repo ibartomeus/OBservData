@@ -49,10 +49,10 @@ data.site$crop <- "Citrullus lanatus"
 # Transpose yield and functioning metrics
 ##############################
 
-data.site$yield <- data.site$number_of_fruit_mean
-data.site$yield_units <- "number of fruits"
-data.site$yield2 <- data.site$kg_per_m2_mean
-data.site$yield2_units <- "kg/m2"
+data.site$yield2 <- data.site$number_of_fruit_mean
+data.site$yield2_units <- "number of fruits"
+data.site$yield <- data.site$kg_per_m2_mean
+data.site$yield_units <- "kg/m2"
 
 
 data.site$yield_treatments_no_pollinators <- NA
