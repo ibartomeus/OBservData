@@ -89,6 +89,8 @@ file.failures <- file.failures[!duplicated(file.failures)]
 list_files_field_level_68 <-
   list_files_field_level_68[!list_files_field_level_68 %in% file.failures]
 
+FINAL_field_level_data_for_dynamic_web_reordered <- field_level_data_for_dynamic_web_reordered
+
 # Merge the files without failures
 
 if(length(list_files_field_level_68)>0){
@@ -98,7 +100,7 @@ if(length(list_files_field_level_68)>0){
     file_field_level_i <- paste(folder_base, list_files_field_level_68[i], sep = "/")
     field_level_i <- extract_template_i_68(file_field_level_i)
 
-    FINAL_field_level_data_for_dynamic_web_reordered <- field_level_data_for_dynamic_web_reordered %>%
+    FINAL_field_level_data_for_dynamic_web_reordered <- FINAL_field_level_data_for_dynamic_web_reordered %>%
       bind_rows(field_level_i)
   }
 
