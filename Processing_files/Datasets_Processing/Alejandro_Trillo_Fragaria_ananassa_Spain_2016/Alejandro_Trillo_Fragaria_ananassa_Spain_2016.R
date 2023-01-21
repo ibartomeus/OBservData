@@ -193,7 +193,7 @@ field_level_data <- tibble(
   observed_pollinator_richness=data.site$observed_pollinator_richness.y,
   other_pollinator_richness=data.site$other_pollinator_richness.y,
   other_richness_estimator_method=data.site$other_richness_estimator_method.y,
-  richness_restriction = data.site$richness_restriction.y,
+  richness_restriction = "all visitors considered but different methods",
   abundance = data.site$total,
   ab_honeybee = data.site$honeybees,
   ab_bombus = data.site$bumblebees,
