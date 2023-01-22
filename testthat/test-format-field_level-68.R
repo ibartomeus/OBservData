@@ -50,7 +50,7 @@ context("Verification that the values in field_level_data files with 68 variable
 # Others vis. rate format (non-negative number or NA)
 # Only ASCII characters are allowed
 
-labels_OK <- c("study_id","site_id","site_id2","crop","variety","management","country","latitude",
+labels_OK <- c("study_id","site_id2","site_id","crop","variety","management","country","latitude",
                "longitude","X_UTM","Y_UTM","zone_UTM","sampling_start_month",
                "sampling_end_month","sampling_year","field_size","yield","yield_units",
                "yield2","yield2_units","yield_treatments_no_pollinators",
