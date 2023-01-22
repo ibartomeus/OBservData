@@ -37,4 +37,4 @@ source("Processing_files/Datasets_Processing/R-Scripts/import_libraries.R")
 # NOTE 2: Re-compiling CropPol takes around 5 min, due to the cleaning of
 # non-ASCII characters in insect_sampling files.
 
-source("Processing_files/Datasets_Processing/R-Scripts/processing_file.R")
+source("Processing_files/Datasets_Processing/R-Scripts/processing_file_68.R")
