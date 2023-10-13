@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/240485535.svg)](https://zenodo.org/badge/latestdoi/240485535)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7932602.svg)](https://doi.org/10.5281/zenodo.7932602)
 
 # Crop Pollination Database
 
