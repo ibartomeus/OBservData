@@ -1,0 +1,364 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "interactionTypeName": "pollinatedBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002456",
+    "url" : "Final_Data/CropPol_sampling_data.csv",
+    "dcterms:bibliographicCitation" : "Allen-Perkins, Alfonso, Magrach, Ainhoa, Dainese, Matteo, Garibaldi, Lucas A., Kleijn, David, Rader, Romina, Reilly, James R., et al. 2022. \"CropPol: A Dynamic, Open and Global Database on Crop Pollination.\" Ecology 103(3): e3614. https://doi.org/10.1002/ecy.3614",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "study_id",
+        "titles" : "study_id",
+        "datatype" : "string"
+      }, {
+        "name" : "site_id",
+        "titles" : "site_id",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_method",
+        "titles" : "sampling_method",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "pollinator",
+        "datatype" : "string"
+      }, {
+        "name" : "identified_to",
+        "titles" : "identified_to",
+        "datatype" : "string"
+      }, {
+        "name" : "guild",
+        "titles" : "guild",
+        "datatype" : "string"
+      }, {
+        "name" : "abundance",
+        "titles" : "abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "total_sampled_area",
+        "titles" : "total_sampled_area",
+        "datatype" : "string"
+      }, {
+        "name" : "total_sampled_time",
+        "titles" : "total_sampled_time",
+        "datatype" : "string"
+      }, {
+        "name" : "total_sampled_flowers",
+        "titles" : "total_sampled_flowers",
+        "datatype" : "string"
+      }, {
+        "name" : "description",
+        "titles" : "description",
+        "datatype" : "string"
+      }, {
+        "name" : "notes",
+        "titles" : "notes",
+        "datatype" : "string"
+      } ],
+      "foreignKeys": [
+          {
+            "columnReference": "study_id",
+            "reference": {
+              "columnReference": "study_id"
+            }
+          }
+        ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Final_Data/CropPol_field_level_data.csv",
+    "dcterms:bibliographicCitation" : "Allen-Perkins, Alfonso, Magrach, Ainhoa, Dainese, Matteo, Garibaldi, Lucas A., Kleijn, David, Rader, Romina, Reilly, James R., et al. 2022. \"CropPol: A Dynamic, Open and Global Database on Crop Pollination.\" Ecology 103(3): e3614. https://doi.org/10.1002/ecy.3614",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "study_id",
+        "titles" : "study_id",
+        "datatype" : "string"
+      }, {
+        "name" : "study_id2",
+        "titles" : "study_id2",
+        "datatype" : "string"
+      }, {
+        "name" : "site_id",
+        "titles" : "site_id",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "crop",
+        "datatype" : "string"
+      }, {
+        "name" : "variety",
+        "titles" : "variety",
+        "datatype" : "string"
+      }, {
+        "name" : "management",
+        "titles" : "management",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceCountryName",
+        "titles" : "country",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "X_UTM",
+        "titles" : "X_UTM",
+        "datatype" : "string"
+      }, {
+        "name" : "Y_UTM",
+        "titles" : "Y_UTM",
+        "datatype" : "string"
+      }, {
+        "name" : "zone_UTM",
+        "titles" : "zone_UTM",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_start_month",
+        "titles" : "sampling_start_month",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_end_month",
+        "titles" : "sampling_end_month",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "sampling_year",
+        "datatype" : "string"
+      }, {
+        "name" : "field_size",
+        "titles" : "field_size",
+        "datatype" : "string"
+      }, {
+        "name" : "yield",
+        "titles" : "yield",
+        "datatype" : "string"
+      }, {
+        "name" : "yield_units",
+        "titles" : "yield_units",
+        "datatype" : "string"
+      }, {
+        "name" : "yield2",
+        "titles" : "yield2",
+        "datatype" : "string"
+      }, {
+        "name" : "yield2_units",
+        "titles" : "yield2_units",
+        "datatype" : "string"
+      }, {
+        "name" : "yield_treatments_no_pollinators",
+        "titles" : "yield_treatments_no_pollinators",
+        "datatype" : "string"
+      }, {
+        "name" : "yield_treatments_pollen_supplement",
+        "titles" : "yield_treatments_pollen_supplement",
+        "datatype" : "string"
+      }, {
+        "name" : "yield_treatments_no_pollinators2",
+        "titles" : "yield_treatments_no_pollinators2",
+        "datatype" : "string"
+      }, {
+        "name" : "yield_treatments_pollen_supplement2",
+        "titles" : "yield_treatments_pollen_supplement2",
+        "datatype" : "string"
+      }, {
+        "name" : "fruits_per_plant",
+        "titles" : "fruits_per_plant",
+        "datatype" : "string"
+      }, {
+        "name" : "fruit_weight",
+        "titles" : "fruit_weight",
+        "datatype" : "string"
+      }, {
+        "name" : "plant_density",
+        "titles" : "plant_density",
+        "datatype" : "string"
+      }, {
+        "name" : "seeds_per_fruit",
+        "titles" : "seeds_per_fruit",
+        "datatype" : "string"
+      }, {
+        "name" : "seeds_per_plant",
+        "titles" : "seeds_per_plant",
+        "datatype" : "string"
+      }, {
+        "name" : "seed_weight",
+        "titles" : "seed_weight",
+        "datatype" : "string"
+      }, {
+        "name" : "taxa_recorded",
+        "titles" : "taxa_recorded",
+        "datatype" : "string"
+      }, {
+        "name" : "use_visits_or_abundance",
+        "titles" : "use_visits_or_abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_richness",
+        "titles" : "sampling_richness",
+        "datatype" : "string"
+      }, {
+        "name" : "observed_pollinator_richness",
+        "titles" : "observed_pollinator_richness",
+        "datatype" : "string"
+      }, {
+        "name" : "other_pollinator_richness",
+        "titles" : "other_pollinator_richness",
+        "datatype" : "string"
+      }, {
+        "name" : "other_richness_estimator_method",
+        "titles" : "other_richness_estimator_method",
+        "datatype" : "string"
+      }, {
+        "name" : "richness_restriction",
+        "titles" : "richness_restriction",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_abundance",
+        "titles" : "sampling_abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "abundance",
+        "titles" : "abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_honeybee",
+        "titles" : "ab_honeybee",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_bombus",
+        "titles" : "ab_bombus",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_wildbees",
+        "titles" : "ab_wildbees",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_syrphids",
+        "titles" : "ab_syrphids",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_humbleflies",
+        "titles" : "ab_humbleflies",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_other_flies",
+        "titles" : "ab_other_flies",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_beetles",
+        "titles" : "ab_beetles",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_lepidoptera",
+        "titles" : "ab_lepidoptera",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_nonbee_hymenoptera",
+        "titles" : "ab_nonbee_hymenoptera",
+        "datatype" : "string"
+      }, {
+        "name" : "ab_others",
+        "titles" : "ab_others",
+        "datatype" : "string"
+      }, {
+        "name" : "total_sampled_area",
+        "titles" : "total_sampled_area",
+        "datatype" : "string"
+      }, {
+        "name" : "total_sampled_time",
+        "titles" : "total_sampled_time",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_visitation",
+        "titles" : "sampling_visitation",
+        "datatype" : "string"
+      }, {
+        "name" : "visitation_rate_units",
+        "titles" : "visitation_rate_units",
+        "datatype" : "string"
+      }, {
+        "name" : "visitation_rate",
+        "titles" : "visitation_rate",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_honeybee",
+        "titles" : "visit_honeybee",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_bombus",
+        "titles" : "visit_bombus",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_wildbees",
+        "titles" : "visit_wildbees",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_syrphids",
+        "titles" : "visit_syrphids",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_humbleflies",
+        "titles" : "visit_humbleflies",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_other_flies",
+        "titles" : "visit_other_flies",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_beetles",
+        "titles" : "visit_beetles",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_lepidoptera",
+        "titles" : "visit_lepidoptera",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_nonbee_hymenoptera",
+        "titles" : "visit_nonbee_hymenoptera",
+        "datatype" : "string"
+      }, {
+        "name" : "visit_others",
+        "titles" : "visit_others",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "Publication",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Credit",
+        "datatype" : "string"
+      }, {
+        "name" : "Email_contact",
+        "titles" : "Email_contact",
+        "datatype" : "string"
+      }, {
+        "name" : "notes",
+        "titles" : "notes",
+        "datatype" : "string"
+      } ],
+      "primaryKey": "study_id"
+    }
+  } ]
+}
